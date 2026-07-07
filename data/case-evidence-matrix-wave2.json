@@ -10,13 +10,14 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 16,
+    "festival_case_records": 20,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 4,
     "demand_or_crowd_records": 4,
     "weather_or_nature_dependency_records": 2,
-    "budget_waste_requires_join_model": true
+    "budget_waste_requires_join_model": true,
+    "metric_opacity_records": 1
   },
   "records": [
     {
@@ -30,7 +31,13 @@
       "evidence_level": "Level A",
       "procurement_link": "strong",
       "outcome_link": "strong",
-      "primary_causes": ["operator_transition", "procurement_dispute", "programming", "communication", "price_value"],
+      "primary_causes": [
+        "operator_transition",
+        "procurement_dispute",
+        "programming",
+        "communication",
+        "price_value"
+      ],
       "not_yet_proven": "개별 하청업체 단위 책임 귀속.",
       "next_evidence_needed": "계약서/과업지시서의 세부 역할과 현장 실행 실패 지점의 직접 연결."
     },
@@ -45,7 +52,12 @@
       "evidence_level": "B+ / C split",
       "procurement_link": "weak",
       "outcome_link": "strong",
-      "primary_causes": ["price_governance", "booth_control", "public_response", "broker_lead"],
+      "primary_causes": [
+        "price_governance",
+        "booth_control",
+        "public_response",
+        "broker_lead"
+      ],
       "not_yet_proven": "브로커 또는 하청업체가 가격 논란을 구조적으로 만들었다는 1차 배정/계약 증거.",
       "next_evidence_needed": "부스 배정표, 입점계약, 수수료/자리대여 구조, 공식·비공식 상인 구분."
     },
@@ -60,7 +72,12 @@
       "evidence_level": "B+",
       "procurement_link": "medium",
       "outcome_link": "strong",
-      "primary_causes": ["night_market_boundary", "price_monitoring", "vendor_scope", "public_apology"],
+      "primary_causes": [
+        "night_market_boundary",
+        "price_monitoring",
+        "vendor_scope",
+        "public_apology"
+      ],
       "not_yet_proven": "문제 판매자가 공식 축제 용역/하청 범위에 있었다는 증거.",
       "next_evidence_needed": "공식 입점자 명단, 야시장 운영 허가·위탁 범위, 축제장 경계와 단속 권한."
     },
@@ -75,7 +92,13 @@
       "evidence_level": "B+ mixed, C field-risk",
       "procurement_link": "medium-low",
       "outcome_link": "strong",
-      "primary_causes": ["price_governance", "paid_entry", "social_license", "booth_control", "stay_type_gap"],
+      "primary_causes": [
+        "price_governance",
+        "paid_entry",
+        "social_license",
+        "booth_control",
+        "stay_type_gap"
+      ],
       "not_yet_proven": "하청업체 또는 총괄대행사 책임.",
       "next_evidence_needed": "부스 선정공고, 임대료·계약, 가격표 규정, 위반 제재 기록, 시민 민원/교통/혼잡 데이터."
     },
@@ -90,7 +113,12 @@
       "evidence_level": "B+",
       "procurement_link": "low",
       "outcome_link": "strong",
-      "primary_causes": ["demand_forecast", "safety_threshold", "traffic_bottleneck", "late_deployment"],
+      "primary_causes": [
+        "demand_forecast",
+        "safety_threshold",
+        "traffic_bottleneck",
+        "late_deployment"
+      ],
       "not_yet_proven": "특정 대행사의 수요예측 과업 실패.",
       "next_evidence_needed": "사전 예상인원 산정 근거, 안전관리계획, 교통대책 발주 범위, 사후 민원/만족도."
     },
@@ -105,7 +133,12 @@
       "evidence_level": "B+ mixed",
       "procurement_link": "medium",
       "outcome_link": "strong",
-      "primary_causes": ["mixed_success", "traffic_externality", "budget_question", "merchant_impact"],
+      "primary_causes": [
+        "mixed_success",
+        "traffic_externality",
+        "budget_question",
+        "merchant_impact"
+      ],
       "not_yet_proven": "예산낭비 확정 또는 특정 업체 책임.",
       "next_evidence_needed": "순원가, 보조금, 계약 범위, 지역소비 실측, 만족도, 교통 외부비용."
     },
@@ -120,7 +153,13 @@
       "evidence_level": "B+ mixed, C budget lead",
       "procurement_link": "low",
       "outcome_link": "strong",
-      "primary_causes": ["mixed_success", "budget_recovery", "identity", "visitor_counting", "city_capacity"],
+      "primary_causes": [
+        "mixed_success",
+        "budget_recovery",
+        "identity",
+        "visitor_counting",
+        "city_capacity"
+      ],
       "not_yet_proven": "예산낭비 확정 또는 특정 대행사·하청업체 책임.",
       "next_evidence_needed": "원가회계 row, 평가보고서, 유료/무료 프로그램 split, 방문객 중복 제거 방식, 지역상권 소비."
     },
@@ -135,7 +174,13 @@
       "evidence_level": "B+ prevention",
       "procurement_link": "medium",
       "outcome_link": "strong",
-      "primary_causes": ["price_control", "booth_transfer_control", "crowd_capacity", "traffic", "emergency_response"],
+      "primary_causes": [
+        "price_control",
+        "booth_transfer_control",
+        "crowd_capacity",
+        "traffic",
+        "emergency_response"
+      ],
       "not_yet_proven": "각 통제수단의 정량 효과.",
       "next_evidence_needed": "가격 민원 전후 비교, 응급 이송/사고 건수, 교통 민원, 부스 제재 기록."
     },
@@ -150,7 +195,12 @@
       "evidence_level": "Level C success",
       "procurement_link": "medium",
       "outcome_link": "strong",
-      "primary_causes": ["programming", "heat_safety", "satisfaction", "local_linkage"],
+      "primary_causes": [
+        "programming",
+        "heat_safety",
+        "satisfaction",
+        "local_linkage"
+      ],
       "not_yet_proven": "성과가 특정 대행사 역량 때문이라는 직접 인과.",
       "next_evidence_needed": "운영 과업 범위, 평가 결과, 안전 운영계획, 관객 만족 세부 항목."
     },
@@ -165,7 +215,13 @@
       "evidence_level": "B+ success, C attribution caveat",
       "procurement_link": "medium",
       "outcome_link": "strong",
-      "primary_causes": ["paid_content", "voucher_loop", "foreign_visitor", "program_mix", "marketing_attribution"],
+      "primary_causes": [
+        "paid_content",
+        "voucher_loop",
+        "foreign_visitor",
+        "program_mix",
+        "marketing_attribution"
+      ],
       "not_yet_proven": "특정 대행사 성공 귀속 또는 상품권 환류의 최종 지역경제 순효과.",
       "next_evidence_needed": "일자별 티켓 판매, 상품권 가맹점별 사용, 홍보비 채널 attribution, 만족도, 원가회계."
     },
@@ -180,7 +236,12 @@
       "evidence_level": "B+",
       "procurement_link": "strong",
       "outcome_link": "medium-high",
-      "primary_causes": ["procurement_evaluation", "program_mix", "cosplay", "cultural_tourism_selection"],
+      "primary_causes": [
+        "procurement_evaluation",
+        "program_mix",
+        "cosplay",
+        "cultural_tourism_selection"
+      ],
       "not_yet_proven": "성과 항목별 계약 수행자 귀속.",
       "next_evidence_needed": "평가 세부 점수, 제안서 과업, 관람객 만족도와 운영 항목 연결."
     },
@@ -195,7 +256,13 @@
       "evidence_level": "B+ pre-event",
       "procurement_link": "strong",
       "outcome_link": "pre-event",
-      "primary_causes": ["crowding", "food_policy", "foreign_visitor_reception", "parade_peak", "procurement_evaluation"],
+      "primary_causes": [
+        "crowding",
+        "food_policy",
+        "foreign_visitor_reception",
+        "parade_peak",
+        "procurement_evaluation"
+      ],
       "not_yet_proven": "2026 실제 실패 또는 성공.",
       "next_evidence_needed": "사후 방문객, 동선/교통 민원, 만족도, 계약 수행평가."
     },
@@ -210,7 +277,13 @@
       "evidence_level": "B+/C",
       "procurement_link": "medium-high",
       "outcome_link": "strong",
-      "primary_causes": ["weather", "ice_condition", "course_safety", "fee_service", "local_linkage"],
+      "primary_causes": [
+        "weather",
+        "ice_condition",
+        "course_safety",
+        "fee_service",
+        "local_linkage"
+      ],
       "not_yet_proven": "자연조건 관리와 성과 사이의 정량 인과.",
       "next_evidence_needed": "코스 폐쇄 이력, 안전점검표, 기상자료, 입장권/지역소비 연결."
     },
@@ -225,9 +298,36 @@
       "evidence_level": "B+ weather/success, C budget lead",
       "procurement_link": "medium",
       "outcome_link": "strong",
-      "primary_causes": ["weather", "ice_capacity", "safety_inspection", "voucher_loop", "budget_recovery"],
+      "primary_causes": [
+        "weather",
+        "ice_capacity",
+        "safety_inspection",
+        "voucher_loop",
+        "budget_recovery"
+      ],
       "not_yet_proven": "특정 대행사·하청업체 실패 또는 최종 예산낭비 판정.",
       "next_evidence_needed": "일별 얼음두께, 안전관리계획, 지방재정365 원가회계, 상품권 환류, 평가보고서 원문."
+    },
+    {
+      "id": "cheongsong-apple-2025-2026",
+      "record_type": "festival_case",
+      "festival": "청송사과축제",
+      "years": "2022-2026",
+      "page": "cheongsong-apple-metric-opacity-success-dossier.html",
+      "question": "성공 축제의 경제효과·방문객 수치는 그대로 믿어도 되는가?",
+      "short_answer": "성공 사례이지만 metric-opacity case다. 현장 방문객, 온라인 방문, 사과판매액, 직접/간접 경제효과, 만족도를 분리해야 하며 4.1억 원 대행용역은 조달 context이지 귀속 증거가 아니다.",
+      "evidence_level": "B+ success, B metric-opacity, C attribution",
+      "procurement_link": "strong context",
+      "outcome_link": "strong but metric-split needed",
+      "primary_causes": [
+        "metric_opacity",
+        "success_control",
+        "hybrid_online",
+        "price_fixed_sales",
+        "procurement_context"
+      ],
+      "not_yet_proven": "경제효과 과장 확정, 예산낭비 확정, 특정 대행사·하청업체 책임.",
+      "next_evidence_needed": "평가보고서 원문, 산식/표본, 지방재정365 row, 낙찰자/과업/수행평가, 온라인 analytics 정의."
     },
     {
       "id": "bupyeong-dongnae-gap",
@@ -240,7 +340,11 @@
       "evidence_level": "Gap",
       "procurement_link": "weak",
       "outcome_link": "medium",
-      "primary_causes": ["data_gap", "procurement_gap", "coverage_guardrail"],
+      "primary_causes": [
+        "data_gap",
+        "procurement_gap",
+        "coverage_guardrail"
+      ],
       "not_yet_proven": "대행사·하청 구조와 성과/문제의 연결.",
       "next_evidence_needed": "입찰공고, 계약결과, 과업지시서, 평가결과."
     },
@@ -255,7 +359,13 @@
       "evidence_level": "B+ success, B price-boundary, C contractor attribution",
       "procurement_link": "medium",
       "outcome_link": "strong",
-      "primary_causes": ["paid_content", "coupon_loop", "resident_participation", "price_boundary", "stage_procurement_gap"],
+      "primary_causes": [
+        "paid_content",
+        "coupon_loop",
+        "resident_participation",
+        "price_boundary",
+        "stage_procurement_gap"
+      ],
       "not_yet_proven": "특정 대행사·하청업체가 가격 논란 또는 전체 성과의 원인이라는 주장.",
       "next_evidence_needed": "지방재정365 원가회계, 평가보고서, 쿠폰 redemption, 야시장 허가/운영자 경계, 무대 용역 과업·수행평가."
     },
@@ -270,7 +380,13 @@
       "evidence_level": "B+ content, B budget lead, B natural shock, C attribution",
       "procurement_link": "strong for 2026 pre-event",
       "outcome_link": "mixed",
-      "primary_causes": ["budget_accounting_gap", "paid_content", "voucher_loop", "flood_cancellation", "multi_layer_procurement"],
+      "primary_causes": [
+        "budget_accounting_gap",
+        "paid_content",
+        "voucher_loop",
+        "flood_cancellation",
+        "multi_layer_procurement"
+      ],
       "not_yet_proven": "예산낭비 확정 또는 특정 대행사·하청업체 책임.",
       "next_evidence_needed": "지방재정365 row, 재단 결산 ledger, 체험권 매출, 상품권 redemption, 낙찰자/과업/수행평가, 2023 취소비용."
     },
@@ -285,7 +401,13 @@
       "evidence_level": "B+ revenue-cause, B outcome lead, C attribution",
       "procurement_link": "weak-medium",
       "outcome_link": "mixed",
-      "primary_causes": ["free_access", "paid_content_gap", "budget_recovery", "identity_governance", "public_value"],
+      "primary_causes": [
+        "free_access",
+        "paid_content_gap",
+        "budget_recovery",
+        "identity_governance",
+        "public_value"
+      ],
       "not_yet_proven": "예산낭비 확정 또는 특정 대행사·하청업체 책임.",
       "next_evidence_needed": "지방재정365 row, 평가용역 원문, 유료/무료 프로그램 split, 부스/협찬 수입, 계약/RFP/수행평가."
     },
@@ -300,7 +422,13 @@
       "evidence_level": "B+ cultural/outcome, B budget-recovery lead, C attribution",
       "procurement_link": "strong context",
       "outcome_link": "mixed-strong",
-      "primary_causes": ["cultural_public_value", "budget_recovery", "free_entry", "voucher_pass", "procurement_context"],
+      "primary_causes": [
+        "cultural_public_value",
+        "budget_recovery",
+        "free_entry",
+        "voucher_pass",
+        "procurement_context"
+      ],
       "not_yet_proven": "예산낭비 확정 또는 특정 대행사·하청업체 책임.",
       "next_evidence_needed": "지방재정365 row, 패스권 판매, 상품권 redemption, 도자 판매, 체험료 세목, 평가보고서, 낙찰자/과업/수행평가."
     },
@@ -315,7 +443,13 @@
       "evidence_level": "Method",
       "procurement_link": "requires join",
       "outcome_link": "requires join",
-      "primary_causes": ["net_cost", "public_value", "local_capture", "external_cost", "contract_accountability"],
+      "primary_causes": [
+        "net_cost",
+        "public_value",
+        "local_capture",
+        "external_cost",
+        "contract_accountability"
+      ],
       "not_yet_proven": "개별 축제 낭비 판정.",
       "next_evidence_needed": "지방재정365 원가·예산, 나라장터 계약, 방문객/만족도/소비/민원 데이터."
     },
@@ -330,13 +464,13 @@
       "evidence_level": "Navigation",
       "procurement_link": "n/a",
       "outcome_link": "n/a",
-      "primary_causes": ["router", "human_readability", "cause_first_navigation"],
+      "primary_causes": [
+        "router",
+        "human_readability",
+        "cause_first_navigation"
+      ],
       "not_yet_proven": "원인 자체가 아니라 탐색 구조다.",
       "next_evidence_needed": "새 dossier가 추가될 때 라우터와 매트릭스를 동시 갱신."
     }
   ]
 }
-
-
-
-

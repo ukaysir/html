@@ -1,0 +1,185 @@
+{
+  "id": "cheongsong-apple-metric-opacity-success-dossier",
+  "title": "청송사과축제 성과지표/경제효과 검증 dossier",
+  "festival": "청송사과축제",
+  "region": "경상북도 청송군",
+  "years_covered": [2022, 2023, 2024, 2025, 2026],
+  "classification": {
+    "overall": "success_with_metric_opacity_risk",
+    "success_evidence": "B+",
+    "metric_opacity_evidence": "B",
+    "procurement_context": "B+",
+    "contractor_attribution": "C"
+  },
+  "one_line_verdict": "실패 사례가 아니라 성공/회복 사례다. 다만 오프라인 방문객, 온라인 조회, 직접 경제효과, 간접효과, 만족도, 사과판매액을 분리하지 않으면 수요예측·예산성과 모델이 오염된다.",
+  "why_success": [
+    "KTO와 청송군 공식 페이지가 참여형 사과 프로그램, 직거래·농특산물 판매, 무료입장+일부 유료체험 구조를 확인한다.",
+    "2025년 평가 보도는 방문객 만족도 6.06/7, 전년 대비 상승, 주민참여·가격정찰제·신고센터·자체평가시스템을 모범 운영 신호로 제시한다.",
+    "대형 산불 이후 지역 경기 회복과 사과 판매/숙박/식음료 소비를 연결한 지역회복 narrative가 강하다.",
+    "온라인 축제와 대면 축제를 결합해 실제 현장 방문이 어려운 수요까지 홍보·참여 풀로 확장했다."
+  ],
+  "why_risk_remains": [
+    "초기 성과보도는 직접 경제효과 300억 원, 간접효과 600억 원, 온라인 방문자 320만 명을 강조했고, 후속 평가 보도는 직접효과 471억 원대와 간접효과 972억 원대를 제시한다. 이는 추정 시점·산식 차이일 수 있으나 데이터 ingestion에서는 별도 claim으로 분리해야 한다.",
+    "한 지역매체는 공식 방문객 50만 명 수치가 경제효과 보도에서 빠졌고 산식이 공개되지 않았다고 지적했다. 이는 반대증거라기보다 투명성 검증 lead다.",
+    "온라인 방문자/조회수는 오프라인 방문객과 다른 지표이므로 동일한 수요성과로 합산하면 안 된다.",
+    "공약 PDF 자체가 지역민 참여 제약과 고령화에 따른 외국인 수용환경 어려움을 문제로 적고 있어, 글로벌화 목표에는 인력·수용태세 리스크가 남아 있다."
+  ],
+  "procurement_and_stakeholder_context": {
+    "host": "청송군",
+    "supervisor": "청송군축제추진위원회",
+    "operator_in_kto": "청송군/청송군축제추진위원회",
+    "agency_tender_signal": "2025 및 2026 무대시스템 및 공연 프로그램 대행 용역 each KRW 410,000,000 public bid mirror/notice context",
+    "important_clause": "Bid notice text says Cheongsong County acts only as bid-notice agent; contractor selection, contract execution, supervision and payment are handled with the Cheongsong Festival Promotion Committee.",
+    "causal_guardrail": "This proves outsourced event-operation context, not contractor causality for success, failure or metric opacity."
+  },
+  "metric_claims_to_keep_separate": [
+    {
+      "claim": "offline visitors",
+      "lead_value": "about 480k-500k in 2025 reporting",
+      "risk": "gate count method, duplicate counting and release-to-release consistency need official evaluation report"
+    },
+    {
+      "claim": "online visitors / portal visits",
+      "lead_value": "3.1m-3.2m range in 2025 reports",
+      "risk": "not equal to physical visitors; may include visits/search exposure/online campaign interactions"
+    },
+    {
+      "claim": "direct economic effect",
+      "lead_value": "KRW 30b early report; KRW 47.1b-class evaluation report",
+      "risk": "time, survey sample and formula differences must be stored as separate evidence rows"
+    },
+    {
+      "claim": "satisfaction",
+      "lead_value": "6.06 / 7, +0.13 YoY in 2025 evaluation reporting",
+      "risk": "needs questionnaire, sample size and item-level distribution"
+    },
+    {
+      "claim": "apple sales / direct product sales",
+      "lead_value": "KRW 1.3b-1.8b range across direct-sale reports",
+      "risk": "direct festival sales, nearby farm/retail sales and wider induced spending must be separated"
+    }
+  ],
+  "timeline": [
+    {
+      "year": 2020,
+      "event": "COVID-period non-held years begin according to official pledge PDF"
+    },
+    {
+      "year": 2022,
+      "event": "16th festival returns in hybrid/offline form; media lead says about 400k onsite and online visits/participants recorded"
+    },
+    {
+      "year": 2025,
+      "event": "19th festival runs Oct 29-Nov 2 with hybrid online design, recovery-after-wildfire narrative and strong satisfaction/economic-effect reporting"
+    },
+    {
+      "year": 2026,
+      "event": "20th festival listed by KTO for Nov 4-Nov 8; stage/performance agency procurement context visible"
+    }
+  ],
+  "evidence_records": [
+    {
+      "id": "CS-01",
+      "type": "official_tourism",
+      "claim": "2026 schedule, free entry/paid partial experiences, operator and food-price disclosure are public.",
+      "source_ids": ["S1"]
+    },
+    {
+      "id": "CS-02",
+      "type": "official_local_page",
+      "claim": "2025 host/supervisor split, free admission, hybrid online structure and participatory programs are public.",
+      "source_ids": ["S2"]
+    },
+    {
+      "id": "CS-03",
+      "type": "official_policy_pdf",
+      "claim": "2022-2026 project cost and internal constraints around resident participation/foreign reception are public.",
+      "source_ids": ["S3"]
+    },
+    {
+      "id": "CS-04",
+      "type": "procurement_context",
+      "claim": "Stage/performance agency packages show KRW 410m outsourcing context and committee-centered contract responsibility.",
+      "source_ids": ["S4", "S5"]
+    },
+    {
+      "id": "CS-05",
+      "type": "success_outcome",
+      "claim": "Evaluation reporting identifies economic effect, satisfaction 6.06/7 and price-control/self-evaluation practices.",
+      "source_ids": ["S6", "S7"]
+    },
+    {
+      "id": "CS-06",
+      "type": "counter_signal",
+      "claim": "A local report questioned omission of visitor count and formula opacity in an earlier economic-effect release.",
+      "source_ids": ["S8"]
+    }
+  ],
+  "not_yet_proven": [
+    "That a contractor or subcontractor caused success, failure or metric opacity.",
+    "That the reported economic effects are wrong; the current evidence only proves that formulas and metric definitions must be audited before ingestion.",
+    "That online visitor numbers represent unique people or offline demand."
+  ],
+  "next_evidence_needed": [
+    "Official evaluation report PDF or full research-service report with sample size, survey method and economic-effect formula.",
+    "Local Finance 365 cost/accounting row for 2025 and 2026 festival-year keys.",
+    "Contract award result, selected agency, performance evaluation and RFP attachments for the KRW 410m stage/performance package.",
+    "Source-separated ledger for apple direct sales, local food/accommodation spending and online campaign analytics."
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "KTO 대한민국 구석구석 - 청송사과축제",
+      "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=dc6b1834-4dd8-40c4-acf4-9cb13e9c4d0b",
+      "evidence": "2026 dates, free entry/paid partial experience, operator, menu prices"
+    },
+    {
+      "id": "S2",
+      "title": "청송군 관광 - 청송사과축제 2025",
+      "url": "https://www.cs.go.kr/00007862.web",
+      "evidence": "2025 date, host/supervisor, free admission, hybrid online and participatory content"
+    },
+    {
+      "id": "S3",
+      "title": "청송사과축제 글로벌 축제로 성장 PDF",
+      "url": "https://www.cs.go.kr/data/pdf/00007489/9-5.pdf",
+      "evidence": "2022-2026 project cost KRW 4.49b, COVID non-held years, resident participation and aging/foreign reception constraints"
+    },
+    {
+      "id": "S4",
+      "title": "2025 제19회 청송사과축제 무대시스템 및 공연 프로그램 대행 용역",
+      "url": "https://www.bidpro.co.kr/n0_ipchal/konggo/svc/konggo_view.asp?num=2896118",
+      "evidence": "KRW 410m, committee responsibility clause, event-agency qualification"
+    },
+    {
+      "id": "S5",
+      "title": "2026 제20회 청송사과축제 무대시스템 및 공연 프로그램 대행 용역",
+      "url": "https://www.bidpro.co.kr/n0_ipchal/konggo/svc/konggo_view.asp?num=3135335",
+      "evidence": "KRW 410m, committee responsibility clause, 2026 procurement context"
+    },
+    {
+      "id": "S6",
+      "title": "연합뉴스 - 청송사과축제 산불 극복 계기 평가보고회",
+      "url": "https://www.yna.co.kr/view/AKR20251209101000053",
+      "evidence": "direct/indirect economic effect reporting, satisfaction 6.06/7, price-fixed and complaint-center/self-evaluation signals"
+    },
+    {
+      "id": "S7",
+      "title": "대구일보/Daum - 제19회 청송사과축제 평가보고회 세부 지표",
+      "url": "https://v.daum.net/v/20251209142004626",
+      "evidence": "outside visitor ratio, repeat rate, lodging, average spending, direct effect calculation lead"
+    },
+    {
+      "id": "S8",
+      "title": "로컬세계 - 경제효과 수치 누락/과장 의혹 보도",
+      "url": "https://localsegye.co.kr/news/view/1065538958205275",
+      "evidence": "counter-signal on visitor-count omission, formula opacity and online visitor interpretation"
+    },
+    {
+      "id": "S9",
+      "title": "경북신문 - 제16회 청송사과축제 2022 outcome lead",
+      "url": "https://www.kbsm.net/news/view.php?idx=370370",
+      "evidence": "2022 return after non-held period, about 400k onsite and online performance lead"
+    }
+  ]
+}

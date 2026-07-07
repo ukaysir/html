@@ -119,6 +119,19 @@
       ]
     },
     {
+      "id": "metric-opacity",
+      "question": "성공 지표와 경제효과 수치가 믿을 만한가?",
+      "answer_rule": "Offline visitors, online visits, direct sales, direct economic effects, indirect effects, satisfaction and media estimates must be stored as separate claims before being used for demand or budget decisions.",
+      "confidence_rule": "Strong interpretation requires original evaluation report formula, sample, item definitions and finance rows; media numbers alone are leads.",
+      "cases": [
+        {
+          "festival": "청송사과축제 2025",
+          "page": "cheongsong-apple-metric-opacity-success-dossier.html",
+          "status": "success with metric-opacity risk"
+        }
+      ]
+    },
+    {
       "id": "mixed-success",
       "question": "성공 지표와 실패 체감이 동시에 있는가?",
       "answer_rule": "Keep official metrics and counter-evidence side by side; do not collapse into a single success/failure label.",

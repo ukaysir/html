@@ -215,3 +215,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/mungyeong-teabowl-cultural-value-budget-recovery-dossier.json: cultural public-value and budget-recovery dossier separating free-entry/paid-experience structure, 2024 low recovery lead, 2025 pass/voucher/tourism-discount redesign, and agency-procurement context.
 - mungyeong-teabowl-cultural-value-budget-recovery-dossier.html: human-readable explanation of why Mungyeong Teabowl Festival has budget-recovery risk without being reducible to failure or contractor causality.
+
+## Cheongsong Apple metric-opacity success dossier
+
+- data/cheongsong-apple-metric-opacity-success-dossier.json: success/control dossier separating offline visitors, online visits, direct/indirect economic effects, satisfaction, sales and procurement context.
+- cheongsong-apple-metric-opacity-success-dossier.html: human-readable explanation of why Cheongsong Apple Festival is a success case with metric-transparency risk rather than a failure or contractor-causality case.

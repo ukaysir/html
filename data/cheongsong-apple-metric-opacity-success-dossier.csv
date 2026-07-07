@@ -1,0 +1,8 @@
+metric,claim,value_or_signal,why_it_matters,source_ids,evidence_level
+success_verdict,Overall classification,success with metric-opacity risk,Use as a success/control case but keep economic-effect metrics split,S1|S2|S6|S7,B+
+offline_visitors,Physical visitor lead,480k-500k range in 2025 reporting,Do not merge with online visitor metrics,S7|S8,B
+online_visitors,Online campaign/portal visit lead,3.1m-3.2m range,Not equal to gate count or unique tourists,S6|S8,B
+direct_economic_effect,Reported direct effect,KRW 30b early report vs KRW 47.1b-class evaluation lead,Separate release timing and formula before trend analysis,S6|S7|S8,B
+satisfaction,Visitor satisfaction,6.06/7 and +0.13 YoY,Positive quality signal requiring report-method join,S6|S7,B+
+procurement_context,Stage/performance agency package,KRW 410m in 2025 and 2026 bid context,Outsourcing exists but contractor causality is not proven,S4|S5,B+
+internal_constraints,Globalization and participation risks,local resident participation constraints and aging/foreign reception difficulty,Success case still has capacity-risk variables,S3,B
