@@ -1,0 +1,23 @@
+{
+  "version": "2026-07-08.mcst-download-probe",
+  "access_date": "2026-07-08",
+  "purpose": "HTTP GET probe results for MCST annual regional-festival ZIP downloads. Raw binary files were not committed; this manifest records reproducible URLs, byte sizes and SHA-256 hashes.",
+  "probe_method": {
+    "method": "GET",
+    "tool": "PowerShell Invoke-WebRequest",
+    "note": "HEAD returned 403 for all years, but browser-like GET downloaded the ZIP files. Treat HEAD 403 as method restriction, not absence of file."
+  },
+  "records": [
+    {"year": 2017, "status": "downloaded", "bytes": 348505, "sha256": "8AE3FC60625719569569A9570166FA6DFD6462DF225AB78D3ADE57FE7499E9F0", "url": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile?pFileName=2017_festival.zip&pRealName=2017_festival.zip&pPath=PORTAL.DOCUMENT.UPLOAD&pFlag="},
+    {"year": 2018, "status": "downloaded", "bytes": 520981, "sha256": "E13BC560266CD86B23048A6F5AAF1BA523C81621BCE05169E2C6CDD89B889AC1", "url": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile?pFileName=2018_festival.zip&pRealName=2018_festival.zip&pPath=PORTAL.DOCUMENT.UPLOAD&pFlag="},
+    {"year": 2019, "status": "downloaded", "bytes": 363622, "sha256": "DEEFE04968B68A09CCE0943C469177E228B46C231A2508A9D6913E4A7D3A73D9", "url": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile?pFileName=2019_festival.zip&pRealName=2019_festival.zip&pPath=PORTAL.DOCUMENT.UPLOAD&pFlag="},
+    {"year": 2020, "status": "downloaded", "bytes": 446552, "sha256": "97F2E764554BC34EEA61A74065BF7E12A18B80E2DAC1265B50BB3B9DB26116C6", "url": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile?pFileName=2020_festival.zip&pRealName=2020_festival.zip&pPath=PORTAL.DOCUMENT.UPLOAD&pFlag="},
+    {"year": 2021, "status": "downloaded", "bytes": 468101, "sha256": "210A765811DE1C8DE7ECEAE77FEBC67432074D4C9448C3515A5D2E96A9673E5C", "url": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile?pFileName=2021_festival.zip&pRealName=2021_festival.zip&pPath=PORTAL.DOCUMENT.UPLOAD&pFlag="},
+    {"year": 2022, "status": "downloaded", "bytes": 188819, "sha256": "923E4181F931714BD54DF860F0245348FB99B8A82FD136C07349DBD0958433BE", "url": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile?pFileName=2022_festival.zip&pRealName=2022_festival.zip&pPath=PORTAL.DOCUMENT.UPLOAD&pFlag="},
+    {"year": 2023, "status": "downloaded", "bytes": 225953, "sha256": "B570BAD35C96413A1B70031CE66ABF4309C53BB1A53CE1E67F0C105B370389C3", "url": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile?pFileName=2023_festival.zip&pRealName=2023_festival.zip&pPath=PORTAL.DOCUMENT.UPLOAD&pFlag="},
+    {"year": 2024, "status": "downloaded", "bytes": 286702, "sha256": "1485E5AA2ED5B8149ECBFE5C5EB9162CBA97BC646E5DBB72C175A1219B08B68C", "url": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile?pFileName=2024_festival.zip&pRealName=2024_festival.zip&pPath=PORTAL.DOCUMENT.UPLOAD&pFlag="},
+    {"year": 2025, "status": "downloaded", "bytes": 298470, "sha256": "08264AACE2A70F5129A57666B1309A26FA6CB38F6FAAC603A4CBE4ADEFA344BB", "url": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile?pFileName=2025_festival.zip&pRealName=2025_festival.zip&pPath=PORTAL.DOCUMENT.UPLOAD&pFlag="},
+    {"year": 2026, "status": "downloaded", "bytes": 380192, "sha256": "AC3196D1D652481CD2307393DA5BC68FB52FBBAA24C03C6F0E3A2BECBD646C37", "url": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile?pFileName=2026_festival.zip&pRealName=2026_festival.zip&pPath=PORTAL.DOCUMENT.UPLOAD&pFlag="}
+  ],
+  "next_step": "Extract the ZIP contents to a temporary workspace, identify file types and convert the annual files into normalized festival-year records before committing derived JSON/CSV data."
+}

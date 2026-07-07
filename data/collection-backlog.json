@@ -6,7 +6,7 @@
       "id": "collect_mcst_2017_2026_master",
       "priority": "P0",
       "layer": "master",
-      "status": "ready_public_download",
+      "status": "download_probe_succeeded_needs_extraction",
       "source": "MCST regional festival annual downloads",
       "source_url": "https://www.mcst.go.kr/site/s_culture/festival/festivalList.jsp",
       "evidence_basis": "MCST page lists annual regional festival information for 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018 and 2017.",
@@ -15,7 +15,8 @@
       "notes": [
         "Schedules may change by local-government decision.",
         "Keep raw files or checksums when download succeeds.",
-        "MCST page JavaScript calls file_download with pFileName={year}_festival.zip, pRealName={year}_festival.zip and pPath=PORTAL.DOCUMENT.UPLOAD."
+        "MCST page JavaScript calls file_download with pFileName={year}_festival.zip, pRealName={year}_festival.zip and pPath=PORTAL.DOCUMENT.UPLOAD.",
+        "GET probe succeeded for 2017-2026 ZIPs; byte sizes and SHA-256 hashes are recorded in data/mcst-download-probe.json."
       ]
     },
     {

@@ -15,16 +15,16 @@
     }
   },
   "annual_candidates": [
-    {"year": 2026, "expected_file_name": "2026_festival.zip", "status": "candidate_from_page_function"},
-    {"year": 2025, "expected_file_name": "2025_festival.zip", "status": "candidate_from_page_function"},
-    {"year": 2024, "expected_file_name": "2024_festival.zip", "status": "candidate_from_page_function"},
-    {"year": 2023, "expected_file_name": "2023_festival.zip", "status": "candidate_from_page_function"},
-    {"year": 2022, "expected_file_name": "2022_festival.zip", "status": "candidate_from_page_function"},
-    {"year": 2021, "expected_file_name": "2021_festival.zip", "status": "candidate_from_page_function"},
-    {"year": 2020, "expected_file_name": "2020_festival.zip", "status": "candidate_from_page_function"},
-    {"year": 2019, "expected_file_name": "2019_festival.zip", "status": "candidate_from_page_function"},
-    {"year": 2018, "expected_file_name": "2018_festival.zip", "status": "candidate_from_page_function"},
-    {"year": 2017, "expected_file_name": "2017_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2026, "expected_file_name": "2026_festival.zip", "status": "get_probe_downloaded"},
+    {"year": 2025, "expected_file_name": "2025_festival.zip", "status": "get_probe_downloaded"},
+    {"year": 2024, "expected_file_name": "2024_festival.zip", "status": "get_probe_downloaded"},
+    {"year": 2023, "expected_file_name": "2023_festival.zip", "status": "get_probe_downloaded"},
+    {"year": 2022, "expected_file_name": "2022_festival.zip", "status": "get_probe_downloaded"},
+    {"year": 2021, "expected_file_name": "2021_festival.zip", "status": "get_probe_downloaded"},
+    {"year": 2020, "expected_file_name": "2020_festival.zip", "status": "get_probe_downloaded"},
+    {"year": 2019, "expected_file_name": "2019_festival.zip", "status": "get_probe_downloaded"},
+    {"year": 2018, "expected_file_name": "2018_festival.zip", "status": "get_probe_downloaded"},
+    {"year": 2017, "expected_file_name": "2017_festival.zip", "status": "get_probe_downloaded"},
     {"year": 2016, "expected_file_name": "2016_festival.zip", "status": "not_exposed_on_current_page"}
   ],
   "preview_file": {
@@ -33,8 +33,8 @@
     "viewer_url": "https://www.mcst.go.kr/attachFiles/viewer/skin/doc.html?fn=2024_2025_festival.pdf&rs=/attachFiles/viewer/result/document/"
   },
   "cautions": [
-    "This manifest records the public page download pattern; it does not prove every annual candidate was successfully downloaded.",
-    "Actual ingestion should capture HTTP status, content type, file size and checksum per year before marking records as confirmed_master.",
+    "This manifest records the public page download pattern and the later GET probe status; raw binary files are not committed.",
+    "Actual ingestion should extract the ZIP files and normalize row-level records before marking individual festival records as confirmed_master.",
     "Do not infer 2016 availability from the pattern because the current page exposes only 2017-2026 annual records."
   ]
 }

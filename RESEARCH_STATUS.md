@@ -24,6 +24,7 @@ Updated: 2026-07-07.
 - Cause-first index for climate/safety, price/booth, traffic/access, content/identity, budget/contract, social-license and data-gap exploration.
 - Collection-readiness model for festival-year key normalization, source inventory and staged ingestion tasks.
 - MCST annual download-pattern manifest for 2017-2026 candidate ZIP files.
+- MCST GET probe confirms downloadable 2017-2026 annual ZIPs with byte sizes and SHA-256 hashes; raw binaries are not committed.
 
 ## Current limitations
 - The repository is not yet a complete national archive of every 2016-2026 Korean festival.
