@@ -162,3 +162,9 @@ Updated: 2026-07-07.
 - Built a mixed verdict dossier for Daejeon Zero O'Clock Festival.
 - Preserved official success signals, including visitor count, economic effect and 3-no festival claims, while separating traffic, budget, local-identity and merchant-impact counter-evidence.
 - Added data/daejeon-zero-clock-mixed-verdict-dossier.json, .csv, daejeon-zero-clock-mixed-verdict-dossier.html, and evidence note.
+
+## Checkpoint: why-cause router wave 2 (2026-07-08T04:24:00+09:00)
+
+- Added a human-readable causal router so reviewers can start from questions like contractor/procurement, price/booth, demand/crowd, weather/safety and mixed-verdict rather than raw festival names.
+- Linked current dossiers to the appropriate causal question and stated the evidence rule needed before making a strong causal claim.
+- Added data/why-cause-router-wave2.json, .csv, why-cause-router-wave2.html, and evidence note.

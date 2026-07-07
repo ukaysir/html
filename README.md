@@ -153,3 +153,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/daejeon-zero-clock-mixed-verdict-dossier.json: mixed success/failure dossier separating official visitors/economic effect/3-no festival claims from traffic, budget and merchant-impact counter-evidence.
 - daejeon-zero-clock-mixed-verdict-dossier.html: human-readable "success or failure?" page that preserves both official outcome signals and civic inconvenience risks.
+
+## Why-cause router
+
+- data/why-cause-router-wave2.json: human-readable routing layer from causal questions to the most relevant dossiers.
+- why-cause-router-wave2.html: "왜 망했지?" navigation page for contractor/procurement, price/booth, demand/crowd, weather/safety and mixed-verdict questions.

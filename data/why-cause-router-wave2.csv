@@ -1,0 +1,14 @@
+route_id,question,case_festival,page,status
+contractor-procurement,하청업체나 대행사 때문인가?,인천 펜타포트음악축제 2019,pentaport-2019-cause-dossier.html,Level A causal-candidate
+contractor-procurement,하청업체나 대행사 때문인가?,부천국제만화축제 2025,bucheon-comics-2025-governance-dossier.html,Level B+ governance/outcome bridge
+contractor-procurement,하청업체나 대행사 때문인가?,부평풍물대축제·동래읍성역사축제,bupyeong-dongnae-gap-dossier.html,procurement evidence gap
+price-booth,먹거리 바가지나 부스 운영 문제인가?,영양 산나물축제 2023,yeongyang-sannamul-price-governance-dossier.html,B+ public responsibility; C broker mechanics
+price-booth,먹거리 바가지나 부스 운영 문제인가?,홍천강 꽁꽁축제 2024,hongcheon-ice-nightmarket-price-dossier.html,B+ boundary-control case
+price-booth,먹거리 바가지나 부스 운영 문제인가?,대전 0시축제 2025,daejeon-zero-clock-mixed-verdict-dossier.html,preventive merchant-agreement signal
+demand-crowd,수요예측 실패나 관광객 쏠림 때문인가?,약사사 산사음악회 2025,incheon-crowd-forecast-threshold-dossier.html,threshold-underforecast lead
+demand-crowd,수요예측 실패나 관광객 쏠림 때문인가?,영종 불꽃페스타 2025,incheon-crowd-forecast-threshold-dossier.html,traffic-egress underforecast lead
+demand-crowd,수요예측 실패나 관광객 쏠림 때문인가?,대전 0시축제 2024,daejeon-zero-clock-mixed-verdict-dossier.html,large-demand plus civic inconvenience
+weather-safety,날씨·결빙·기후 리스크 때문인가?,철원 한탄강 얼음트레킹 2026,cheorwon-ice-2026-safety-outcome-dossier.html,winter safety/outcome bridge
+weather-safety,날씨·결빙·기후 리스크 때문인가?,화천산천어축제 2020/2026,festival-cause-dossiers-wave4.html,climate failure and winter-success contrast
+mixed-success,성공 지표와 실패 체감이 동시에 있는가?,대전 0시축제 2024,daejeon-zero-clock-mixed-verdict-dossier.html,mixed verdict
+mixed-success,성공 지표와 실패 체감이 동시에 있는가?,인천 펜타포트음악축제 2025,pentaport-2025-success-dossier.html,success with contractor-attribution gap

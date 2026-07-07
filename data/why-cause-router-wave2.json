@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-07-08T04:24:00+09:00",
+  "title": "Why-cause router wave 2",
+  "purpose": "Human-readable routing layer so reviewers can start from the question 'why did this festival fail or succeed?' rather than from raw festival names.",
+  "routes": [
+    {
+      "id": "contractor-procurement",
+      "question": "하청업체나 대행사 때문인가?",
+      "answer_rule": "Only answer yes when public procurement/contract documents connect the contractor's scope to the observed outcome. Otherwise mark as procurement gap.",
+      "confidence_rule": "Level A requires outcome plus contractor/procurement plus timeline linkage.",
+      "cases": [
+        {
+          "festival": "인천 펜타포트음악축제 2019",
+          "page": "pentaport-2019-cause-dossier.html",
+          "status": "Level A causal-candidate"
+        },
+        {
+          "festival": "부천국제만화축제 2025",
+          "page": "bucheon-comics-2025-governance-dossier.html",
+          "status": "Level B+ governance/outcome bridge"
+        },
+        {
+          "festival": "부평풍물대축제·동래읍성역사축제",
+          "page": "bupyeong-dongnae-gap-dossier.html",
+          "status": "procurement evidence gap"
+        }
+      ]
+    },
+    {
+      "id": "price-booth",
+      "question": "먹거리 바가지나 부스 운영 문제인가?",
+      "answer_rule": "Separate official booths, night-market sellers, external/mobile merchants, merchant associations and price/weight disclosure.",
+      "confidence_rule": "Strong cases need organizer acknowledgement or official correction plus booth/vendor evidence.",
+      "cases": [
+        {
+          "festival": "영양 산나물축제 2023",
+          "page": "yeongyang-sannamul-price-governance-dossier.html",
+          "status": "B+ public responsibility, C broker mechanics"
+        },
+        {
+          "festival": "홍천강 꽁꽁축제 2024",
+          "page": "hongcheon-ice-nightmarket-price-dossier.html",
+          "status": "B+ boundary-control case"
+        },
+        {
+          "festival": "대전 0시축제 2025",
+          "page": "daejeon-zero-clock-mixed-verdict-dossier.html",
+          "status": "preventive merchant-agreement signal"
+        }
+      ]
+    },
+    {
+      "id": "demand-crowd",
+      "question": "수요예측 실패나 관광객 쏠림 때문인가?",
+      "answer_rule": "Compare expected attendance, actual attendance, site geometry, safety-plan threshold, staffing, traffic and exit timing.",
+      "confidence_rule": "Strong cases need expected-attendance basis and after-action records; current public leads are B-level.",
+      "cases": [
+        {
+          "festival": "약사사 산사음악회 2025",
+          "page": "incheon-crowd-forecast-threshold-dossier.html",
+          "status": "threshold-underforecast lead"
+        },
+        {
+          "festival": "영종 불꽃페스타 2025",
+          "page": "incheon-crowd-forecast-threshold-dossier.html",
+          "status": "traffic/egress underforecast lead"
+        },
+        {
+          "festival": "대전 0시축제 2024",
+          "page": "daejeon-zero-clock-mixed-verdict-dossier.html",
+          "status": "large-demand plus civic inconvenience"
+        }
+      ]
+    },
+    {
+      "id": "weather-safety",
+      "question": "날씨·결빙·기후 리스크 때문인가?",
+      "answer_rule": "Track event date, weather, course/ice condition, safety checks, closure/postponement and visitor outcome together.",
+      "confidence_rule": "Weather-only evidence is not enough; course operation and safety decision records are required.",
+      "cases": [
+        {
+          "festival": "철원 한탄강 얼음트레킹 2026",
+          "page": "cheorwon-ice-2026-safety-outcome-dossier.html",
+          "status": "winter safety/outcome bridge"
+        },
+        {
+          "festival": "화천산천어축제 2020/2026",
+          "page": "festival-cause-dossiers-wave4.html",
+          "status": "climate failure and winter-success contrast"
+        }
+      ]
+    },
+    {
+      "id": "mixed-success",
+      "question": "성공 지표와 실패 체감이 동시에 있는가?",
+      "answer_rule": "Keep official metrics and counter-evidence side by side; do not collapse into a single success/failure label.",
+      "confidence_rule": "Mixed verdict requires both outcome evidence and credible counter-signal.",
+      "cases": [
+        {
+          "festival": "대전 0시축제 2024",
+          "page": "daejeon-zero-clock-mixed-verdict-dossier.html",
+          "status": "mixed verdict"
+        },
+        {
+          "festival": "인천 펜타포트음악축제 2025",
+          "page": "pentaport-2025-success-dossier.html",
+          "status": "success with contractor-attribution gap"
+        }
+      ]
+    }
+  ]
+}
