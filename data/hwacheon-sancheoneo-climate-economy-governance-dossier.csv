@@ -1,0 +1,2 @@
+case_id,festival,region,period_scope,verdict,confidence,primary_problem,key_causes,procurement_signal,next_data_needs
+hwacheon-sancheoneo-2020-2027,얼음나라화천 산천어축제,강원 화천군,2020-2027,""대표 성공축제이나 기후·안전·사회적 수용성·조달 투명성이 흔들리면 실패로 전환될 수 있는 고의존형 모델"",A-,""겨울 결빙 의존성/대규모 방문객/지역경제/동물권/발권경호보험협찬 조달"",""ice_climate_dependency;engineered_safety;local_economy_linkage;social_license_animal_welfare;procurement_governance"",""재단법인 나라 입찰 목록: 발권, 경호, 보험, 유류, 방한복, 협찬, 입점업체 반복 공고. 2026 보험 예산 8,800만원 미러."",""예산서;정산서;기온/강수/얼음두께 로그;입장권 판매/환불;산천어 투입/수거/처리;용역별 낙찰;민원/안전 로그""

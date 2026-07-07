@@ -296,3 +296,10 @@ Updated: 2026-07-07.
 - Updated case evidence matrix to 28 festival records and added mega_crowd_firework_records.
 - Added why-router coverage for budget/outsourcing governance and linked 부산불꽃축제 into the demand/crowd route.
 - Evidence status: A-. Strong public-source support for attendance variation, safety controls, paid-seat prices, and fragmented procurement notices. Budget figures from KNN are treated as media claims requiring official budget/settlement confirmation.
+
+## Checkpoint: 2026-07-08T10:15:00+09:00
+- Added 화천산천어축제 climate/economy/governance dossier.
+- New files: .omo/evidence/hwacheon-sancheoneo-climate-economy-governance-dossier.md, data/hwacheon-sancheoneo-climate-economy-governance-dossier.json, data/hwacheon-sancheoneo-climate-economy-governance-dossier.csv, $slug.html.
+- Updated case evidence matrix to 29 festival records and added winter_climate_success_records.
+- Added why-router coverage for winter ice/climate failure mode and linked 화천산천어축제 into budget/outsourcing governance.
+- Evidence status: A-. Strong public-source support for attendance, economic-effect report, climate disruption history, animal-welfare controversy, and recurring procurement signals. Full budget efficiency still needs official settlement and contract data.

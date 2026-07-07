@@ -4,6 +4,24 @@
   "purpose": "Human-readable routing layer so reviewers can start from the question 'why did this festival fail or succeed?' rather than from raw festival names.",
   "routes": [
     {
+      "id": "winter-ice-climate",
+      "question": "겨울 결빙·수위·기후변화가 핵심인가?",
+      "use_when": "얼음낚시, 눈/얼음 체험, 수위·유속·결빙, 이상고온, 겨울폭우, 한파, 입장제한이 축제 성패를 좌우할 때.",
+      "diagnostic_rule": "기온·강수·수위·유속·얼음두께 일별 로그, 입장 제한, 환불, 대체프로그램, 산천어/빙어 재고, 안전사고, 지역경제 매출을 같은 타임라인에 둔다.",
+      "cases": [
+        {
+          "festival": "화천산천어축제 2020-2027",
+          "page": "hwacheon-sancheoneo-climate-economy-governance-dossier.html",
+          "signal": "2020 이상고온/겨울폭우 파행, 2026 얼음두께 30~45cm 관리, 159만 방문"
+        },
+        {
+          "festival": "인제빙어축제 2019-2026",
+          "page": "inje-icefish-climate-waterlevel-cancellation-dossier.html",
+          "signal": "결빙/수위 문제와 반복 취소"
+        }
+      ]
+    },
+    {
       "id": "budget-outsourcing-governance",
       "question": "예산·협찬·유료좌석·대행/하청 구조가 핵심인가?",
       "use_when": "축제 성패가 방문객 수만으로 설명되지 않고 시비, 협찬, 입장권, 행사대행, 경호/시설/음향/화장실/조명 등 다중 용역 책임 경계와 연결될 때.",
@@ -18,6 +36,11 @@
           "festival": "무안연꽃축제 2023-2026",
           "page": "muan-lotus-heat-shuttle-procurement-dossier.html",
           "signal": "민간행사보조사업, 축제추진위원회 계약, 행사대행 총괄운영 범위"
+        },
+        {
+          "festival": "화천산천어축제 2020-2027",
+          "page": "hwacheon-sancheoneo-climate-economy-governance-dossier.html",
+          "signal": "발권/경호/보험/유류/협찬/입점업체 반복 조달, 2026 보험 예산 8,800만 원"
         }
       ]
     },

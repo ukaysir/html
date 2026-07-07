@@ -260,3 +260,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added usan-fireworks-crowd-ticket-procurement-dossier.html and structured JSON/CSV data for 부산불꽃축제 2022-2026.
 - Classifies the case as a mixed A- case: strong mega-crowd safety operations plus unresolved budget/procurement transparency risk.
 - Captures 2022 post-Itaewon safety controls, 2023 rain-driven attendance drop, 2024 paid-seat and 103만 attendance signals, 2025 117만 outcome and emergency/complaint load, and 2025 fragmented service procurement notices.
+
+### Hwacheon Sancheoneo climate/economy/governance dossier
+- Added hwacheon-sancheoneo-climate-economy-governance-dossier.html and structured JSON/CSV data for 화천산천어축제 2020-2027.
+- Classifies the case as a successful but high-dependency winter model: engineered ice safety, local economic linkage, animal-welfare social-license pressure, and recurring procurement governance.
+- Captures 2020 abnormal-warm/winter-rain disruption, 2021-2022 COVID cancellations, 2023 restart, 2026 159만 attendance and 1,018억 direct economic effect, and foundation-led tender signals.

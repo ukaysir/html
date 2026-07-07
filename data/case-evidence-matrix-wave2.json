@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 28,
+    "festival_case_records": 29,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
@@ -20,9 +20,29 @@
     "metric_opacity_records": 1,
     "content_social_license_records": 1,
     "season_heat_comfort_records": 1,
-    "mega_crowd_firework_records": 1
+    "mega_crowd_firework_records": 1,
+    "winter_climate_success_records": 1
   },
   "records": [
+    {
+      "id": "hwacheon-sancheoneo-2020-2027",
+      "festival": "화천산천어축제 2020-2027",
+      "region": "강원 화천군",
+      "case_type": "겨울 결빙·지역경제·동물권·조달 거버넌스 혼합 성공 사례",
+      "confidence": "A-",
+      "primary_causes": [
+        "ice_climate_dependency",
+        "engineered_safety",
+        "local_economy_linkage",
+        "social_license_animal_welfare",
+        "procurement_governance"
+      ],
+      "demand_signal": "2026년 159만 명, 2025년 186만 명, 2023년 17일 만에 100만 명 돌파. 2020년 이상고온/겨울폭우 파행과 2021~2022년 코로나 취소가 대조됨.",
+      "budget_procurement_signal": "재단법인나라 입찰 목록상 발권, 경호, 보험, 유류, 방한복, 협찬, 입점업체 반복 공고. 2026 보험 예산 8,800만 원 미러.",
+      "why_it_matters": "성공 원인은 자연 결빙이 아니라 수위·유속·얼음두께·입장제한·콘텐츠·지역경제 연결·반복 운영조직이다. 실패 리스크는 기후, 환불, 재고, 동물권, 조달 투명성에서 발생한다.",
+      "page": "hwacheon-sancheoneo-climate-economy-governance-dossier.html",
+      "data": "data/hwacheon-sancheoneo-climate-economy-governance-dossier.json"
+    },
     {
       "id": "busan-fireworks-2022-2026",
       "festival": "부산불꽃축제 2022-2026",
