@@ -1,0 +1,10 @@
+[
+  {"case":"홍천강 꽁꽁축제","category":"booth_price_merchant","diagnosis":"야시장 바가지요금 논란과 운영 주체의 공식 사과가 함께 확인되는 가격관리 리스크 사례","confidence":"B/C","source_type":"media plus official response"},
+  {"case":"대전 0시축제","category":"crowding_access","diagnosis":"방문객 성과와 원도심 활성화 성과가 강조되는 동시에 지하철·주차·교통 불편이 반복 제기되는 혼합 사례","confidence":"B/C","source_type":"local government plus media/opinion"},
+  {"case":"세종낙화축제","category":"traffic_parking","diagnosis":"대형 인파와 주차 이슈를 선제적으로 관리하려는 교통대책 사례","confidence":"B","source_type":"local/government-adjacent press"},
+  {"case":"울산조선해양축제","category":"safety_weather","diagnosis":"집중호우와 안전 우려로 개막 연기된 외부충격 대응 사례","confidence":"B/C","source_type":"news plus local government meeting"},
+  {"case":"안동국제탈춤페스티벌","category":"governance_evaluation","diagnosis":"평가보고회, 데이터, 만족도, 경제파급효과, 거버넌스가 함께 언급되는 성공요인 분석 후보","confidence":"B","source_type":"local/news plus academic"},
+  {"case":"이천도자기축제","category":"budget_efficiency","diagnosis":"매출과 방문객 증가를 자체 성과로 평가한 지역특화 축제 사례","confidence":"B/C","source_type":"local/news"},
+  {"case":"보령머드축제","category":"content_differentiation","diagnosis":"체험형 콘텐츠와 해변 공간 결합이 반복적으로 성공요인으로 언급되는 대표 문화관광축제 후보","confidence":"B","source_type":"official selection plus academic/media"},
+  {"case":"대구지역 축제 공통 문제","category":"content_differentiation","diagnosis":"무대 중심·연예인 의존·보여주기식 프로그램 비판은 콘텐츠 차별성 부족의 일반 패턴으로 활용 가능","confidence":"B","source_type":"policy research"}
+]

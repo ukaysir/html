@@ -1,96 +1,16 @@
 {
   "generated_at": "2026-07-07T23:59:00+09:00",
-  "status": "checkpoint_public_source_map",
-  "guardrails": [
-    "no phone calls",
-    "no email requests",
-    "no interviews",
-    "no information disclosure requests",
-    "no paid or login-only sources",
-    "no access-control bypass",
-    "no hidden subcontract claims without public evidence"
+  "status": "wave1_integrated_public_source_research",
+  "research_axes": [
+    {"axis":"official_festival_master","finding":"MCST annual regional festival page is strongest for 2017-2026; 2016 needs narrower report plus local backfill.","confidence":"A/B","key_sources":["https://www.mcst.go.kr/site/s_culture/festival/festivalList.jsp","https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pDataCD=0406000000&pSeq=1664&pType=","https://www.data.go.kr/data/15013104/standard.do"]},
+    {"axis":"tourism_performance","finding":"Korea Tourism Data Lab provides visitor, daily-average visitor, spending, demographics, SNS mention and keyword trend signals; trend-oriented metrics must not be treated as exact totals.","confidence":"A/B","key_sources":["https://datalab.visitkorea.or.kr/datalab/portal/fes/getFesDataForm.do","https://datalab.visitkorea.or.kr/datalab/portal/loc/getAreaDataForm.do","https://www.data.go.kr/data/15101578/openapi.do"]},
+    {"axis":"finance_contracts","finding":"Local Finance 365 cost accounting, budget allocation and contract status are core sources for cost, revenue, net cost, contract method, vendor and amount.","confidence":"A","key_sources":["https://www.data.go.kr/data/15056968/openapi.do","https://www.data.go.kr/data/15138721/openapi.do","https://www.data.go.kr/data/15118650/openapi.do","https://www.data.go.kr/data/15058113/openapi.do"]},
+    {"axis":"procurement_vendor_trace","finding":"Nara/G2B APIs and attachments can expose bid notices, RFP/task instructions, changes, cancellations and contract chains.","confidence":"A/B","key_sources":["https://www.data.go.kr/data/15129394/openapi.do","https://www.data.go.kr/data/15129427/openapi.do","https://www.data.go.kr/data/15129459/openapi.do","https://www.data.go.kr/data/15129462/openapi.do","https://www.data.go.kr/data/15058815/openapi.do"]},
+    {"axis":"failure_success_cases","finding":"Cases cluster around crowding/access, pricing, safety/weather, budget efficiency, content differentiation and governance/evaluation.","confidence":"B","key_sources":["https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pDataCD=0406000000&pSeq=1918&pType=","https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pDataCD=0417000000&pSeq=1991&pType=","https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=20716"]},
+    {"axis":"html_information_architecture","finding":"Use narrative summary first, evidence workspace second, and source/provenance drawers last; every claim should click through to evidence.","confidence":"B","key_sources":["https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html","https://www.w3.org/WAI/tutorials/tables/","https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p02-alternative-content/","https://projects.propublica.org/datastore/"]}
   ],
-  "confidence_grades": {
-    "A": "official structured data, procurement, finance, contracts, public datasets",
-    "B": "official narrative documents, local council, audit, government press releases",
-    "C": "news, public reviews, blogs, SNS-style public signals with cross-checking",
-    "D": "weak public trace or missing data; must be shown as unverified"
-  },
-  "primary_sources": [
-    {
-      "name": "문화체육관광부 지역축제 자료",
-      "url": "https://www.mcst.go.kr/kor/s_culture/festival/festivalList.jsp",
-      "use": "2017-2026 regional festival official annual source discovery",
-      "grade": "A"
-    },
-    {
-      "name": "문화체육관광부_지역축제 정보",
-      "url": "https://www.data.go.kr/data/15143175/fileData.do?recommendDataYn=Y",
-      "use": "festival master fields: name, type, place, period, budget, visitors, organization where available",
-      "grade": "A"
-    },
-    {
-      "name": "한국관광 데이터랩 문화관광축제 분석",
-      "url": "https://datalab.visitkorea.or.kr/datalab/portal/fes/getFesDataForm.do",
-      "use": "visitor trend, day-average visitors, spending, SNS keywords and sentiment-style signals",
-      "grade": "A"
-    },
-    {
-      "name": "조달청_나라장터 입찰공고정보서비스",
-      "url": "https://www.data.go.kr/data/15129394/openapi.do",
-      "use": "festival/event agency bid notices, details, base amount, restrictions, change history",
-      "grade": "A"
-    },
-    {
-      "name": "행정안전부_지방재정365_계약현황",
-      "url": "https://www.data.go.kr/data/15118650/openapi.do?recommendDataYn=Y",
-      "use": "local contract method, contract name, date, amount, vendor from 2016 onward where available",
-      "grade": "A"
-    },
-    {
-      "name": "행정안전부_지방재정365_행사축제원가회계정보",
-      "url": "https://www.data.go.kr/data/15056968/openapi.do",
-      "use": "event/festival cost, revenue, net cost, dates from 2012 onward where available",
-      "grade": "A"
-    },
-    {
-      "name": "행정안전부_지방재정365_행사·축제경비편성내역",
-      "url": "https://www.data.go.kr/data/15138721/openapi.do",
-      "use": "event operation, compensation, subsidy, facility budget categories from 2015 onward where available",
-      "grade": "A"
-    }
-  ],
-  "cause_categories": [
-    "demand_forecast_mismatch",
-    "crowding",
-    "traffic_parking",
-    "safety",
-    "booth_price",
-    "content_differentiation",
-    "marketing",
-    "budget_efficiency",
-    "contract_vendor_structure",
-    "weather_external_shock",
-    "public_data_insufficiency"
-  ],
-  "sample_cases": [
-    {
-      "festival": "함평나비대축제",
-      "diagnosis": "success/failure determination requires year-specific visitor, cost, contract, and issue evidence before asserting causality",
-      "current_confidence": "D",
-      "reason": "placeholder case used to demonstrate structure only"
-    },
-    {
-      "festival": "보령머드축제",
-      "diagnosis": "high-recognition festival candidate for performance and vendor-contract tracing",
-      "current_confidence": "D",
-      "reason": "requires official year-specific evidence before scoring"
-    },
-    {
-      "festival": "진해군항제",
-      "diagnosis": "crowding/transport-sensitive mega-event candidate for cause tracing",
-      "current_confidence": "D",
-      "reason": "requires official and media evidence before scoring"
-    }
-  ]
+  "guardrails": ["no phone calls","no email requests","no interviews","no information disclosure requests","no paid or login-only sources","no access-control bypass","no hidden subcontract claims without public evidence","no exact-total interpretation for trend-oriented big-data metrics"],
+  "confidence_grades": {"A":"official structured data/procurement/finance/contracts/public datasets","B":"official narrative/council/audit/government press/methodology","C":"news/public reviews/blogs/SNS-style public signals with cross-checking","D":"weak public trace or missing data"},
+  "matching_rules": {"high":"same festival alias plus bid or contract identifier, same agency/date/contract chain","medium":"slightly different title but venue, organizer, period and attachment text align","low":"keyword overlap only or isolated plan/notice without award/contract tail","reject":"incompatible organizer, geography, date, or attachment year"},
+  "cause_categories": ["demand_forecast_mismatch","crowding_access","traffic_parking","safety_weather","booth_price_merchant","content_differentiation","marketing","budget_efficiency","contract_vendor_structure","governance_evaluation","public_data_insufficiency"]
 }
