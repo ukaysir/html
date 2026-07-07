@@ -1,0 +1,127 @@
+{
+  "version": "2026-07-08.collection-readiness",
+  "purpose": "Next ingestion tasks for turning the research dashboard into a larger 2016-2026 festival evidence archive.",
+  "tasks": [
+    {
+      "id": "collect_mcst_2017_2026_master",
+      "priority": "P0",
+      "layer": "master",
+      "status": "ready_public_download",
+      "source": "MCST regional festival annual downloads",
+      "source_url": "https://www.mcst.go.kr/site/s_culture/festival/festivalList.jsp",
+      "evidence_basis": "MCST page lists annual regional festival information for 2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018 and 2017.",
+      "expected_output": "data/master/mcst-region-festivals-2017-2026.normalized.json",
+      "blocked_by": [],
+      "notes": [
+        "Schedules may change by local-government decision.",
+        "Keep raw files or checksums when download succeeds."
+      ]
+    },
+    {
+      "id": "backfill_2016_master_gap",
+      "priority": "P0",
+      "layer": "master_backfill",
+      "status": "needs_multi_source_backfill",
+      "source": "MCST 2016 culture-tourism evaluation report plus local government archives",
+      "source_url": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pDataCD=0406000000&pSeq=1664&pType=",
+      "evidence_basis": "The found 2016 official MCST item covers 43 culture-tourism festivals, not a nationwide regional-festival master.",
+      "expected_output": "data/master/2016-backfill-candidates.json",
+      "blocked_by": [
+        "no single public nationwide 2016 master confirmed"
+      ],
+      "notes": [
+        "Mark records selected_festival_only or local_backfill, never confirmed_master unless source proves nationwide coverage."
+      ]
+    },
+    {
+      "id": "overlay_public_data_standard_geocoding",
+      "priority": "P1",
+      "layer": "current_geocoding",
+      "status": "ready_public_grid_or_api",
+      "source": "Public Data Portal nationwide culture festival standard data",
+      "source_url": "https://www.data.go.kr/data/15013104/standard.do",
+      "evidence_basis": "The page describes a national standard dataset maintained quarterly with 229 provider datasets and current local festival records.",
+      "expected_output": "data/master/current-standard-geocoding-overlay.json",
+      "blocked_by": [],
+      "notes": [
+        "Treat as current snapshot, not historical panel.",
+        "Use coordinates/address to disambiguate duplicate festival names."
+      ]
+    },
+    {
+      "id": "overlay_mcst_region_festival_file_dataset",
+      "priority": "P1",
+      "layer": "master_fields",
+      "status": "ready_public_download",
+      "source": "MCST regional festival information file dataset",
+      "source_url": "https://www.data.go.kr/data/15143175/fileData.do",
+      "evidence_basis": "Public Data Portal describes an XLSX with 1,214 rows and fields including festival type, dates, budget, visitors, organization and legal basis.",
+      "expected_output": "data/master/mcst-region-festival-file-20250106.normalized.json",
+      "blocked_by": [],
+      "notes": [
+        "Registered 2025-04-29 and modified 2025-08-20 on the portal page.",
+        "Use as field-rich backbone where annual downloads are unavailable."
+      ]
+    },
+    {
+      "id": "join_lofin_cost_accounting",
+      "priority": "P1",
+      "layer": "finance_cost",
+      "status": "public_page_api_key_or_policy_limited",
+      "source": "Local Finance 365 event/festival cost accounting",
+      "source_url": "https://www.data.go.kr/data/15056968/openapi.do",
+      "evidence_basis": "The portal page states data is provided from fiscal year 2012 and includes festival name, business content, total cost, revenue, net cost, start and end date.",
+      "expected_output": "data/finance/lofin-cost-accounting-joined.json",
+      "blocked_by": [
+        "OpenAPI usage and traffic policy may require public data flow"
+      ],
+      "notes": [
+        "Disclosure threshold: metro 500m KRW and basic local gov 300m KRW.",
+        "Small festivals will be missing by design."
+      ]
+    },
+    {
+      "id": "join_lofin_budget_allocation",
+      "priority": "P2",
+      "layer": "budget_allocation",
+      "status": "public_page_api_key_or_policy_limited",
+      "source": "Local Finance 365 event/festival budget allocation",
+      "source_url": "https://www.data.go.kr/data/15138721/openapi.do",
+      "evidence_basis": "The portal page states the data covers fiscal year 2015 onward and includes event operation, compensation, private event subsidy and related facility categories.",
+      "expected_output": "data/finance/lofin-budget-allocation-joined.json",
+      "blocked_by": [
+        "OpenAPI usage and traffic policy may require public data flow"
+      ],
+      "notes": [
+        "Mostly local-government fiscal category layer; use as budget context, not direct event cost unless event-level fields exist."
+      ]
+    },
+    {
+      "id": "join_contract_status_and_nara",
+      "priority": "P1",
+      "layer": "contract_status",
+      "status": "public_metadata_key_limited",
+      "source": "Local Finance 365 contract status and NaraJangteo bid notices",
+      "source_url": "https://www.data.go.kr/data/15118650/openapi.do",
+      "evidence_basis": "Contract status page exposes JSON/XML link-type API metadata and real-time update policy; NaraJangteo bid notice pages expose procurement documents and attachments.",
+      "expected_output": "data/procurement/contracts-and-bids-joined.json",
+      "blocked_by": [
+        "No canonical festival ID in contract data",
+        "automated API access may require key"
+      ],
+      "notes": [
+        "Candidate-match by festival keywords, agency, date window and service terms.",
+        "Store notice number, contract number, agency and attachment URL for every high match."
+      ]
+    }
+  ],
+  "forbidden_collection_methods": [
+    "phone_call",
+    "email_request",
+    "interview",
+    "information_disclosure_request",
+    "paid_database",
+    "login_only_private_area",
+    "access_control_bypass"
+  ]
+}

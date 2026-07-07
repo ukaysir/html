@@ -1,0 +1,97 @@
+{
+  "version": "2026-07-08.collection-readiness",
+  "purpose": "Define a stable festival-year key so master, tourism, finance, procurement and case evidence can be joined without false hidden-relationship claims.",
+  "primary_key": "festival_year_id",
+  "festival_year_id_rule": "sha1(year + normalized_name_ko + normalized_admin_area + normalized_start_date + normalized_primary_venue)",
+  "required_fields": [
+    "year",
+    "source_record_id",
+    "source_dataset_id",
+    "raw_name_ko",
+    "normalized_name_ko",
+    "admin_area_level1",
+    "admin_area_level2",
+    "start_date",
+    "end_date",
+    "primary_venue",
+    "coverage_status"
+  ],
+  "normalization_rules": [
+    {
+      "field": "normalized_name_ko",
+      "rule": "Remove edition numbers, year prefixes, excessive spacing, brackets and marketing subtitles; preserve distinctive core nouns such as 머드, 산천어, 단오, 유등."
+    },
+    {
+      "field": "admin_area",
+      "rule": "Map old/new province names and special-city variants to current canonical Korean names while retaining raw source value."
+    },
+    {
+      "field": "date_range",
+      "rule": "Use festival start/end dates from the most authoritative source for that year; if dates changed, store observed schedule and revised schedule separately."
+    },
+    {
+      "field": "venue",
+      "rule": "Use the primary venue or first listed venue; keep multi-venue notes in venue_detail."
+    },
+    {
+      "field": "organizer",
+      "rule": "Split host, organizer, supervisor, procurement agent, contracting party and payment party into separate relationship records."
+    }
+  ],
+  "coverage_status_values": [
+    "confirmed_master",
+    "current_snapshot_only",
+    "selected_festival_only",
+    "local_backfill",
+    "candidate_match",
+    "needs_review",
+    "rejected"
+  ],
+  "match_confidence_rules": [
+    {
+      "level": "high",
+      "criteria": [
+        "same normalized_name_ko",
+        "same year or overlapping dates",
+        "same admin_area_level2 or venue",
+        "source identifier such as notice number, contract number or official dataset row"
+      ]
+    },
+    {
+      "level": "medium",
+      "criteria": [
+        "name and region match",
+        "date or venue differs in a plausible schedule-change pattern",
+        "no contract/notice identifier yet"
+      ]
+    },
+    {
+      "level": "low",
+      "criteria": [
+        "keyword overlap only",
+        "source is a plan, preview or media article without official identifier"
+      ]
+    },
+    {
+      "level": "reject",
+      "criteria": [
+        "different region",
+        "different year with no recurrence explanation",
+        "incompatible agency",
+        "attachment title contradicts the candidate festival"
+      ]
+    }
+  ],
+  "join_layers": [
+    "master",
+    "current_geocoding",
+    "tourism_performance",
+    "selected_evaluation",
+    "finance_cost",
+    "budget_allocation",
+    "contract_status",
+    "procurement_notice",
+    "booth_vendor",
+    "case_signal"
+  ]
+}

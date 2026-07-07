@@ -1,0 +1,95 @@
+{
+  "version": "2026-07-08.collection-readiness",
+  "access_date": "2026-07-08",
+  "purpose": "Primary public-source inventory for building the national festival master and joining performance, finance and procurement layers.",
+  "sources": [
+    {
+      "id": "mcst_annual_regional_festival_page",
+      "name_ko": "문체부 지역축제 연도별 자료",
+      "url": "https://www.mcst.go.kr/site/s_culture/festival/festivalList.jsp",
+      "source_grade": "A",
+      "coverage": "2017-2026 annual downloads exposed on page",
+      "fields_expected": ["festival name", "region", "dates", "venue", "budget", "visitors", "organizer fields depending on file"],
+      "access_mode": "public webpage/download",
+      "observed_detail": "The page states festival schedules may change by local government decision and lists annual regional festival information for 2026 through 2017.",
+      "use": "Backbone master for 2017-2026."
+    },
+    {
+      "id": "public_data_culture_festival_standard",
+      "name_ko": "전국문화축제표준데이터",
+      "url": "https://www.data.go.kr/data/15013104/standard.do",
+      "source_grade": "A",
+      "coverage": "current standard dataset; quarterly update; 229 provider datasets observed",
+      "fields_expected": ["name", "venue", "start/end date", "content", "organizer/sponsor", "URL", "address", "lat/lon", "data reference date"],
+      "access_mode": "public grid/open API/provider files",
+      "observed_detail": "The portal says the dataset covers representative regional culture, art, heritage, tradition, ecology, nature and local-character festivals and was modified on 2026-02-10.",
+      "use": "Current geocoding and duplicate-disambiguation overlay, not historical panel."
+    },
+    {
+      "id": "mcst_region_festival_file_dataset",
+      "name_ko": "문화체육관광부_지역축제 정보_20250106",
+      "url": "https://www.data.go.kr/data/15143175/fileData.do",
+      "source_grade": "A",
+      "coverage": "field-rich XLSX snapshot; 1,214 rows on portal page",
+      "fields_expected": ["festival type", "place", "period", "cycle", "method", "first year", "budget", "visitor count", "organization", "legal basis", "responsible agency"],
+      "access_mode": "public file metadata and MCST download URL",
+      "observed_detail": "The portal describes the XLSX as useful for policy, research, tourism, regional economy and cultural-content analysis; it lists registration 2025-04-29 and modification 2025-08-20.",
+      "use": "Field-rich master supplement and validation source."
+    },
+    {
+      "id": "kto_datalab_festival",
+      "name_ko": "한국관광 데이터랩 문화관광축제 분석",
+      "url": "https://datalab.visitkorea.or.kr/datalab/portal/fes/getFesDataForm.do",
+      "source_grade": "A/B",
+      "coverage": "culture-tourism festival performance overlay, not all festivals",
+      "fields_expected": ["mobile visitor trend", "daily average visitor", "residence", "sex/age", "card spending", "industry spending", "SNS terms"],
+      "access_mode": "public dashboard and downloads where exposed",
+      "observed_detail": "Use as trend evidence; do not treat mobile/card/SNS indicators as exact gate counts.",
+      "use": "Performance and demand-surge signals for selected festivals."
+    },
+    {
+      "id": "lofin_cost_accounting",
+      "name_ko": "지방재정365 행사축제원가회계정보",
+      "url": "https://www.data.go.kr/data/15056968/openapi.do",
+      "source_grade": "A",
+      "coverage": "fiscal year 2012 onward for disclosed event/festival cost accounting",
+      "fields_expected": ["event/festival name", "business content", "total cost", "revenue", "net cost", "start date", "end date"],
+      "access_mode": "public metadata and linked API/page; API traffic policy applies",
+      "observed_detail": "The portal states disclosure is based on Local Finance Act Article 60 and applies to large events, with metro 500m KRW and basic local government 300m KRW thresholds.",
+      "use": "Budget efficiency and net-cost analysis for large disclosed festivals."
+    },
+    {
+      "id": "lofin_budget_allocation",
+      "name_ko": "지방재정365 행사·축제경비편성내역",
+      "url": "https://www.data.go.kr/data/15138721/openapi.do",
+      "source_grade": "A",
+      "coverage": "fiscal year 2015 onward",
+      "fields_expected": ["event operation expense", "event actual-cost compensation", "private event subsidy", "event-related facility expense", "ratio to total expenditure"],
+      "access_mode": "public metadata and linked API/page; API traffic policy applies",
+      "observed_detail": "The portal describes four budget statistics categories: 201-03, 301-11, 307-04 and 401-04.",
+      "use": "Local-government budget context and potential budget-pressure signal."
+    },
+    {
+      "id": "lofin_contract_status",
+      "name_ko": "지방재정365 계약현황",
+      "url": "https://www.data.go.kr/data/15118650/openapi.do",
+      "source_grade": "A",
+      "coverage": "real-time linked contract status metadata",
+      "fields_expected": ["contract ledger identifier", "contract method", "contract date", "amount", "agency", "supplier where available"],
+      "access_mode": "public metadata and linked JSON/XML page; API traffic policy applies",
+      "observed_detail": "The portal lists JSON+XML link-type API, real-time update cycle and public/free use.",
+      "use": "Contract/vendor join candidate layer."
+    },
+    {
+      "id": "nara_bid_notice_service",
+      "name_ko": "조달청 나라장터 입찰공고정보서비스",
+      "url": "https://www.data.go.kr/data/15129394/openapi.do",
+      "source_grade": "A",
+      "coverage": "bid notice metadata and public procurement attachments where available",
+      "fields_expected": ["bid notice number", "order", "agency", "demand agency", "service title", "notice date", "bid method", "attachments"],
+      "access_mode": "public metadata; automated API may require service key; attachments may be direct or guarded",
+      "observed_detail": "Use G2B notice number and attachment URL as relationship evidence anchors.",
+      "use": "RFP/task-instruction, cancellation/change and contractor-package evidence."
+    }
+  ]
+}

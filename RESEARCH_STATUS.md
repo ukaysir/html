@@ -10,6 +10,7 @@ Updated: 2026-07-07.
 - `a2171fa` expanded case, procurement and coverage evidence.
 - `ee3de90` HTML evidence navigation improvements.
 - `99f5ab9` cause-first index.
+- `TBD` collection-readiness model for normalized festival-year keys, source inventory and collection backlog.
 
 ## Evidence layers now present
 - Official source map for festival master, tourism/performance, finance/cost, procurement and case evidence.
@@ -21,6 +22,7 @@ Updated: 2026-07-07.
 - Procurement evidence for host/supervisor, procurement agent, lead contractor package, subcontract restriction, bid cancellation/change, booth recruitment and selected vendor records.
 - Coverage matrix explaining the 2017-2026 backbone and 2016 nationwide master-data gap.
 - Cause-first index for climate/safety, price/booth, traffic/access, content/identity, budget/contract, social-license and data-gap exploration.
+- Collection-readiness model for festival-year key normalization, source inventory and staged ingestion tasks.
 
 ## Current limitations
 - The repository is not yet a complete national archive of every 2016-2026 Korean festival.
@@ -37,3 +39,4 @@ Updated: 2026-07-07.
 - Expand NaraJangteo contract matching with notice number, agency, date, amount, method and supplier where public.
 - Add case pages for top failure/risk clusters: crowding/access, price/merchant, weather/climate, budget inefficiency, content dilution and social-license conflict.
 - Add visual relation graph rendering once enough high-confidence public relationships exist.
+- Convert collection backlog into machine-executed ingestion when service keys or downloadable files are available.

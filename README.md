@@ -42,3 +42,6 @@ Pages was checked as not enabled during the research run. To publish, use:
 - `data/procurement-evidence-wave3.json`
 - `data/source-coverage-matrix.json`
 - `data/cause-index.json`
+- `data/normalized-key-spec.json`
+- `data/collection-backlog.json`
+- `data/master-source-inventory.json`
