@@ -91,3 +91,9 @@ Updated: 2026-07-07.
 - Added a stricter Level A/B/C/D classification to avoid overclaiming contractor or procurement causality.
 - Identified Incheon Pentaport 2019 as the first strong Level A causal-candidate case linking selection dispute, injunction attempt, agreement execution, lineup/communication criticism, and operating-organization structure.
 - Added data/festival-governance-causal-chain-wave1.json, .csv, festival-governance-causal-chain-wave1.html, and evidence note.
+
+## Checkpoint: Pentaport 2019 cause dossier (2026-07-08T02:08:00+09:00)
+
+- Built a detailed dossier for Incheon Pentaport 2019 as the first Level A causal-candidate case.
+- Separated confirmed governance structure, public selection dispute, court-result reporting, programming/communication critique, ticket-value critique, counter-evidence, and unresolved proof gaps.
+- Added data/pentaport-2019-cause-dossier.json, .csv, pentaport-2019-cause-dossier.html, and evidence note.

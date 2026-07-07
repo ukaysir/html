@@ -93,3 +93,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/festival-governance-causal-chain-wave1.json: separates causal candidates from procurement-only or outcome-only evidence.
 - festival-governance-causal-chain-wave1.html: human-readable chain from incident/success outcome to organizer, contractor, or evaluation structure.
+
+## Pentaport 2019 cause dossier
+
+- data/pentaport-2019-cause-dossier.json: first detailed Level A causal-candidate dossier linking governance, operator selection, and public experience criticism.
+- pentaport-2019-cause-dossier.html: human-readable "why did this become a problem?" dossier with evidence strength and open proof gaps.
