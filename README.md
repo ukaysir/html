@@ -295,3 +295,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added daejeon-bread-festival-demand-queue-outsourcing-dossier.html plus structured JSON/CSV and evidence dossier for 대전빵축제 2023-2026.
 - Key cause: brand demand created large attendance, but queue time, sold-out supply, parking, and outsourced operation KPIs determine satisfaction.
 
+
+### 자라섬재즈페스티벌 유료문화·지역브랜드·거버넌스 사례
+- Added jarasum-jazz-paid-governance-local-brand-dossier.html plus structured JSON/CSV and evidence dossier for 자라섬재즈페스티벌 2018-2026.
+- Key cause: strong genre identity, paid tickets, international lineup, and local stay economy drive success; subsidy, agreement, and revenue transparency remain governance risks.
+

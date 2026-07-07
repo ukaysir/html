@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 36,
+    "festival_case_records": 37,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
@@ -26,9 +26,64 @@
     "paid_experience_global_records": 1,
     "public_private_megacity_records": 1,
     "arts_identity_space_records": 1,
-    "food_brand_queue_records": 1
+    "food_brand_queue_records": 1,
+    "paid_culture_governance_records": 1
   },
   "records": [
+    {
+      "id": "jarasum-jazz-2018-2026",
+      "festival": "자라섬재즈페스티벌 2018-2026",
+      "region": "경기 가평군 자라섬·가평읍내",
+      "period": "2018-2026",
+      "verdict": "유료문화축제 성공+거버넌스 리스크",
+      "evidence_grade": "B+",
+      "why": "장르 정체성, 유료 티켓, 국제 라인업, 지역 체류 경험이 성공 요인이지만 보조금·협약·수익금 투명성은 리스크다.",
+      "success_factors": [
+        "명확한 재즈 장르 정체성",
+        "자연환경과 체류형 경험",
+        "유료 티켓 모델",
+        "국제 라인업",
+        "가평 읍내 연계"
+      ],
+      "failure_risks": [
+        "감염병 온라인 전환",
+        "보조금 집행 리스크",
+        "운영협약·수익금 논란",
+        "날씨·라인업·환불 민감도"
+      ],
+      "data_points": [
+        "2025 누적관객 300만명 근접",
+        "2025 17개국 41개 팀",
+        "2024 1일권 8만원·3일권 18만원",
+        "2018 전체예산 약 20억원 보도"
+      ],
+      "stakeholders": [
+        "자라섬재즈페스티벌 조직",
+        "가평군",
+        "문화체육관광부",
+        "경기도",
+        "문화현상 관련 보도",
+        "스폰서",
+        "유료 관객",
+        "가평 지역상권"
+      ],
+      "html": "jarasum-jazz-paid-governance-local-brand-dossier.html",
+      "tags": [
+        "paid_culture",
+        "international_lineup",
+        "local_brand",
+        "subsidy_governance",
+        "ticket_revenue"
+      ],
+      "sources": [
+        "https://jarasumjazz.com/",
+        "https://v.daum.net/v/20251016102444141",
+        "https://tickets.interpark.com/contents/notice/detail/2836",
+        "https://www.yna.co.kr/view/AKR20200805040700060",
+        "https://www.kgnews.co.kr/news/article.html?no=528335",
+        "https://www.ilyo.co.kr/?ac=article_view&entry_id=460858"
+      ]
+    },
     {
       "id": "daejeon-bread-2023-2026",
       "festival": "대전빵축제 2023-2026",

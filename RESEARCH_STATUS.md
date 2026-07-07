@@ -343,3 +343,9 @@ Updated: 2026-07-07.
 - Evidence: 2023 expert critique, 2024 crowd/queue reports, 2025 official schedule and closure metrics, 2026 operation outsourcing bid result.
 - Planning implication: collect queue time, booth supply, sell-out time, traffic, and agency KPI data, not just visitor totals.
 
+
+## Checkpoint: 자라섬재즈페스티벌 2018-2026
+- Added case id: jarasum-jazz-2018-2026.
+- Evidence: official 2026 site, 2025 lineup/attendance milestone, 2024 ticket data, 2020 online pivot, 2018 subsidy/budget reporting, 2023 agreement/revenue controversy reporting.
+- Planning implication: collect paid ticket conversion, subsidy/sponsor/ticket revenue split, local stay spending, and contingency policy data.
+

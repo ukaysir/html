@@ -36,6 +36,13 @@
           "festival": "진주남강유등축제 2015-2026",
           "page": "jinju-yudeung-paid-access-governance-dossier.html",
           "signal": "무료입장+일부 체험 유료 회복 구조"
+        },
+        {
+          "id": "jarasum-jazz-2018-2026",
+          "festival": "자라섬재즈페스티벌 2018-2026",
+          "html": "jarasum-jazz-paid-governance-local-brand-dossier.html",
+          "evidence_grade": "B+",
+          "why": "유료 티켓과 지역 체류 프로그램이 결합된 성공 대조군"
         }
       ]
     },
@@ -119,6 +126,13 @@
           "html": "daejeon-bread-festival-demand-queue-outsourcing-dossier.html",
           "evidence_grade": "B+",
           "why": "2026 운영 대행 용역과 공공-브랜드-상권 관계를 함께 확인해야 하는 사례"
+        },
+        {
+          "id": "jarasum-jazz-2018-2026",
+          "festival": "자라섬재즈페스티벌 2018-2026",
+          "html": "jarasum-jazz-paid-governance-local-brand-dossier.html",
+          "evidence_grade": "B+",
+          "why": "공공보조, 민간 운영, 티켓·협찬 수익 배분을 함께 봐야 하는 사례"
         }
       ]
     },
@@ -359,6 +373,13 @@
           "html": "chuncheon-mime-arts-space-governance-dossier.html",
           "evidence_grade": "B+",
           "why": "희소 장르와 도시 전체 무대화가 방문 동기를 만든 성공 사례"
+        },
+        {
+          "id": "jarasum-jazz-2018-2026",
+          "festival": "자라섬재즈페스티벌 2018-2026",
+          "html": "jarasum-jazz-paid-governance-local-brand-dossier.html",
+          "evidence_grade": "B+",
+          "why": "재즈 장르와 자라섬 자연환경이 대체 어려운 축제 정체성을 만든 사례"
         }
       ]
     },
@@ -394,6 +415,20 @@
           "html": "daejeon-bread-festival-demand-queue-outsourcing-dossier.html",
           "evidence_grade": "B+",
           "why": "먹거리 축제는 가격보다 공급량·품절·부스 회전율이 만족도를 좌우한다"
+        }
+      ]
+    },
+    {
+      "route_id": "weather-pandemic-contingency",
+      "title": "날씨·감염병·외부충격",
+      "why": "2020년 온라인 전환처럼 대면 공연형 축제는 외부충격 대응 시나리오가 필요하다",
+      "cases": [
+        {
+          "id": "jarasum-jazz-2018-2026",
+          "festival": "자라섬재즈페스티벌 2018-2026",
+          "html": "jarasum-jazz-paid-governance-local-brand-dossier.html",
+          "evidence_grade": "B+",
+          "why": "2020년 온라인 전환처럼 대면 공연형 축제는 외부충격 대응 시나리오가 필요하다"
         }
       ]
     }
