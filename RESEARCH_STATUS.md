@@ -276,3 +276,9 @@ Updated: 2026-07-07.
 - Added a night-spectacle crowd/traffic dossier for Sejong Nakhwa Festival covering the 2023 first-year parking/traffic bottleneck, 2024 parking/traffic/safety controls, 2024 evaluation gaps, 2025 outside-visitor/economic-effect leads and 2026 no-accident 100k-crowd lead.
 - Classified the case as B+ traffic/safety stabilization, B outcome and C contractor attribution: public evidence supports capacity planning and public safety/traffic coordination, not hidden subcontractor causality.
 - Added data/sejong-nakhwa-crowd-traffic-stabilization-dossier.json, .csv, sejong-nakhwa-crowd-traffic-stabilization-dossier.html, evidence note, case-matrix links and why-cause router links.
+
+## Checkpoint: Inje Icefish climate/water-level cancellation dossier (2026-07-08T09:00:00+09:00)
+
+- Added a winter-site failure dossier for Inje Icefish Festival covering 2019 person-counting/economic-effect baseline, 2023 demand/effect lead, 2024-2026 cancellations, Soyang Dam water-level threshold, insufficient freezing, site submersion, safety risk and four-season tourism adaptation leads.
+- Classified the case as B+ climate/water-level, B+ demand history and C contractor attribution: public evidence supports physical site-condition failure, not demand disappearance or hidden subcontractor causality.
+- Added data/inje-icefish-climate-waterlevel-cancellation-dossier.json, .csv, inje-icefish-climate-waterlevel-cancellation-dossier.html, evidence note, case-matrix links and why-cause router links.

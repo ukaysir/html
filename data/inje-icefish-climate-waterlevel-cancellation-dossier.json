@@ -1,0 +1,62 @@
+{
+  "id": "inje-icefish-climate-waterlevel-cancellation-dossier",
+  "title": "인제빙어축제 기후·수위 취소 dossier",
+  "festival": "인제빙어축제",
+  "region": "강원특별자치도 인제군",
+  "years_covered": [2016, 2019, 2023, 2024, 2025, 2026],
+  "classification": {
+    "overall": "climate_waterlevel_site_failure_case",
+    "climate_waterlevel_evidence": "B+",
+    "historical_demand_evidence": "B+",
+    "economic_effect_evidence": "B",
+    "contractor_attribution": "C"
+  },
+  "one_line_verdict": "방문수요가 없어서 실패한 것이 아니라 소양강댐 수위와 결빙조건이 맞지 않아 행사장을 안전하게 만들 수 없어 2024~2026년 3년 연속 무산된 winter-site failure case다.",
+  "causal_chain": [
+    "인제빙어축제는 1998년 시작된 원조 겨울축제이고, 얼음 위 빙어낚시와 겨울놀이가 핵심이다.",
+    "안정적 운영에는 소양강댐 수위가 약 183m 수준이어야 하지만, 2024~2026년에는 높은 수위로 행사장 일부가 수면 아래에 있었다.",
+    "가을철 강수와 댐 운영, 겨울철 온화한 기온이 겹치며 행사장 전반 결빙도 형성되지 않았다.",
+    "재단은 안전사고 우려 때문에 무리한 강행을 하지 않고 취소를 택했다.",
+    "2019년과 2023년에는 각각 방문객/경제효과 lead가 있어 역사적 수요와 지역경제 효과는 확인된다.",
+    "따라서 실패 원인은 콘텐츠·홍보·하청보다 물리적 site condition과 기후 적응전략 부재다."
+  ],
+  "key_numbers": [
+    {"year": 2019, "value": "113,011 visitors and KRW 6.186b direct effect lead", "meaning": "accurate person-counting method was introduced instead of vehicle counting"},
+    {"year": 2023, "value": "203,020 visitors and KRW 14.4968b direct regional effect lead", "meaning": "demand/economic value remained strong before cancellations"},
+    {"year": 2024, "value": "festival cancelled due high Soyang Dam water level, about EL.190.5 lead", "meaning": "site formation became impossible"},
+    {"year": 2026, "value": "required water level about 183m but actual 185m late range plus insufficient freezing", "meaning": "3rd consecutive cancellation and safety risk"}
+  ],
+  "not_yet_proven": [
+    "That a contractor, agency or subcontractor caused the cancellation.",
+    "That demand disappeared; demand was historically strong but the site could not be formed safely.",
+    "That dam water-level control could have been changed without public water-supply, climate-disaster and safety tradeoffs.",
+    "That a four-season tourism strategy will economically replace the lost winter-special demand."
+  ],
+  "next_evidence_needed": [
+    "Official foundation notices for 2024, 2025 and 2026 cancellations and safety thresholds.",
+    "Daily Soyang Dam water level, inflow/outflow and temperature/ice thickness data around planned festival periods.",
+    "Local Finance 365 cost/cancellation rows and sunk-cost records.",
+    "Resident/merchant impact data for three consecutive non-held years.",
+    "Feasibility evidence for alternative venue, artificial ice, summer/four-season festival conversion or program diversification."
+  ],
+  "evidence_records": [
+    {"id": "II-01", "type": "historical_demand", "claim": "2019 evaluation introduced person-counting and reported 113,011 visitors plus KRW 6.186b direct economic effect.", "source_ids": ["S1"]},
+    {"id": "II-02", "type": "economic_effect", "claim": "2023 evaluation reported 203,020 visitors and KRW 14.4968b direct regional effect.", "source_ids": ["S2", "S3"]},
+    {"id": "II-03", "type": "waterlevel_failure", "claim": "2024 cancellation was linked to high Soyang Dam water level, autumn rain and inability to form the site/ice safely.", "source_ids": ["S4", "S5"]},
+    {"id": "II-04", "type": "repeated_cancellation", "claim": "2026 cancellation made three consecutive non-held years due water level and insufficient freezing; safe operation would need about 183m water level.", "source_ids": ["S6", "S7", "S8"]},
+    {"id": "II-05", "type": "governance_constraint", "claim": "Water-level adjustment is constrained by dam and water-management agencies because future weather, disaster response and water supply matter.", "source_ids": ["S9"]},
+    {"id": "II-06", "type": "adaptation_strategy", "claim": "Inje is discussing four-season tourism because repeated winter-site failure undermines the old model.", "source_ids": ["S6", "S10"]}
+  ],
+  "sources": [
+    {"id": "S1", "title": "연합뉴스 - 2019 인제빙어축제 방문객 정확 집계", "url": "https://www.yna.co.kr/view/AKR20190327145700062", "evidence": "113,011 visitors, KRW 6.186b direct effect, person-counting method"},
+    {"id": "S2", "title": "G1방송 - 2023 지역경제 효과 144억", "url": "https://www.g1tv.co.kr/news/?mid=1_207_4&newsid=285055", "evidence": "203,020 visitors, KRW 14.4968b direct effect, high evaluations"},
+    {"id": "S3", "title": "프레시안 - 제23회 인제빙어축제 경제효과", "url": "https://www.pressian.com/pages/articles/2023040910594969074", "evidence": "visitor, spending and direct economic effect details"},
+    {"id": "S4", "title": "매일안전신문 - 인제 빙어 축제 취소", "url": "https://idsn.co.kr/news/view/1065602261473179", "evidence": "2024 cancellation, EL.183m threshold, EL.190.5 level, autumn rain and dam operation constraints"},
+    {"id": "S5", "title": "TheFestival - 기후변화 대응 사계절축제 전환", "url": "https://thefestival.co.kr/news/all/3762/", "evidence": "2024 cancellation due winter rain and high Soyang Dam water level; four-season conversion lead"},
+    {"id": "S6", "title": "연합뉴스 - 2026 3년 연속 개최 무산", "url": "https://www.yna.co.kr/view/AKR20260112067000062", "evidence": "2026 cancellation, climate crisis, insufficient freezing, 183m needed vs 185m late range, safety risk"},
+    {"id": "S7", "title": "YTN - 2026 인제빙어축제 무산", "url": "https://www.ytn.co.kr/_ln/0134_202601121425334816", "evidence": "3 consecutive cancellations, water-level and freezing explanation"},
+    {"id": "S8", "title": "Newstown - 2026 취소와 주민 토론회", "url": "https://www.newstown.co.kr/news/articleView.html?idxno=687384", "evidence": "2026 cancellation, 183m threshold, 185m range, resident discussion and sustainability"},
+    {"id": "S9", "title": "강원도민일보/Daum - 소양호 수위에 막힌 미래", "url": "https://v.daum.net/v/20251210001204372?f=p", "evidence": "28-year history, 7 cancellations, 2016/2024/2025 water-level cancellations, agency water-level response constraints"},
+    {"id": "S10", "title": "Daum - 기후 위기와 사계절 관광", "url": "https://v.daum.net/v/ZgxKDhmjMW?f=p", "evidence": "3 consecutive lost winter demand and four-season tourism narrative"}
+  ]
+}

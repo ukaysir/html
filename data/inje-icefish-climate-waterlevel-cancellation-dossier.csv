@@ -1,0 +1,8 @@
+metric,claim,value_or_signal,why_it_matters,source_ids,evidence_level
+classification,Overall classification,climate-water-level site failure case,Shows strong demand can fail when winter site cannot be safely formed,S4|S6|S9,B+
+2019_counting,Visitor/effect baseline,113011 visitors and KRW 6.186b direct effect,Person-counting benchmark before later cancellations,S1,B+
+2023_effect,Pre-cancellation demand,203020 visitors and KRW 14.4968b direct effect,Shows demand/economic value persisted,S2|S3,B+
+waterlevel_threshold,Required water level,about 183m,Physical site formation threshold,S4|S6,B+
+actual_waterlevel,2026 actual condition,185m late range and insufficient freezing,Explains 3rd consecutive cancellation,S6|S7|S8,B+
+dam_governance,Water management constraint,K-water/flood-control agencies did not commit to short-term lowering,Shows public-utility tradeoff beyond festival control,S9,B
+contractor_attribution,Contractor causality,not proven,No evidence links agency/subcontractor to cancellation,S4|S6,C

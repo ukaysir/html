@@ -10,12 +10,12 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 25,
+    "festival_case_records": 26,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
     "demand_or_crowd_records": 6,
-    "weather_or_nature_dependency_records": 2,
+    "weather_or_nature_dependency_records": 3,
     "budget_waste_requires_join_model": true,
     "metric_opacity_records": 1,
     "content_social_license_records": 1
@@ -371,6 +371,27 @@
       ],
       "not_yet_proven": "자연조건 관리와 성과 사이의 정량 인과.",
       "next_evidence_needed": "코스 폐쇄 이력, 안전점검표, 기상자료, 입장권/지역소비 연결."
+    },
+    {
+      "id": "inje-icefish-2019-2026",
+      "record_type": "festival_case",
+      "festival": "인제빙어축제",
+      "years": "2019, 2023-2026",
+      "page": "inje-icefish-climate-waterlevel-cancellation-dossier.html",
+      "question": "방문수요가 있는데도 왜 3년 연속 개최하지 못했나?",
+      "short_answer": "소양강댐 수위와 결빙조건이 맞지 않아 행사장을 안전하게 만들 수 없는 site failure다. 2023년 20만명/144억 효과 lead가 있어 수요실패나 하청실패로 보면 안 된다.",
+      "evidence_level": "B+ climate/water-level, B+ demand history, C attribution",
+      "procurement_link": "weak",
+      "outcome_link": "strong cancellation/demand contrast",
+      "primary_causes": [
+        "climate_risk",
+        "water_level",
+        "ice_condition",
+        "site_failure",
+        "safety_threshold"
+      ],
+      "not_yet_proven": "대행사·하청업체 책임, 수위조절 대안의 정책 가능성, 사계절 전환의 대체효과.",
+      "next_evidence_needed": "일별 소양강댐 수위/기온/얼음두께, 공식 취소 공문, 취소비용, 상권 피해, 대체장소·사계절 전략 비용효과."
     },
     {
       "id": "hwacheon-sancheoneo-2020-2026",

@@ -245,3 +245,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/sejong-nakhwa-crowd-traffic-stabilization-dossier.json: night-spectacle crowd dossier separating first-year traffic/parking bottleneck, parking/traffic controls, safety/fire controls, evaluation gaps, visitor/economic-effect leads and contractor-attribution limits.
 - sejong-nakhwa-crowd-traffic-stabilization-dossier.html: human-readable explanation of why Sejong Nakhwa Festival is a crowd-peak and traffic-capacity stabilization case rather than a simple subcontractor case.
+
+## Inje Icefish climate/water-level cancellation dossier
+
+- data/inje-icefish-climate-waterlevel-cancellation-dossier.json: winter-site failure dossier separating historical demand/economic effect, Soyang Dam water-level threshold, insufficient freezing, safety cancellation, dam-governance constraints and four-season adaptation leads.
+- inje-icefish-climate-waterlevel-cancellation-dossier.html: human-readable explanation of why Inje Icefish Festival is a climate/water-level site failure rather than a demand or subcontractor failure.
