@@ -105,6 +105,13 @@
           "festival": "서울세계불꽃축제 2024-2025",
           "page": "seoul-fireworks-crowd-public-private-governance-dossier.html",
           "signal": "한화 민간 주최 + 서울시/경찰/소방/자치구 공공지원, 행정지원 약 4억 원 보도"
+        },
+        {
+          "id": "chuncheon-mime-2020-2026",
+          "festival": "춘천마임축제 2020-2026",
+          "html": "chuncheon-mime-arts-space-governance-dossier.html",
+          "evidence_grade": "B+",
+          "why": "예산 삭감, 후원·협찬, 문화재단·방송사·공공기관 관계를 함께 봐야 하는 사례"
         }
       ]
     },
@@ -214,6 +221,13 @@
           "festival": "서울세계불꽃축제 2024-2025",
           "page": "seoul-fireworks-crowd-public-private-governance-dossier.html",
           "signal": "100만 명 예상, 경찰 3,448명, 병목구간/역사/교량 통제"
+        },
+        {
+          "id": "chuncheon-mime-2020-2026",
+          "festival": "춘천마임축제 2020-2026",
+          "html": "chuncheon-mime-arts-space-governance-dossier.html",
+          "evidence_grade": "B+",
+          "why": "총방문객보다 개막난장·밤샘난장 피크 수요와 야간 귀가를 따로 예측해야 하는 사례"
         }
       ]
     },
@@ -317,6 +331,34 @@
           "festival": "인천 펜타포트음악축제 2025",
           "page": "pentaport-2025-success-dossier.html",
           "status": "success with contractor-attribution gap"
+        }
+      ]
+    },
+    {
+      "route_id": "content-identity",
+      "title": "콘텐츠 정체성·대체불가능성",
+      "why": "희소 장르와 도시 전체 무대화가 방문 동기를 만든 성공 사례",
+      "cases": [
+        {
+          "id": "chuncheon-mime-2020-2026",
+          "festival": "춘천마임축제 2020-2026",
+          "html": "chuncheon-mime-arts-space-governance-dossier.html",
+          "evidence_grade": "B+",
+          "why": "희소 장르와 도시 전체 무대화가 방문 동기를 만든 성공 사례"
+        }
+      ]
+    },
+    {
+      "route_id": "access-site",
+      "title": "접근성·공간 수용력",
+      "why": "고정 공간 부재와 주차 병목을 공간 협약으로 완화한 사례",
+      "cases": [
+        {
+          "id": "chuncheon-mime-2020-2026",
+          "festival": "춘천마임축제 2020-2026",
+          "html": "chuncheon-mime-arts-space-governance-dossier.html",
+          "evidence_grade": "B+",
+          "why": "고정 공간 부재와 주차 병목을 공간 협약으로 완화한 사례"
         }
       ]
     }

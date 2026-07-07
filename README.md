@@ -285,3 +285,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added seoul-fireworks-crowd-public-private-governance-dossier.html and structured JSON/CSV data for 서울세계불꽃축제 2024-2025.
 - Classifies the case as a public/private mega-event governance case: Hanwha private hosting plus Seoul/police/fire/district public safety, traffic, cleanup, and resident externality costs.
 - Updated the common-pattern synthesis to include public/private mega-event cost and responsibility boundaries.
+
+### 춘천마임축제 콘텐츠·공간·예산 거버넌스 사례
+- Added chuncheon-mime-arts-space-governance-dossier.html plus structured JSON/CSV and evidence dossier for 춘천마임축제 2020-2026.
+- Key cause: arts identity and city-wide staging drove demand, while pandemic cancellation, venue insecurity, budget cuts, and traffic peaks remain planning risks.
+

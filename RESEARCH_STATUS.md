@@ -331,3 +331,9 @@ Updated: 2026-07-07.
 - Added why-router coverage for public/private mega-event responsibility and linked 서울세계불꽃축제 into demand/crowd and budget/outsourcing governance routes.
 - Updated common-pattern synthesis count and festival pattern map.
 - Evidence status: A-. Strong public-source support for 100만 인파, police/Seoul/Hanwha safety operations, traffic controls, toilet/trash/medical capacity, and resident externality claims. Exact public cost allocation still requires official budget/settlement data.
+
+## Checkpoint: 춘천마임축제 2020-2026
+- Added case id: chuncheon-mime-2020-2026.
+- Evidence: official organizer/KTO pages, COVID cancellation, 2023/2024 evaluation metrics, traffic-space improvement, budget cut record, 2026 closure and honor festival designation.
+- Planning implication: collect space agreements, budget stability, time-band crowding, and transport capacity in addition to visitor totals.
+

@@ -1,0 +1,134 @@
+{
+  "id": "chuncheon-mime-2020-2026",
+  "slug": "chuncheon-mime-arts-space-governance-dossier",
+  "festival": "춘천마임축제 2020-2026",
+  "region": "강원 춘천시",
+  "period": "2020-2026",
+  "verdict": "성공+리스크",
+  "evidence_grade": "B+",
+  "outcome_type": [
+    "arts_identity_success",
+    "space_governance_risk",
+    "budget_vulnerability",
+    "post_covid_recovery"
+  ],
+  "why_success": [
+    "마임이라는 희소 장르를 물·불·몸짓·도시 공간과 결합해 대체 어려운 콘텐츠 정체성을 확보했다.",
+    "2023년 10만3000명·243억원, 2024년 13만명·360억9241만원 등 외부 평가 지표가 반복 확인됐다.",
+    "레고랜드 주차장 등 공간 협약으로 기존 주차·교통 불편을 완화한 해에는 만족도와 체류 경험이 개선됐다.",
+    "명예 문화관광축제 지정, 시민 후원회원, 협찬사 모집, 자원활동가 운영으로 공공보조금 외 기반을 넓혔다."
+  ],
+  "why_failure_or_risk": [
+    "2020년 코로나19로 32년 만에 전체 취소되어 감염병·대형집객 리스크가 현실화됐다.",
+    "10만명 규모 대표축제인데도 고정 메인 공간이 없어 매년 장소 발굴과 협상이 반복된다.",
+    "축제 지원예산 삭감 사례는 의회·재정 상황에 따라 프로그램 품질과 운영 안정성이 흔들릴 수 있음을 보여준다.",
+    "대표 프로그램은 야간·집중형 수요가 있어 주차, 귀가, 안전, 소음, 쓰레기 수용력 예측이 필요하다."
+  ],
+  "data_points": {
+    "visitors_2023": "10만3000명",
+    "direct_effect_2023": "243억원",
+    "satisfaction_2023": "86.5점",
+    "visitors_2024": "13만명",
+    "induced_effect_2024": "360억9241만원",
+    "total_spending_2024": "150억1547만원",
+    "satisfaction_2024": "87.9점",
+    "visitors_2026": "10만2028명",
+    "performers_2026": "해외 10개국, 국내 82개 팀, 총 280여 명",
+    "volunteers_staff_2026": "자원활동가 100여 명, 스태프 60여 명"
+  },
+  "stakeholder_map": {
+    "host": [
+      "(사)춘천마임축제",
+      "KBS춘천방송총국",
+      "G1방송"
+    ],
+    "operator": [
+      "(사)춘천마임축제",
+      "(재)춘천문화재단"
+    ],
+    "public_support": [
+      "문화체육관광부",
+      "강원특별자치도",
+      "춘천시",
+      "한국관광공사",
+      "한국문화예술위원회"
+    ],
+    "private_space_and_sponsors": [
+      "레고랜드코리아 리조트",
+      "더존비즈온",
+      "강촌레일파크",
+      "한국수력원자력 한강수력본부"
+    ]
+  },
+  "sources": [
+    {
+      "label": "2024 공식 축제 페이지",
+      "url": "https://mimefestival.com/festival2024/cimf",
+      "evidence": "주최·주관·후원·협력·협찬 및 개최 장소 구조",
+      "lines": "34-44"
+    },
+    {
+      "label": "대한민국 구석구석 2026 등록 정보",
+      "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=6976e484-75c5-447b-ad8f-33f44cc37ac4",
+      "evidence": "2026 일정, 프로그램, 일부 유료 가격, 업체 정보",
+      "lines": "118-138, 142-166"
+    },
+    {
+      "label": "경향신문 2020 취소",
+      "url": "https://www.khan.co.kr/article/202005132225025",
+      "evidence": "코로나19로 32년 만에 첫 취소",
+      "lines": "236-244"
+    },
+    {
+      "label": "춘천마임축제 보도자료 2023 평가",
+      "url": "https://mimefestival.com/library/newsView?no=412",
+      "evidence": "10만3000명, 243억원, 만족도 86.5점, 고정 공간 부재 언급",
+      "lines": "46-71"
+    },
+    {
+      "label": "강원일보 2024 경제효과",
+      "url": "https://www.kwnews.co.kr/page/view/2024072114452901047",
+      "evidence": "13만명, 360억9241만원, 만족도 87.9점",
+      "lines": "143-150"
+    },
+    {
+      "label": "연합뉴스/한국경제 2024 공간·교통",
+      "url": "https://www.hankyung.com/article/202406029712Y",
+      "evidence": "레고랜드 주차장 활용으로 반복 교통 불편 해소",
+      "lines": "157-172"
+    },
+    {
+      "label": "G1 예산 삭감 보도",
+      "url": "https://www.g1tv.co.kr/news/?mid=1_207_3&newsid=140419",
+      "evidence": "축제 지원예산 삭감과 객관 평가 지표 필요",
+      "lines": "148-154"
+    },
+    {
+      "label": "강원일보/다음 2026 폐막",
+      "url": "https://v.daum.net/v/20260531120907130",
+      "evidence": "10만2028명, 공연팀, 자원활동가·스태프 규모",
+      "lines": "74-99"
+    },
+    {
+      "label": "강원일보/다음 2026-2027 명예문화관광축제",
+      "url": "https://v.daum.net/v/20260127163533513",
+      "evidence": "4년 연속 지정, 후원·협찬 구조",
+      "lines": "74-92"
+    }
+  ],
+  "planning_implications": [
+    "축제 성공 지표는 방문객 수보다 고유 콘텐츠, 공간 수용력, 예산 안정성, 야간 귀가 안전을 함께 봐야 한다.",
+    "대행 용역 중심으로만 조사하면 핵심 리스크를 놓친다. 이 사례는 장소 협약과 후원·협찬·문화재단 관계가 성패를 좌우한다.",
+    "비슷한 예술형 축제는 고정 공간, 집중 시간대, 유료·무료 프로그램 믹스, 시민 참여율을 별도 변수로 수집해야 한다."
+  ],
+  "html": "chuncheon-mime-arts-space-governance-dossier.html",
+  "tags": [
+    "예술축제",
+    "콘텐츠정체성",
+    "공간거버넌스",
+    "예산리스크",
+    "교통주차",
+    "코로나취소",
+    "명예문화관광축제"
+  ]
+}

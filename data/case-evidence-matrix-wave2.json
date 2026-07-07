@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 32,
+    "festival_case_records": 35,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
@@ -24,9 +24,69 @@
     "winter_climate_success_records": 1,
     "paid_access_social_license_records": 1,
     "paid_experience_global_records": 1,
-    "public_private_megacity_records": 1
+    "public_private_megacity_records": 1,
+    "arts_identity_space_records": 1
   },
   "records": [
+    {
+      "id": "chuncheon-mime-2020-2026",
+      "festival": "춘천마임축제 2020-2026",
+      "region": "강원 춘천시",
+      "period": "2020-2026",
+      "verdict": "성공+리스크",
+      "evidence_grade": "B+",
+      "why": "마임 고유 장르와 도시 전체 무대화는 성공했지만, 2020 감염병 취소·고정 공간 부재·예산 삭감·교통 병목이 구조 리스크로 확인된다.",
+      "success_factors": [
+        "희소 예술 장르",
+        "물·불·몸짓의 난장형 콘텐츠",
+        "공식 평가 기반 성과 측정",
+        "공간 협약으로 주차 병목 완화",
+        "후원·협찬·시민 참여"
+      ],
+      "failure_risks": [
+        "감염병 취소",
+        "고정 메인 공간 부재",
+        "축제예산 삭감",
+        "야간 집중 수요",
+        "장소 협상 반복"
+      ],
+      "data_points": [
+        "2023 방문객 10만3000명·직접 경제효과 243억원·만족도 86.5점",
+        "2024 방문객 13만명·생산유발효과 360억9241만원·만족도 87.9점",
+        "2026 시민·관광객 10만2028명"
+      ],
+      "stakeholders": [
+        "(사)춘천마임축제",
+        "춘천문화재단",
+        "KBS춘천방송총국",
+        "G1방송",
+        "문체부",
+        "강원특별자치도",
+        "춘천시",
+        "한국관광공사",
+        "레고랜드코리아 리조트",
+        "협찬사·후원회원"
+      ],
+      "html": "chuncheon-mime-arts-space-governance-dossier.html",
+      "tags": [
+        "arts_identity",
+        "space_governance",
+        "budget_risk",
+        "traffic_parking",
+        "post_covid_recovery"
+      ],
+      "sources": [
+        "https://mimefestival.com/festival2024/cimf",
+        "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=6976e484-75c5-447b-ad8f-33f44cc37ac4",
+        "https://www.khan.co.kr/article/202005132225025",
+        "https://mimefestival.com/library/newsView?no=412",
+        "https://www.kwnews.co.kr/page/view/2024072114452901047",
+        "https://www.hankyung.com/article/202406029712Y",
+        "https://www.g1tv.co.kr/news/?mid=1_207_3&newsid=140419",
+        "https://v.daum.net/v/20260531120907130",
+        "https://v.daum.net/v/20260127163533513"
+      ]
+    },
     {
       "id": "seoul-fireworks-2024-2025",
       "festival": "서울세계불꽃축제 2024-2025",
