@@ -109,3 +109,9 @@ Updated: 2026-07-07.
 - Built a Level B+ governance/outcome bridge dossier for Bucheon International Comics Festival 2025.
 - Connected official KOMACON tender/evaluation pages, public 2025 participation scale, program structure, and 2027 cultural tourism festival selection while preserving contractor-attribution gaps.
 - Added data/bucheon-comics-2025-governance-dossier.json, .csv, bucheon-comics-2025-governance-dossier.html, and evidence note.
+
+## Checkpoint: Suwon Hwaseong 2026 pre-event dossier (2026-07-08T02:39:00+09:00)
+
+- Built a pre-event governance/crowd-risk dossier for the 63rd Suwon Hwaseong Cultural Festival.
+- Upgraded the 2026 case from mirror-only tender lead to official Suwon evaluation-result disclosure with downloadable PDF attachment.
+- Added data/suwon-hwaseong-2026-pre-event-dossier.json, .csv, suwon-hwaseong-2026-pre-event-dossier.html, and evidence note.

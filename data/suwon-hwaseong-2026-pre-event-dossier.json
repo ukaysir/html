@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-07-08T02:39:00+09:00",
+  "case_id": "suwon-hwaseong-2026",
+  "festival": "수원화성문화제",
+  "year": 2026,
+  "classification": "Level B+ pre-event governance/crowd-risk bridge",
+  "short_answer": "제63회 수원화성문화제는 2026년 10월 개최 전이므로 성공/실패를 말할 수 없다. 다만 수원시 공식 평가결과 공개와 PDF 첨부, 민간 미러의 제안요청서/과업지시서 단서, 공식 행사 일정·프로그램·먹거리 부스 없음 안내가 확인되어 사전 수요예측/동선/상권 리스크를 분석할 수 있다.",
+  "evidence_chain": [
+    {
+      "section": "official_evaluation_page",
+      "finding": "수원시 계약정보공개시스템에 제63회 수원화성문화제 행사운영 용역 제안서 평가위원회 평가 결과 공개",
+      "evidence_strength": "high",
+      "source_url": "https://www.suwon.go.kr/web/board/BD_board.view.do?bbsCd=1277&seq=20260526163149743",
+      "analysis_role": "2026 행사운영 용역의 공식 평가절차 확인",
+      "open_gap": "PDF 내용 추출·평가점수 구조화"
+    },
+    {
+      "section": "official_evaluation_attachment",
+      "finding": "평가결과 PDF 첨부 id=5b6f6e11-b6f9-4569-9890-fc7f35539876, referrer GET 200 application/octet-stream size=39417",
+      "evidence_strength": "high",
+      "source_url": "https://www.suwon.go.kr/component/file/ND_fileDownload.do?id=5b6f6e11-b6f9-4569-9890-fc7f35539876",
+      "analysis_role": "자동수집 가능한 공식 평가결과 원문 후보",
+      "open_gap": "PDF 텍스트 추출"
+    },
+    {
+      "section": "tender_mirror",
+      "finding": "제63회 행사운영 용역 R26BK01487453-000, 제안요청서·과업지시서 숙지 조건과 회계과/관광과 문의처 노출",
+      "evidence_strength": "medium",
+      "source_url": "https://www.bidpro.co.kr/n0_ipchal/konggo/svc/konggo_view.asp?num=3099522",
+      "analysis_role": "입찰조건·담당부서·계약방식 단서",
+      "open_gap": "G2B/수원시 공식 입찰 원문 확보"
+    },
+    {
+      "section": "attachment_mirror",
+      "finding": "민간 미러에서 제안요청서, 과업지시서, 공고문 HWP 첨부명 확인",
+      "evidence_strength": "medium",
+      "source_url": "https://pikk.co.kr/bid/2471",
+      "analysis_role": "RFP/task-order 존재 확인 단서",
+      "open_gap": "공식 첨부 다운로드와 텍스트화"
+    },
+    {
+      "section": "event_schedule",
+      "finding": "2026.10.04~2026.10.11 8일간 행궁광장·수원화성 일원 개최",
+      "evidence_strength": "high",
+      "source_url": "https://www.visitsuwon.or.kr/base/menu/baseView?menuLevel=2&menuNo=5",
+      "analysis_role": "방문객 분산/집중 패턴을 예측해야 하는 기본 일정",
+      "open_gap": "일자별 프로그램·예상 방문객·교통 계획"
+    },
+    {
+      "section": "event_programs",
+      "finding": "주제공연, 수상퍼포먼스, 야간 콘텐츠, 시민참여, 글로벌빌리지, 정조대왕 능행차 등",
+      "evidence_strength": "medium_high",
+      "source_url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=95d65f28-6c8f-4226-9697-a5a4e9edc801",
+      "analysis_role": "콘텐츠별 수요와 동선 분산/집중 요인",
+      "open_gap": "프로그램별 수용력·예약/관람 방식"
+    },
+    {
+      "section": "food_booth_policy",
+      "finding": "축제장 내 먹거리 부스가 없고 인근 지역 식당 이용 안내",
+      "evidence_strength": "medium_high",
+      "source_url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=95d65f28-6c8f-4226-9697-a5a4e9edc801",
+      "analysis_role": "예산낭비/상권연계/관람객 불편 리스크를 동시에 만드는 변수",
+      "open_gap": "인근 식당 수용력·가격민원·혼잡도"
+    },
+    {
+      "section": "legacy_procurement_2020",
+      "finding": "2020 제57회 행사대행 용역 공식 SWCF 공고와 제안요청서/과업지시서 첨부 다운로드 확인",
+      "evidence_strength": "high",
+      "source_url": "https://www.swcf.or.kr/?idx=17955&p=115&page=8&viewMode=view",
+      "analysis_role": "행사대행 RFP 구조의 과거 기준점",
+      "open_gap": "2020 결과/성과와 2026 RFP 비교"
+    }
+  ],
+  "risk_hypotheses": [
+    {
+      "hypothesis": "8일간 일정이 방문객 분산에는 유리하지만 특정 핵심일에는 쏠림이 발생할 수 있음",
+      "support": "행사기간은 8일이나 정조대왕 능행차 등 핵심 프로그램은 특정일/시간에 집중될 가능성이 있다.",
+      "current_confidence": "medium",
+      "needed_to_confirm": "일자별 프로그램표, 예상 방문객, 교통/안전계획"
+    },
+    {
+      "hypothesis": "먹거리 부스 없음은 예산/관리 리스크를 줄이지만 주변 식당 혼잡과 가격민원으로 전이될 수 있음",
+      "support": "KTO page explicitly guides visitors to nearby restaurants because no food booths are inside the festival site.",
+      "current_confidence": "medium",
+      "needed_to_confirm": "주변 식당 좌석수, 가격 모니터링, 민원, 동선 안내"
+    },
+    {
+      "hypothesis": "글로벌빌리지와 외국인 라운지는 외래객 만족도 개선 후보",
+      "support": "KTO lists global village, foreigner-only lounge, traditional play and tea/snack experience.",
+      "current_confidence": "medium_low",
+      "needed_to_confirm": "외국인 방문객 수, 언어지원, 만족도"
+    },
+    {
+      "hypothesis": "공식 평가결과 공개는 거버넌스 투명성 강점이나 실제 품질은 평가점수/과업분장 확인 전",
+      "support": "Suwon contract disclosure page and downloadable evaluation PDF exist.",
+      "current_confidence": "medium",
+      "needed_to_confirm": "평가표, 업체명, 계약금액, 과업지시서"
+    }
+  ]
+}

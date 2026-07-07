@@ -108,3 +108,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/bucheon-comics-2025-governance-dossier.json: official tender/evaluation chain plus outcome and cultural-tourism-selection signals.
 - bucheon-comics-2025-governance-dossier.html: human-readable bridge from procurement evidence to success hypotheses without contractor overclaiming.
+
+## Suwon Hwaseong 2026 pre-event dossier
+
+- data/suwon-hwaseong-2026-pre-event-dossier.json: official evaluation disclosure, tender/RFP leads, and pre-event crowd/food/foreign-visitor risk variables.
+- suwon-hwaseong-2026-pre-event-dossier.html: human-readable checklist for what to monitor before and after the October 2026 festival.

@@ -1,0 +1,10 @@
+section,finding,evidence_strength,source_url,analysis_role,open_gap
+official_evaluation_page,"수원시 계약정보공개시스템에 제63회 수원화성문화제 행사운영 용역 제안서 평가위원회 평가 결과 공개",high,https://www.suwon.go.kr/web/board/BD_board.view.do?bbsCd=1277&seq=20260526163149743,"2026 행사운영 용역의 공식 평가절차 확인",PDF 내용 추출·평가점수 구조화
+official_evaluation_attachment,"평가결과 PDF 첨부 id=5b6f6e11-b6f9-4569-9890-fc7f35539876, referrer GET 200 application/octet-stream size=39417",high,https://www.suwon.go.kr/component/file/ND_fileDownload.do?id=5b6f6e11-b6f9-4569-9890-fc7f35539876,"자동수집 가능한 공식 평가결과 원문 후보",PDF 텍스트 추출
+tender_mirror,"제63회 행사운영 용역 R26BK01487453-000, 제안요청서·과업지시서 숙지 조건과 회계과/관광과 문의처 노출",medium,https://www.bidpro.co.kr/n0_ipchal/konggo/svc/konggo_view.asp?num=3099522,"입찰조건·담당부서·계약방식 단서",G2B/수원시 공식 입찰 원문 확보
+attachment_mirror,"민간 미러에서 제안요청서, 과업지시서, 공고문 HWP 첨부명 확인",medium,https://pikk.co.kr/bid/2471,"RFP/task-order 존재 확인 단서",공식 첨부 다운로드와 텍스트화
+event_schedule,"2026.10.04~2026.10.11 8일간 행궁광장·수원화성 일원 개최",high,https://www.visitsuwon.or.kr/base/menu/baseView?menuLevel=2&menuNo=5,"방문객 분산/집중 패턴을 예측해야 하는 기본 일정",일자별 프로그램·예상 방문객·교통 계획
+event_programs,"주제공연, 수상퍼포먼스, 야간 콘텐츠, 시민참여, 글로벌빌리지, 정조대왕 능행차 등",medium_high,https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=95d65f28-6c8f-4226-9697-a5a4e9edc801,"콘텐츠별 수요와 동선 분산/집중 요인",프로그램별 수용력·예약/관람 방식
+food_booth_policy,"축제장 내 먹거리 부스가 없고 인근 지역 식당 이용 안내",medium_high,https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=95d65f28-6c8f-4226-9697-a5a4e9edc801,"예산낭비/상권연계/관람객 불편 리스크를 동시에 만드는 변수",인근 식당 수용력·가격민원·혼잡도
+legacy_procurement_2020,"2020 제57회 행사대행 용역 공식 SWCF 공고와 제안요청서/과업지시서 첨부 다운로드 확인",high,https://www.swcf.or.kr/?idx=17955&p=115&page=8&viewMode=view,"행사대행 RFP 구조의 과거 기준점",2020 결과/성과와 2026 RFP 비교
+classification,"Level B+ pre-event governance/crowd-risk bridge: 공식 평가결과와 행사정보는 강하지만 개최 전이므로 결과 원인 판단 금지",high,local_research_synthesis,"사전 수요예측/동선/상권 리스크 체크리스트 생성",개최 후 방문객·만족도·민원·정산
