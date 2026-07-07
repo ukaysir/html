@@ -1,0 +1,113 @@
+{
+  "id": "daejeon-bread-2023-2026",
+  "slug": "daejeon-bread-festival-demand-queue-outsourcing-dossier",
+  "festival": "대전빵축제 2023-2026",
+  "region": "대전광역시 동구 소제동·대동천 일원",
+  "period": "2023-2026",
+  "verdict": "성공+혼잡실패+대행관계",
+  "evidence_grade": "B+",
+  "outcome_type": [
+    "brand_demand_success",
+    "queue_failure",
+    "supply_forecast_failure",
+    "outsourcing_governance"
+  ],
+  "why_success": [
+    "성심당과 지역 빵집 브랜드를 도시 관광 자산으로 묶어 강한 방문 동기를 만들었다.",
+    "2024년 14만명, 2025년 16만8000명 방문으로 도시형 먹거리 축제 수요가 확인됐다.",
+    "2025년 행사장 면적을 전년 대비 약 2배 넓히고 참가업체를 102개로 확대해 전년 혼잡 리스크에 대응했다.",
+    "대전관광공사 중심 운영과 삿포로 교류 등으로 지역 브랜드를 외부 도시 협업 모델로 확장했다."
+  ],
+  "why_failure_or_risk": [
+    "2024년 입장 2-4시간 대기, 최소 3시간 대기 후 포기 등 대기 경험 실패가 확인됐다.",
+    "2023년에는 업체별 판매 물량 조기 소진, 수요 예측 어려움, 조직·소통 부족, 장소·주차 문제가 지적됐다.",
+    "방문객 수 증가는 성공이지만 부스 회전율, 구매 성공률, 품절률, 대기동선이 따라가지 못하면 만족도는 하락한다.",
+    "2026년 운영 대행 용역은 대행사 역할을 확인하게 해주지만, 대행사만 바꿔서는 브랜드 보유자·참가업체 공급량 문제를 해결할 수 없다."
+  ],
+  "data_points": {
+    "visitors_2024": "14만명",
+    "vendors_2024": "대전지역 71개 빵집 + 전국 유명 빵집 10개, 총 81개",
+    "wait_2024": "입장 2-4시간, 최소 3시간 대기 후 포기 후기",
+    "visitors_2025": "16만8000명",
+    "vendors_2025": "102개 빵집",
+    "venue_2025": "전년 대비 약 2배 넓어진 행사장",
+    "outsourcing_2026": "대전관광공사 2026 운영 대행 용역, 추정가격 4억원, 최종낙찰 (주)티제이비"
+  },
+  "stakeholder_map": {
+    "host_operator": [
+      "대전관광공사"
+    ],
+    "public_support": [
+      "대전광역시",
+      "동구청"
+    ],
+    "brand_and_industry": [
+      "성심당",
+      "대한제과협회 대전광역시지회",
+      "대전 및 전국 참가 빵집"
+    ],
+    "commerce": [
+      "소제동 카페거리",
+      "대동천 주변 상권",
+      "지역 소상공인 플리마켓"
+    ],
+    "outsourcing_2026": [
+      "(주)티제이비",
+      "더마이스주식회사",
+      "주식회사 프리다츠"
+    ]
+  },
+  "sources": [
+    {
+      "label": "2023 전문가 토론",
+      "url": "https://m.joongdo.co.kr/view.php?key=20231108010001743",
+      "evidence": "관 주도 전환, 조직·소통 부족, 주차·상권 연계·물량 예측 문제",
+      "lines": "161-163"
+    },
+    {
+      "label": "2024 대기 불만 보도",
+      "url": "https://v.daum.net/v/10KYB8VZtb?f=p",
+      "evidence": "81개 빵집, 2-4시간 입장 대기, 3시간 대기 포기, 과밀 체감",
+      "lines": "83-94"
+    },
+    {
+      "label": "2024 관람객·개선 보도",
+      "url": "https://www.micetoday.co.kr/article/view/mtd202409300001",
+      "evidence": "14만명, 2-3시간 대기, 첫날 7만명, 교통·주차·대기동선 개선 계획",
+      "lines": "71-82"
+    },
+    {
+      "label": "2025 대전관광 공식 등록",
+      "url": "https://daejeontour.co.kr/festival_djt/15?page=1",
+      "evidence": "일정, 장소, 주최·주관, 102개 빵집, 운영시간",
+      "lines": "66-88"
+    },
+    {
+      "label": "2025 폐막 보도",
+      "url": "https://v.daum.net/v/YftN1voMEz",
+      "evidence": "16만8000명, 행사장 약 2배 확대, 102개 빵집, 안전사고 없이 종료",
+      "lines": "74-88"
+    },
+    {
+      "label": "2026 운영 대행 용역",
+      "url": "https://m.momo365.net/Bid?EDate=&EMoney=&OrderBy=&SDate=&SMoney=&StartNum=&TotalSearchWord=&cd=detail&iBidCode=2026052831566-0&isLike=&lstSearchDate=&preCd=",
+      "evidence": "대전관광공사 발주, 추정가격 4억원, 낙찰사와 경쟁업체, 협상계약",
+      "lines": "49-63, 117-132, 149-157, 181-196"
+    }
+  ],
+  "planning_implications": [
+    "먹거리 축제는 방문객 수요, 부스 공급량, 대기시간, 품절률, 회전율을 동시에 예측해야 한다.",
+    "대행 용역 KPI에는 방문객 수가 아니라 평균 대기시간, 최대 대기열 길이, 구매 성공률, 교통 민원, 안전사고 0건을 넣어야 한다.",
+    "브랜드 파워가 강한 축제일수록 예약·분산·모바일 대기·품절 공지 같은 운영 시스템이 필요하다."
+  ],
+  "html": "daejeon-bread-festival-demand-queue-outsourcing-dossier.html",
+  "tags": [
+    "먹거리축제",
+    "브랜드수요",
+    "대기실패",
+    "수요예측",
+    "부스공급량",
+    "대행용역",
+    "교통주차"
+  ]
+}

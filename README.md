@@ -290,3 +290,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added chuncheon-mime-arts-space-governance-dossier.html plus structured JSON/CSV and evidence dossier for 춘천마임축제 2020-2026.
 - Key cause: arts identity and city-wide staging drove demand, while pandemic cancellation, venue insecurity, budget cuts, and traffic peaks remain planning risks.
 
+
+### 대전빵축제 브랜드 수요·대기 실패·대행 관계 사례
+- Added daejeon-bread-festival-demand-queue-outsourcing-dossier.html plus structured JSON/CSV and evidence dossier for 대전빵축제 2023-2026.
+- Key cause: brand demand created large attendance, but queue time, sold-out supply, parking, and outsourced operation KPIs determine satisfaction.
+

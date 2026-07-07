@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 35,
+    "festival_case_records": 36,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
@@ -25,9 +25,65 @@
     "paid_access_social_license_records": 1,
     "paid_experience_global_records": 1,
     "public_private_megacity_records": 1,
-    "arts_identity_space_records": 1
+    "arts_identity_space_records": 1,
+    "food_brand_queue_records": 1
   },
   "records": [
+    {
+      "id": "daejeon-bread-2023-2026",
+      "festival": "대전빵축제 2023-2026",
+      "region": "대전광역시 동구 소제동·대동천 일원",
+      "period": "2023-2026",
+      "verdict": "성공+혼잡실패+대행관계",
+      "evidence_grade": "B+",
+      "why": "브랜드 수요는 폭발했지만 대기시간, 부스 공급량, 주차·동선, 대행 운영 KPI가 따라가지 못하면 방문객 만족도가 무너지는 사례다.",
+      "success_factors": [
+        "성심당·지역 빵 브랜드 파워",
+        "전국 빵집 참여",
+        "도시 브랜드화",
+        "행사장·업체 확대",
+        "상권 연계"
+      ],
+      "failure_risks": [
+        "입장 2-4시간 대기",
+        "품절·물량 예측 실패",
+        "주차·대기동선 불만",
+        "조직·소통 부족",
+        "운영 대행 KPI 불명확"
+      ],
+      "data_points": [
+        "2024 방문객 14만명",
+        "2025 방문객 16만8000명",
+        "2025 102개 빵집·행사장 약 2배 확대",
+        "2026 운영 대행 용역 추정가격 4억원·(주)티제이비 낙찰"
+      ],
+      "stakeholders": [
+        "대전관광공사",
+        "대전광역시",
+        "동구청",
+        "성심당",
+        "대한제과협회 대전광역시지회",
+        "참가 빵집",
+        "소제동 상권",
+        "(주)티제이비"
+      ],
+      "html": "daejeon-bread-festival-demand-queue-outsourcing-dossier.html",
+      "tags": [
+        "brand_demand",
+        "queue_failure",
+        "food_supply_forecast",
+        "outsourcing",
+        "traffic_parking"
+      ],
+      "sources": [
+        "https://m.joongdo.co.kr/view.php?key=20231108010001743",
+        "https://v.daum.net/v/10KYB8VZtb?f=p",
+        "https://www.micetoday.co.kr/article/view/mtd202409300001",
+        "https://daejeontour.co.kr/festival_djt/15?page=1",
+        "https://v.daum.net/v/YftN1voMEz",
+        "https://m.momo365.net/Bid?EDate=&EMoney=&OrderBy=&SDate=&SMoney=&StartNum=&TotalSearchWord=&cd=detail&iBidCode=2026052831566-0&isLike=&lstSearchDate=&preCd="
+      ]
+    },
     {
       "id": "chuncheon-mime-2020-2026",
       "festival": "춘천마임축제 2020-2026",

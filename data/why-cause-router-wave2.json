@@ -112,6 +112,13 @@
           "html": "chuncheon-mime-arts-space-governance-dossier.html",
           "evidence_grade": "B+",
           "why": "예산 삭감, 후원·협찬, 문화재단·방송사·공공기관 관계를 함께 봐야 하는 사례"
+        },
+        {
+          "id": "daejeon-bread-2023-2026",
+          "festival": "대전빵축제 2023-2026",
+          "html": "daejeon-bread-festival-demand-queue-outsourcing-dossier.html",
+          "evidence_grade": "B+",
+          "why": "2026 운영 대행 용역과 공공-브랜드-상권 관계를 함께 확인해야 하는 사례"
         }
       ]
     },
@@ -228,6 +235,13 @@
           "html": "chuncheon-mime-arts-space-governance-dossier.html",
           "evidence_grade": "B+",
           "why": "총방문객보다 개막난장·밤샘난장 피크 수요와 야간 귀가를 따로 예측해야 하는 사례"
+        },
+        {
+          "id": "daejeon-bread-2023-2026",
+          "festival": "대전빵축제 2023-2026",
+          "html": "daejeon-bread-festival-demand-queue-outsourcing-dossier.html",
+          "evidence_grade": "B+",
+          "why": "브랜드 수요가 현장 수용력을 초과해 입장·부스 대기가 실패한 사례"
         }
       ]
     },
@@ -359,6 +373,27 @@
           "html": "chuncheon-mime-arts-space-governance-dossier.html",
           "evidence_grade": "B+",
           "why": "고정 공간 부재와 주차 병목을 공간 협약으로 완화한 사례"
+        },
+        {
+          "id": "daejeon-bread-2023-2026",
+          "festival": "대전빵축제 2023-2026",
+          "html": "daejeon-bread-festival-demand-queue-outsourcing-dossier.html",
+          "evidence_grade": "B+",
+          "why": "장소·주차·대기동선 문제가 방문객 경험을 좌우한 사례"
+        }
+      ]
+    },
+    {
+      "route_id": "price-booth-food",
+      "title": "가격·부스·먹거리 공급",
+      "why": "먹거리 축제는 가격보다 공급량·품절·부스 회전율이 만족도를 좌우한다",
+      "cases": [
+        {
+          "id": "daejeon-bread-2023-2026",
+          "festival": "대전빵축제 2023-2026",
+          "html": "daejeon-bread-festival-demand-queue-outsourcing-dossier.html",
+          "evidence_grade": "B+",
+          "why": "먹거리 축제는 가격보다 공급량·품절·부스 회전율이 만족도를 좌우한다"
         }
       ]
     }

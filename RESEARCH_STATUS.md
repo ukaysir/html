@@ -337,3 +337,9 @@ Updated: 2026-07-07.
 - Evidence: official organizer/KTO pages, COVID cancellation, 2023/2024 evaluation metrics, traffic-space improvement, budget cut record, 2026 closure and honor festival designation.
 - Planning implication: collect space agreements, budget stability, time-band crowding, and transport capacity in addition to visitor totals.
 
+
+## Checkpoint: 대전빵축제 2023-2026
+- Added case id: daejeon-bread-2023-2026.
+- Evidence: 2023 expert critique, 2024 crowd/queue reports, 2025 official schedule and closure metrics, 2026 operation outsourcing bid result.
+- Planning implication: collect queue time, booth supply, sell-out time, traffic, and agency KPI data, not just visitor totals.
+
