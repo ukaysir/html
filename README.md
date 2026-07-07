@@ -190,3 +190,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/jinju-lantern-price-social-license-dossier.json: mixed dossier on paid-entry controversy, free-entry/paid-experience model, global-festival growth and booth-price governance.
 - jinju-lantern-price-social-license-dossier.html: human-readable page showing why a successful global festival can still carry price, booth, resident-inconvenience and social-license risks.
+
+## Boryeong Mud success/local-capture dossier
+
+- data/boryeong-mud-success-local-capture-dossier.json: success benchmark for paid experiential content, local voucher return, foreign demand, stay/spend and marketing-attribution caveats.
+- boryeong-mud-success-local-capture-dossier.html: human-readable comparator for why a high-cost festival may avoid budget-waste classification when direct paid conversion and local-capture evidence are strong.

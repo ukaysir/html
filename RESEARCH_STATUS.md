@@ -210,3 +210,9 @@ Updated: 2026-07-07.
 - Added a mixed price/social-license dossier for Jinju Namgang Lantern Festival covering 2016 paid-entry conflict, 2026 free-entry/paid-experience model, 2025 outcome signals and 2025 food-truck price controversy.
 - Separated global-festival success signals from booth-price governance, resident inconvenience, crowding and unsupported subcontractor causality claims.
 - Added data/jinju-lantern-price-social-license-dossier.json, .csv, jinju-lantern-price-social-license-dossier.html, evidence note, and case-matrix links.
+
+## Checkpoint: Boryeong Mud success/local-capture dossier (2026-07-08T06:15:00+09:00)
+
+- Added a success benchmark dossier for Boryeong Mud Festival covering paid mud-experience zones, local voucher return, foreign visitors, night/performance content, stay/spend signals and marketing-attribution caveats.
+- Classified Boryeong as a budget-waste control case: high spend is not waste when paid conversion and local-capture evidence are strong, but contractor attribution remains unproven.
+- Added data/boryeong-mud-success-local-capture-dossier.json, .csv, boryeong-mud-success-local-capture-dossier.html, evidence note, and case-matrix links.

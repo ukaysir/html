@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 15,
+    "festival_case_records": 16,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 4,
@@ -153,6 +153,21 @@
       "primary_causes": ["programming", "heat_safety", "satisfaction", "local_linkage"],
       "not_yet_proven": "성과가 특정 대행사 역량 때문이라는 직접 인과.",
       "next_evidence_needed": "운영 과업 범위, 평가 결과, 안전 운영계획, 관객 만족 세부 항목."
+    },
+    {
+      "id": "boryeong-mud-2024-2026",
+      "record_type": "festival_case",
+      "festival": "보령머드축제",
+      "years": "2024, 2026",
+      "page": "boryeong-mud-success-local-capture-dossier.html",
+      "question": "왜 성공 benchmark인가?",
+      "short_answer": "유료 머드체험, 보령사랑상품권 환급, 외국인 유입, 야간·공연 콘텐츠가 결합된 paid-content/local-capture 성공 통제사례다. 단, 홍보비 기여도와 계약 귀속은 별도 검증이 필요하다.",
+      "evidence_level": "B+ success, C attribution caveat",
+      "procurement_link": "medium",
+      "outcome_link": "strong",
+      "primary_causes": ["paid_content", "voucher_loop", "foreign_visitor", "program_mix", "marketing_attribution"],
+      "not_yet_proven": "특정 대행사 성공 귀속 또는 상품권 환류의 최종 지역경제 순효과.",
+      "next_evidence_needed": "일자별 티켓 판매, 상품권 가맹점별 사용, 홍보비 채널 attribution, 만족도, 원가회계."
     },
     {
       "id": "bucheon-comics-2025",

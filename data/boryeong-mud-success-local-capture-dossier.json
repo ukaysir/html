@@ -1,0 +1,99 @@
+{
+  "artifact": "boryeong-mud-success-local-capture-dossier",
+  "generated_at": "2026-07-08T06:15:00+09:00",
+  "festival": "보령머드축제",
+  "region": "충청남도 보령시",
+  "period_focus": "2024 outcome, 2026 official program/pricing, 2026-2028 global growth targets",
+  "evidence_level": "B+ success benchmark, C marketing-attribution caveat",
+  "short_verdict": "A strong success benchmark for paid experiential content and local-capture design. The strongest causal candidates are product-market fit, paid mud-experience zones, local voucher return, night/performance programming, foreign visitor appeal and heat/weather operations; contractor success attribution remains unproven.",
+  "why_it_matters": [
+    "It shows a practical alternative to free, high-cost festivals: paid core experience plus local voucher return.",
+    "It provides measurable success variables: paid entrants, foreign visitors, stay time, per-person spend and local coupon redemption.",
+    "It helps separate real demand from headline attendance by looking at paid conversion and local capture.",
+    "It gives a success-side comparator for price fairness because official ticket and food prices are publicly visible."
+  ],
+  "stakeholders": {
+    "public_host": "보령시",
+    "organizer": "재단법인 보령축제관광재단",
+    "commercial_nodes": "paid mud-experience zones, food vendors, local coupon partners, merchandise/cosmetics",
+    "contractor_causality_status": "not proven from current public evidence"
+  },
+  "causal_chain": [
+    {
+      "stage": "Official product/pricing model",
+      "evidence": "KTO lists 2026 dates, paid general/family zone prices and the host/operator structure. The official ticket page details general/family zone prices, discount groups, safety-inspection closure day, online/offline sales mix and 5,000 KRW Boryeong Love gift certificate per ticket.",
+      "cause_type": ["paid_core_experience", "pricing_transparency", "voucher_loop", "safety_window"],
+      "confidence": "A-"
+    },
+    {
+      "stage": "2024 visitor/foreign signal",
+      "evidence": "Yonhap reported 1,651,943 visitors including 82,598 foreigners, despite early monsoon/rain, and 39,905 paid experience-zone entrants.",
+      "cause_type": ["demand", "foreign_visitor", "paid_conversion", "weather_resilience"],
+      "confidence": "B"
+    },
+    {
+      "stage": "Program diversification",
+      "evidence": "KTO and Yonhap list K-pop, hip-hop, night parade, drone show, mud water events, exhibitions/sales, local products and global food zones.",
+      "cause_type": ["program_mix", "night_content", "family_youth_split", "local_sales"],
+      "confidence": "B"
+    },
+    {
+      "stage": "Global growth targets",
+      "evidence": "2026 coverage states Boryeong aims to lift foreign participant share from 0.74% in 2025 to 3.5% by 2028, revisit from 21.2% to 30% and foreign per-person spend from 237,565 KRW to 300,000 KRW.",
+      "cause_type": ["foreign_marketing", "repeat_visit", "spend_target", "k_wellness"],
+      "confidence": "B"
+    },
+    {
+      "stage": "Marketing-attribution caveat",
+      "evidence": "A critical 2026 analysis cites stay time of 4h13m and per-person spend of 160,946 KRW, but asks whether results stem from content competitiveness or large promotion spend.",
+      "cause_type": ["marketing_attribution", "stay_time", "spend", "methodology_check"],
+      "confidence": "C"
+    }
+  ],
+  "not_supported_claims": [
+    "The festival succeeds because of a specific contractor.",
+    "Visitor count alone proves budget efficiency.",
+    "Paid experience-zone entrants alone represent all festival value.",
+    "Voucher return automatically proves local merchant benefit without redemption data."
+  ],
+  "next_evidence_needed": [
+    "Ticket sales by day and zone",
+    "Boryeong Love gift certificate redemption by merchant category",
+    "Marketing spend and channel attribution",
+    "Visitor satisfaction by domestic/foreign/family/youth segment",
+    "Local Finance 365 cost rows and contract/RFP scope"
+  ],
+  "sources": [
+    {
+      "title": "KTO Visit Korea festival page",
+      "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=910bb144-bf74-4eee-9e91-8fbcbaf302ac",
+      "grade": "A-",
+      "supports": "2026 period, prices, operator, program mix, local-capture programs and food-price visibility"
+    },
+    {
+      "title": "Boryeong Festival Tourism Foundation ticket page",
+      "url": "https://mudfestival.or.kr/festival/contents/view?contentsNo=6&level=2&menuNo=34",
+      "grade": "A-",
+      "supports": "ticket prices, discounts, safety inspection day, online/offline sales and 5,000 KRW gift certificate"
+    },
+    {
+      "title": "Yonhap 2024 visitor report",
+      "url": "https://www.yna.co.kr/view/AKR20240806065600063",
+      "grade": "B",
+      "supports": "visitor total, foreign visitors, paid entrants, weather difficulty and program explanation"
+    },
+    {
+      "title": "Today Chungnam 2026 global-target coverage",
+      "url": "https://www.todaychungnam.net/news/articleView.html?idxno=467608",
+      "grade": "B",
+      "supports": "foreign share, revisit, foreign spend and K-wellness targets"
+    },
+    {
+      "title": "Cheonji critical analysis",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3363119",
+      "grade": "C",
+      "supports": "stay time, spend and marketing-attribution caveat"
+    }
+  ]
+}
+
