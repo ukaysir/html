@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-08T01:12:45+09:00",
+    "scope": "Wave 4 cause dossiers: selected success/failure/systemic-policy cases with source-backed why chains.",
+    "caution": "These dossiers are explanatory evidence seeds, not final nationwide scoring. Each claim must later be joined to finance/procurement/crowding/satisfaction data.",
+    "source_policy": "Public web sources only; no login, paid access, phone, email, or bypass."
+  },
+  "dossiers": [
+    {
+      "id": "boryeong_mud_success_model",
+      "festival": "보령머드축제",
+      "years": "2016-2026 continuity case, origin evidence predates window",
+      "classification": "success_pattern",
+      "cause_summary": "지역 일반 문화제에서 관광객 유치형 축제로 전환하고, 보령 머드라는 차별 콘텐츠를 체험형 프로그램·화장품 홍보·해변 입지와 결합했다. 공공 연구용역, 중앙 문화관광축제 지정, 국제화 연혁이 성공 서사를 지지한다.",
+      "why_chain": [
+        "연구용역으로 기존 주민화합형 축제의 한계를 진단",
+        "지역 자원인 머드를 명확한 테마로 포지셔닝",
+        "체험형 콘텐츠가 사진/참여/외국인 확산에 유리",
+        "중앙정부 지정과 재단 운영 연혁이 반복 개최 신뢰를 강화"
+      ],
+      "risk_counterfactual": "대체 불가능한 지역 테마와 운영 전문화가 약하면 예산 투입 대비 관광 유인력이 약해질 수 있다.",
+      "evidence_strength": "official_foundation_history_plus_award_history",
+      "source": "https://www.mudfestival.or.kr/festival/contents/view?contentsNo=31&level=2&menuNo=16",
+      "source_notes": "Official foundation page describes the research-service origin, tourism-oriented pivot, first event result, MCST designation pathway, and later global status."
+    },
+    {
+      "id": "hwacheon_sancheoneo_2026_success_model",
+      "festival": "화천산천어축제",
+      "years": "2026 primary evidence, long-running winter festival case",
+      "classification": "success_pattern",
+      "cause_summary": "겨울 얼음낚시라는 고유 체험, 축제 기간 소비지출, 상인 매출 체감, 외국인 만족도와 여행사 유입이 동시에 확인된다. 수요 예측 관점에서는 프로그램 만족도와 지역 소비 연결이 강점이다.",
+      "why_chain": [
+        "핵심 프로그램이 명확하고 방문 동기가 뚜렷함",
+        "내외국인 설문과 경제효과 수치가 함께 제시됨",
+        "상인 매출 체감으로 지역경제 연결성이 확인됨",
+        "동남아 여행사 유입 등 해외마케팅 채널이 관찰됨"
+      ],
+      "risk_counterfactual": "겨울 기후·얼음 상태·안전 수용량에 민감하므로 기후변동과 혼잡 관리 실패 시 만족도가 급락할 수 있다.",
+      "evidence_strength": "news_report_citing_local_government_and_university_service_report",
+      "source": "https://www.yna.co.kr/view/AKR20260521152000062",
+      "source_notes": "Yonhap reports 2026 evaluation briefing figures: direct economic effect, visitor survey, merchant sales effect, satisfaction, revisit and foreign-tourist indicators."
+    },
+    {
+      "id": "yeongyang_sannamul_price_failure_2023",
+      "festival": "영양 산나물축제 관련 바가지 논란",
+      "years": "2023 incident evidence",
+      "classification": "failure_pattern",
+      "cause_summary": "가격 문제 자체보다 더 중요한 원인은 축제 공간에 들어온 이동 상인을 축제 운영 생태계의 일부로 관리하지 못한 점이다. 지자체가 초기에 외부 상인 문제로 분리해 설명했다가 관리 책임을 인정한 흐름이 확인된다.",
+      "why_chain": [
+        "외부 이동 상인이 축제 수요를 이용해 과도한 가격을 제시",
+        "지자체의 입점/가격/상거래 관리 체계가 충분히 작동하지 않음",
+        "초기 해명이 책임 회피로 인식되어 평판 리스크 확대",
+        "재발 방지 대책 필요성을 지자체가 인정"
+      ],
+      "risk_counterfactual": "대행사·부스·노점·지역상인회 계약 구조를 데이터화하지 않으면 같은 축제명 아래 책임 주체가 흐려진다.",
+      "evidence_strength": "national_news_report_with_local_government_apology",
+      "source": "https://www.yna.co.kr/view/AKR20230606050800053",
+      "source_notes": "Yonhap reports the official apology, the external-vendor explanation, public backlash, and later acknowledgement that mobile vendors are part of festival management."
+    },
+    {
+      "id": "spring_large_festival_price_governance_policy_2024",
+      "festival": "진해군항제 등 대형 봄철 지역축제 정책 대응",
+      "years": "2024 policy evidence",
+      "classification": "systemic_failure_control",
+      "cause_summary": "정부가 100만명 이상 축제에 합동 TF, 가격표 공개, 현장점검, 신고센터를 제시했다는 사실은 대규모 쏠림 축제에서 가격·불공정·민원 관리가 반복 리스크였음을 보여준다.",
+      "why_chain": [
+        "대규모 방문객 쏠림은 가격정보 비대칭을 키움",
+        "부스 외부 및 온라인 가격표 공개가 사전 통제 수단으로 제시됨",
+        "규모별 점검 주체를 나누는 것은 운영 복잡도가 규모에 따라 증가한다는 정책 판단",
+        "현장 신고센터는 사후 민원 대응 비용을 줄이는 장치"
+      ],
+      "risk_counterfactual": "가격 공개와 점검 체계가 데이터로 남지 않으면 만족도 하락 원인을 단순 관광객 수 문제로 오판할 수 있다.",
+      "evidence_strength": "official_policy_briefing",
+      "source": "https://www.korea.kr/news/policyNewsView.do?newsId=148926708",
+      "source_notes": "Korea.kr reports MOIS measures for spring festivals, including price disclosure, scale-based joint inspection, TFs, and reporting centers."
+    },
+    {
+      "id": "mcst_2024_evaluation_framework",
+      "festival": "2024 문화관광축제 종합평가보고서",
+      "years": "2024 report published 2025-04-04",
+      "classification": "evaluation_framework",
+      "cause_summary": "개별 사례의 성공/실패 판단은 방문객 수만으로 끝내면 안 된다. 문체부 종합평가보고서는 문화관광축제 평가 프레임을 제공하므로 만족도, 운영, 콘텐츠, 지속가능성, 수용태세 같은 원인 변수를 추출하는 기준점으로 사용해야 한다.",
+      "why_chain": [
+        "방문객 수는 수요 규모만 설명하고 만족·혼잡·운영 품질을 설명하지 못함",
+        "공식 평가보고서가 축제별 원인 변수 후보를 제공",
+        "사례별 성공/실패 태그를 평가 프레임에 매핑하면 주관적 경험 의존을 줄일 수 있음"
+      ],
+      "risk_counterfactual": "공식 평가 지표 없이 뉴스/후기만 사용하면 원인 분석이 선정적 사건 위주로 치우칠 수 있다.",
+      "evidence_strength": "official_mcst_report_catalog",
+      "source": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pDataCD=0417000000&pSeq=1991&pType=",
+      "source_notes": "MCST page identifies the 2024 cultural tourism festival comprehensive evaluation report, posting date, department, attached 18MB PDF, and public-use terms."
+    }
+  ]
+}
