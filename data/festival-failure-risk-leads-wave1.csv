@@ -1,0 +1,8 @@
+id,festival_name,region,year,issue_cluster,current_evidence_level,causal_status,primary_source
+yeongyang-sannamul-2023-price,영양 산나물축제,경북 영양군,2023,price;merchant_management;reputation,B+,Strong public-admission lead but booth contract evidence still needed,https://www.yna.co.kr/view/AKR20230606050800053
+hongcheon-ice-2024-nightmarket,홍천강 꽁꽁축제,강원 홍천군,2024,price;night_market_boundary;operating_control,B,Operating-boundary lead but contractor causality not proven,https://news.ikbc.co.kr/article/view/kbc202401170025
+suwon-environment-2023-price,2023 환경사랑축제,경기 수원시,2023,price;sponsor_host_structure;local_government_oversight,C+,Governance lead needing official support and vendor records,https://www.ytn.co.kr/_ln/0103_202306160944455900
+namwon-chunhyang-2023-price,남원 춘향제,전북 남원시,2023,price;booth_fee;merchant_incentive,C,Media discussion lead requiring official booth records,https://www.ytn.co.kr/_ln/0103_202306160944455900
+jinhae-gunhangje-2026-price-control,진해군항제,경남 창원시,2026,price_prevention;large_crowd;booth_monitoring,B+,Preventive-governance lead needing post-event outcome comparison,https://www.yna.co.kr/view/AKR20260304164300052
+incheon-yaksasa-2025-crowd-underestimate,약사사 산사음악회,인천 남동구,2025,demand_forecast;crowd_safety;safety_plan_threshold,B,Demand-forecast and safety-threshold lead,https://v.daum.net/v/20251104201436656
+yeongjong-fireworks-2025-crowd-traffic,영종 불꽃페스타,인천 중구,2025,demand_forecast;traffic;resident_inconvenience,B,Demand/access lead needing official event and traffic records,https://v.daum.net/v/20251104201436656

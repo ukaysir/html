@@ -1,0 +1,249 @@
+{
+  "generated_at": "2026-07-08T03:24:00+09:00",
+  "title": "Festival failure/risk lead queue wave 1",
+  "scope": "Agent-only public-source lead queue for Korean festival failure, dissatisfaction and budget-waste risk research.",
+  "guardrails": [
+    "A lead is not a final causal finding.",
+    "Media-only claims are capped until official notices, procurement records, booth rules, settlement records or evaluation reports are joined.",
+    "Price, crowd and safety incidents must be separated from contractor or subcontractor causality unless public documents connect them.",
+    "No phone calls, interviews, information-disclosure requests, paid databases, login-only sources or access-control bypass are used."
+  ],
+  "system_findings": [
+    {
+      "id": "price-governance-policy",
+      "theme": "price_booth_governance",
+      "finding": "Culture-tourism festival policy now treats food price transparency as an evaluation and support-risk variable.",
+      "why_it_matters": "A festival can lose public trust and future support not only because prices are high, but because booth pricing, weight disclosure and monitoring were not designed into the operating system.",
+      "source_urls": [
+        "https://www.korea.kr/news/policyNewsView.do?newsId=148917230"
+      ],
+      "evidence_level": "A"
+    },
+    {
+      "id": "safety-management-checklist",
+      "theme": "crowd_safety_governance",
+      "finding": "MOIS lists crowd bottlenecks, safety staffing, weather, traffic, facilities, fire, emergency medical response, high-risk programs and festival insurance as local-festival safety inspection items.",
+      "why_it_matters": "Crowd failure is not only a headcount problem. The causal chain must check route width, bottlenecks, weather exposure, traffic control, emergency response and insurance.",
+      "source_urls": [
+        "https://www.mois.go.kr/frt/sub/a06/b13/festivalSafety/screen.do"
+      ],
+      "evidence_level": "A"
+    },
+    {
+      "id": "cost-accounting-source",
+      "theme": "budget_waste_traceability",
+      "finding": "Local Finance 365 cost-accounting data covers large event/festival cost disclosures and includes event name, content, total cost, revenue, net cost and dates.",
+      "why_it_matters": "Budget-waste claims should be joined to cost, revenue and net-cost fields before making qualitative judgments.",
+      "source_urls": [
+        "https://www.data.go.kr/data/15056968/openapi.do"
+      ],
+      "evidence_level": "A"
+    },
+    {
+      "id": "festival-budget-line-source",
+      "theme": "budget_structure_traceability",
+      "finding": "Local festival budget lines are tracked across event operation, participant compensation, private-event subsidies and event-related facility costs.",
+      "why_it_matters": "A festival may look expensive for different reasons: direct operation, outsourced operation, subsidies or temporary facilities. These must not be collapsed into one 'waste' label.",
+      "source_urls": [
+        "https://www.data.go.kr/data/15138721/openapi.do"
+      ],
+      "evidence_level": "A"
+    }
+  ],
+  "leads": [
+    {
+      "id": "yeongyang-sannamul-2023-price",
+      "festival_name": "영양 산나물축제",
+      "region": "경북 영양군",
+      "year": 2023,
+      "issue_cluster": [
+        "price",
+        "merchant_management",
+        "reputation"
+      ],
+      "observed_signal": "Old-style snack price controversy became a national issue after a TV segment; Yeongyang County issued an apology.",
+      "why_hypothesis": [
+        "External mobile merchants were treated as outside the core festival system at first, but the county later acknowledged that mobile merchants are part of the festival experience.",
+        "The likely root-cause path is merchant selection, booth rules, price/weight disclosure and on-site monitoring, not simply one vendor's behavior."
+      ],
+      "current_evidence_level": "B+",
+      "causal_status": "Strong public-admission lead, but booth contract, vendor-permit and settlement evidence still needed.",
+      "what_to_collect_next": [
+        "2023 booth or market merchant recruitment notice",
+        "booth fee and location allocation rules",
+        "festival operating agency or market-management contract",
+        "post-incident improvement plan and 2024/2025 recurrence checks"
+      ],
+      "source_urls": [
+        "https://www.yna.co.kr/view/AKR20230606050800053"
+      ]
+    },
+    {
+      "id": "hongcheon-ice-2024-nightmarket",
+      "festival_name": "홍천강 꽁꽁축제",
+      "region": "강원 홍천군",
+      "year": 2024,
+      "issue_cluster": [
+        "price",
+        "night_market_boundary",
+        "operating_control"
+      ],
+      "observed_signal": "A night-market food-price controversy was reported; the foundation said coordination with the night market was insufficient and corrective action was requested.",
+      "why_hypothesis": [
+        "The key structural issue is a boundary gap between the official festival area/vendors and separately operated night-market sellers.",
+        "If price rules do not bind every seller perceived by visitors as part of the festival, satisfaction damage still attaches to the festival brand."
+      ],
+      "current_evidence_level": "B",
+      "causal_status": "Public explanation points to an operating-boundary problem; contractor/subcontractor causality not proven.",
+      "what_to_collect_next": [
+        "Hongcheon Cultural Foundation official notice or apology archive",
+        "night-market operator agreement",
+        "official vendor-selection list versus night-market participant list",
+        "price-monitoring rules before and after January 2024"
+      ],
+      "source_urls": [
+        "https://news.ikbc.co.kr/article/view/kbc202401170025"
+      ]
+    },
+    {
+      "id": "suwon-environment-2023-price",
+      "festival_name": "2023 환경사랑축제",
+      "region": "경기 수원시",
+      "year": 2023,
+      "issue_cluster": [
+        "price",
+        "sponsor_host_structure",
+        "local_government_oversight"
+      ],
+      "observed_signal": "YTN discussion identified the event as a lesser-known Suwon festival, reportedly run by a newspaper with city support, and connected it to a food-price controversy.",
+      "why_hypothesis": [
+        "The research target is the governance gap created when a non-core festival is supported by a local government but operated by another host.",
+        "The next proof step is to separate city sponsorship/support, host responsibility, vendor contracting and price authority."
+      ],
+      "current_evidence_level": "C+",
+      "causal_status": "Useful governance lead, but needs official support/permit and vendor documents.",
+      "what_to_collect_next": [
+        "Suwon subsidy/support decision and settlement records if public",
+        "event host notice and vendor recruitment rules",
+        "food booth permit or temporary business records if publicly disclosed",
+        "city response or inspection result"
+      ],
+      "source_urls": [
+        "https://www.ytn.co.kr/_ln/0103_202306160944455900"
+      ]
+    },
+    {
+      "id": "namwon-chunhyang-2023-price",
+      "festival_name": "남원 춘향제",
+      "region": "전북 남원시",
+      "year": 2023,
+      "issue_cluster": [
+        "price",
+        "booth_fee",
+        "merchant_incentive"
+      ],
+      "observed_signal": "YTN discussion treated Chunhyang Festival as another repeated price-controversy example and discussed booth-fee arguments.",
+      "why_hypothesis": [
+        "The evidence path should test whether booth fees, booth location premiums, external vendors or weak price disclosure explain the complaint.",
+        "A low booth fee alone does not rule out price problems; each vendor's pricing freedom and monitoring mechanism must be checked."
+      ],
+      "current_evidence_level": "C",
+      "causal_status": "Media discussion lead only; requires official booth and price-management records.",
+      "what_to_collect_next": [
+        "2023 Chunhyang Festival booth recruitment notice",
+        "booth fee and local/external vendor distinction",
+        "festival committee meeting minutes if public",
+        "post-event evaluation report"
+      ],
+      "source_urls": [
+        "https://www.ytn.co.kr/_ln/0103_202306160944455900"
+      ]
+    },
+    {
+      "id": "jinhae-gunhangje-2026-price-control",
+      "festival_name": "진해군항제",
+      "region": "경남 창원시",
+      "year": 2026,
+      "issue_cluster": [
+        "price_prevention",
+        "large_crowd",
+        "booth_monitoring"
+      ],
+      "observed_signal": "Changwon announced a joint price-monitoring TF, 115 booth/store checks and a one-strike-out rule before the 64th Jinhae Gunhangje.",
+      "why_hypothesis": [
+        "This is a prevention benchmark, not a failure finding.",
+        "The causal model should compare whether explicit rules, booth checks and sanctions reduce price complaints in large-crowd festivals."
+      ],
+      "current_evidence_level": "B+",
+      "causal_status": "Strong preventive-governance lead; outcome comparison still needed after festival close.",
+      "what_to_collect_next": [
+        "2026 festival visitor count and complaints",
+        "TF inspection result count",
+        "number of warnings, corrections, removals or business suspensions",
+        "food-price disclosure table before event"
+      ],
+      "source_urls": [
+        "https://www.yna.co.kr/view/AKR20260304164300052"
+      ]
+    },
+    {
+      "id": "incheon-yaksasa-2025-crowd-underestimate",
+      "festival_name": "약사사 산사음악회",
+      "region": "인천 남동구",
+      "year": 2025,
+      "issue_cluster": [
+        "demand_forecast",
+        "crowd_safety",
+        "safety_plan_threshold"
+      ],
+      "observed_signal": "A small-event expectation reportedly avoided safety-plan submission, but actual crowd exceeded estimates and emergency response was deployed after a 112 report.",
+      "why_hypothesis": [
+        "The risk is a threshold failure: if maximum crowd is forecast below the safety-plan trigger, formal planning may not happen even when celebrity/fan demand changes the risk.",
+        "Venue geometry matters: narrow mountain routes and informal standing areas can be more dangerous than raw headcount suggests."
+      ],
+      "current_evidence_level": "B",
+      "causal_status": "Strong demand-forecast and safety-threshold lead; not a procurement case.",
+      "what_to_collect_next": [
+        "event notice and performer announcement timeline",
+        "official safety-plan submission or non-submission record",
+        "police/fire deployment timeline",
+        "venue bottleneck map and access/egress routes"
+      ],
+      "source_urls": [
+        "https://v.daum.net/v/20251104201436656"
+      ]
+    },
+    {
+      "id": "yeongjong-fireworks-2025-crowd-traffic",
+      "festival_name": "영종 불꽃페스타",
+      "region": "인천 중구",
+      "year": 2025,
+      "issue_cluster": [
+        "demand_forecast",
+        "traffic",
+        "resident_inconvenience"
+      ],
+      "observed_signal": "A report says officials expected about 2,000 spectators but roughly 30,000 attended, causing severe traffic congestion and inconvenience.",
+      "why_hypothesis": [
+        "The problem is demand forecast error by an order of magnitude, amplified by island/road access constraints.",
+        "Traffic and resident satisfaction should be treated as festival success metrics, not external noise."
+      ],
+      "current_evidence_level": "B",
+      "causal_status": "Demand and access lead from press report; needs official event plan and traffic-control records.",
+      "what_to_collect_next": [
+        "2025 event plan and expected-attendance basis",
+        "traffic-control and parking plan",
+        "police/fire/local-government after-action records",
+        "resident complaints or civil petition summary if public"
+      ],
+      "source_urls": [
+        "https://v.daum.net/v/20251104201436656"
+      ]
+    }
+  ],
+  "recommended_next_wave": [
+    "For each price lead, collect booth recruitment, booth fee, price table, seller list, operating agency contract and post-event correction record.",
+    "For each crowd lead, collect the expected-attendance basis, safety-plan trigger, venue bottleneck map, traffic plan and after-action evidence.",
+    "For budget-waste leads, join MCST festival-year records to Local Finance 365 cost-accounting and budget-line data before labeling waste."
+  ]
+}

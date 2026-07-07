@@ -132,3 +132,9 @@ Updated: 2026-07-07.
 - Added a gap dossier for Bupyeong Pungmul Festival and Dongnae Eupseong Historical Festival.
 - Marked both as cases with strong official event/cultural-tourism evidence but insufficient procurement/agency evidence for contractor causality.
 - Added data/bupyeong-dongnae-gap-dossier.json, .csv, bupyeong-dongnae-gap-dossier.html, and evidence note.
+
+## Checkpoint: festival failure/risk lead queue (2026-07-08T03:24:00+09:00)
+
+- Added the first cross-case failure/risk lead queue for price/booth governance, night-market boundary gaps, sponsorship/host structure, demand-forecast thresholds, crowd safety, traffic and budget traceability.
+- Separated final causality from leads: each record now states what evidence must be collected before blaming a contractor, subcontractor, booth operator or public host.
+- Added data/festival-failure-risk-leads-wave1.json, .csv, festival-failure-risk-leads-wave1.html, and evidence note.

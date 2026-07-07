@@ -128,3 +128,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/bupyeong-dongnae-gap-dossier.json: official event/cultural-tourism evidence and missing procurement/agency evidence for Bupyeong and Dongnae.
 - bupyeong-dongnae-gap-dossier.html: human-readable gap map showing why contractor causality is not yet supportable for these cases.
+
+## Festival failure/risk lead queue
+
+- data/festival-failure-risk-leads-wave1.json: first lead queue for price/booth control, demand forecast, crowd safety, traffic and budget traceability risks.
+- festival-failure-risk-leads-wave1.html: human-readable "why did this go wrong?" queue separating symptoms, operating boundaries, documents to collect and causal guardrails.
