@@ -48,3 +48,6 @@ Pages was checked as not enabled during the research run. To publish, use:
 - `data/mcst-download-manifest.json`
 - `data/mcst-download-probe.json`
 - `data/mcst-archive-schema-probe.json`
+- `data/master/mcst-region-festivals-2017-2026.master-draft.json`
+- `data/master/mcst-region-festivals-2017-2026.master-draft.csv`
+- `data/master/mcst-region-festivals-2017-2026.summary.json`

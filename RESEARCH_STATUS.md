@@ -26,6 +26,7 @@ Updated: 2026-07-07.
 - MCST annual download-pattern manifest for 2017-2026 candidate ZIP files.
 - MCST GET probe confirms downloadable 2017-2026 annual ZIPs with byte sizes and SHA-256 hashes; raw binaries are not committed.
 - MCST archive schema probe confirms 2017-2026 annual workbooks and records first-sheet aggregate festival counts before full row normalization.
+- MCST 2017-2026 annual workbooks are now extracted into a normalized master-draft with 10,198 festival-year records. Staff names and phone numbers from public sheets are intentionally omitted.
 
 ## Current limitations
 - The repository is not yet a complete national archive of every 2016-2026 Korean festival.
@@ -36,7 +37,7 @@ Updated: 2026-07-07.
 - RFP/procurement documents show planning responsibility and scope, not outcome causality by themselves.
 
 ## Next research waves
-- Download or enumerate MCST annual festival master files for 2017-2026 and normalize festival-year keys.
+- Refine MCST annual master date parsing for 2017-2021 legacy raw period strings and attach row-level QA flags.
 - Backfill 2016 through local datasets, MCST selected-festival reports and local-government archives while marking coverage status.
 - Join Local Finance 365 cost records to festival-year keys for large disclosed events.
 - Expand NaraJangteo contract matching with notice number, agency, date, amount, method and supplier where public.

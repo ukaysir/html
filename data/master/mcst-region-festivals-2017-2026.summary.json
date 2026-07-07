@@ -1,0 +1,46 @@
+{
+  "version": "2026-07-08.master-draft",
+  "total_records": 10198,
+  "by_year": [
+    {
+      "year": 2017,
+      "extracted_records": 733
+    },
+    {
+      "year": 2018,
+      "extracted_records": 886
+    },
+    {
+      "year": 2019,
+      "extracted_records": 884
+    },
+    {
+      "year": 2020,
+      "extracted_records": 968
+    },
+    {
+      "year": 2021,
+      "extracted_records": 1004
+    },
+    {
+      "year": 2022,
+      "extracted_records": 944
+    },
+    {
+      "year": 2023,
+      "extracted_records": 1129
+    },
+    {
+      "year": 2024,
+      "extracted_records": 1170
+    },
+    {
+      "year": 2025,
+      "extracted_records": 1214
+    },
+    {
+      "year": 2026,
+      "extracted_records": 1266
+    }
+  ]
+}
