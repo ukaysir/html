@@ -228,3 +228,9 @@ Updated: 2026-07-07.
 - Added a budget/accounting gap dossier for Bonghwa Sweetfish Festival covering paid experience fees, Bonghwa Love gift-certificate refunds, 2024 high-cost/zero-revenue lead, 2025 festival-revenue donation and 2026 event-agency/booth procurement layers.
 - Classified 2023 cancellation as a natural-disaster/safety recovery case caused by heavy rain and Naeseongcheon flooding, not demand-forecast or contractor failure.
 - Added data/bonghwa-sweetfish-budget-accounting-gap-dossier.json, .csv, bonghwa-sweetfish-budget-accounting-gap-dossier.html, evidence note, and case-matrix links.
+
+## Checkpoint: Sangju World Hat free-access budget-risk dossier (2026-07-08T07:00:00+09:00)
+
+- Added a free-access budget-risk dossier for Sangju World Hat Festival covering the 2024 city-funded/zero-revenue lead, explicit paid-content weakness explanation, 2025 content-maturation attempts and reported visitor/stay/economic-effect improvement.
+- Classified the case as B+ for direct cause of revenue weakness, B for outcome leads and C for contractor attribution because no public evidence yet ties a specific agency or subcontractor to the revenue model problem.
+- Added data/sangju-hat-free-access-budget-risk-dossier.json, .csv, sangju-hat-free-access-budget-risk-dossier.html, evidence note, and case-matrix links.

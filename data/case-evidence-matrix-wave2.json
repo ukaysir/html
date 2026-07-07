@@ -275,6 +275,21 @@
       "next_evidence_needed": "지방재정365 row, 재단 결산 ledger, 체험권 매출, 상품권 redemption, 낙찰자/과업/수행평가, 2023 취소비용."
     },
     {
+      "id": "sangju-hat-2023-2025",
+      "record_type": "festival_case",
+      "festival": "상주세계모자페스티벌",
+      "years": "2023-2025",
+      "page": "sangju-hat-free-access-budget-risk-dossier.html",
+      "question": "무료개방 축제는 왜 예산 리스크가 되는가?",
+      "short_answer": "2024년 전액 시비·무료입장·수익 0원 lead의 직접 설명은 유료화 가능한 독창 체험콘텐츠 부족이다. 2025년 성과 lead가 있어 실패 단정은 금물이나 직접수익·공공가치 조인이 필요하다.",
+      "evidence_level": "B+ revenue-cause, B outcome lead, C attribution",
+      "procurement_link": "weak-medium",
+      "outcome_link": "mixed",
+      "primary_causes": ["free_access", "paid_content_gap", "budget_recovery", "identity_governance", "public_value"],
+      "not_yet_proven": "예산낭비 확정 또는 특정 대행사·하청업체 책임.",
+      "next_evidence_needed": "지방재정365 row, 평가용역 원문, 유료/무료 프로그램 split, 부스/협찬 수입, 계약/RFP/수행평가."
+    },
+    {
       "id": "budget-waste-model",
       "record_type": "model",
       "festival": "예산낭비 판정 모델",
@@ -306,5 +321,6 @@
     }
   ]
 }
+
 
 

@@ -1,0 +1,114 @@
+{
+  "id": "sangju-hat-free-access-budget-risk-dossier",
+  "title": "Sangju World Hat Festival free-access budget-risk dossier",
+  "festival": "상주세계모자페스티벌",
+  "years": "2023-2025",
+  "last_updated": "2026-07-08",
+  "verdict": {
+    "summary": "무료개방형 축제의 예산 리스크와 콘텐츠 성숙 과제가 명확히 드러난 사례다.",
+    "classification": "B+ direct cause for revenue weakness, B outcome lead, C contractor attribution",
+    "plain_language": "2024년에는 12만 명이 무료 입장했고 결산상 수익은 0원이었다. 상주시 관계자 설명은 유료화할 만큼 독창적 체험 콘텐츠가 부족했다는 것이다. 따라서 문제의 핵심은 대행사 실패보다 콘텐츠 유료화 가능성, 직접수익 회수, 지역상권 환류 설계다."
+  },
+  "key_numbers": [
+    {
+      "year": 2024,
+      "metric": "reported_city_budget_execution",
+      "value": "KRW 1,271,340,000",
+      "source": "Yeongnam/Daum fiscal comparison"
+    },
+    {
+      "year": 2024,
+      "metric": "reported_revenue",
+      "value": "KRW 0 admission/business revenue",
+      "source": "Yeongnam/Daum fiscal comparison"
+    },
+    {
+      "year": 2024,
+      "metric": "reported_visitors",
+      "value": "120,000 free visitors",
+      "source": "Yeongnam/Daum fiscal comparison / 2025 D-100 article"
+    },
+    {
+      "year": 2025,
+      "metric": "reported_visitors",
+      "value": "130,000 visitors",
+      "source": "Daum/Kyongbuk interview"
+    },
+    {
+      "year": 2025,
+      "metric": "reported_direct_economic_effect",
+      "value": "KRW 4,400,000,000 direct economic effect; KRW 7,000,000,000 production inducement",
+      "source": "Daum/Kyongbuk interview"
+    }
+  ],
+  "cause_cards": [
+    {
+      "question": "왜 수익 0원인가?",
+      "answer": "공개 보도상 2024년 방문객 전원이 무료 입장했고, 관계자는 입장료를 받을 만큼 합리적이고 독창적인 체험형 콘텐츠가 부족했다고 설명했다.",
+      "evidence_strength": "B+ direct explanation",
+      "risk": "이 설명은 공식 인터뷰성 보도이므로 결산 원문과 유료/무료 프로그램 목록을 조인해야 한다."
+    },
+    {
+      "question": "왜 실패로만 보면 안 되나?",
+      "answer": "2024년부터 세계 전통모자 전시, 외교사절단 패션쇼, 학술세미나, 시민 퍼레이드, 모자 만들기 등 주제 프로그램은 존재했고 2025년에는 13만 방문·체류시간 증가·경제효과 lead가 있다.",
+      "evidence_strength": "B",
+      "risk": "방문객과 생산유발효과는 직접 재정회수나 만족도, 재방문을 자동으로 증명하지 않는다."
+    },
+    {
+      "question": "왜 예산낭비 리스크인가?",
+      "answer": "전액 시비 12.7억 lead, 수익 0원, 지역화폐 payback 구조 부재가 동시에 언급됐다. 고비용 무료 축제는 공공가치가 입증되지 않으면 예산효율 논란이 커진다.",
+      "evidence_strength": "B lead",
+      "risk": "무료개방 자체는 정책 선택일 수 있으므로 Local Finance 365, 지역소비, 만족도, 사회적 효과와 함께 판단해야 한다."
+    },
+    {
+      "question": "하청/대행사 문제인가?",
+      "answer": "현재 접근 가능한 핵심 자료는 상주시, 상주시축제추진위원회, 한국한복진흥원 구조와 프로그램 자료다. 특정 대행사 실패 또는 하청 책임은 확인되지 않았다.",
+      "evidence_strength": "C attribution",
+      "risk": "계약/RFP, 수행평가, 프로그램 실패 지점이 없으면 대행사 책임 주장은 금물이다."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Official festival page",
+      "url": "https://www.sangju.go.kr/swhf/",
+      "use": "2025 dates, venue, host/organizers, parking and official notices"
+    },
+    {
+      "name": "Yeongnam/Daum fiscal comparison",
+      "url": "https://v.daum.net/v/HsbQq4RfDE",
+      "use": "2024 city budget, zero revenue, free visitor and paid-content weakness explanation"
+    },
+    {
+      "name": "Yonhap 2024 program report",
+      "url": "https://www.yna.co.kr/view/AKR20241003026200053",
+      "use": "program mix: exhibition, fashion show, seminar, dance competition, diplomatic delegations, citizen parade"
+    },
+    {
+      "name": "Kbsm 2023 governance commentary",
+      "url": "https://www.kbsm.net/news/view.php?idx=403194",
+      "use": "early representative-festival identity, budget and department-transfer controversy lead"
+    },
+    {
+      "name": "Wevity idea contest lead",
+      "url": "https://www.wevity.com/index_university.php?c=find&gbn=viewok&gp=1&ix=94620&s=_university",
+      "use": "2025 representative program idea contest and content-development need"
+    },
+    {
+      "name": "Kbsm 2025 D-100/program report",
+      "url": "https://www.kbsm.net/news/view.php?idx=479297",
+      "use": "FUN FUN HAT theme, Modori game, Hat Experience Big5, 100+ booths and 2024 visitor reference"
+    },
+    {
+      "name": "Daum/Kyongbuk 2025 outcome interview",
+      "url": "https://v.daum.net/v/20251129114124545",
+      "use": "130,000 visitors, stay time, outside visitor share and economic-effect leads"
+    }
+  ],
+  "next_evidence_needed": [
+    "Local Finance 365 raw cost/revenue row for 2024 and 2025",
+    "2025 evaluation report with visitor-count method, satisfaction, stay-time and spend model",
+    "program-level paid/free split and whether any booth/sponsorship revenue returned to public accounts",
+    "budget breakdown by performance, exhibition, promotion, safety, traffic, staffing and venue",
+    "procurement notices/contracts/RFPs before any contractor or subcontractor causality claim"
+  ]
+}

@@ -205,3 +205,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/bonghwa-sweetfish-budget-accounting-gap-dossier.json: budget-accounting gap dossier separating paid experience/voucher structure, 2024 zero-revenue fiscal lead, 2025 revenue donation signal, 2023 flood cancellation and 2026 agency/booth procurement layers.
 - bonghwa-sweetfish-budget-accounting-gap-dossier.html: human-readable explanation of why Bonghwa Sweetfish Festival should be treated as an accounting/reconciliation and natural-shock case before calling it waste or contractor failure.
+
+## Sangju World Hat free-access budget-risk dossier
+
+- data/sangju-hat-free-access-budget-risk-dossier.json: free-access budget-risk dossier separating 2024 zero-revenue/free-entry explanation, paid-content weakness, 2025 content-maturation efforts, outcome leads and contractor-attribution guardrails.
+- sangju-hat-free-access-budget-risk-dossier.html: human-readable explanation of why Sangju World Hat Festival is a free-access public-value vs direct-revenue case rather than a proven contractor-failure case.
