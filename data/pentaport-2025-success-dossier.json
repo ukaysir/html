@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-07-08T02:19:00+09:00",
+  "case_id": "pentaport-2025",
+  "festival": "인천펜타포트음악축제",
+  "year": 2025,
+  "classification": "Level C success outcome",
+  "short_answer": "2025년 펜타포트는 방문객 16만6000여 명, 경제효과 약 836억 원, 만족도 5.83/7, 여름축제 소비자 만족도 1위라는 강한 성공 결과가 있다. 성공요인 후보는 안전/폭염 대응, 해외 헤드라이너와 Pulp 첫 내한, 20주년 레거시 콘텐츠, 지역 F&B/기부 연계다. 다만 어느 대행사/공동사업자의 성과인지 귀속하려면 계약·과업·정산 원문이 필요하다.",
+  "evidence_chain": [
+    {
+      "section": "demand_outcome",
+      "finding": "KT 통신데이터 기반 2025 방문객 16만6000여 명, 역대 최대 관람객",
+      "evidence_strength": "high",
+      "source_url": "https://www.incheon.go.kr/IC010205/view?repDt=2025-10-31&repSeq=DOM_0000000013424165",
+      "success_role": "수요예측/수용태세가 실제 방문 규모와 맞물린 성공 결과",
+      "attribution_gap": "방문자 시간대·밀집도·유료티켓 비율"
+    },
+    {
+      "section": "economic_effect",
+      "finding": "직접 경제효과 약 836억 원 추산",
+      "evidence_strength": "high",
+      "source_url": "https://www.incheon.go.kr/IC010205/view?repDt=2025-10-31&repSeq=DOM_0000000013424165",
+      "success_role": "지역경제 성과 근거",
+      "attribution_gap": "산식·직접/간접효과 분리·상권별 지출자료"
+    },
+    {
+      "section": "satisfaction_score",
+      "finding": "관람객 만족도 7점 만점 5.83점",
+      "evidence_strength": "high",
+      "source_url": "https://www.incheon.go.kr/IC010205/view?repDt=2025-10-31&repSeq=DOM_0000000013424165",
+      "success_role": "방문객 경험 품질 지표",
+      "attribution_gap": "문항별 만족도·표본·불만족 항목"
+    },
+    {
+      "section": "consumer_rank",
+      "finding": "파이낸셜뉴스·한국리서치 31개 여름축제 소비자 만족도 조사 종합 1위",
+      "evidence_strength": "medium_high",
+      "source_url": "https://www.kyeonggi.com/article/20250922580352",
+      "success_role": "외부 비교평가에서 우수",
+      "attribution_gap": "조사 원표·표본·축제별 점수"
+    },
+    {
+      "section": "heat_safety",
+      "finding": "공연장안전지원센터 사전 안전컨설팅, 초대형 텐트형 쿨존 확대",
+      "evidence_strength": "high",
+      "source_url": "https://www.incheon.go.kr/IC010205/view?repDt=2025-10-31&repSeq=DOM_0000000013424165",
+      "success_role": "대규모 쏠림/폭염 만족도 저하 리스크 대응",
+      "attribution_gap": "안전점검표·사고/응급처치 건수"
+    },
+    {
+      "section": "site_operations",
+      "finding": "쿨존 2225㎡, 무료 생수 3만5000병, 응급의료소, 긴급 대피로 확보 보도",
+      "evidence_strength": "medium_high",
+      "source_url": "https://www.etoday.co.kr/news/view/2493421",
+      "success_role": "현장 체류환경과 안전 체감 개선 후보",
+      "attribution_gap": "공식 배치도·운영사 과업·실제 이용량"
+    },
+    {
+      "section": "programming",
+      "finding": "Pulp 첫 내한, 모든 날짜 해외 아티스트 헤드라이너 전면 배치 보도",
+      "evidence_strength": "medium_high",
+      "source_url": "https://www.etoday.co.kr/news/view/2493421",
+      "success_role": "목적 방문 수요와 브랜드 신뢰 강화 후보",
+      "attribution_gap": "라인업 비용·티켓 전환율·관객 선호 조사"
+    },
+    {
+      "section": "legacy_content",
+      "finding": "20주년 기념 전시, 팝업스토어, 역대 포스터 아카이브 등 팬덤/레거시 운영",
+      "evidence_strength": "medium",
+      "source_url": "https://www.etoday.co.kr/news/view/2493421",
+      "success_role": "장기 브랜드 경험 강화",
+      "attribution_gap": "방문객 체류시간·굿즈매출·SNS 반응"
+    },
+    {
+      "section": "local_linkage",
+      "finding": "고향사랑기부제 2000만 원, 지역 F&B 업체 우대 운영",
+      "evidence_strength": "high",
+      "source_url": "https://www.incheon.go.kr/IC010205/view?repDt=2025-10-31&repSeq=DOM_0000000013424165",
+      "success_role": "지역상생과 예산 정당성 강화",
+      "attribution_gap": "참여업체 매출·만족도·민원"
+    },
+    {
+      "section": "organizer_attribution",
+      "finding": "주최 인천시, 공동주관 인천관광공사·경기일보 보도",
+      "evidence_strength": "medium_high",
+      "source_url": "https://www.etoday.co.kr/news/view/2493421",
+      "success_role": "책임주체 후보 식별",
+      "attribution_gap": "공동사업자 계약서·과업분장·정산자료"
+    }
+  ],
+  "success_hypotheses": [
+    {
+      "hypothesis": "수요 증가와 수용태세 개선이 동시에 작동",
+      "support": "방문객 규모와 만족도 모두 높고, 쿨존·물·의료소·대피로 등 현장 안전/체류 대응이 공개되어 있다.",
+      "current_confidence": "medium_high",
+      "needed_to_confirm": "시간대별 밀집도, 응급/민원 데이터, 동선 분석"
+    },
+    {
+      "hypothesis": "강한 해외 헤드라이너와 20주년 콘텐츠가 목적 방문 수요를 견인",
+      "support": "Pulp 첫 내한, 모든 날짜 해외 아티스트 헤드라이너, 20주년 전시/팝업이 보도됐다.",
+      "current_confidence": "medium",
+      "needed_to_confirm": "라인업 공개 전후 티켓 전환율, 관객 설문"
+    },
+    {
+      "hypothesis": "지역상생 설계가 예산 정당성과 만족도를 보강",
+      "support": "지역 F&B 우대 운영과 고향사랑기부제 성과가 공식 보도됐다.",
+      "current_confidence": "medium",
+      "needed_to_confirm": "지역업체 매출, 참여업체 만족도, 민원/가격 평가"
+    },
+    {
+      "hypothesis": "공동주관/운영 안정성이 2019 리스크와 달라졌을 가능성",
+      "support": "2025는 성공 결과가 강하지만, 계약/평가자료가 없어 운영사 귀속은 아직 보류해야 한다.",
+      "current_confidence": "low",
+      "needed_to_confirm": "2025 공동사업자 평가결과, 과업분장, 정산자료"
+    }
+  ]
+}

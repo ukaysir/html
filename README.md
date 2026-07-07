@@ -98,3 +98,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/pentaport-2019-cause-dossier.json: first detailed Level A causal-candidate dossier linking governance, operator selection, and public experience criticism.
 - pentaport-2019-cause-dossier.html: human-readable "why did this become a problem?" dossier with evidence strength and open proof gaps.
+
+## Pentaport 2025 success dossier
+
+- data/pentaport-2025-success-dossier.json: success-side dossier connecting visitor count, satisfaction, heat/safety operations, programming, and local linkage.
+- pentaport-2025-success-dossier.html: human-readable "why did this work?" contrast case while preserving contractor-attribution gaps.

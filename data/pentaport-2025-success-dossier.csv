@@ -1,0 +1,11 @@
+section,finding,evidence_strength,source_url,success_role,attribution_gap
+demand_outcome,"KT 통신데이터 기반 2025 방문객 16만6000여 명, 역대 최대 관람객",high,https://www.incheon.go.kr/IC010205/view?repDt=2025-10-31&repSeq=DOM_0000000013424165,"수요예측/수용태세가 실제 방문 규모와 맞물린 성공 결과",방문자 시간대·밀집도·유료티켓 비율
+economic_effect,"직접 경제효과 약 836억 원 추산",high,https://www.incheon.go.kr/IC010205/view?repDt=2025-10-31&repSeq=DOM_0000000013424165,"지역경제 성과 근거",산식·직접/간접효과 분리·상권별 지출자료
+satisfaction_score,"관람객 만족도 7점 만점 5.83점",high,https://www.incheon.go.kr/IC010205/view?repDt=2025-10-31&repSeq=DOM_0000000013424165,"방문객 경험 품질 지표",문항별 만족도·표본·불만족 항목
+consumer_rank,"파이낸셜뉴스·한국리서치 31개 여름축제 소비자 만족도 조사 종합 1위",medium_high,https://www.kyeonggi.com/article/20250922580352,"외부 비교평가에서 우수",조사 원표·표본·축제별 점수
+heat_safety,"공연장안전지원센터 사전 안전컨설팅, 초대형 텐트형 쿨존 확대",high,https://www.incheon.go.kr/IC010205/view?repDt=2025-10-31&repSeq=DOM_0000000013424165,"대규모 쏠림/폭염 만족도 저하 리스크 대응",안전점검표·사고/응급처치 건수
+site_operations,"쿨존 2225㎡, 무료 생수 3만5000병, 응급의료소, 긴급 대피로 확보 보도",medium_high,https://www.etoday.co.kr/news/view/2493421,"현장 체류환경과 안전 체감 개선 후보",공식 배치도·운영사 과업·실제 이용량
+programming,"Pulp 첫 내한, 모든 날짜 해외 아티스트 헤드라이너 전면 배치 보도",medium_high,https://www.etoday.co.kr/news/view/2493421,"목적 방문 수요와 브랜드 신뢰 강화 후보",라인업 비용·티켓 전환율·관객 선호 조사
+legacy_content,"20주년 기념 전시, 팝업스토어, 역대 포스터 아카이브 등 팬덤/레거시 운영",medium,https://www.etoday.co.kr/news/view/2493421,"장기 브랜드 경험 강화",방문객 체류시간·굿즈매출·SNS 반응
+local_linkage,"고향사랑기부제 2000만 원, 지역 F&B 업체 우대 운영",high,https://www.incheon.go.kr/IC010205/view?repDt=2025-10-31&repSeq=DOM_0000000013424165,"지역상생과 예산 정당성 강화",참여업체 매출·만족도·민원
+organizer_attribution,"주최 인천시, 공동주관 인천관광공사·경기일보 보도",medium_high,https://www.etoday.co.kr/news/view/2493421,"책임주체 후보 식별",공동사업자 계약서·과업분장·정산자료

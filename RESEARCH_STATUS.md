@@ -97,3 +97,9 @@ Updated: 2026-07-07.
 - Built a detailed dossier for Incheon Pentaport 2019 as the first Level A causal-candidate case.
 - Separated confirmed governance structure, public selection dispute, court-result reporting, programming/communication critique, ticket-value critique, counter-evidence, and unresolved proof gaps.
 - Added data/pentaport-2019-cause-dossier.json, .csv, pentaport-2019-cause-dossier.html, and evidence note.
+
+## Checkpoint: Pentaport 2025 success dossier (2026-07-08T02:19:00+09:00)
+
+- Built a success-side dossier for Incheon Pentaport 2025 using official Incheon visitor/economic/satisfaction data and public operating-detail reports.
+- Separated success result, safety/heat response, programming, legacy content, local linkage, and unresolved contractor-attribution gaps.
+- Added data/pentaport-2025-success-dossier.json, .csv, pentaport-2025-success-dossier.html, and evidence note.
