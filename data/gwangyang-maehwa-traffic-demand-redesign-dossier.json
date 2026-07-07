@@ -1,0 +1,69 @@
+{
+  "id": "gwangyang-maehwa-traffic-demand-redesign-dossier",
+  "title": "광양매화축제 수요·교통 수용력 재설계 dossier",
+  "festival": "광양매화축제",
+  "region": "전라남도 광양시",
+  "years_covered": [2018, 2024, 2026],
+  "classification": {
+    "overall": "demand_crowd_traffic_redesign_case",
+    "traffic_capacity_evidence": "B+",
+    "outcome_evidence": "B+",
+    "budget_recovery_context": "B",
+    "contractor_attribution": "C"
+  },
+  "one_line_verdict": "고질적 교통·주차 한계를 가진 대형 봄꽃 축제를 적산온도 기반 개화시기 예측, 차 없는 축제, 셔틀, 주차면 확대, 실시간 교통정보, 입장료 상품권 환급으로 재설계한 사례다.",
+  "root_cause_model": [
+    "매화 개화라는 짧은 자연 피크에 전국 수요가 몰린다.",
+    "행사장인 다압면 매화마을은 도로·주차 확장에 지리적 한계가 있다.",
+    "수요를 잘못 읽으면 과밀, 주차 대기, 교통정체, 보행 안전, 가격·노점 민원이 동시에 발생한다.",
+    "따라서 성공 조건은 방문객 수가 아니라 개화 타이밍 예측 + 접근통제 + 주차/셔틀 용량 + 현장 안전 + 지역소비 환류가 맞는지다."
+  ],
+  "what_changed": [
+    "2024년부터 고질적 교통난을 전제로 둔치주차장 확충, 무료 셔틀, 실시간 교통정보, 차 없는 거리, 교통약자 차량, 안전관리본부와 유관기관 점검을 운영했다.",
+    "2026년에는 총 8개소 3,150면 주차장, 무료 셔틀, 도심권 예약 셔틀, 장애인·노약자 전용 차량을 안내했다.",
+    "입장료 유료화는 전액 지역상품권 환급 구조로 설계되어 입장권을 체험권/식사권으로 전환하고 지역상권으로 지출을 유도했다.",
+    "2026년 결과보고회는 적산온도를 활용한 개화시기 예측과 일정 조정이 방문객 증가에 기여했다고 분석했다."
+  ],
+  "outcome_leads": [
+    "2026년 방문객 711,679명, 전년 같은 기간 373,390명 대비 약 2배 증가 lead.",
+    "2026년 입장수입 735,000,000원, 전년 240,050,000원 대비 증가 lead.",
+    "2026년 직접효과 3,550,000,000원, 전체 경제효과 97,200,000,000원 lead.",
+    "행사 만족도 6.28/7, 전년 5.42 대비 +0.86; 기대성과 6.14/7, 전년 5.57 대비 +0.57 lead.",
+    "재미 항목 6.42/7, 전년 대비 +1.12 lead."
+  ],
+  "remaining_risks": [
+    "지리적 도로·주차 한계는 사라진 것이 아니라 관리 대상이다.",
+    "대형 방문객 증가가 실제 체류시간, 지역상권 매출, 교통 외부비용을 모두 개선했는지는 추가 조인이 필요하다.",
+    "입장료 전액 상품권 환급은 local-capture 가능성이 있지만, 실제 redemption ledger 없이는 순효과를 확정할 수 없다.",
+    "특정 대행사나 하청업체의 성공/실패 귀속은 현재 근거가 부족하다."
+  ],
+  "evidence_records": [
+    {"id": "GM-01", "type": "official_event", "claim": "2026 official city tourism page lists the 25th festival dates, location, host/supervisor and program classes.", "source_ids": ["S1"]},
+    {"id": "GM-02", "type": "traffic_capacity", "claim": "2024 official planning recognized chronic traffic and parking as core problems and used real-time traffic info, expanded riverbed parking and free shuttles.", "source_ids": ["S2", "S3"]},
+    {"id": "GM-03", "type": "access_design", "claim": "2026 access plan listed 8 parking sites with 3,150 spaces, free shuttles, city shuttle reservations and mobility-support vehicles.", "source_ids": ["S4"]},
+    {"id": "GM-04", "type": "local_capture", "claim": "Paid entry was designed as full local-voucher refund; food/experience programs were priced to use refunded vouchers immediately and citywide use was encouraged.", "source_ids": ["S5"]},
+    {"id": "GM-05", "type": "outcome", "claim": "2026 result report lead shows 711,679 visitors, KRW 735m admission revenue, KRW 97.2b economic effect and increased satisfaction.", "source_ids": ["S6"]},
+    {"id": "GM-06", "type": "historical_capacity", "claim": "2018 evaluation reporting identified very large visitor demand and road/parking expansion limits due site geography.", "source_ids": ["S7"]}
+  ],
+  "metrics_to_join_next": [
+    {"metric": "daily visitors", "why": "Peak-day concentration determines whether shuttle and parking capacity actually matched demand."},
+    {"metric": "parking occupancy and shuttle ridership", "why": "Visitor count alone cannot prove congestion relief."},
+    {"metric": "traffic delay and complaint count", "why": "Need external-cost evidence before classifying budget or satisfaction tradeoff."},
+    {"metric": "voucher issuance and redemption", "why": "Needed to prove local capture beyond headline admission revenue."},
+    {"metric": "contract/RFP/evaluation", "why": "Needed before contractor attribution."}
+  ],
+  "not_yet_proven": [
+    "That traffic congestion was eliminated.",
+    "That the 97.2b economic effect figure is net of traffic/safety external costs.",
+    "That a specific agency or subcontractor caused the improved satisfaction or visitor growth."
+  ],
+  "sources": [
+    {"id": "S1", "title": "광양시 문화관광 - 제25회 광양매화축제", "url": "https://gwangyang.go.kr/tour/gallery.es?act=view&bid=0011&list_no=14471&mid=a31205020100", "evidence": "2026 dates, location, host/supervisor and official page links to CCTV/shuttle/programs"},
+    {"id": "S2", "title": "연합뉴스 - 2024 안전하고 쾌적하게", "url": "https://www.yna.co.kr/view/AKR20240306107400054", "evidence": "chronic traffic/parking, real-time traffic, expanded parking, free shuttle, illegal vendor/price control, safety inspections"},
+    {"id": "S3", "title": "프레시안 - 2024 교통량 극복 방안", "url": "https://www.pressian.com/pages/articles/2024021615365954147", "evidence": "parking expansion, shuttle route extension, car-free street, information boards, limited road-infrastructure caveat"},
+    {"id": "S4", "title": "아시아경제/Daum - 2026 입장부터 셔틀까지", "url": "https://v.daum.net/v/1jHvFWqFcd", "evidence": "8 parking sites, 3,150 spaces, free shuttles, mobility vehicles, city shuttle reservations"},
+    {"id": "S5", "title": "아시아경제/Daum - 유료화 3년 입장권=체험권", "url": "https://v.daum.net/v/4dx3HdmjaD", "evidence": "adult/youth admission, full local-voucher refund, same-price food/experience programs, citywide use and dispersal"},
+    {"id": "S6", "title": "서울신문/Daum - 2026 결과보고회", "url": "https://v.daum.net/v/20260428161819351?f=p", "evidence": "711,679 visitors, bloom timing prediction, admission revenue, direct/economic effect, 3-free festival and satisfaction increases"},
+    {"id": "S7", "title": "프라임경제 - 2018 제20회 평가보고회", "url": "https://www.newsprime.co.kr/news/article/?no=415216", "evidence": "100만+ recurring demand, 200만+ 2018 visitor lead, 523억 effect, road/parking expansion limits due geography"}
+  ]
+}

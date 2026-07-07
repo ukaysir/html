@@ -252,3 +252,9 @@ Updated: 2026-07-07.
 - Added a price-governance prevention dossier for Yeongdeok Snow Crab Festival covering live-commodity price volatility, stakeholder agreement, market-price display, booth price labels, complaint systems, citizen monitoring, crab experience/tasting supply expansion and smart queueing.
 - Classified the case as B+ price governance, B outcome lead and C contractor attribution: public evidence supports a price/brand-control model, not a hidden agency or subcontractor causality claim.
 - Added data/yeongdeok-snowcrab-price-brand-control-dossier.json, .csv, yeongdeok-snowcrab-price-brand-control-dossier.html, evidence note, case-matrix links and why-cause router links.
+
+## Checkpoint: Gwangyang Maehwa traffic/demand redesign dossier (2026-07-08T08:00:00+09:00)
+
+- Added a demand/crowd/traffic redesign dossier for Gwangyang Maehwa Festival covering historic road/parking limits, 2024 car-free/shuttle/real-time traffic controls, 2026 parking and shuttle capacity, accumulated-temperature bloom prediction, paid-entry/local-voucher refund and satisfaction/outcome leads.
+- Classified the case as B+ demand/traffic redesign, B+ outcome and C contractor attribution: public evidence supports a capacity-matching model, not a hidden agency or subcontractor causality claim.
+- Added data/gwangyang-maehwa-traffic-demand-redesign-dossier.json, .csv, gwangyang-maehwa-traffic-demand-redesign-dossier.html, evidence note, case-matrix links and why-cause router links.

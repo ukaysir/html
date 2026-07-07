@@ -1,0 +1,9 @@
+metric,claim,value_or_signal,why_it_matters,source_ids,evidence_level
+classification,Overall classification,demand-crowd-traffic redesign case,Use as crowd/traffic success-control not contractor case,S1|S2|S3|S6,B+
+visitors_2026,Visitor outcome,711679 visitors,Shows demand scale after timing/access redesign,S6,B+
+admission_revenue_2026,Admission revenue,KRW 735000000,Revenue is tied to local-voucher refund model,S5|S6,B
+economic_effect_2026,Headline economic effect,KRW 97200000000,Needs formula and external-cost review before budget judgment,S6,B
+satisfaction_2026,Event satisfaction,6.28/7 and +0.86 YoY,Positive quality signal linked to traffic/content operations,S6,B+
+traffic_controls,Capacity controls,car-free area|expanded parking|free shuttle|real-time traffic|city shuttle reservation,Direct response to chronic traffic/parking bottleneck,S2|S3|S4,B+
+voucher_loop,Local capture design,full admission refund as local voucher,Turns entry fee into controlled local-spend loop,S5,B
+contractor_attribution,Contractor causality,not proven,No public source connects a contractor/RFP to the outcome,S1|S2|S6,C

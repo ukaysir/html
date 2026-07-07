@@ -225,3 +225,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/yeongdeok-snowcrab-price-brand-control-dossier.json: price-governance prevention dossier separating live-commodity price volatility, market-price disclosure, booth labels, citizen monitors, complaint systems, supply expansion and contractor-attribution limits.
 - yeongdeok-snowcrab-price-brand-control-dossier.html: human-readable explanation of why Yeongdeok Snow Crab Festival is a brand-protection and price-control benchmark rather than a proven subcontractor case.
+
+## Gwangyang Maehwa traffic/demand redesign dossier
+
+- data/gwangyang-maehwa-traffic-demand-redesign-dossier.json: demand/crowd/traffic dossier separating bloom timing, parking capacity, shuttle design, real-time traffic information, paid-entry/local-voucher loop, satisfaction and contractor-attribution limits.
+- gwangyang-maehwa-traffic-demand-redesign-dossier.html: human-readable explanation of why Gwangyang Maehwa Festival is a traffic-capacity redesign case rather than a simple crowding failure or subcontractor case.

@@ -10,11 +10,11 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 21,
+    "festival_case_records": 22,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 6,
-    "demand_or_crowd_records": 4,
+    "demand_or_crowd_records": 5,
     "weather_or_nature_dependency_records": 2,
     "budget_waste_requires_join_model": true,
     "metric_opacity_records": 1
@@ -121,6 +121,27 @@
       ],
       "not_yet_proven": "특정 대행사의 수요예측 과업 실패.",
       "next_evidence_needed": "사전 예상인원 산정 근거, 안전관리계획, 교통대책 발주 범위, 사후 민원/만족도."
+    },
+    {
+      "id": "gwangyang-maehwa-2018-2026",
+      "record_type": "festival_case",
+      "festival": "광양매화축제",
+      "years": "2018, 2024, 2026",
+      "page": "gwangyang-maehwa-traffic-demand-redesign-dossier.html",
+      "question": "대규모 관광객 쏠림과 교통·주차 만족도 저하를 어떻게 완화했나?",
+      "short_answer": "고질적 교통·주차 한계를 적산온도 기반 개화예측, 차 없는 거리, 주차면 확대, 무료/도심권 셔틀, 실시간 교통정보, 입장료 상품권 환급으로 재설계한 demand/capacity case다.",
+      "evidence_level": "B+ demand/traffic redesign, B outcome, C attribution",
+      "procurement_link": "weak",
+      "outcome_link": "strong but formula/external-cost review needed",
+      "primary_causes": [
+        "demand_forecast",
+        "traffic_capacity",
+        "parking_shuttle",
+        "bloom_timing",
+        "voucher_loop"
+      ],
+      "not_yet_proven": "교통난 완전 해소, 972억원 경제효과의 순효과, 특정 대행사·하청업체 귀속.",
+      "next_evidence_needed": "일자별 방문객, 주차 점유율, 셔틀 탑승률, 교통 지연·민원, 상품권 redemption, 계약/RFP/수행평가."
     },
     {
       "id": "daejeon-zero-clock-2024",
