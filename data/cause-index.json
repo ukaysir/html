@@ -1,0 +1,62 @@
+{
+  "version": "2026-07-07.wave5",
+  "purpose": "Human-readable cause-first index for navigating festival success/failure evidence.",
+  "cause_domains": [
+    {
+      "id": "climate_site_safety",
+      "label_ko": "기후·입지·안전",
+      "question_ko": "날씨, 수위, 얼음, 산불, 밀집 안전 때문에 수요예측이 무너졌나?",
+      "case_ids": ["hwacheon-sancheoneo-2020", "inje-icefish-2024", "jeju-fire-2023", "itaewon-halloween-2022", "jinhae-gunhangje-2022"],
+      "signals": ["cancellation", "visitor collapse", "core attraction removed", "crowd crush", "safety-first decision"],
+      "decision_rule_ko": "외부 위험이 핵심 콘텐츠를 직접 훼손했거나 개최 자체를 바꿨을 때 강한 후보로 둔다."
+    },
+    {
+      "id": "price_booth_merchant",
+      "label_ko": "가격·부스·상행위",
+      "question_ko": "먹거리 가격, 정량 공개, 부스 운영자 관리가 만족도를 깎았나?",
+      "case_ids": ["hongcheon-kkongkkong-2024", "daejeon-zero-clock-2024", "jinju-yudeung-2025-food-booth", "busan-rock-2022-food-court-vendor"],
+      "signals": ["overpricing controversy", "price display", "merchant agreement", "booth recruitment", "selected food vendor"],
+      "decision_rule_ko": "모집 공고, 선정 공고, 가격관리 제도, 사과문 또는 민원 신호가 연결될 때만 강한 원인으로 올린다."
+    },
+    {
+      "id": "traffic_access_crowding",
+      "label_ko": "교통·접근성·혼잡",
+      "question_ko": "관광객 쏠림이 이동·주차·동선 불편으로 전환됐나?",
+      "case_ids": ["daejeon-zero-clock-2024", "gunsan-time-travel-2022", "jinhae-gunhangje-2023"],
+      "signals": ["vehicle control", "parking satisfaction low", "accessibility score low", "expanded festival geography"],
+      "decision_rule_ko": "성과 지표와 불편 지표가 동시에 있으면 mixed verdict로 유지한다."
+    },
+    {
+      "id": "content_identity_differentiation",
+      "label_ko": "콘텐츠·정체성·차별성",
+      "question_ko": "축제의 고유 콘텐츠가 방문 이유를 만들었나, 또는 희석됐나?",
+      "case_ids": ["boryeong-mud-2024", "boryeong-mud-2020", "gangneung-danoje-2024", "andong-maskdance-2023", "muju-firefly-2023", "gunsan-time-travel-2022"],
+      "signals": ["distinctive experience", "heritage identity", "program breadth", "identity concern", "digital pivot"],
+      "decision_rule_ko": "방문객 규모만 보지 않고 정체성·프로그램 만족·재방문 신호를 함께 본다."
+    },
+    {
+      "id": "budget_contract_vendor",
+      "label_ko": "예산·계약·대행구조",
+      "question_ko": "예산 변경, 대행 범위, 조달 구조가 운영 리스크를 만들었나?",
+      "case_ids": ["daedeok-waterlight-2026-rfp", "geochang-on-spring-2026-rfp", "daejeon-donggu-dongrak-2026-bid", "gaya-culture-2026-rfp", "sunchang-jangryu-2026-procurement-agent", "muan-lotus-2026-cancel", "boryeong-mud-2025-rfp", "jinhae-gunhangje-2026-rfp"],
+      "signals": ["RFP scope", "budget amount", "procurement agent", "contracting party", "bid cancellation", "subcontract restriction"],
+      "decision_rule_ko": "계약 문서는 책임 범위 증거로 쓰고, 결과 실패 원인으로는 사후 성과·민원·변경 자료가 붙을 때만 승격한다."
+    },
+    {
+      "id": "social_license_governance",
+      "label_ko": "사회적 수용성·거버넌스",
+      "question_ko": "재정성과나 흥행이 주민·방문객의 수용성과 충돌했나?",
+      "case_ids": ["jinju-yudeung-2017", "daejeon-zero-clock-2024", "jeju-fire-2023", "andong-maskdance-2023"],
+      "signals": ["paid admission backlash", "citizen inconvenience", "abolition debate", "identity concern"],
+      "decision_rule_ko": "경제효과가 커도 접근권, 환경성, 정체성, 주민 불편 신호가 있으면 mixed로 표시한다."
+    },
+    {
+      "id": "coverage_data_gap",
+      "label_ko": "데이터 공백",
+      "question_ko": "결론을 못 내리는 이유가 실제 실패가 아니라 공개자료 공백인가?",
+      "case_ids": ["mcst-2025-evaluation-method"],
+      "signals": ["2016 nationwide master missing", "API key required", "selected-festival-only reports", "trend-not-exact visitor data"],
+      "decision_rule_ko": "자료 공백은 실패 원인이 아니라 confidence cap과 coverage_status로 분리한다."
+    }
+  ]
+}
