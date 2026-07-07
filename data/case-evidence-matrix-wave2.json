@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 37,
+    "festival_case_records": 38,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
@@ -27,9 +27,69 @@
     "public_private_megacity_records": 1,
     "arts_identity_space_records": 1,
     "food_brand_queue_records": 1,
-    "paid_culture_governance_records": 1
+    "paid_culture_governance_records": 1,
+    "urban_brand_mobility_records": 1
   },
   "records": [
+    {
+      "id": "gangneung-coffee-2020-2026",
+      "festival": "강릉커피축제 2020-2026",
+      "region": "강원 강릉시 강릉커피거리·강릉시 일원",
+      "period": "2020-2026",
+      "verdict": "도시브랜드 성공+주차·공간 리스크",
+      "evidence_grade": "B+",
+      "why": "강릉 커피 도시 브랜드와 지역업체 참여는 성공했지만, 주차난·공간 집중·권역별 상권 불균형이 만족도와 환류 리스크다.",
+      "success_factors": [
+        "커피 도시 정체성",
+        "해변·도심 체험 결합",
+        "지역업체 80% 이상 부스",
+        "체류형 야간 프로그램",
+        "다회용기·가족친화 운영"
+      ],
+      "failure_risks": [
+        "주차난",
+        "600m 교통체증",
+        "강릉항/커피거리 공간 집중",
+        "시내권 카페 참여 소극성",
+        "감염병 취소·연기"
+      ],
+      "data_points": [
+        "2025 방문객 52만명",
+        "2025 소비지출 442억원·파급효과 970억원",
+        "2025 외지 방문객 34만명",
+        "2023 대행 용역 454,090,909원·(주)엘지헬로비전"
+      ],
+      "stakeholders": [
+        "문체부",
+        "강원특별자치도",
+        "강릉시",
+        "강릉문화재단",
+        "강릉 커피숍",
+        "지역 부스업체",
+        "(주)엘지헬로비전",
+        "누들축제 등 연계축제"
+      ],
+      "html": "gangneung-coffee-urban-brand-mobility-dossier.html",
+      "tags": [
+        "urban_brand",
+        "local_commerce",
+        "parking_mobility",
+        "outsourcing",
+        "pandemic_contingency"
+      ],
+      "sources": [
+        "https://www.kwnews.co.kr/page/view/2024102712304292996",
+        "https://www.yna.co.kr/view/AKR20251217145500062",
+        "https://www.coffeefestival.net/",
+        "https://v.daum.net/v/20251217172503124",
+        "https://v.daum.net/v/20200910093455001?f=p",
+        "https://www.yna.co.kr/view/AKR20210819130500062",
+        "https://www.gi.re.kr/Home/H10000/H10100/pmsReportView?page=304&projcd=1012SU063",
+        "https://eventnet.co.kr/news/view.php?ct=5&seq=4799",
+        "https://kwnews.co.kr/page/view/2024092511270597385",
+        "https://www.asiae.co.kr/article/2025121717045772483"
+      ]
+    },
     {
       "id": "jarasum-jazz-2018-2026",
       "festival": "자라섬재즈페스티벌 2018-2026",

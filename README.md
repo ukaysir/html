@@ -300,3 +300,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added jarasum-jazz-paid-governance-local-brand-dossier.html plus structured JSON/CSV and evidence dossier for 자라섬재즈페스티벌 2018-2026.
 - Key cause: strong genre identity, paid tickets, international lineup, and local stay economy drive success; subsidy, agreement, and revenue transparency remain governance risks.
 
+
+### 강릉커피축제 도시브랜드·지역상권·주차 병목 사례
+- Added gangneung-coffee-urban-brand-mobility-dossier.html plus structured JSON/CSV and evidence dossier for 강릉커피축제 2020-2026.
+- Key cause: coffee-city branding and local vendor capture drove success, while parking, spatial concentration, and district-level commerce imbalance remain planning risks.
+

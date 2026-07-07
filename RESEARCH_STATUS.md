@@ -349,3 +349,9 @@ Updated: 2026-07-07.
 - Evidence: official 2026 site, 2025 lineup/attendance milestone, 2024 ticket data, 2020 online pivot, 2018 subsidy/budget reporting, 2023 agreement/revenue controversy reporting.
 - Planning implication: collect paid ticket conversion, subsidy/sponsor/ticket revenue split, local stay spending, and contingency policy data.
 
+
+## Checkpoint: 강릉커피축제 2020-2026
+- Added case id: gangneung-coffee-2020-2026.
+- Evidence: official festival site, 2025 performance metrics, 2024 parking bottleneck, 2020 cancellation, 2021 delay, long-run evaluation, 2023 outsourcing award.
+- Planning implication: collect parking/shuttle capacity, district-level cafe sales, visitor stay spending, and outsourced operation KPIs alongside visitor totals.
+
