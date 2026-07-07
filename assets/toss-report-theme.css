@@ -1,0 +1,366 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+:root {
+  --toss-bg: #f8fafc;
+  --toss-surface: #ffffff;
+  --toss-text: #191f28;
+  --toss-muted: #6b7684;
+  --toss-subtle: #8b95a1;
+  --toss-blue: #3182f6;
+  --toss-blue-hover: #1b64da;
+  --toss-green: #00a76f;
+  --toss-warning: #f59f00;
+  --toss-danger: #f04452;
+  --toss-line: #e5e8eb;
+  --toss-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+  --toss-shadow-strong: 0 24px 64px rgba(15, 23, 42, 0.12);
+  --toss-radius: 28px;
+  --toss-radius-sm: 18px;
+}
+
+html {
+  background: var(--toss-bg) !important;
+  color: var(--toss-text) !important;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 !important;
+  min-height: 100dvh;
+  background: linear-gradient(180deg, #ffffff 0%, var(--toss-bg) 340px, #f6f8fb 100%) !important;
+  color: var(--toss-text) !important;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+  line-height: 1.7 !important;
+  letter-spacing: -0.01em;
+}
+
+body * {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+}
+
+header,
+main,
+footer {
+  width: min(1120px, calc(100% - 48px)) !important;
+  margin-inline: auto !important;
+}
+
+header {
+  padding: 88px 0 42px !important;
+  color: var(--toss-text) !important;
+}
+
+main {
+  padding-bottom: 40px;
+}
+
+footer {
+  padding: 34px 0 72px !important;
+  color: var(--toss-subtle) !important;
+  font-size: 0.95rem !important;
+}
+
+.eyebrow,
+.badge,
+.pill {
+  color: var(--toss-blue) !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.01em !important;
+  text-transform: none !important;
+  font-size: 0.95rem !important;
+}
+
+h1 {
+  margin: 14px 0 20px !important;
+  max-width: 920px !important;
+  color: var(--toss-text) !important;
+  font-size: clamp(2.4rem, 5.8vw, 5rem) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -0.065em !important;
+  font-weight: 850 !important;
+}
+
+h2 {
+  margin: 58px 0 18px !important;
+  color: var(--toss-text) !important;
+  font-size: clamp(1.7rem, 3vw, 2.55rem) !important;
+  line-height: 1.18 !important;
+  letter-spacing: -0.045em !important;
+  font-weight: 820 !important;
+}
+
+h3 {
+  color: var(--toss-text) !important;
+  font-weight: 780 !important;
+  letter-spacing: -0.035em !important;
+}
+
+p,
+li,
+td,
+th {
+  color: inherit;
+  font-size: 1rem;
+}
+
+.lead {
+  max-width: 820px !important;
+  color: var(--toss-muted) !important;
+  font-size: clamp(1.08rem, 2vw, 1.32rem) !important;
+  line-height: 1.75 !important;
+  font-weight: 500 !important;
+}
+
+a {
+  color: var(--toss-blue) !important;
+  text-decoration: none !important;
+  font-weight: 750 !important;
+}
+
+a:hover {
+  color: var(--toss-blue-hover) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+section {
+  margin: 34px 0 !important;
+}
+
+.hero,
+.hero-grid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1.12fr) minmax(280px, 0.88fr) !important;
+  gap: 18px !important;
+  margin-top: 32px !important;
+}
+
+.cards,
+.cause-grid,
+.grid,
+.kpis,
+.kpi,
+.stats {
+  gap: 16px !important;
+}
+
+.cards,
+.cause-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+.kpis,
+.kpi-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+.panel,
+.card,
+.cause-card,
+.timeline-row,
+.step,
+.note,
+article,
+aside.panel,
+section.panel,
+.kpi,
+.stat,
+.metric,
+.summary-card {
+  background: var(--toss-surface) !important;
+  border: 1px solid var(--toss-line) !important;
+  border-radius: var(--toss-radius) !important;
+  box-shadow: var(--toss-shadow) !important;
+  color: var(--toss-text) !important;
+  backdrop-filter: none !important;
+}
+
+.panel,
+.card,
+.cause-card,
+.note,
+article,
+aside.panel,
+section.panel,
+.summary-card {
+  padding: 26px !important;
+}
+
+article p,
+.card p,
+.cause-card p,
+.panel p,
+.note,
+.timeline-row,
+.step {
+  color: var(--toss-muted) !important;
+}
+
+.verdict {
+  color: var(--toss-blue) !important;
+  font-size: 1.28rem !important;
+  font-weight: 850 !important;
+  letter-spacing: -0.035em !important;
+}
+
+.kpi,
+.stat,
+.metric {
+  padding: 18px !important;
+  border-radius: 22px !important;
+}
+
+.kpi strong,
+.stat strong,
+.metric strong,
+.grade,
+.date {
+  display: block;
+  color: var(--toss-blue) !important;
+  font-weight: 850 !important;
+  letter-spacing: -0.04em !important;
+}
+
+.kpi strong,
+.stat strong,
+.metric strong {
+  font-size: clamp(1.4rem, 3vw, 2rem) !important;
+}
+
+.timeline {
+  display: grid !important;
+  gap: 12px !important;
+}
+
+.timeline-row,
+.step {
+  display: grid !important;
+  grid-template-columns: 150px minmax(0, 1fr) !important;
+  gap: 18px !important;
+  padding: 20px 22px !important;
+}
+
+.date {
+  font-size: 1rem !important;
+}
+
+.note {
+  border-left: 5px solid var(--toss-blue) !important;
+}
+
+table {
+  width: 100% !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  overflow: hidden !important;
+  border-radius: var(--toss-radius) !important;
+  background: var(--toss-surface) !important;
+  border: 1px solid var(--toss-line) !important;
+  box-shadow: var(--toss-shadow) !important;
+}
+
+th,
+td {
+  padding: 15px 17px !important;
+  border: 0 !important;
+  border-bottom: 1px solid var(--toss-line) !important;
+  text-align: left !important;
+  vertical-align: top !important;
+}
+
+th {
+  background: #f2f6ff !important;
+  color: var(--toss-text) !important;
+  font-weight: 800 !important;
+}
+
+td {
+  color: var(--toss-muted) !important;
+}
+
+tr:last-child td {
+  border-bottom: 0 !important;
+}
+
+ol,
+ul {
+  padding-left: 1.3rem !important;
+}
+
+hr {
+  border: 0 !important;
+  border-top: 1px solid var(--toss-line) !important;
+  margin: 40px 0 !important;
+}
+
+button,
+.button,
+.cta {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 52px !important;
+  padding: 0 22px !important;
+  border: 0 !important;
+  border-radius: 16px !important;
+  background: var(--toss-blue) !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  box-shadow: none !important;
+}
+
+button:hover,
+.button:hover,
+.cta:hover {
+  background: var(--toss-blue-hover) !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.pattern-positive {
+  color: var(--toss-green) !important;
+  font-weight: 800 !important;
+}
+
+.pattern-risk {
+  color: var(--toss-danger) !important;
+  font-weight: 800 !important;
+}
+
+.pattern-mixed {
+  color: var(--toss-warning) !important;
+  font-weight: 800 !important;
+}
+
+@media (max-width: 820px) {
+  header,
+  main,
+  footer {
+    width: min(100% - 32px, 1120px) !important;
+  }
+
+  header {
+    padding-top: 48px !important;
+  }
+
+  .hero,
+  .hero-grid,
+  .cards,
+  .cause-grid,
+  .kpis,
+  .kpi-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .timeline-row,
+  .step {
+    grid-template-columns: 1fr !important;
+  }
+
+  h1 {
+    font-size: clamp(2.25rem, 12vw, 3.8rem) !important;
+  }
+}

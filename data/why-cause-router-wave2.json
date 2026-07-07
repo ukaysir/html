@@ -4,6 +4,24 @@
   "purpose": "Human-readable routing layer so reviewers can start from the question 'why did this festival fail or succeed?' rather than from raw festival names.",
   "routes": [
     {
+      "id": "paid-experience-local-capture",
+      "question": "유료 체험존·상품권·지역상권 환류가 핵심인가?",
+      "use_when": "전면 유료화가 아니라 체험존/좌석/프로그램을 유료화하고 지역상품권, 할인쿠폰, 체류시간, 상권 소비로 수익을 되돌리는 구조일 때.",
+      "diagnostic_rule": "유료 판매량, 시간대별 대기, 환불, 상품권 지급/사용률, 상권 카드매출, 체류시간, 민원, 안전사고를 같은 표에 둔다.",
+      "cases": [
+        {
+          "festival": "보령머드축제 2020-2026",
+          "page": "boryeong-mud-global-paid-experience-governance-dossier.html",
+          "signal": "유료체험존, 보령사랑상품권 5,000원, 할인쿠폰/지역상생, 유료체험객 3.99만"
+        },
+        {
+          "festival": "진주남강유등축제 2015-2026",
+          "page": "jinju-yudeung-paid-access-governance-dossier.html",
+          "signal": "무료입장+일부 체험 유료 회복 구조"
+        }
+      ]
+    },
+    {
       "id": "paid-access-social-license",
       "question": "입장료·가림막·유료좌석 같은 수익화 방식이 사회적 반발을 만들었나?",
       "use_when": "재정자립, 콘텐츠 고급화, 유료좌석/입장료/가림막/구역통제, 지역상권 영향, 시민 접근권이 충돌할 때.",
@@ -59,6 +77,11 @@
           "festival": "진주남강유등축제 2015-2026",
           "page": "jinju-yudeung-paid-access-governance-dossier.html",
           "signal": "조명/음향/경호/먹거리/푸드트럭/체험SW 분절 조달, 국비 24억 지원"
+        },
+        {
+          "festival": "보령머드축제 2020-2026",
+          "page": "boryeong-mud-global-paid-experience-governance-dossier.html",
+          "signal": "영업배상책임보험 7,550만 원, 행사요원 상해보험, 글로벌푸드존 생산물배상보험"
         }
       ]
     },
@@ -199,6 +222,11 @@
           "festival": "무안연꽃축제 2023-2026",
           "page": "muan-lotus-heat-shuttle-procurement-dossier.html",
           "signal": "4일→3일 단축, 개화 절정기 조정, 쿨링 콘텐츠, 가격 통제, 행사대행 용역 구조"
+        },
+        {
+          "festival": "보령머드축제 2020-2026",
+          "page": "boryeong-mud-global-paid-experience-governance-dossier.html",
+          "signal": "34도 이상 폭염, 쿨링존/그늘막/응급의료소/온열질환 대응"
         }
       ]
     },

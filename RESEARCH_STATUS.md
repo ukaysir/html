@@ -310,3 +310,16 @@ Updated: 2026-07-07.
 - Updated case evidence matrix to 30 festival records and added paid_access_social_license_records.
 - Added why-router coverage for paid-access/social-license failures and linked 진주남강유등축제 into budget/outsourcing governance.
 - Evidence status: A-. Strong public-source support for the 2016 paid-entry/screening-wall controversy, 2025 attendance/economic-effect claims, 2026 global-festival funding, and 2024-2025 procurement signals. Full fiscal efficiency requires settlement and contract award data.
+
+## Checkpoint: 2026-07-08T11:15:00+09:00
+- Added 보령머드축제 global/paid-experience governance dossier.
+- New files: .omo/evidence/boryeong-mud-global-paid-experience-governance-dossier.md, data/boryeong-mud-global-paid-experience-governance-dossier.json, data/boryeong-mud-global-paid-experience-governance-dossier.csv, $slug.html.
+- Updated case evidence matrix to 31 festival records and added paid_experience_global_records.
+- Added why-router coverage for paid-experience/local-capture and linked 보령머드축제 into budget/outsourcing governance and season/heat comfort routes.
+- Evidence status: A-. Strong public-source support for official schedule/pricing, 2024 attendance and paid-experience figures, 2020 pandemic substitution, 2026 global-festival funding, and 2026 liability-insurance procurement. Full budget efficiency still needs settlement, paid-zone sales, voucher usage, and insurance/incident logs.
+
+## Checkpoint: 
+- Added goal expansion requested by the user: final common-pattern synthesis across all festival cases.
+- Added DESIGN.md before redesign work and introduced one shared Toss-like minimal style in ssets/toss-report-theme.css.
+- Linked the shared Pretendard-based theme into every top-level HTML file for consistent typography and page structure.
+- Added estival-common-patterns-synthesis.html summarizing success patterns, failure/risk patterns, and a festival-by-festival pattern map.

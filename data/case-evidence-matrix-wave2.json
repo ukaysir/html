@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 30,
+    "festival_case_records": 31,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
@@ -22,9 +22,29 @@
     "season_heat_comfort_records": 1,
     "mega_crowd_firework_records": 1,
     "winter_climate_success_records": 1,
-    "paid_access_social_license_records": 1
+    "paid_access_social_license_records": 1,
+    "paid_experience_global_records": 1
   },
   "records": [
+    {
+      "id": "boryeong-mud-2020-2026",
+      "festival": "보령머드축제 2020-2026",
+      "region": "충남 보령시",
+      "case_type": "글로벌 체험형 유료존·폭염안전·보험조달 혼합 성공 사례",
+      "confidence": "A-",
+      "primary_causes": [
+        "paid_experience_revenue_control",
+        "heat_contact_safety",
+        "pandemic_substitution",
+        "global_growth_pressure",
+        "insurance_procurement_governance"
+      ],
+      "demand_signal": "2024년 165만 방문, 외국인 8.26만, 유료체험객 3.99만. 2025년 폭염 속 110만 중간 집계 보도.",
+      "budget_procurement_signal": "2026 영업배상책임보험 기초/배정예산 7,550만 원, 응급상황실 보험 담당자, 행사요원 상해보험, 푸드존 생산물배상보험.",
+      "why_it_matters": "유료체험존은 수익화뿐 아니라 혼잡·안전·지역상품권 환류를 조절한다. 실패 리스크는 폭염, 접촉형 콘텐츠, 보험/응급 대응, 국비 글로벌화 집행에서 생긴다.",
+      "page": "boryeong-mud-global-paid-experience-governance-dossier.html",
+      "data": "data/boryeong-mud-global-paid-experience-governance-dossier.json"
+    },
     {
       "id": "jinju-yudeung-2015-2026",
       "festival": "진주남강유등축제 2015-2026",

@@ -270,3 +270,13 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added jinju-yudeung-paid-access-governance-dossier.html and structured JSON/CSV data for 진주남강유등축제 2015-2026.
 - Classifies the case as a paid-access/social-license recovery case: full paid entry and screening-wall backlash, then free-entry/paid-experience recovery and global-festival growth funding.
 - Captures 2016 paid-access controversy, 2025 172만 attendance and 2,400억 regional effect, 2026 global-festival selection, and fragmented lighting/sound/security/food/vendor procurement.
+
+### Boryeong Mud global/paid-experience governance dossier
+- Added oryeong-mud-global-paid-experience-governance-dossier.html and structured JSON/CSV data for 보령머드축제 2020-2026.
+- Classifies the case as a global experiential festival with paid-zone demand control, local voucher recirculation, heat/contact safety, pandemic substitution history, and insurance/procurement governance.
+- Captures 2024 165만 attendance and 3.99만 paid-experience users, 2026 global-festival funding, official paid-zone prices, and the 2026 liability-insurance procurement structure.
+
+### Unified Toss-style design and common-pattern synthesis
+- Added DESIGN.md as the shared design-system contract.
+- Added ssets/toss-report-theme.css and linked it from every top-level HTML file to force Pretendard and one Toss-like minimal dashboard style across the report.
+- Added estival-common-patterns-synthesis.html as the final synthesis page comparing success and failure patterns across all festival cases.
