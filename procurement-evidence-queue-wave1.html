@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>축제 조달·대행사 증거 큐 Wave 1</title>
+  <style>
+    :root { --ink:#19201c; --paper:#fff8e9; --line:#d8c39d; --blue:#24526b; --orange:#c05b2d; --green:#315f43; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:'Noto Sans KR','Malgun Gothic',sans-serif; background:linear-gradient(120deg,#fff8e9 0%,#f0e3ca 55%,#cfdccc 55.2%); color:var(--ink); }
+    header { padding:64px 7vw 34px; }
+    .eyebrow { color:var(--orange); font-weight:900; letter-spacing:.1em; text-transform:uppercase; }
+    h1 { font-size:clamp(2.1rem,5vw,5rem); line-height:1.03; max-width:1060px; margin:.25em 0; }
+    header p { max-width:920px; font-size:1.08rem; line-height:1.7; }
+    main { padding:24px 7vw 80px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(310px,1fr)); gap:20px; }
+    .queue-card, .panel { background:rgba(255,248,233,.92); border:1px solid var(--line); border-radius:26px; padding:24px; box-shadow:0 22px 60px rgba(71,50,20,.12); }
+    .tag { display:inline-block; border-radius:999px; padding:.28rem .68rem; background:var(--blue); color:white; font-size:.78rem; }
+    h2 { margin:.7rem 0 .2rem; }
+    h2 span { color:var(--orange); font-size:1rem; }
+    h3 { color:var(--green); }
+    a { color:var(--blue); overflow-wrap:anywhere; font-weight:800; }
+    .panel { margin-bottom:22px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Procurement evidence queue</div>
+    <h1>축제는 누가 실제로 운영했나: 대행사·용역·하청 구조 추적 큐</h1>
+    <p>축제 실패 원인을 보려면 “지자체가 했다”에서 끝내면 안 된다. 행사대행 용역, 제안요청서, 프로그램별 운영용역, 협력업체/하도급 가능성을 공공 URL 단위로 쌓아야 한다.</p>
+  </header>
+  <main>
+    <section class="panel">
+      <h2>분석 원칙</h2>
+      <p>이 큐는 책임을 단정하지 않는다. 각 항목은 원문 공고, 제안요청서, 낙찰 결과, 계약금액, 정산자료, 결과보고서가 이어서 붙을 때만 원인 주장으로 승격한다.</p>
+    </section>
+    <section class="grid">
+      <article class="queue-card">
+        <div class="tag">rfp_attachment · source_found_attachment_not_yet_parsed</div>
+        <h2>보령머드축제 <span>2019</span></h2>
+        <h3>제22회 보령머드축제 개·폐막식 및 축하공연 용역 제안요청서/과업지시서</h3>
+        <p><strong>왜 중요:</strong> 개·폐막식/공연 운영은 축제 만족도와 예산 집행 비중이 큰 영역이다. RFP에는 과업범위, 정산, 평가 기준, 책임소재가 들어갈 가능성이 높다.</p>
+        <p><strong>다음 추출:</strong> HWP attachment text extraction; contractor award/result notice search; budget and settlement comparison.</p>
+        <a href="https://mudfestival.or.kr/download/BASIC_ATTACH?storageNo=911">https://mudfestival.or.kr/download/BASIC_ATTACH?storageNo=911</a>
+      </article>
+      <article class="queue-card">
+        <div class="tag">rfp_attachment · source_found_attachment_not_yet_parsed</div>
+        <h2>보령머드축제 <span>2021</span></h2>
+        <h3>제24회 보령머드축제 온라인콘텐츠 행사 운영 대행용역 제안요청서</h3>
+        <p><strong>왜 중요:</strong> 코로나기 온라인 전환은 수요예측/콘텐츠 전환 성공 여부를 볼 수 있는 핵심 사례다. 온라인콘텐츠 대행 범위와 정산 구조를 보면 기획 의사결정 근거가 드러난다.</p>
+        <p><strong>다음 추출:</strong> HWP attachment text extraction; online festival visitor/engagement metric search; contract result search.</p>
+        <a href="https://mudfestival.or.kr/download/BASIC_ATTACH?storageNo=1012">https://mudfestival.or.kr/download/BASIC_ATTACH?storageNo=1012</a>
+      </article>
+      <article class="queue-card">
+        <div class="tag">bid_notice_mirror · third_party_mirror_contains_structured_bid_details</div>
+        <h2>보령머드축제 <span>2026</span></h2>
+        <h3>제29회 보령머드축제 시민문화한마당 등 운영 용역</h3>
+        <p><strong>왜 중요:</strong> 2026년에도 프로그램 단위 운영용역이 분리되어 있고, 협상에 의한 계약·나라장터 등록·추정가격 정보가 관찰된다. 이는 재단-대행사-세부 프로그램 구조를 추적할 출발점이다.</p>
+        <p><strong>다음 추출:</strong> Nara original notice lookup by bid number BK01531644-001; awardee and contract amount capture; compare with MCST budget.</p>
+        <a href="https://www.momo365.net/BidInfo?ViewType=detail&cd=free&iBidCode=2026051931032-1">https://www.momo365.net/BidInfo?ViewType=detail&cd=free&iBidCode=2026051931032-1</a>
+      </article>
+      <article class="queue-card">
+        <div class="tag">official_bid_notice · official_page_with_attachments</div>
+        <h2>진해군항제 <span>2026</span></h2>
+        <h3>제64회 진해군항제 행사대행 용역 제안 공모</h3>
+        <p><strong>왜 중요:</strong> 대규모 벚꽃 축제는 방문객 쏠림·교통·가격 관리 리스크가 크다. 공식 공모문과 제안요청서는 행사 기획/운영 대행사의 책임범위와 평가 기준을 보여준다.</p>
+        <p><strong>다음 추출:</strong> Download attached HWP notice/RFP; extract task scope, evaluation weights, safety/crowd/price-control clauses; search award result.</p>
+        <a href="https://www.changwon.go.kr/cwportal/depart/11063/11090/13030.web?amode=view&gcode=1329&idx=863810">https://www.changwon.go.kr/cwportal/depart/11063/11090/13030.web?amode=view&gcode=1329&idx=863810</a>
+      </article>
+      <article class="queue-card">
+        <div class="tag">agency_selection_notice · search_result_only_needs_direct_fetch</div>
+        <h2>영양산나물축제 <span>2018</span></h2>
+        <h3>제14회 영양산나물축제 주관대행사 선정</h3>
+        <p><strong>왜 중요:</strong> 2023 바가지 논란의 원인 추적은 단순 상인 문제가 아니라 축제 운영·입점·대행 구조까지 봐야 한다. 과거 주관대행사 선정 방식은 재단/군/대행사 책임 경계를 추적할 단서다.</p>
+        <p><strong>다음 추출:</strong> Fetch page outside search snippet if available; find 2023 and 2026 agency/booth/vendor notices; identify mobile-vendor management clauses.</p>
+        <a href="https://yftf.kr/albin/bbs/board.php?bo_table=recruit&page=6&wr_id=72">https://yftf.kr/albin/bbs/board.php?bo_table=recruit&page=6&wr_id=72</a>
+      </article>
+      <article class="queue-card">
+        <div class="tag">procurement_rulebook · official_rulebook_accessible</div>
+        <h2>cross_case_rulebook <span>2022</span></h2>
+        <h3>조달청 행사대행용역 입찰 및 계약관리 지침</h3>
+        <p><strong>왜 중요:</strong> 행사대행용역, 제안요청서, 제안서, 산출내역서, 사후정산, 하도급, 협력업체 정의를 제공한다. 축제 대행사/하청 구조를 판단할 때 용어 기준점이다.</p>
+        <p><strong>다음 추출:</strong> Map each festival RFP to guideline terms: agency, subcontract, collaborator, settlement, labor, field staff.</p>
+        <a href="https://www.law.go.kr/LSW/admRulSideInfoP.do?admRulSeq=2100000218115&chrClsCd=010202&docCls=jo&joBrNo=00&joChgYn=N&joNo=0002&langType=Ko&urlMode=admRulScJoRltInfoR">https://www.law.go.kr/LSW/admRulSideInfoP.do?admRulSeq=2100000218115&chrClsCd=010202&docCls=jo&joBrNo=00&joChgYn=N&joNo=0002&langType=Ko&urlMode=admRulScJoRltInfoR</a>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
