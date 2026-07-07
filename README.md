@@ -158,3 +158,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/why-cause-router-wave2.json: human-readable routing layer from causal questions to the most relevant dossiers.
 - why-cause-router-wave2.html: "왜 망했지?" navigation page for contractor/procurement, price/booth, demand/crowd, weather/safety and mixed-verdict questions.
+
+## Jinhae Gunhangje price/safety prevention dossier
+
+- data/jinhae-gunhangje-price-safety-prevention-dossier.json: prevention benchmark for large-festival price control, booth-transfer control, crowd capacity, traffic and emergency response.
+- jinhae-gunhangje-price-safety-prevention-dossier.html: human-readable model for how a 300만+ visitor festival attempts to prevent price and crowd-risk failures.

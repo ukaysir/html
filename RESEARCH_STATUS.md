@@ -168,3 +168,9 @@ Updated: 2026-07-07.
 - Added a human-readable causal router so reviewers can start from questions like contractor/procurement, price/booth, demand/crowd, weather/safety and mixed-verdict rather than raw festival names.
 - Linked current dossiers to the appropriate causal question and stated the evidence rule needed before making a strong causal claim.
 - Added data/why-cause-router-wave2.json, .csv, why-cause-router-wave2.html, and evidence note.
+
+## Checkpoint: Jinhae Gunhangje prevention benchmark (2026-07-08T04:34:00+09:00)
+
+- Built a prevention benchmark dossier for Jinhae Gunhangje, combining 2023 scale/outcome, 2025 price/booth controls, and 2026 one-strike price plus safety inspection controls.
+- Separated price, booth-transfer, crowd-capacity, traffic and emergency-response controls into a reusable large-festival model.
+- Added data/jinhae-gunhangje-price-safety-prevention-dossier.json, .csv, jinhae-gunhangje-price-safety-prevention-dossier.html, evidence note, and why-cause router links.

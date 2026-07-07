@@ -46,6 +46,11 @@
           "festival": "대전 0시축제 2025",
           "page": "daejeon-zero-clock-mixed-verdict-dossier.html",
           "status": "preventive merchant-agreement signal"
+        },
+        {
+          "festival": "진해군항제 2025/2026",
+          "page": "jinhae-gunhangje-price-safety-prevention-dossier.html",
+          "status": "large-festival price/booth prevention benchmark"
         }
       ]
     },
@@ -69,6 +74,11 @@
           "festival": "대전 0시축제 2024",
           "page": "daejeon-zero-clock-mixed-verdict-dossier.html",
           "status": "large-demand plus civic inconvenience"
+        },
+        {
+          "festival": "진해군항제 2023/2026",
+          "page": "jinhae-gunhangje-price-safety-prevention-dossier.html",
+          "status": "large-crowd capacity/traffic prevention benchmark"
         }
       ]
     },

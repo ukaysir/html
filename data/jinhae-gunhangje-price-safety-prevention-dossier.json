@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-07-08T04:34:00+09:00",
+  "festival": "진해군항제",
+  "region": "경남 창원시 진해구",
+  "case_type": "large_festival_price_safety_prevention_benchmark",
+  "headline_assessment": "Jinhae Gunhangje is a prevention benchmark: very large visitor volume forces price control, booth transfer control, crowd capacity management, traffic response and emergency response to be designed together.",
+  "confidence": "B+ for public prevention model and visitor scale; A/B for 2023 official outcome; B for 2026 preventive measures until post-event inspection results are collected.",
+  "short_answer": {
+    "why_this_matters": "Large-crowd spring festivals can succeed economically while still creating price-gouging, booth resale, crowd bottleneck and traffic risks. Jinhae is useful because public actors explicitly connect price discipline and safety management before the event.",
+    "is_this_a_failure_case": "No. It is a prevention and benchmark case. It should be used to compare whether strict booth rules and safety controls reduce complaints and incidents.",
+    "what_to_collect_next": "Inspection result counts, booth removal/sanction records, complaint logs, shuttle/bus-lane outcomes, crowd-control interventions and post-event satisfaction."
+  },
+  "timeline": [
+    {
+      "year": 2023,
+      "event": "Changwon reported 4.5 million+ visitors, estimated 260 billion KRW economic inducement and no safety accidents after the festival resumed after four years.",
+      "source_url": "https://www.changwon.go.kr/cwportal/10310/10429/10432.web?amode=view&gcode=1011&idx=754182",
+      "evidence_level": "A/B"
+    },
+    {
+      "year": 2025,
+      "event": "Changwon announced price-stabilization measures including joint inspection TF, report center, menu weight/price display, card-payment controls, three-strike sanctions and booth-transfer prevention deposit.",
+      "source_url": "https://www.asiae.co.kr/article/2025031313405958978",
+      "evidence_level": "B"
+    },
+    {
+      "year": 2026,
+      "event": "Changwon announced a joint price-gouging TF for the 64th festival, checking 115 booths and nearby stores, and applying one-strike-out removal for violations.",
+      "source_url": "https://www.yna.co.kr/view/AKR20260304164300052",
+      "evidence_level": "B+"
+    },
+    {
+      "year": 2026,
+      "event": "MOIS inspected crowd, traffic, emergency response, fire/electrical/gas facilities, bottlenecks, maximum capacity control, detours, free shuttles and bus lanes.",
+      "source_url": "https://v.daum.net/v/ZqCb2UOc5Q",
+      "evidence_level": "B+"
+    }
+  ],
+  "prevention_model": [
+    {
+      "axis": "price",
+      "control": "price/weight display, price-gouging TF, report center, one-strike or strike-based sanctions"
+    },
+    {
+      "axis": "booth governance",
+      "control": "booth transfer/resale prevention, deposit or sanction, permitted booth scope"
+    },
+    {
+      "axis": "crowd capacity",
+      "control": "maximum capacity management for dense locations such as Yeojwacheon and Jungwon Rotary, immediate entry control and detours"
+    },
+    {
+      "axis": "traffic",
+      "control": "free shuttle buses, bus-only lanes, weekend congestion planning and route guidance"
+    },
+    {
+      "axis": "emergency response",
+      "control": "multi-agency inspection of emergency rescue, fire, electrical and gas risks"
+    }
+  ],
+  "why_chain": [
+    {
+      "step": 1,
+      "label": "Scale",
+      "finding": "Millions of visitors create both economic opportunity and operational risk."
+    },
+    {
+      "step": 2,
+      "label": "Price risk",
+      "finding": "Large demand can reward opportunistic pricing unless price/weight disclosure and sanctions are visible."
+    },
+    {
+      "step": 3,
+      "label": "Booth resale risk",
+      "finding": "Booth transfer/resale can create hidden cost pressure and weaken official price control."
+    },
+    {
+      "step": 4,
+      "label": "Crowd/traffic risk",
+      "finding": "Dense photo spots and synchronized visitor movement require capacity limits, detours and transport management."
+    },
+    {
+      "step": 5,
+      "label": "Benchmark use",
+      "finding": "Post-event data should show whether strict prevention reduces complaints, incidents and dissatisfaction."
+    }
+  ],
+  "documents_to_collect_next": [
+    "2026 price-gouging TF inspection result",
+    "Number of one-strike removals, warnings, corrections or business suspensions",
+    "Booth transfer/resale violation records",
+    "Safety-control log for Yeojwacheon, Jungwon Rotary and other dense spots",
+    "Shuttle/bus-lane ridership and traffic delay data",
+    "Post-event complaints and satisfaction survey"
+  ],
+  "source_urls": [
+    "https://www.changwon.go.kr/cwportal/10310/10429/10432.web?amode=view&gcode=1011&idx=754182",
+    "https://www.asiae.co.kr/article/2025031313405958978",
+    "https://www.yna.co.kr/view/AKR20260304164300052",
+    "https://v.daum.net/v/ZqCb2UOc5Q",
+    "https://www.newsis.com/view/NISX20260327_0003566495"
+  ]
+}

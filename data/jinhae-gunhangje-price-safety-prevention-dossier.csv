@@ -1,0 +1,8 @@
+item,value
+festival,진해군항제
+region,경남 창원시 진해구
+case_type,large_festival_price_safety_prevention_benchmark
+headline_assessment,Prevention benchmark combining price control booth-transfer control crowd capacity traffic and emergency response
+confidence,B+ public prevention model; A/B 2023 official outcome; B 2026 measures before post-event results
+key_controls,price-weight display; TF; report center; one-strike/three-strike sanctions; booth transfer prevention; capacity control; shuttle/bus lanes
+next_documents,inspection result; sanctions; booth transfer records; crowd-control log; traffic data; satisfaction survey
