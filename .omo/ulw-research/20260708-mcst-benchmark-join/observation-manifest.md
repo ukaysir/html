@@ -1,0 +1,7 @@
+# Observation manifest: MCST benchmark join
+
+| observation_id | source path or URL | evidence layer | observer group | independence basis | observer | observed_at | valid_at | artifact path | quote or line anchor | contamination notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| O-BENCH-001 | https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=22212 | primary official attachment | official-source extraction | first-party MCST | main-agent | 2026-07-08T01:23:21+09:00 | 2026-01-23 press release | data/mcst-cultural-tourism-benchmark-2026-2027.json | HWPX section0 text extraction | none |
+| O-BENCH-002 | data/master/mcst-region-festivals-2017-2026.master-draft.json | derived master dataset | local derived data | MCST annual download derived artifact | main-agent | 2026-07-08T01:23:21+09:00 | 2026 master rows | data/mcst-cultural-tourism-benchmark-2026-2027.json | normalized join table | prior extraction artifact trusted as current repo state |
+| O-BENCH-003 | mcst-cultural-tourism-benchmark-2026-2027.html | designed synthesis artifact | local report | human-readable dashboard output | main-agent | 2026-07-08T01:23:21+09:00 | current artifact | mcst-cultural-tourism-benchmark-2026-2027.html | interpretation guardrail section | none |

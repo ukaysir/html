@@ -62,3 +62,9 @@ Pages was checked as not enabled during the research run. To publish, use:
 - data/master/mcst-finance-procurement-match-keys.csv: spreadsheet-friendly version for filtering by year, local government, budget band, and join priority.
 - data/master/mcst-finance-procurement-match-keys.summary.json: year-level readiness counts for the dashboard.
 
+
+## MCST benchmark cohort
+
+- data/mcst-cultural-tourism-benchmark-2026-2027.json: official 2026-2027 cultural-tourism festival cohort extracted from the MCST HWPX press attachment and joined to the 2026 MCST master.
+- data/mcst-cultural-tourism-benchmark-2026-2027.csv: spreadsheet-friendly benchmark join table.
+- mcst-cultural-tourism-benchmark-2026-2027.html: human-readable benchmark cohort page.

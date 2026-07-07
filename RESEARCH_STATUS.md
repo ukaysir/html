@@ -53,3 +53,9 @@ Updated: 2026-07-07.
 - Date windows available for 4030 records; budget values available for 9500 records.
 - 2017-2021 overlay dates used for 2455 records.
 - Added dashboard section #match-keys to explain how festival identity will be connected to budget, procurement, outsourcing, and result evidence.
+
+## Checkpoint: MCST 2026-2027 benchmark cohort join (2026-07-08T01:23:57+09:00)
+
+- Extracted the official 27-name 2026-2027 cultural-tourism festival cohort from the MCST HWPX press attachment using public UplDownloadFile parameters visible in the official HTML.
+- Joined the 27 official names to the 2026 MCST regional festival master: exact 23, fuzzy 2, unmatched 2.
+- Updated data/mcst-cultural-tourism-benchmark-2026-2027.json, added .csv, refreshed mcst-cultural-tourism-benchmark-2026-2027.html, and added ULW instrumentation under .omo/ulw-research/20260708-mcst-benchmark-join/.

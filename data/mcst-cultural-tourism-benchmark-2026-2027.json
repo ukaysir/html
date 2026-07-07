@@ -1,86 +1,646 @@
 {
   "metadata": {
-    "generated_at": "2026-07-08T01:17:40+09:00",
-    "purpose": "Use MCST-designated cultural tourism festivals as a success/benchmark cohort against the 10,198-row national festival master.",
-    "extraction_status": "official_page_metadata_captured; attachment text extraction pending because viewer/download path did not expose raw file in first probe."
+    "generated_at": "2026-07-08T01:23:21+09:00",
+    "source_press_page": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=22212",
+    "source_list_page": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pDataCD=0417000000&pSeq=2108&pType=",
+    "extracted_from": "MCST HWPX public attachment via UplDownloadFile endpoint, then Contents/section0.xml text extraction.",
+    "total_official_cultural_tourism_festivals": 27,
+    "exact_2026_master_matches": 23,
+    "fuzzy_2026_master_matches": 2,
+    "not_matched_in_2026_master_by_name": 2,
+    "master_2026_records": 1266,
+    "match_key_summary_total": 10198,
+    "interpretation": [
+      "This cohort is an official benchmark group, not automatic proof of success.",
+      "Selection/reselection can be compared with budget, visitor, outsourcing, procurement, price, crowding, and satisfaction evidence.",
+      "Unmatched rows may reflect name variants, 2027-only status, or absence from the MCST annual regional festival sheet."
+    ],
+    "extracted_policy_facts": [
+      "27 final selected cultural-tourism festivals for 2026-2027.",
+      "20 reselected from 2024-2025; 7 newly selected.",
+      "Evaluation considered expert, consumer, resident evaluations, negative issues such as overpricing, and reception readiness.",
+      "Support includes 40 million KRW national funding per supported festival, international PR, tourism product development, content competitiveness, and AI-based reception improvement.",
+      "Existing global festival examples: Incheon Pentaport, Hwacheon Sancheoneo, Suwon Hwaseong; 3 additional global and 4 preliminary global festivals planned by February 2026."
+    ]
   },
-  "official_sources": [
+  "official_festivals": [
     {
-      "id": "mcst_press_20260123",
-      "title": "세계인 사로잡은 케이-컬처 종합 체험장, 2026~2027 문화관광축제 27개 선정",
-      "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=22212",
-      "published": "2026-01-23",
-      "captured_facts": [
-        "2026~2027 문화관광축제 27개 최종 선정 보도자료",
-        "본문파일 HWPX 249KB and PDF 212KB listed",
-        "공공누리 1유형 source page"
+      "official_name": "강릉커피축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "강릉커피축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "661371d9e7d69456ec4271cf596d06dec609de76",
+          "raw_name_ko": "제18회 강릉커피축제",
+          "normalized_name_ko": "강릉커피축제",
+          "admin_area_level1": "강원",
+          "admin_area_level2": "강릉시",
+          "period_raw": "2026-10-21~2026-10-25",
+          "start_date": "2026-10-21",
+          "end_date": "2026-10-25",
+          "budget_million_krw": 0.0,
+          "visitors_previous_total": 520000.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
       ]
     },
     {
-      "id": "mcst_list_20260220",
-      "title": "2026-2027년 문화관광축제 및 예비축제 목록",
-      "url": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pDataCD=0417000000&pSeq=2108&pType=",
-      "published": "2026-02-20",
-      "captured_facts": [
-        "2026-2027년 문화관광축제 및 예비축제 목록 HWP 135KB listed",
-        "공공누리 4유형 source page",
-        "담당부서 국민관광진흥과"
+      "official_name": "고령대가야축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "고령대가야축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "2d9b0f3f4cdd30dc03be8e2aac2116255e0fca4e",
+          "raw_name_ko": "고령 대가야축제",
+          "normalized_name_ko": "고령 대가야축제",
+          "admin_area_level1": "경북",
+          "admin_area_level2": "고령군",
+          "period_raw": "2026-03-27~2026-03-29",
+          "start_date": "2026-03-27",
+          "end_date": "2026-03-29",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": null,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "03. 미집계"
+        }
       ]
     },
     {
-      "id": "nabis_duplicate_policy_record",
-      "title": "나비스 중앙부처 정책보도 mirror",
-      "url": "https://www.nabis.go.kr/policyDetailView.do?gbnCode=P50&menucd=20&poIdx=21722&refCode=20",
-      "published": "2026-01-23",
-      "captured_facts": [
-        "27개 중 20개 재지정, 7개 신규 선정 구조 확인",
-        "신규 예시: 부산국제록페스티벌, 논산딸기축제, 세종축제",
-        "글로벌축제/예비글로벌축제 추가 선정 계획 언급"
+      "official_name": "광안리어방축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "광안리어방축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "f22cd8b656c87be5ad1ccd114744c6f5c37a2a24",
+          "raw_name_ko": "제24회 광안리어방축제",
+          "normalized_name_ko": "광안리어방축제",
+          "admin_area_level1": "부산",
+          "admin_area_level2": "수영구",
+          "period_raw": "2026-06-12~2026-06-14",
+          "start_date": "2026-06-12",
+          "end_date": "2026-06-14",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": 174253.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "02. 추정"
+        }
+      ]
+    },
+    {
+      "official_name": "광주김치축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "광주김치축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "c1e9baf951ae7066859e88f07e8de2c8c88b1d1f",
+          "raw_name_ko": "제33회 광주김치축제",
+          "normalized_name_ko": "광주김치축제",
+          "admin_area_level1": "광주",
+          "admin_area_level2": "-",
+          "period_raw": null,
+          "start_date": null,
+          "end_date": null,
+          "budget_million_krw": 0.0,
+          "visitors_previous_total": 57000.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "논산딸기축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "신규 선정 예시",
+      "normalized_key": "논산딸기축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "4490db70bf408a2ebdc924a6fff036483020b69b",
+          "raw_name_ko": "제28회 논산딸기축제",
+          "normalized_name_ko": "논산딸기축제",
+          "admin_area_level1": "충남",
+          "admin_area_level2": "논산시",
+          "period_raw": "2026-03-26~2026-03-29",
+          "start_date": "2026-03-26",
+          "end_date": "2026-03-29",
+          "budget_million_krw": 0.0,
+          "visitors_previous_total": 350000.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "02. 추정"
+        }
+      ]
+    },
+    {
+      "official_name": "동래읍성축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "동래읍성축제",
+      "join_status": "not_matched_in_2026_master_by_name",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    {
+      "official_name": "대구치맥페스티벌",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "대구치맥페스티벌",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "9085e294de6e7eb697ec469a88c407c78bc38f86",
+          "raw_name_ko": "2026 대구치맥페스티벌",
+          "normalized_name_ko": "26 대구치맥페스티벌",
+          "admin_area_level1": "대구",
+          "admin_area_level2": "-",
+          "period_raw": "2026-07-01~2026-07-05",
+          "start_date": "2026-07-01",
+          "end_date": "2026-07-05",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": 745000.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "02. 추정"
+        }
+      ]
+    },
+    {
+      "official_name": "밀양아리랑대축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "밀양아리랑대축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "78f85e4ccadf4f97a0718e3fecf5f0b1c30d490f",
+          "raw_name_ko": "제68회 밀양아리랑대축제",
+          "normalized_name_ko": "밀양아리랑대축제",
+          "admin_area_level1": "경남",
+          "admin_area_level2": "밀양시",
+          "period_raw": "2026-05-07~2026-05-10",
+          "start_date": "2026-05-07",
+          "end_date": "2026-05-10",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": 416065.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "02. 추정"
+        }
+      ]
+    },
+    {
+      "official_name": "보성다향대축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "보성다향대축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "f192c58a55ded09c57d1aafc36e8c3ff9c475b4f",
+          "raw_name_ko": "제49회 보성다향대축제",
+          "normalized_name_ko": "보성다향대축제",
+          "admin_area_level1": "전남",
+          "admin_area_level2": "보성군",
+          "period_raw": "2026-05-01~2026-05-05",
+          "start_date": "2026-05-01",
+          "end_date": "2026-05-05",
+          "budget_million_krw": 32.0,
+          "visitors_previous_total": 610000.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "02. 추정"
+        }
+      ]
+    },
+    {
+      "official_name": "부천국제만화제",
+      "year_scope": "2027",
+      "cohort_note": "2027 추가 선정",
+      "normalized_key": "부천국제만화제",
+      "join_status": "not_matched_in_2026_master_by_name",
+      "candidate_count": 0,
+      "candidates": []
+    },
+    {
+      "official_name": "부평풍물대축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "부평풍물대축제",
+      "join_status": "fuzzy_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "d595f3b92913e1db30cd3e15fee9c2fc7a455bf2",
+          "raw_name_ko": "2026년 제30회 부평풍물대축제",
+          "normalized_name_ko": "26년 제30회 부평풍물대축제",
+          "admin_area_level1": "인천",
+          "admin_area_level2": "부평구",
+          "period_raw": "2026-10-02~2026-10-04",
+          "start_date": "2026-10-02",
+          "end_date": "2026-10-04",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": 230282.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "02. 추정"
+        }
+      ]
+    },
+    {
+      "official_name": "부산국제록페스티벌",
+      "year_scope": "2026-2027",
+      "cohort_note": "신규 선정 예시",
+      "normalized_key": "부산국제록페스티벌",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "63880695b7651c3ca76b9b4ec2abfc7b2e70a78d",
+          "raw_name_ko": "2026 부산국제록페스티벌",
+          "normalized_name_ko": "26 부산국제록페스티벌",
+          "admin_area_level1": "부산",
+          "admin_area_level2": "-",
+          "period_raw": "2026-10-02~2026-10-04",
+          "start_date": "2026-10-02",
+          "end_date": "2026-10-04",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": 70000.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "수원화성문화제",
+      "year_scope": "2026-2027",
+      "cohort_note": "기존 글로벌축제 언급",
+      "normalized_key": "수원화성문화제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "e0bc0ea41103e56b520abda80500e35c0bc9355c",
+          "raw_name_ko": "제63회 수원화성문화제",
+          "normalized_name_ko": "수원화성문화제",
+          "admin_area_level1": "경기",
+          "admin_area_level2": "수원시",
+          "period_raw": "2026-10-04~2026-10-11",
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-11",
+          "budget_million_krw": 698.0,
+          "visitors_previous_total": 709154.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "02. 추정"
+        }
+      ]
+    },
+    {
+      "official_name": "순창장류축제",
+      "year_scope": "2026",
+      "cohort_note": "2026 이후 명예축제 전환 예정",
+      "normalized_key": "순창장류축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "2b3ba7487b3e57eedf44c2153d574f6bdf0ddc32",
+          "raw_name_ko": "제21회 순창장류축제",
+          "normalized_name_ko": "순창장류축제",
+          "admin_area_level1": "전북",
+          "admin_area_level2": "순창군",
+          "period_raw": "2026-10-16~2026-10-18",
+          "start_date": "2026-10-16",
+          "end_date": "2026-10-18",
+          "budget_million_krw": 32.0,
+          "visitors_previous_total": 53459.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "시흥갯골축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "시흥갯골축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "dae9d3f87fa122c7173b5a0d3fd0c91e9dbd3bd2",
+          "raw_name_ko": "제21회 시흥갯골축제",
+          "normalized_name_ko": "시흥갯골축제",
+          "admin_area_level1": "경기",
+          "admin_area_level2": "시흥시",
+          "period_raw": "2026-09-18~2026-09-20",
+          "start_date": "2026-09-18",
+          "end_date": "2026-09-20",
+          "budget_million_krw": 0.0,
+          "visitors_previous_total": 30778.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "02. 추정"
+        }
+      ]
+    },
+    {
+      "official_name": "세종한글축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "신규 선정 계열; 보도 앞부분은 세종축제로 요약",
+      "normalized_key": "세종한글축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "3c4d4f1bbf9516ca9f55efede1f7455472748045",
+          "raw_name_ko": "2026 세종한글축제",
+          "normalized_name_ko": "26 세종한글축제",
+          "admin_area_level1": "세종",
+          "admin_area_level2": "-",
+          "period_raw": "2026-10-09~2026-10-11",
+          "start_date": "2026-10-09",
+          "end_date": "2026-10-11",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": 315299.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "안성맞춤남사당바우덕이축제",
+      "year_scope": "2026",
+      "cohort_note": "2026 이후 명예축제 전환 예정",
+      "normalized_key": "안성맞춤남사당바우덕이축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "107d6ea896f3f335e157ec3854ceab1b4fc6886c",
+          "raw_name_ko": "안성맞춤 남사당 바우덕이축제",
+          "normalized_name_ko": "안성맞춤 남사당 바우덕이축제",
+          "admin_area_level1": "경기",
+          "admin_area_level2": "안성시",
+          "period_raw": "2026-10-02~2026-10-05",
+          "start_date": "2026-10-02",
+          "end_date": "2026-10-05",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": 603622.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "연천구석기축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "연천구석기축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "9640c1a2d1937615174fab8ae075504bcf484d73",
+          "raw_name_ko": "제33회 연천 구석기 축제",
+          "normalized_name_ko": "연천 구석기 축제",
+          "admin_area_level1": "경기",
+          "admin_area_level2": "연천군",
+          "period_raw": "2026-05-02~2026-05-05",
+          "start_date": "2026-05-02",
+          "end_date": "2026-05-05",
+          "budget_million_krw": 0.0,
+          "visitors_previous_total": 66562.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "99. 무응답"
+        }
+      ]
+    },
+    {
+      "official_name": "영암왕인문화축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "영암왕인문화축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "b7abee154a9f237b43211b8b9f55e9cae6191ac8",
+          "raw_name_ko": "2026 영암왕인문화축제",
+          "normalized_name_ko": "26 영암왕인문화축제",
+          "admin_area_level1": "전남",
+          "admin_area_level2": "영암군",
+          "period_raw": "2026-04-04~2026-04-12",
+          "start_date": "2026-04-04",
+          "end_date": "2026-04-12",
+          "budget_million_krw": 0.0,
+          "visitors_previous_total": 163706.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "울산옹기축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "울산옹기축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "b16c10fbb838244627d49cee6fb9aa1ae4c8509b",
+          "raw_name_ko": "제26회 울산옹기축제",
+          "normalized_name_ko": "울산옹기축제",
+          "admin_area_level1": "울산",
+          "admin_area_level2": "울주군",
+          "period_raw": "2026-05-01~2026-05-03",
+          "start_date": "2026-05-01",
+          "end_date": "2026-05-03",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": 160000.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "음성품바축제",
+      "year_scope": "2027",
+      "cohort_note": "2027 추가 선정",
+      "normalized_key": "음성품바축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "3a14e6c636614ee3dd0c05ba264aa75b6cc788cb",
+          "raw_name_ko": "제27회 음성품바축제",
+          "normalized_name_ko": "음성품바축제",
+          "admin_area_level1": "충북",
+          "admin_area_level2": "음성군",
+          "period_raw": "2026-06-10~2026-06-14",
+          "start_date": "2026-06-10",
+          "end_date": "2026-06-14",
+          "budget_million_krw": 0.0,
+          "visitors_previous_total": 328190.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "인천펜타포트음악축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "기존 글로벌축제 계열; 보도문에서는 뮤직페스티벌 표기도 병행",
+      "normalized_key": "인천펜타포트음악축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "c044b8f29a0dbb1f9ccda65de2c70d3a7e676cee",
+          "raw_name_ko": "제21회 인천 펜타포트 음악축제",
+          "normalized_name_ko": "인천 펜타포트 음악축제",
+          "admin_area_level1": "인천",
+          "admin_area_level2": "-",
+          "period_raw": "2026-07-31~2026-08-02",
+          "start_date": "2026-07-31",
+          "end_date": "2026-08-02",
+          "budget_million_krw": 800.0,
+          "visitors_previous_total": 150000.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "정선아리랑제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "정선아리랑제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "384877fb11939b17dd0698699e56fc6cf7e7e07a",
+          "raw_name_ko": "제51회 정선아리랑제",
+          "normalized_name_ko": "정선아리랑제",
+          "admin_area_level1": "강원",
+          "admin_area_level2": "정선군",
+          "period_raw": "2026-10-01~2026-10-04",
+          "start_date": "2026-10-01",
+          "end_date": "2026-10-04",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": 145364.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "철원한탄강얼음트레킹",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "철원한탄강얼음트레킹",
+      "join_status": "fuzzy_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "bf4970c80204ee8c99db4af7ca4a18fbc4a5c47d",
+          "raw_name_ko": "철원한탄강얼음트레킹 축제",
+          "normalized_name_ko": "철원한탄강얼음트레킹 축제",
+          "admin_area_level1": "강원",
+          "admin_area_level2": "철원군",
+          "period_raw": "2026-01-17~2026-01-25",
+          "start_date": "2026-01-17",
+          "end_date": "2026-01-25",
+          "budget_million_krw": 0.0,
+          "visitors_previous_total": 150000.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "청송사과축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "청송사과축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "64edf44b860cfadbf43ad16b8b2920a0997a6302",
+          "raw_name_ko": "제20회 청송사과축제",
+          "normalized_name_ko": "청송사과축제",
+          "admin_area_level1": "경북",
+          "admin_area_level2": "청송군",
+          "period_raw": "2026-10-28~2026-11-01",
+          "start_date": "2026-10-28",
+          "end_date": "2026-11-01",
+          "budget_million_krw": 55.0,
+          "visitors_previous_total": 310317.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "평창송어축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "평창송어축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "a74cb048543f769d83a30a8596607bc93d05e06d",
+          "raw_name_ko": "평창송어축제",
+          "normalized_name_ko": "평창송어축제",
+          "admin_area_level1": "강원",
+          "admin_area_level2": "평창군",
+          "period_raw": "2026-01-09~2026-02-09",
+          "start_date": "2026-01-09",
+          "end_date": "2026-02-09",
+          "budget_million_krw": 18.0,
+          "visitors_previous_total": 227725.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "01. 계측"
+        }
+      ]
+    },
+    {
+      "official_name": "화성뱃놀이축제",
+      "year_scope": "2026-2027",
+      "cohort_note": "2026-2027 문화관광축제",
+      "normalized_key": "화성뱃놀이축제",
+      "join_status": "exact_2026_master_match",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "festival_year_id": "07e9d3282ef3f887a2a7be54aed2011ea0c89986",
+          "raw_name_ko": "제16회 화성 뱃놀이 축제",
+          "normalized_name_ko": "화성 뱃놀이 축제",
+          "admin_area_level1": "경기",
+          "admin_area_level2": "화성시",
+          "period_raw": "2026-05-22~2026-05-25",
+          "start_date": "2026-05-22",
+          "end_date": "2026-05-25",
+          "budget_million_krw": 40.0,
+          "visitors_previous_total": 271520.0,
+          "outsourcing_raw": null,
+          "hosting_org_raw": "99. 무응답"
+        }
       ]
     }
-  ],
-  "benchmark_logic": [
-    "MCST-selected cultural tourism festivals should be treated as a benchmark cohort, not as automatic success proof.",
-    "Compare selected/reselected/new festival cohorts against MCST master fields: budget, visitor history, outsourcing, dates, region, festival type.",
-    "Use selection/reselection status as one dependent variable in success analysis; use price/crowding/procurement incidents as counter-evidence.",
-    "Global festival policy should be checked against demand dispersion: whether national attention spreads to regions or concentrates congestion in already-famous festivals."
-  ],
-  "confirmed_named_examples": [
-    {
-      "name": "부산국제록페스티벌",
-      "status": "new_2026_2027_example_from_policy_record",
-      "use": "new selection case: youth/music demand, large-event operations, sponsorship/procurement"
-    },
-    {
-      "name": "논산딸기축제",
-      "status": "new_2026_2027_example_from_policy_record",
-      "use": "new selection case: agritourism/local product, food price/sales management"
-    },
-    {
-      "name": "세종축제",
-      "status": "new_2026_2027_example_from_policy_record",
-      "use": "new selection case: city identity and public-space operations"
-    },
-    {
-      "name": "인천펜타포트뮤직페스티벌",
-      "status": "existing_global_festival_from_mcst_search_index",
-      "use": "global festival case: paid music festival, crowd/safety/sponsor model"
-    },
-    {
-      "name": "화천산천어축제",
-      "status": "existing_global_festival_from_mcst_search_index",
-      "use": "winter global festival and demand/satisfaction benchmark"
-    },
-    {
-      "name": "수원화성문화제",
-      "status": "existing_global_festival_from_mcst_search_index",
-      "use": "heritage/city festival global benchmark"
-    }
-  ],
-  "next_extraction_tasks": [
-    "Resolve raw HWP/HWPX/PDF attachment download URL or use public preview text where available.",
-    "Extract full 27 cultural tourism festival names and preliminary festival names.",
-    "Join selected names to MCST 2026 master and match-key index.",
-    "Compare selected cohort against procurement queue and case dossiers."
   ]
 }
