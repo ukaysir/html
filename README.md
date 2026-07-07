@@ -36,3 +36,6 @@ Pages was checked as not enabled during the research run. To publish, use:
 - `data/scoring-rubric.json`
 - `data/relation-graph-schema.json`
 - `data/access-feasibility.json`
+- `data/festival-case-evidence-wave3.json`
+- `data/procurement-evidence-wave3.json`
+- `data/source-coverage-matrix.json`
