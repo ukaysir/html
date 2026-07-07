@@ -150,3 +150,9 @@ Updated: 2026-07-07.
 - Built a boundary-control dossier for the 2024 Hongcheon River Ice Festival night-market price controversy.
 - Separated official in-venue vendors selected by foundation bidding and pre-agreed menu/prices from the nearby/night-market operator lead.
 - Added data/hongcheon-ice-nightmarket-price-dossier.json, .csv, hongcheon-ice-nightmarket-price-dossier.html, and evidence note.
+
+## Checkpoint: Incheon crowd forecast threshold dossier (2026-07-08T04:02:00+09:00)
+
+- Built a demand-forecast and safety-threshold dossier for Yaksasa Mountain Temple Concert and Yeongjong Fireworks Festa.
+- Connected case evidence to MOIS local-festival safety thresholds and Incheon City's four-stage crowd-safety model.
+- Added data/incheon-crowd-forecast-threshold-dossier.json, .csv, incheon-crowd-forecast-threshold-dossier.html, and evidence note.

@@ -1,0 +1,9 @@
+item,value
+title,Incheon crowd forecast and safety-threshold dossier
+case_type,demand_forecast_safety_plan_threshold
+headline_assessment,Crowd-risk failure can happen when expected attendance is forecast below a formal planning threshold or egress demand is underestimated
+confidence,B+ for risk mechanism; official after-action records missing
+case_1,약사사 산사음악회 2025: under-1000 forecast; no safety plan; actual crowd above threshold; late deployment
+case_2,영종 불꽃페스타 2025: short attractive show; severe post-event congestion; late detour guidance
+core_lesson,Success content can still create satisfaction failure when crowd exit traffic communication and staffing are underplanned
+next_documents,expected attendance basis; safety plan; venue bottleneck map; traffic plan; police-fire consultation; after-action review

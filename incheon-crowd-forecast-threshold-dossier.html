@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>인천 인파 수요예측·안전계획 Threshold Dossier</title>
+  <style>
+    :root{--bg:#10121f;--panel:#171b31;--ink:#f4f6ff;--muted:#c0c7dd;--line:#374160;--blue:#90b8ff;--lime:#d9f66e;--amber:#ffc46f;--red:#ff7567}
+    *{box-sizing:border-box}body{margin:0;font-family:Pretendard,"Noto Sans KR","Segoe UI",sans-serif;background:radial-gradient(circle at 80% 8%,rgba(144,184,255,.18),transparent 30%),linear-gradient(180deg,var(--bg),#080a11);color:var(--ink);line-height:1.66}.wrap{width:min(1160px,calc(100% - 32px));margin:auto}header{padding:54px 0 28px}.kicker{font-size:12px;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:var(--lime)}h1{font-size:clamp(34px,6vw,64px);line-height:1.05;margin:12px 0;letter-spacing:-.05em}h2{font-size:clamp(24px,3vw,38px);margin:0 0 12px;letter-spacing:-.03em}h3{margin:0 0 8px}.lead{font-size:18px;color:var(--muted);max-width:900px}.panel,.card{background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:22px;box-shadow:0 20px 60px rgba(0,0,0,.26)}.panel{padding:24px;margin:18px 0}.grid{display:grid;gap:16px}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.card{padding:18px}.muted{color:var(--muted)}.badge{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:5px 10px;margin:3px;background:rgba(255,255,255,.045);font-size:12px;color:var(--muted)}.a{color:var(--lime)}.b{color:var(--blue)}.c{color:var(--amber)}.gap{color:var(--red)}.chain{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.chain div{border:1px solid var(--line);border-radius:16px;padding:14px;background:rgba(255,255,255,.05)}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}.table{width:100%;border-collapse:collapse;min-width:900px}.table th,.table td{padding:12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.table th{color:var(--lime);background:rgba(255,255,255,.055);font-size:13px}.source a{color:var(--lime);word-break:break-all}footer{padding:34px 0;color:#8e98b3;font-size:13px}@media(max-width:900px){.two,.three,.chain{grid-template-columns:1fr}.table{font-size:14px}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="kicker">Crowd forecast threshold dossier</div>
+    <h1>1천명 아래로 예상하면 안전계획도 작아지는가?</h1>
+    <p class="lead">약사사 산사음악회와 영종 불꽃페스타는 “콘텐츠는 성공했는데 운영은 불만을 만든” 유형입니다. 핵심은 수요예측, 장소 병목, 안전계획 제출 기준, 사후 교통·문자 대응의 타이밍입니다.</p>
+    <p><a class="badge" href="index.html">메인으로</a><a class="badge" href="festival-failure-risk-leads-wave1.html">리드 큐</a><a class="badge" href="data/incheon-crowd-forecast-threshold-dossier.json">JSON</a><a class="badge" href="data/incheon-crowd-forecast-threshold-dossier.csv">CSV</a></p>
+  </header>
+
+  <main class="wrap">
+    <section class="grid three">
+      <article class="card">
+        <h3>문제 1: 임계값</h3>
+        <p class="muted">순간 최대 1천명 이상이면 안전관리계획 대상입니다. 그러나 예상치를 1천명 미만으로 잡으면 계획 자체가 약해질 수 있습니다.</p>
+      </article>
+      <article class="card">
+        <h3>문제 2: 장소</h3>
+        <p class="muted">산 중턱, 좁은 길, 교량·섬 도로, 출구 병목은 관람객 수보다 더 강한 위험요인이 될 수 있습니다.</p>
+      </article>
+      <article class="card">
+        <h3>문제 3: 퇴장</h3>
+        <p class="muted">불꽃놀이처럼 종료 시점이 같은 행사는 귀가 차량과 보행자가 동시에 몰립니다. 사후 문자는 이미 늦을 수 있습니다.</p>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>원인 사슬</h2>
+      <div class="chain">
+        <div><b>수요 신호</b><br><span class="muted">인기 출연자·불꽃·SNS</span></div>
+        <div><b>예상치</b><br><span class="muted">500명/2천명 등 낮은 전제</span></div>
+        <div><b>현장 구조</b><br><span class="muted">산길·교량·좁은 출구</span></div>
+        <div><b>운영 지연</b><br><span class="muted">늦은 배치·늦은 문자</span></div>
+        <div><b>만족도 하락</b><br><span class="muted">정체·불안·민원</span></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>사례 비교</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead><tr><th>사례</th><th>예측/실제</th><th>문제 구조</th><th>운영 결과</th><th>등급</th></tr></thead>
+          <tbody>
+            <tr><td>약사사 산사음악회 2025</td><td>의자 300석, 입석 포함 500명 예상. 경찰 추산 피크 1천명, 누적 1천500여명 보도</td><td>1천명 미만 예상으로 안전관리계획 미제출. 산 중턱 좁은 길과 추락 위험</td><td>112 신고 뒤 경찰·소방·구청 등 50여명 배치, 공연 약 15분 중단, 안전문자 발송</td><td><span class="badge b">B</span></td></tr>
+            <tr><td>영종 불꽃페스타 2025</td><td>한 보도에서 2천여명 전망 대비 3만여명 언급. 별도 보도는 행사 후 38km 정체와 늦은 우회 안내 보도</td><td>불꽃·드론 콘텐츠로 수요 집중. 섬·교량 접근과 종료 후 동시 귀가</td><td>정체, 불법주차, 안내인력 부족, 뒤늦은 교통안내 문자로 주민 불만 폭주</td><td><span class="badge b">B</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>공식 기준과 비교</h2>
+      <div class="grid two">
+        <article class="card">
+          <h3>행안부 기준</h3>
+          <p class="muted">지역축제 안전관리 대상에는 순간 최대 1천명 이상, 산 또는 수면 개최, 불·폭죽·가연성 가스 사용 축제가 포함됩니다. 점검 항목은 인파 병목, 안전요원, 교통, 시설, 화재, 구조·구급, 고위험 프로그램, 보험입니다.</p>
+        </article>
+        <article class="card">
+          <h3>인천시 4단계 모델</h3>
+          <p class="muted">인천시는 위험 현황조사, 사전 검토·최대 수용인원 산정·안전요원 배치, 경찰·소방·전문가 사전점검, CCTV 모니터링·긴급연락체계를 4단계로 제시합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>다음 수집 문서</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead><tr><th>문서</th><th>확인 질문</th><th>왜 필요한가</th></tr></thead>
+          <tbody>
+            <tr><td>예상 관람객 산정 근거</td><td>출연자, 홍보량, 과거 방문객, SNS 확산을 반영했나</td><td>수요예측 실패 여부 판단</td></tr>
+            <tr><td>안전관리계획 제출/미제출 기록</td><td>1천명 기준, 산지/불꽃 기준을 어떻게 해석했나</td><td>임계값 회피 또는 오판 여부 확인</td></tr>
+            <tr><td>현장 배치도·동선도</td><td>출입구, 계단, 산길, 교량, 주차장 출구 병목</td><td>인파 리스크를 수치화</td></tr>
+            <tr><td>경찰·소방 협의 기록</td><td>사전 배치와 사후 긴급 배치의 차이</td><td>대응 타이밍 평가</td></tr>
+            <tr><td>교통·주차·대중교통 계획</td><td>종료 후 분산, 우회도로, 버스 증편, 문자 발송 시점</td><td>만족도 하락의 직접 원인 확인</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel source">
+      <h2>출처</h2>
+      <p><a href="https://v.daum.net/v/20251104201436656">경인일보/Daum: 약사사 산사음악회와 영종 불꽃페스타 인파 예측 문제</a></p>
+      <p><a href="https://www.kihoilbo.co.kr/news/articleView.html?idxno=3000558">기호일보: 영종 불꽃페스타 교통혼잡과 우회 안내 지연</a></p>
+      <p><a href="https://www.mois.go.kr/frt/sub/a06/b13/festivalSafety/screen.do">행정안전부: 지역축제 안전관리 기준·점검 항목</a></p>
+      <p><a href="https://www.incheon.go.kr/mayor_9/MA05010000/view?beginDt=&curPage=97&endDt=&repSeq=DOM_0000000014109121&srchMainManagerDeptNm=&srchRepContents=&srchRepTitle=">인천광역시: 인파사고 예방 4단계 안전관리 체계</a></p>
+    </section>
+  </main>
+  <footer class="wrap">Dossier level: B+ mechanism, B case evidence. This is not a procurement fault claim.</footer>
+</body>
+</html>

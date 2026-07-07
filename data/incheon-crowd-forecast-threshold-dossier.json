@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-08T04:02:00+09:00",
+  "title": "Incheon crowd forecast and safety-threshold dossier",
+  "case_type": "demand_forecast_safety_plan_threshold",
+  "headline_assessment": "Crowd-risk failure can happen when expected attendance is forecast below a formal planning threshold, or when traffic/egress demand is underestimated even if the event itself is attractive.",
+  "confidence": "B+ for risk mechanism using public reports and official safety-policy sources; case-specific official after-action records still missing.",
+  "core_lesson": "A festival does not need to be a total failure to reduce satisfaction. A short successful show can still fail operationally if exit traffic, bottlenecks, communication and safety staffing are underplanned.",
+  "policy_context": [
+    {
+      "source": "MOIS local festival safety management",
+      "finding": "Safety management planning applies to festivals with momentary maximum attendance of 1,000 or more, or festivals held on mountains/water, or using fire, fireworks or flammable gas.",
+      "source_url": "https://www.mois.go.kr/frt/sub/a06/b13/festivalSafety/screen.do",
+      "evidence_level": "A"
+    },
+    {
+      "source": "MOIS inspection checklist",
+      "finding": "Main inspection items include crowd bottlenecks, safety staffing, weather, traffic control, facilities, fire, rescue/medical response, high-risk programs and festival insurance.",
+      "source_url": "https://www.mois.go.kr/frt/sub/a06/b13/festivalSafety/screen.do",
+      "evidence_level": "A"
+    },
+    {
+      "source": "Incheon Metropolitan City",
+      "finding": "Incheon describes a four-stage crowd-safety system: risk status investigation, planning and capacity/safety staffing, police/fire/expert pre-check, CCTV monitoring and emergency communication.",
+      "source_url": "https://www.incheon.go.kr/mayor_9/MA05010000/view?beginDt=&curPage=97&endDt=&repSeq=DOM_0000000014109121&srchMainManagerDeptNm=&srchRepContents=&srchRepTitle=",
+      "evidence_level": "A"
+    }
+  ],
+  "cases": [
+    {
+      "id": "yaksasa-mountain-concert-2025",
+      "event_name": "약사사 산사음악회",
+      "region": "인천 남동구",
+      "date": "2025-11-02",
+      "risk_type": "threshold_underforecast",
+      "observed_signal": "Reported actual crowd reached about 1,000 at peak and 1,500 cumulative, while organizers reportedly expected under 1,000 and did not submit a safety management plan.",
+      "why_it_matters": "The venue was on a mountain with narrow access; celebrity/fan demand changed the risk beyond the initial estimate. The threshold itself became a blind spot.",
+      "satisfaction_or_safety_effect": "112 report, police/fire/local officials deployed late, performance reportedly stopped for about 15 minutes, safety alert text sent.",
+      "evidence_level": "B",
+      "source_url": "https://v.daum.net/v/20251104201436656"
+    },
+    {
+      "id": "yeongjong-fireworks-festa-2025",
+      "event_name": "2025 영종 불꽃페스타",
+      "region": "인천 중구",
+      "date": "2025-10-18",
+      "risk_type": "traffic_egress_underforecast",
+      "observed_signal": "Reported spectators exceeded forecast by more than tenfold in one report, with severe road congestion and resident complaints after a short fireworks/drone show.",
+      "why_it_matters": "Fireworks are a high-risk program and island/bridge access creates predictable egress concentration. Traffic and communication planning are part of festival satisfaction.",
+      "satisfaction_or_safety_effect": "Reports described severe congestion, late traffic alert, insufficient detour guidance and lack of field guidance personnel.",
+      "evidence_level": "B",
+      "source_url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3000558"
+    }
+  ],
+  "why_chain": [
+    {
+      "step": 1,
+      "label": "Demand signal",
+      "finding": "Performer popularity, fireworks/drone content, social spread and weather can change real demand quickly."
+    },
+    {
+      "step": 2,
+      "label": "Planning threshold",
+      "finding": "If expected attendance is set below the formal safety-plan trigger, staffing and route planning can be underbuilt."
+    },
+    {
+      "step": 3,
+      "label": "Site geometry",
+      "finding": "Mountain paths, bridges, island roads, narrow exits and informal standing zones can dominate risk more than raw attendance."
+    },
+    {
+      "step": 4,
+      "label": "Operational lag",
+      "finding": "Late deployment, late text alerts or post-event traffic guidance have low effect once crowd/vehicle flows have already formed."
+    },
+    {
+      "step": 5,
+      "label": "Satisfaction impact",
+      "finding": "A visually successful event can still produce dissatisfaction when egress, communication or safety staffing fails."
+    }
+  ],
+  "documents_to_collect_next": [
+    "Expected-attendance calculation basis for each event",
+    "Safety management plan or official non-submission reason",
+    "Venue map with entrance/exit widths and bottleneck points",
+    "Police/fire/local-government consultation records",
+    "Traffic-control plan, parking plan, detour plan and public-transport plan",
+    "Timing of safety texts, road controls, staff deployment and event stoppage",
+    "After-action review, complaints and corrective measures"
+  ],
+  "source_urls": [
+    "https://v.daum.net/v/20251104201436656",
+    "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3000558",
+    "https://www.mois.go.kr/frt/sub/a06/b13/festivalSafety/screen.do",
+    "https://www.incheon.go.kr/mayor_9/MA05010000/view?beginDt=&curPage=97&endDt=&repSeq=DOM_0000000014109121&srchMainManagerDeptNm=&srchRepContents=&srchRepTitle="
+  ]
+}

@@ -143,3 +143,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/hongcheon-ice-nightmarket-price-dossier.json: boundary-control dossier for the 2024 Hongcheon River Ice Festival night-market price controversy.
 - hongcheon-ice-nightmarket-price-dossier.html: human-readable split between official festival vendors, nearby/night-market sellers, consignment/operator leads and missing contract proof.
+
+## Incheon crowd forecast threshold dossier
+
+- data/incheon-crowd-forecast-threshold-dossier.json: demand-forecast and safety-threshold dossier for Yaksasa Mountain Temple Concert and Yeongjong Fireworks Festa.
+- incheon-crowd-forecast-threshold-dossier.html: human-readable model linking expected attendance, 1,000-person planning threshold, site bottlenecks, late deployment and traffic dissatisfaction.
