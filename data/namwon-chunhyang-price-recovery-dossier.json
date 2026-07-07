@@ -1,0 +1,78 @@
+{
+  "id": "namwon-chunhyang-price-recovery-dossier",
+  "title": "남원 춘향제 바가지요금 회복·가격거버넌스 dossier",
+  "festival": "남원 춘향제",
+  "region": "전북특별자치도 남원시",
+  "years_covered": [2023, 2024, 2025, 2026],
+  "classification": {
+    "overall": "price_governance_recovery_case",
+    "price_failure_evidence": "B+",
+    "corrective_governance_evidence": "B+",
+    "outcome_recovery_evidence": "B",
+    "procurement_context": "B",
+    "contractor_attribution": "C"
+  },
+  "one_line_verdict": "2023년 바가지요금 논란 이후 남원시가 부스 직접 임대·가격/중량 표시·1만원 이하 메뉴·즉시 퇴거/고발·상인 결의·외부상인 단속·백종원/더본 협업으로 가격 신뢰를 회복한 case다.",
+  "causal_chain": [
+    "2023년 온라인 후기에서 4만원 통돼지 바비큐, 1만8000원 해물파전 등의 가격·양 논란이 확산됐다.",
+    "2024년 남원시는 먹거리/농특산물/소상공인 판매부스를 직접 임대·관리하고 메뉴 가격과 중량을 표시하며 1만원 이하 가격정책을 도입했다.",
+    "바가지 적발 시 즉시 퇴거, 행정처분, 형사고발까지 예고했다.",
+    "더본코리아/백종원 협업과 키오스크 주문, 가격 설정 통제로 가격 신뢰를 보완했다.",
+    "일부 외지 상인의 단기임대 불법영업은 별도 단속·고발 대상이 됐다. 즉 공식 부스와 외부/불법 상인을 분리해야 한다.",
+    "2025년 145만명, 2026년 151만명 방문 lead와 F&B 매출·동행세일·다회용품 같은 회복/성공 신호가 나타났다."
+  ],
+  "why_it_matters": [
+    "바가지 논란은 음식값 하나의 문제가 아니라 가격표시, 중량, 부스 배정, 외부상인 경계, 소비자 신뢰, 지역축제 브랜드의 문제다.",
+    "남원은 사후 사과보다 운영구조를 바꾸었다: 직접 임대, 가격상한, 표시제, 제재, 점검반, 상인 결의, 외부 불법영업 고발을 동시에 사용했다.",
+    "홍보마케팅 대행용역은 실제 존재하지만 먹거리 가격 실패의 원인으로 곧장 연결하면 안 된다. 용역 범위가 가격/부스 운영인지 별도 확인해야 한다.",
+    "대형 방문객 회복은 성공 lead지만, 가격민원 전후 비교와 부스별 매출/위반 자료가 없으면 가격정책 효과를 정량 확정할 수 없다."
+  ],
+  "stakeholder_map": [
+    {"actor": "남원시", "role": "부스 직접 임대/관리, 가격상한, 표시제, 점검반, 퇴거·행정처분·고발 기준"},
+    {"actor": "소상공인연합회·슈퍼마켓협동조합·공설시장상인회", "role": "2026 바가지요금 근절 결의와 가격 준수"},
+    {"actor": "지역 상인/부스 운영자", "role": "가격·중량 표시, 직영 부스 운영, 정량·품질 준수"},
+    {"actor": "외지 단기임대/무신고 영업자", "role": "공식 축제 가격관리 범위 밖에서 단속·고발된 boundary-risk 주체"},
+    {"actor": "더본코리아/백종원", "role": "2024 먹거리 협업과 키오스크/메뉴 가격 신뢰 강화 lead"},
+    {"actor": "홍보마케팅 대행사 후보", "role": "2025 홍보마케팅 용역 조달 context; 먹거리 책임은 scope 확인 전 보류"}
+  ],
+  "outcome_leads": [
+    "2025 제95회 춘향제는 145만 방문객, 2년 연속 100만명 돌파, 1인 평균 소비지출 67,343원, F&B 매출 11억3000만원 lead.",
+    "2026 제96회 춘향제는 151만명 방문 lead와 교통/유입 인프라, 동행 세일 페스타, 투명한 먹거리, 다회용품 성공을 성과요인으로 제시했다.",
+    "2026 상인 결의는 가격표 부스 전면 게시, 정량 준수, 품질 유지, 점검반 상시 운영을 재확인했다."
+  ],
+  "not_yet_proven": [
+    "That the 2023 price controversy was caused by a specific contractor or subcontractor.",
+    "That the 2025 KRW 250m promotion/marketing agency had authority over food prices or booth allocation.",
+    "That price complaints were quantitatively eliminated; public sources show control systems and enforcement leads, not full complaint ledgers.",
+    "That visitor growth was caused only by food-price reform rather than programming, identity, weather, traffic or marketing."
+  ],
+  "next_evidence_needed": [
+    "2023 complaint/original incident archive and official response records.",
+    "Booth allocation table, price/weight menu archive, violation/expulsion/complaint ledger for 2024-2026.",
+    "Theborn Korea agreement scope and whether food-zone operation was contract, partnership or advisory cooperation.",
+    "Selected agency and RFP scope for 2025 promotion/marketing tender; verify whether it touches food/booth operations.",
+    "Evaluation reports for 2025 and 2026 with visitor methodology, satisfaction by food/price item and local-spend estimates."
+  ],
+  "evidence_records": [
+    {"id": "NC-01", "type": "official_event", "claim": "Official Chunhyang site identifies the long-running festival and 2026 event context.", "source_ids": ["S1"]},
+    {"id": "NC-02", "type": "price_failure", "claim": "2023 online controversy involved high-price/small-portion food examples such as KRW 40k pork barbecue and KRW 18k seafood pancake.", "source_ids": ["S2"]},
+    {"id": "NC-03", "type": "corrective_policy", "claim": "2024 Namwon policy directly managed booths, capped menus around KRW 10k, required price/weight display and threatened expulsion, administrative action and criminal complaint.", "source_ids": ["S3", "S4"]},
+    {"id": "NC-04", "type": "food_operation", "claim": "Theborn Korea/Baek Jong-won cooperation and kiosk ordering were used as price-trust mechanisms in 2024 reporting.", "source_ids": ["S2"]},
+    {"id": "NC-05", "type": "boundary_control", "claim": "Outsider short-term rental/illegal merchants were reported and some unregistered food businesses were criminally complained against.", "source_ids": ["S5"]},
+    {"id": "NC-06", "type": "merchant_commitment", "claim": "2026 merchant groups pledged pre-agreed prices, price display, anti-overcharge practice, kindness, weight/quality checks and monitoring teams.", "source_ids": ["S6"]},
+    {"id": "NC-07", "type": "procurement_context", "claim": "2025 promotion/marketing agency tender had KRW 250m budget and official Namwon notice, but food-price scope is not proven.", "source_ids": ["S7"]},
+    {"id": "NC-08", "type": "outcome_recovery", "claim": "2025 and 2026 outcome reporting show 145만/151만 visitor leads, spending/F&B and success-factor claims.", "source_ids": ["S8", "S9", "S10"]}
+  ],
+  "sources": [
+    {"id": "S1", "title": "제96회 춘향제 공식 홈페이지", "url": "https://www.chunhyang.org/", "evidence": "official festival identity and 2026 context"},
+    {"id": "S2", "title": "Daum/KBS - 바가지요금 빠진 남원춘향제", "url": "https://v.daum.net/v/0LJGmw0Ckg?f=p", "evidence": "2023 price controversy, 2024 10k menu policy, Theborn/Baek Jong-won and kiosk ordering"},
+    {"id": "S3", "title": "연합뉴스 - 춘향제 바가지요금 발 못 붙인다", "url": "https://www.yna.co.kr/view/AKR20240405069900055", "evidence": "direct booth management, menu price/weight display, KRW 10k cap, expulsion/admin/criminal action"},
+    {"id": "S4", "title": "춘향제 공식 보도자료 - 상인단체 결의", "url": "https://www.chunhyang.org/bbs/board.php?bo_table=k_news&page=1&wr_id=36", "evidence": "pre-agreed prices, price display, anti-overcharge commitment, monitoring team"},
+    {"id": "S5", "title": "Daum - 외지 상인 고발", "url": "https://v.daum.net/v/Zs5Ua9LKgd", "evidence": "outside short-term merchants, unregistered food businesses, illegal temporary structures, direct rental and official booth controls"},
+    {"id": "S6", "title": "남원넷 - 춘향제 바가지요금 근절 결의대회", "url": "https://www.namwon.net/index.php?document_srl=161871&mid=econo", "evidence": "2026 commitment and monitoring period"},
+    {"id": "S7", "title": "남원시 고시공고 - 제95회 춘향제 홍보마케팅 대행용역", "url": "https://www.namwon.go.kr/board/post/view.do?boardUid=ff8080818ea1fec5018ea24137680031&menuUid=ff8080818e3beff0018e4077131b007a&postUid=85e2312284814e6a91e3798fd2ccfccd", "evidence": "KRW 250m promotion/marketing agency tender context"},
+    {"id": "S8", "title": "SEN TV - 제95회 춘향제 145만 방문객", "url": "https://www.sentv.co.kr/article/view/sentv202505250012", "evidence": "2025 visitor, spend and F&B sales lead"},
+    {"id": "S9", "title": "Daum - 제96회 춘향제 151만 돌파", "url": "https://v.daum.net/v/q98xrhcnTI", "evidence": "2026 visitor, traffic/infrastructure, transparent food, local commerce and multi-use item success factors"},
+    {"id": "S10", "title": "아주경제 - 2026 결과보고회", "url": "https://www.ajunews.com/view/20260607095303697", "evidence": "151만 visitor and success-factor reporting"}
+  ]
+}

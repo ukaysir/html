@@ -235,3 +235,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/jeju-fire-content-social-license-transition-dossier.json: content-identity and social-license dossier separating oreum-burning controversy, deliberation, weather interruption, digital/hybrid redesign, recovery metrics and contractor-attribution limits.
 - jeju-fire-content-social-license-transition-dossier.html: human-readable explanation of why Jeju Fire Festival is a flagship-content risk and social-license transition case rather than a simple contractor or demand-forecast case.
+
+## Namwon Chunhyang price-recovery dossier
+
+- data/namwon-chunhyang-price-recovery-dossier.json: price-governance recovery dossier separating 2023 food-price controversy, direct booth control, price/weight labels, enforcement, outside-merchant boundary, Theborn/Baek Jong-won cooperation, marketing-procurement context and visitor recovery leads.
+- namwon-chunhyang-price-recovery-dossier.html: human-readable explanation of why Chunhyang Festival's food-price recovery is a booth-governance case rather than a simple subcontractor or marketing-agency case.

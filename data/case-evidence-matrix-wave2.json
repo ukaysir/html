@@ -10,10 +10,10 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 23,
+    "festival_case_records": 24,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
-    "price_or_booth_governance_records": 6,
+    "price_or_booth_governance_records": 7,
     "demand_or_crowd_records": 5,
     "weather_or_nature_dependency_records": 2,
     "budget_waste_requires_join_model": true,
@@ -81,6 +81,27 @@
       ],
       "not_yet_proven": "문제 판매자가 공식 축제 용역/하청 범위에 있었다는 증거.",
       "next_evidence_needed": "공식 입점자 명단, 야시장 운영 허가·위탁 범위, 축제장 경계와 단속 권한."
+    },
+    {
+      "id": "namwon-chunhyang-2023-2026",
+      "record_type": "festival_case",
+      "festival": "남원 춘향제",
+      "years": "2023-2026",
+      "page": "namwon-chunhyang-price-recovery-dossier.html",
+      "question": "바가지 논란 이후 가격 신뢰를 어떻게 회복했나?",
+      "short_answer": "2023년 고가·소량 음식 논란 뒤 직접 부스 임대, 가격/중량 표시, 1만원 이하 메뉴, 퇴거·고발, 외부상인 단속, 더본 협업으로 가격거버넌스를 재설계한 recovery case다.",
+      "evidence_level": "B+ price recovery, B procurement context, C attribution",
+      "procurement_link": "marketing tender context only",
+      "outcome_link": "strong recovery lead",
+      "primary_causes": [
+        "price_governance",
+        "booth_control",
+        "outside_merchant_boundary",
+        "enforcement",
+        "marketing_procurement_scope_gap"
+      ],
+      "not_yet_proven": "특정 대행사·하청업체 가격논란 책임, 홍보마케팅 용역의 먹거리 운영 범위, 가격민원 완전 해소.",
+      "next_evidence_needed": "부스 배정/가격표 archive, 위반·민원 ledger, 더본 협약 scope, 홍보대행 RFP/낙찰자, 평가보고서 food satisfaction."
     },
     {
       "id": "jinju-lantern-2016-2026",

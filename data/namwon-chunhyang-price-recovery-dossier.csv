@@ -1,0 +1,9 @@
+metric,claim,value_or_signal,why_it_matters,source_ids,evidence_level
+classification,Overall classification,price governance recovery case,Shows failure-to-control causal chain for food/booth price risk,S2|S3|S4,B+
+price_failure_2023,Price controversy,KRW 40000 barbecue and KRW 18000 pancake examples,Defines symptom that triggered redesign,S2,B+
+corrective_policy_2024,Control package,direct booth rental|price-weight labels|KRW 10000 cap|expulsion|admin action|criminal complaint,Shows public operating structure change,S3,B+
+food_trust_2024,Theborn/Baek Jong-won lead,kiosk and fixed-price menu trust mechanism,Food operation intervention not same as marketing tender,S2,B
+boundary_control,Illegal/outside merchant control,unregistered businesses and temporary structures reported/complained,Separates official booth from outside merchant risk,S5,B
+merchant_commitment_2026,Merchant resolution,pre-agreed prices|price display|anti-overcharge|monitoring,Shows repeated preventive governance,S4|S6,B+
+procurement_context,Promotion marketing tender,KRW 250m tender,Context only; no food-price scope proven,S7,B
+outcome_2025_2026,Recovery lead,145만 in 2025 and 151만 in 2026,Visitor success must be separated from price-policy attribution,S8|S9|S10,B

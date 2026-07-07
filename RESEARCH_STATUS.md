@@ -264,3 +264,9 @@ Updated: 2026-07-07.
 - Added a content/social-license transition dossier for Jeju Fire Festival covering oreum-burning controversy, climate/wildfire/ecological concerns, 2023 deliberation, 2024 non-held redesign year, 2025 virtual-fire wind interruption and 2026 hybrid recovery leads.
 - Classified the case as B+ content/social-license, B weather shock/recovery lead and C contractor attribution: the evidence supports a flagship-content legitimacy problem, not a hidden agency or subcontractor causality claim.
 - Added data/jeju-fire-content-social-license-transition-dossier.json, .csv, jeju-fire-content-social-license-transition-dossier.html, evidence note, case-matrix links and why-cause router route.
+
+## Checkpoint: Namwon Chunhyang price-recovery dossier (2026-07-08T08:30:00+09:00)
+
+- Added a price-governance recovery dossier for Namwon Chunhyang Festival covering the 2023 high-price/low-portion controversy, 2024 direct booth rental, price/weight labels, KRW 10k menu cap, expulsion/admin/criminal action, Theborn/Baek Jong-won food trust mechanism, outside-merchant enforcement and 2025/2026 visitor recovery leads.
+- Classified the case as B+ price recovery, B procurement context and C contractor attribution: the KRW 250m promotion/marketing tender is real context, but not food-price causality without RFP scope and booth-operation evidence.
+- Added data/namwon-chunhyang-price-recovery-dossier.json, .csv, namwon-chunhyang-price-recovery-dossier.html, evidence note, case-matrix links and why-cause router links.
