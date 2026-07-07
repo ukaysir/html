@@ -85,3 +85,9 @@ Updated: 2026-07-07.
 
 - Probed official/mirror attachment accessibility for Suwon, Bucheon, Incheon Pentaport, Cheorwon, Bupyeong, and Dongnae benchmark cases.
 - Added data/procurement-original-download-probe-wave1.json, .csv, procurement-original-download-probe-wave1.html, and evidence note.
+
+## Checkpoint: governance causal chain (2026-07-08T01:58:00+09:00)
+
+- Added a stricter Level A/B/C/D classification to avoid overclaiming contractor or procurement causality.
+- Identified Incheon Pentaport 2019 as the first strong Level A causal-candidate case linking selection dispute, injunction attempt, agreement execution, lineup/communication criticism, and operating-organization structure.
+- Added data/festival-governance-causal-chain-wave1.json, .csv, festival-governance-causal-chain-wave1.html, and evidence note.

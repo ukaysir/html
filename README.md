@@ -88,3 +88,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/procurement-original-download-probe-wave1.json: official attachment download and source-upgrade probe for P2 benchmark festivals.
 - procurement-original-download-probe-wave1.html: human-readable map of official original, evaluation result, mirror-only, blocked, and event-only evidence.
+
+## Governance causal chain
+
+- data/festival-governance-causal-chain-wave1.json: separates causal candidates from procurement-only or outcome-only evidence.
+- festival-governance-causal-chain-wave1.html: human-readable chain from incident/success outcome to organizer, contractor, or evaluation structure.
