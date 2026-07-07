@@ -1,0 +1,156 @@
+{
+  "generated_at": "2026-07-08T01:07:16+09:00",
+  "source": "Derived from MCST regional festival public download master draft and 2017-2021 period overlay.",
+  "total_records": 10198,
+  "date_available": 4030,
+  "budget_available": 9500,
+  "overlay_dates_used": 2455,
+  "priority_counts": [
+    {
+      "priority": "high",
+      "count": 3672
+    },
+    {
+      "priority": "low",
+      "count": 96
+    },
+    {
+      "priority": "medium",
+      "count": 6430
+    }
+  ],
+  "date_source_counts": [
+    {
+      "date_source": "legacy_period_overlay",
+      "count": 2455
+    },
+    {
+      "date_source": "master",
+      "count": 1575
+    },
+    {
+      "date_source": "missing",
+      "count": 6168
+    }
+  ],
+  "budget_band_counts": [
+    {
+      "budget_band": "high_1b_krw_plus",
+      "count": 726
+    },
+    {
+      "budget_band": "low_under_300m_krw",
+      "count": 6937
+    },
+    {
+      "budget_band": "medium_300m_to_999m_krw",
+      "count": 1837
+    },
+    {
+      "budget_band": "unknown",
+      "count": 698
+    }
+  ],
+  "by_year": [
+    {
+      "year": 2017,
+      "records": 733,
+      "high_priority": 454,
+      "medium_priority": 279,
+      "low_priority": 0,
+      "date_available": 456,
+      "budget_available": 725
+    },
+    {
+      "year": 2018,
+      "records": 886,
+      "high_priority": 526,
+      "medium_priority": 360,
+      "low_priority": 0,
+      "date_available": 536,
+      "budget_available": 869
+    },
+    {
+      "year": 2019,
+      "records": 884,
+      "high_priority": 223,
+      "medium_priority": 578,
+      "low_priority": 83,
+      "date_available": 547,
+      "budget_available": 325
+    },
+    {
+      "year": 2020,
+      "records": 968,
+      "high_priority": 502,
+      "medium_priority": 466,
+      "low_priority": 0,
+      "date_available": 507,
+      "budget_available": 955
+    },
+    {
+      "year": 2021,
+      "records": 1004,
+      "high_priority": 401,
+      "medium_priority": 603,
+      "low_priority": 0,
+      "date_available": 409,
+      "budget_available": 991
+    },
+    {
+      "year": 2022,
+      "records": 944,
+      "high_priority": 0,
+      "medium_priority": 944,
+      "low_priority": 0,
+      "date_available": 0,
+      "budget_available": 923
+    },
+    {
+      "year": 2023,
+      "records": 1129,
+      "high_priority": 0,
+      "medium_priority": 1129,
+      "low_priority": 0,
+      "date_available": 0,
+      "budget_available": 1090
+    },
+    {
+      "year": 2024,
+      "records": 1170,
+      "high_priority": 0,
+      "medium_priority": 1170,
+      "low_priority": 0,
+      "date_available": 0,
+      "budget_available": 1164
+    },
+    {
+      "year": 2025,
+      "records": 1214,
+      "high_priority": 769,
+      "medium_priority": 434,
+      "low_priority": 11,
+      "date_available": 775,
+      "budget_available": 1197
+    },
+    {
+      "year": 2026,
+      "records": 1266,
+      "high_priority": 797,
+      "medium_priority": 467,
+      "low_priority": 2,
+      "date_available": 800,
+      "budget_available": 1261
+    }
+  ],
+  "outputs": [
+    "data/master/mcst-finance-procurement-match-keys.json",
+    "data/master/mcst-finance-procurement-match-keys.csv",
+    "data/master/mcst-finance-procurement-match-keys.summary.json"
+  ],
+  "interpretation": [
+    "high priority means name, local-government key, date window, and budget are all present, so public contract/finance matching can begin with lower ambiguity.",
+    "medium priority still supports search-led matching but needs manual confirmation because at least one key dimension is partial.",
+    "low priority should not be used for automated conclusions without another source."
+  ]
+}

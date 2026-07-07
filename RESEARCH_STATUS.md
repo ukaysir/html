@@ -46,3 +46,10 @@ Updated: 2026-07-07.
 - Add case pages for top failure/risk clusters: crowding/access, price/merchant, weather/climate, budget inefficiency, content dilution and social-license conflict.
 - Add visual relation graph rendering once enough high-confidence public relationships exist.
 - Convert collection backlog into machine-executed ingestion when service keys or downloadable files are available.
+## Checkpoint: MCST-to-finance/procurement match keys (2026-07-08T01:07:16+09:00)
+
+- Built data/master/mcst-finance-procurement-match-keys.json and .csv for all 10198 MCST master-draft records.
+- Join readiness: high 3672, medium 6430, low 96.
+- Date windows available for 4030 records; budget values available for 9500 records.
+- 2017-2021 overlay dates used for 2455 records.
+- Added dashboard section #match-keys to explain how festival identity will be connected to budget, procurement, outsourcing, and result evidence.

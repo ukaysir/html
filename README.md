@@ -56,3 +56,9 @@ Pages was checked as not enabled during the research run. To publish, use:
 - `data/master/mcst-legacy-period-overlays-2017-2021.json`
 - `data/master/mcst-legacy-period-overlays-2017-2021.csv`
 - `data/master/mcst-legacy-period-overlays-2017-2021.summary.json`
+## Latest matching artifacts
+
+- data/master/mcst-finance-procurement-match-keys.json: 10,198 MCST festival rows converted into finance/procurement search and join keys.
+- data/master/mcst-finance-procurement-match-keys.csv: spreadsheet-friendly version for filtering by year, local government, budget band, and join priority.
+- data/master/mcst-finance-procurement-match-keys.summary.json: year-level readiness counts for the dashboard.
+

@@ -145,6 +145,47 @@
     <h2>배포 상태</h2>
     <div class="callout"><b>GitHub Pages는 아직 활성화되지 않은 상태로 확인되었습니다.</b><br><span class="muted">저장소는 root `index.html` 구조라 Pages 설정에서 Source를 `Deploy from a branch`, Branch를 `main`, Folder를 `/(root)`로 지정하면 `https://ukaysir.github.io/html/` 형태로 게시될 수 있습니다.</span></div>
   </section>
+<section id="match-keys" class="panel evidence-panel">
+  <div class="section-kicker">Evidence bridge</div>
+  <h2>MCST 원천목록 -> 재정·조달 매칭 키</h2>
+  <p>축제가 왜 성공/실패했는지 설명하려면 행사명만으로는 부족하다. 같은 축제를 지방재정 원가·예산, 나라장터 입찰, 계약 현황, 대행사 흔적, 결과보고서와 연결해야 한다. 이 체크포인트는 10,198개 MCST 축제 레코드마다 검색어와 조인 우선순위를 생성했다.</p>
+  <div class="metric-grid">
+    <article class="metric-card"><span>총 매칭 대상</span><strong>10198</strong><small>2017-2026 MCST 추출 레코드</small></article>
+    <article class="metric-card"><span>High priority</span><strong>3672</strong><small>이름·지자체·기간·예산 모두 보유</small></article>
+    <article class="metric-card"><span>Medium priority</span><strong>6430</strong><small>검색 가능하나 일부 수동 확인 필요</small></article>
+    <article class="metric-card"><span>기간 확보</span><strong>4030</strong><small>2022-2026 원본 + 2017-2021 overlay</small></article>
+  </div>
+  <div class="analysis-grid">
+    <article>
+      <h3>사람이 보는 해석 구조</h3>
+      <p><strong>왜 망했나?</strong>라는 질문은 이제 다음 순서로 추적한다: 축제 레코드 -> 지자체/기간/예산 -> 행사대행·용역 입찰 -> 계약 변경/정산 -> 방문객·혼잡·민원·만족도 증거. 특정 단계에서 증거가 끊기면 그 자체가 데이터 공백 리스크로 표시된다.</p>
+    </article>
+    <article>
+      <h3>생성된 검색어 예시</h3>
+      <p>각 레코드는 <code>행사대행 용역</code>, <code>입찰</code>, <code>제안서</code>, <code>대행사</code>, <code>행사축제원가</code>, <code>지방재정365</code>, <code>결산</code> 조합을 가진다. 이 조합으로 외주 구조와 예산 집행 근거를 공공 웹에서 추적한다.</p>
+    </article>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <caption>연도별 재정·조달 매칭 준비도</caption>
+      <thead><tr><th>연도</th><th>레코드</th><th>High</th><th>Medium</th><th>Low</th><th>기간 있음</th><th>예산 있음</th></tr></thead>
+      <tbody>
+<tr><td>2017</td><td>733</td><td>454</td><td>279</td><td>0</td><td>456</td><td>725</td></tr>
+<tr><td>2018</td><td>886</td><td>526</td><td>360</td><td>0</td><td>536</td><td>869</td></tr>
+<tr><td>2019</td><td>884</td><td>223</td><td>578</td><td>83</td><td>547</td><td>325</td></tr>
+<tr><td>2020</td><td>968</td><td>502</td><td>466</td><td>0</td><td>507</td><td>955</td></tr>
+<tr><td>2021</td><td>1004</td><td>401</td><td>603</td><td>0</td><td>409</td><td>991</td></tr>
+<tr><td>2022</td><td>944</td><td>0</td><td>944</td><td>0</td><td>0</td><td>923</td></tr>
+<tr><td>2023</td><td>1129</td><td>0</td><td>1129</td><td>0</td><td>0</td><td>1090</td></tr>
+<tr><td>2024</td><td>1170</td><td>0</td><td>1170</td><td>0</td><td>0</td><td>1164</td></tr>
+<tr><td>2025</td><td>1214</td><td>769</td><td>434</td><td>11</td><td>775</td><td>1197</td></tr>
+<tr><td>2026</td><td>1266</td><td>797</td><td>467</td><td>2</td><td>800</td><td>1261</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="source-note">산출물: <code>data/master/mcst-finance-procurement-match-keys.json</code>, <code>data/master/mcst-finance-procurement-match-keys.csv</code>, <code>data/master/mcst-finance-procurement-match-keys.summary.json</code></p>
+</section>
+
 
   <section class="section" id="limitations">
     <h2>한계</h2>
@@ -158,3 +199,5 @@ const root=document.getElementById('caseResults');const input=document.getElemen
 </script>
 </body>
 </html>
+
+
