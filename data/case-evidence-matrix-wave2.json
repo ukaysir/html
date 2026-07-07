@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 29,
+    "festival_case_records": 30,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
@@ -21,9 +21,29 @@
     "content_social_license_records": 1,
     "season_heat_comfort_records": 1,
     "mega_crowd_firework_records": 1,
-    "winter_climate_success_records": 1
+    "winter_climate_success_records": 1,
+    "paid_access_social_license_records": 1
   },
   "records": [
+    {
+      "id": "jinju-yudeung-2015-2026",
+      "festival": "진주남강유등축제 2015-2026",
+      "region": "경남 진주시",
+      "case_type": "유료화·가림막·지역상권·조달 거버넌스 회복 사례",
+      "confidence": "A-",
+      "primary_causes": [
+        "paid_access_social_license",
+        "revenue_model_repair",
+        "local_economy_recovery",
+        "outsourcing_fragmentation",
+        "global_growth_target"
+      ],
+      "demand_signal": "2016년 유료 관람객 25만/전체 40만 논란 이후 2025년 172만 방문과 2026년 200만 목표로 회복/확장.",
+      "budget_procurement_signal": "2024/2025 공식 공고: 조명 6,000만 원, 전관음향 5,330만 원, 경호경비/공연시스템/먹거리/푸드트럭/체험 SW 등 분절 조달.",
+      "why_it_matters": "수익화는 가능하지만 가림막 방식은 공공성·상권·시민 정체성과 충돌한다. 이후 무료입장+체험유료+글로벌 지원 구조로 회복된 사회적 수용성 사례다.",
+      "page": "jinju-yudeung-paid-access-governance-dossier.html",
+      "data": "data/jinju-yudeung-paid-access-governance-dossier.json"
+    },
     {
       "id": "hwacheon-sancheoneo-2020-2027",
       "festival": "화천산천어축제 2020-2027",

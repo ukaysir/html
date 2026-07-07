@@ -265,3 +265,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added hwacheon-sancheoneo-climate-economy-governance-dossier.html and structured JSON/CSV data for 화천산천어축제 2020-2027.
 - Classifies the case as a successful but high-dependency winter model: engineered ice safety, local economic linkage, animal-welfare social-license pressure, and recurring procurement governance.
 - Captures 2020 abnormal-warm/winter-rain disruption, 2021-2022 COVID cancellations, 2023 restart, 2026 159만 attendance and 1,018억 direct economic effect, and foundation-led tender signals.
+
+### Jinju Yudeung paid-access governance dossier
+- Added jinju-yudeung-paid-access-governance-dossier.html and structured JSON/CSV data for 진주남강유등축제 2015-2026.
+- Classifies the case as a paid-access/social-license recovery case: full paid entry and screening-wall backlash, then free-entry/paid-experience recovery and global-festival growth funding.
+- Captures 2016 paid-access controversy, 2025 172만 attendance and 2,400억 regional effect, 2026 global-festival selection, and fragmented lighting/sound/security/food/vendor procurement.

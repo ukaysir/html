@@ -303,3 +303,10 @@ Updated: 2026-07-07.
 - Updated case evidence matrix to 29 festival records and added winter_climate_success_records.
 - Added why-router coverage for winter ice/climate failure mode and linked 화천산천어축제 into budget/outsourcing governance.
 - Evidence status: A-. Strong public-source support for attendance, economic-effect report, climate disruption history, animal-welfare controversy, and recurring procurement signals. Full budget efficiency still needs official settlement and contract data.
+
+## Checkpoint: 2026-07-08T10:45:00+09:00
+- Added 진주남강유등축제 paid-access governance dossier.
+- New files: .omo/evidence/jinju-yudeung-paid-access-governance-dossier.md, data/jinju-yudeung-paid-access-governance-dossier.json, data/jinju-yudeung-paid-access-governance-dossier.csv, $slug.html.
+- Updated case evidence matrix to 30 festival records and added paid_access_social_license_records.
+- Added why-router coverage for paid-access/social-license failures and linked 진주남강유등축제 into budget/outsourcing governance.
+- Evidence status: A-. Strong public-source support for the 2016 paid-entry/screening-wall controversy, 2025 attendance/economic-effect claims, 2026 global-festival funding, and 2024-2025 procurement signals. Full fiscal efficiency requires settlement and contract award data.

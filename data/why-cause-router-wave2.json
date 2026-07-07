@@ -4,6 +4,19 @@
   "purpose": "Human-readable routing layer so reviewers can start from the question 'why did this festival fail or succeed?' rather than from raw festival names.",
   "routes": [
     {
+      "id": "paid-access-social-license",
+      "question": "입장료·가림막·유료좌석 같은 수익화 방식이 사회적 반발을 만들었나?",
+      "use_when": "재정자립, 콘텐츠 고급화, 유료좌석/입장료/가림막/구역통제, 지역상권 영향, 시민 접근권이 충돌할 때.",
+      "diagnostic_rule": "입장료 수입만 보지 말고 시민 접근권, 상인 매출, 동선 불편, 민원, 무료/유료 구간 설계, 체험 유료 전환, 보조금/국비 의존도를 함께 본다.",
+      "cases": [
+        {
+          "festival": "진주남강유등축제 2015-2026",
+          "page": "jinju-yudeung-paid-access-governance-dossier.html",
+          "signal": "전면 유료화와 3km 가림막 논란, 이후 무료입장+일부 체험 유료 회복 구조"
+        }
+      ]
+    },
+    {
       "id": "winter-ice-climate",
       "question": "겨울 결빙·수위·기후변화가 핵심인가?",
       "use_when": "얼음낚시, 눈/얼음 체험, 수위·유속·결빙, 이상고온, 겨울폭우, 한파, 입장제한이 축제 성패를 좌우할 때.",
@@ -41,6 +54,11 @@
           "festival": "화천산천어축제 2020-2027",
           "page": "hwacheon-sancheoneo-climate-economy-governance-dossier.html",
           "signal": "발권/경호/보험/유류/협찬/입점업체 반복 조달, 2026 보험 예산 8,800만 원"
+        },
+        {
+          "festival": "진주남강유등축제 2015-2026",
+          "page": "jinju-yudeung-paid-access-governance-dossier.html",
+          "signal": "조명/음향/경호/먹거리/푸드트럭/체험SW 분절 조달, 국비 24억 지원"
         }
       ]
     },
