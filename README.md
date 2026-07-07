@@ -255,3 +255,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added muan-lotus-heat-shuttle-procurement-dossier.html and structured JSON/CSV data for 무안연꽃축제 2023-2026.
 - Classifies the case as summer heat, bloom timing, visitor fatigue, price trust, disaster scale-down, and outsourcing/procurement context rather than a proven failure.
 - Captures the 2026 schedule reduction and cooling/night-program redesign, 2024 price-control measures, 2023 heavy-rain scale-down, and 2026 event-agency RFP mirror.
+
+### Busan Fireworks crowd/ticket/procurement dossier
+- Added usan-fireworks-crowd-ticket-procurement-dossier.html and structured JSON/CSV data for 부산불꽃축제 2022-2026.
+- Classifies the case as a mixed A- case: strong mega-crowd safety operations plus unresolved budget/procurement transparency risk.
+- Captures 2022 post-Itaewon safety controls, 2023 rain-driven attendance drop, 2024 paid-seat and 103만 attendance signals, 2025 117만 outcome and emergency/complaint load, and 2025 fragmented service procurement notices.

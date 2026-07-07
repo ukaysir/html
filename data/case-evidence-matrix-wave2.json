@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 27,
+    "festival_case_records": 28,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
@@ -19,9 +19,29 @@
     "budget_waste_requires_join_model": true,
     "metric_opacity_records": 1,
     "content_social_license_records": 1,
-    "season_heat_comfort_records": 1
+    "season_heat_comfort_records": 1,
+    "mega_crowd_firework_records": 1
   },
   "records": [
+    {
+      "id": "busan-fireworks-2022-2026",
+      "festival": "부산불꽃축제 2022-2026",
+      "region": "부산광역시",
+      "case_type": "100만 명급 인파·유료좌석·안전·예산/대행 혼합 사례",
+      "confidence": "A-",
+      "primary_causes": [
+        "mega_crowd_forecast",
+        "phased_exit_safety",
+        "paid_seat_revenue",
+        "outsourcing_interface",
+        "budget_governance"
+      ],
+      "demand_signal": "2023년 우천 77만, 2024년 103만, 2025년 117만 보도가 공존해 수요가 날씨와 회차 효과에 크게 흔들림.",
+      "budget_procurement_signal": "공식 공지 목록상 경호/안전관리, 시설, 음향, 이동식 화장실, 조명 용역이 분절되어 있고, KNN은 2025년 사업비/시비/협찬/한화 비용 논란을 보도.",
+      "why_it_matters": "대형축제 만족도는 방문객 수보다 종료 후 귀가 병목, 안전요원/시설 배치, 유료좌석 수익 재투입, 용역 간 책임 경계가 좌우한다.",
+      "page": "busan-fireworks-crowd-ticket-procurement-dossier.html",
+      "data": "data/busan-fireworks-crowd-ticket-procurement-dossier.json"
+    },
     {
       "id": "pentaport-2019",
       "record_type": "festival_case",

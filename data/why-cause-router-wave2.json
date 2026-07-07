@@ -4,6 +4,24 @@
   "purpose": "Human-readable routing layer so reviewers can start from the question 'why did this festival fail or succeed?' rather than from raw festival names.",
   "routes": [
     {
+      "id": "budget-outsourcing-governance",
+      "question": "예산·협찬·유료좌석·대행/하청 구조가 핵심인가?",
+      "use_when": "축제 성패가 방문객 수만으로 설명되지 않고 시비, 협찬, 입장권, 행사대행, 경호/시설/음향/화장실/조명 등 다중 용역 책임 경계와 연결될 때.",
+      "diagnostic_rule": "예산서, 정산서, 협찬금, 유료좌석 판매량, 용역별 과업지시서/낙찰금액/검수자료, 민원·사고 로그를 같은 책임 흐름도로 연결한다.",
+      "cases": [
+        {
+          "festival": "부산불꽃축제 2022-2026",
+          "page": "busan-fireworks-crowd-ticket-procurement-dossier.html",
+          "signal": "경호/시설/음향/화장실/조명 분절 용역, 유료좌석, KNN 예산 논란 보도"
+        },
+        {
+          "festival": "무안연꽃축제 2023-2026",
+          "page": "muan-lotus-heat-shuttle-procurement-dossier.html",
+          "signal": "민간행사보조사업, 축제추진위원회 계약, 행사대행 총괄운영 범위"
+        }
+      ]
+    },
+    {
       "id": "contractor-procurement",
       "question": "하청업체나 대행사 때문인가?",
       "answer_rule": "Only answer yes when public procurement/contract documents connect the contractor's scope to the observed outcome. Otherwise mark as procurement gap.",
@@ -99,6 +117,11 @@
           "festival": "세종낙화축제 2023-2026",
           "page": "sejong-nakhwa-crowd-traffic-stabilization-dossier.html",
           "status": "night-spectacle traffic stabilization case"
+        },
+        {
+          "festival": "부산불꽃축제 2022-2026",
+          "page": "busan-fireworks-crowd-ticket-procurement-dossier.html",
+          "signal": "77만→103만→117만 수요 변동, 100만 명급 인파, 순차귀가/교통통제"
         }
       ]
     },

@@ -289,3 +289,10 @@ Updated: 2026-07-07.
 - Updated case evidence matrix to 27 festival records and added season_heat_comfort_records.
 - Added why-router path for season/heat/bloom/comfort failures and corrected the demand/crowd row links to point to 광양매화축제 and 세종낙화축제 instead of price-row cases.
 - Evidence status: B+. Public sources support the seasonal redesign, price-control measures, disaster scale-down, and procurement structure. They do not yet prove contractor fault or final budget efficiency.
+
+## Checkpoint: 2026-07-08T09:45:00+09:00
+- Added 부산불꽃축제 crowd/ticket/procurement dossier.
+- New files: .omo/evidence/busan-fireworks-crowd-ticket-procurement-dossier.md, data/busan-fireworks-crowd-ticket-procurement-dossier.json, data/busan-fireworks-crowd-ticket-procurement-dossier.csv, $slug.html.
+- Updated case evidence matrix to 28 festival records and added mega_crowd_firework_records.
+- Added why-router coverage for budget/outsourcing governance and linked 부산불꽃축제 into the demand/crowd route.
+- Evidence status: A-. Strong public-source support for attendance variation, safety controls, paid-seat prices, and fragmented procurement notices. Budget figures from KNN are treated as media claims requiring official budget/settlement confirmation.

@@ -1,0 +1,2 @@
+case_id,festival,region,period_scope,verdict,confidence,primary_problem,key_causes,procurement_signal,next_data_needs
+busan-fireworks-2022-2026,부산불꽃축제,부산 광안리·해운대·이기대,2022-2026,""대규모 인파관리 성공과 예산/조달 투명성 리스크가 공존하는 혼합 사례"",A-,""100만명급 인파/유료좌석/안전교통통제/협찬시비대행용역"",""mega_crowd_forecast;phased_exit_safety;paid_seat_revenue;outsourcing_interface;budget_governance"",""경호/안전관리, 시설, 음향, 화장실, 조명 등 분절 용역 공고와 KNN 보도상 한화 불꽃연출 비용 논란"",""예산서;정산서;유료좌석 판매량;용역별 낙찰업체;시간대별 유동인구;응급/민원 로그""
