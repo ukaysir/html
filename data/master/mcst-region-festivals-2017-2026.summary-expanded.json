@@ -1,0 +1,2866 @@
+{
+  "version": "2026-07-08.master-summary",
+  "source": "data/master/mcst-region-festivals-2017-2026.master-draft.json",
+  "total_records": 10198,
+  "by_year": [
+    {
+      "year": 2017,
+      "count": 733,
+      "budget_million_krw_sum": 281022.3,
+      "visitor_raw_unit": "thousand_persons"
+    },
+    {
+      "year": 2018,
+      "count": 886,
+      "budget_million_krw_sum": 20857.2,
+      "visitor_raw_unit": "thousand_persons"
+    },
+    {
+      "year": 2019,
+      "count": 884,
+      "budget_million_krw_sum": 20587.0,
+      "visitor_raw_unit": "thousand_persons"
+    },
+    {
+      "year": 2020,
+      "count": 968,
+      "budget_million_krw_sum": 384613.3,
+      "visitor_raw_unit": "thousand_persons"
+    },
+    {
+      "year": 2021,
+      "count": 1004,
+      "budget_million_krw_sum": 383332.43,
+      "visitor_raw_unit": "thousand_persons"
+    },
+    {
+      "year": 2022,
+      "count": 944,
+      "budget_million_krw_sum": 394496.45,
+      "visitor_raw_unit": "persons"
+    },
+    {
+      "year": 2023,
+      "count": 1129,
+      "budget_million_krw_sum": 441868.95,
+      "visitor_raw_unit": "persons"
+    },
+    {
+      "year": 2024,
+      "count": 1170,
+      "budget_million_krw_sum": 4072166.58,
+      "visitor_raw_unit": "persons"
+    },
+    {
+      "year": 2025,
+      "count": 1214,
+      "budget_million_krw_sum": 619518.13,
+      "visitor_raw_unit": "persons"
+    },
+    {
+      "year": 2026,
+      "count": 1266,
+      "budget_million_krw_sum": 29202.6,
+      "visitor_raw_unit": "persons"
+    }
+  ],
+  "by_year_province": [
+    {
+      "year": 2017,
+      "province": "",
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "province": "강원도",
+      "count": 68
+    },
+    {
+      "year": 2017,
+      "province": "경기도",
+      "count": 78
+    },
+    {
+      "year": 2017,
+      "province": "경상남도",
+      "count": 46
+    },
+    {
+      "year": 2017,
+      "province": "경상북도",
+      "count": 65
+    },
+    {
+      "year": 2017,
+      "province": "광주광역시",
+      "count": 8
+    },
+    {
+      "year": 2017,
+      "province": "대구광역시",
+      "count": 24
+    },
+    {
+      "year": 2017,
+      "province": "대전광역시",
+      "count": 9
+    },
+    {
+      "year": 2017,
+      "province": "부산광역시",
+      "count": 33
+    },
+    {
+      "year": 2017,
+      "province": "서울특별시",
+      "count": 59
+    },
+    {
+      "year": 2017,
+      "province": "세종특별 자치시청",
+      "count": 3
+    },
+    {
+      "year": 2017,
+      "province": "울산광역시",
+      "count": 10
+    },
+    {
+      "year": 2017,
+      "province": "인천광역시",
+      "count": 19
+    },
+    {
+      "year": 2017,
+      "province": "전라남도",
+      "count": 102
+    },
+    {
+      "year": 2017,
+      "province": "전라북도",
+      "count": 53
+    },
+    {
+      "year": 2017,
+      "province": "제주도",
+      "count": 29
+    },
+    {
+      "year": 2017,
+      "province": "충청남도",
+      "count": 90
+    },
+    {
+      "year": 2017,
+      "province": "충청북도",
+      "count": 36
+    },
+    {
+      "year": 2018,
+      "province": "강원도",
+      "count": 75
+    },
+    {
+      "year": 2018,
+      "province": "경기도",
+      "count": 94
+    },
+    {
+      "year": 2018,
+      "province": "경상남도",
+      "count": 58
+    },
+    {
+      "year": 2018,
+      "province": "경상북도",
+      "count": 77
+    },
+    {
+      "year": 2018,
+      "province": "광주광역시",
+      "count": 9
+    },
+    {
+      "year": 2018,
+      "province": "대구광역시",
+      "count": 24
+    },
+    {
+      "year": 2018,
+      "province": "대전광역시",
+      "count": 10
+    },
+    {
+      "year": 2018,
+      "province": "부산광역시",
+      "count": 37
+    },
+    {
+      "year": 2018,
+      "province": "서울특별시",
+      "count": 126
+    },
+    {
+      "year": 2018,
+      "province": "세종특별 자치시청",
+      "count": 3
+    },
+    {
+      "year": 2018,
+      "province": "울산광역시",
+      "count": 24
+    },
+    {
+      "year": 2018,
+      "province": "인천광역시",
+      "count": 26
+    },
+    {
+      "year": 2018,
+      "province": "전라남도",
+      "count": 105
+    },
+    {
+      "year": 2018,
+      "province": "전라북도",
+      "count": 51
+    },
+    {
+      "year": 2018,
+      "province": "제주도",
+      "count": 28
+    },
+    {
+      "year": 2018,
+      "province": "충청남도",
+      "count": 93
+    },
+    {
+      "year": 2018,
+      "province": "충청북도",
+      "count": 46
+    },
+    {
+      "year": 2019,
+      "province": "",
+      "count": 106
+    },
+    {
+      "year": 2019,
+      "province": "강원도",
+      "count": 68
+    },
+    {
+      "year": 2019,
+      "province": "경기도",
+      "count": 105
+    },
+    {
+      "year": 2019,
+      "province": "경상남도",
+      "count": 66
+    },
+    {
+      "year": 2019,
+      "province": "경상북도",
+      "count": 68
+    },
+    {
+      "year": 2019,
+      "province": "광주광역시",
+      "count": 8
+    },
+    {
+      "year": 2019,
+      "province": "대구광역시",
+      "count": 25
+    },
+    {
+      "year": 2019,
+      "province": "대전광역시",
+      "count": 15
+    },
+    {
+      "year": 2019,
+      "province": "부산광역시",
+      "count": 44
+    },
+    {
+      "year": 2019,
+      "province": "서울특별시",
+      "count": 93
+    },
+    {
+      "year": 2019,
+      "province": "세종특별 자치시청",
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "province": "울산광역시",
+      "count": 20
+    },
+    {
+      "year": 2019,
+      "province": "인천광역시",
+      "count": 32
+    },
+    {
+      "year": 2019,
+      "province": "전라남도",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "province": "전라북도",
+      "count": 50
+    },
+    {
+      "year": 2019,
+      "province": "제주도",
+      "count": 40
+    },
+    {
+      "year": 2019,
+      "province": "충청남도",
+      "count": 92
+    },
+    {
+      "year": 2019,
+      "province": "충청북도",
+      "count": 49
+    },
+    {
+      "year": 2020,
+      "province": "강원도",
+      "count": 97
+    },
+    {
+      "year": 2020,
+      "province": "경기도",
+      "count": 110
+    },
+    {
+      "year": 2020,
+      "province": "경상남도",
+      "count": 95
+    },
+    {
+      "year": 2020,
+      "province": "경상북도",
+      "count": 86
+    },
+    {
+      "year": 2020,
+      "province": "광주광역시",
+      "count": 8
+    },
+    {
+      "year": 2020,
+      "province": "대구광역시",
+      "count": 38
+    },
+    {
+      "year": 2020,
+      "province": "대전광역시",
+      "count": 8
+    },
+    {
+      "year": 2020,
+      "province": "부산광역시",
+      "count": 45
+    },
+    {
+      "year": 2020,
+      "province": "서울특별시",
+      "count": 81
+    },
+    {
+      "year": 2020,
+      "province": "세종특별 자치시청",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "province": "울산광역시",
+      "count": 23
+    },
+    {
+      "year": 2020,
+      "province": "인천광역시",
+      "count": 19
+    },
+    {
+      "year": 2020,
+      "province": "전라남도",
+      "count": 122
+    },
+    {
+      "year": 2020,
+      "province": "전라북도",
+      "count": 57
+    },
+    {
+      "year": 2020,
+      "province": "제주도",
+      "count": 39
+    },
+    {
+      "year": 2020,
+      "province": "충청남도",
+      "count": 98
+    },
+    {
+      "year": 2020,
+      "province": "충청북도",
+      "count": 40
+    },
+    {
+      "year": 2021,
+      "province": "강원도",
+      "count": 95
+    },
+    {
+      "year": 2021,
+      "province": "경기도",
+      "count": 110
+    },
+    {
+      "year": 2021,
+      "province": "경상남도",
+      "count": 109
+    },
+    {
+      "year": 2021,
+      "province": "경상북도",
+      "count": 91
+    },
+    {
+      "year": 2021,
+      "province": "광주광역시",
+      "count": 8
+    },
+    {
+      "year": 2021,
+      "province": "대구광역시",
+      "count": 40
+    },
+    {
+      "year": 2021,
+      "province": "대전광역시",
+      "count": 9
+    },
+    {
+      "year": 2021,
+      "province": "부산광역시",
+      "count": 48
+    },
+    {
+      "year": 2021,
+      "province": "서울특별시",
+      "count": 92
+    },
+    {
+      "year": 2021,
+      "province": "세종특별 자치시청",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "province": "울산광역시",
+      "count": 19
+    },
+    {
+      "year": 2021,
+      "province": "인천광역시",
+      "count": 18
+    },
+    {
+      "year": 2021,
+      "province": "전라남도",
+      "count": 119
+    },
+    {
+      "year": 2021,
+      "province": "전라북도",
+      "count": 75
+    },
+    {
+      "year": 2021,
+      "province": "제주도",
+      "count": 28
+    },
+    {
+      "year": 2021,
+      "province": "충청남도",
+      "count": 101
+    },
+    {
+      "year": 2021,
+      "province": "충청북도",
+      "count": 40
+    },
+    {
+      "year": 2022,
+      "province": "강원도",
+      "count": 104
+    },
+    {
+      "year": 2022,
+      "province": "경기",
+      "count": 112
+    },
+    {
+      "year": 2022,
+      "province": "경남",
+      "count": 121
+    },
+    {
+      "year": 2022,
+      "province": "경북",
+      "count": 77
+    },
+    {
+      "year": 2022,
+      "province": "광주",
+      "count": 7
+    },
+    {
+      "year": 2022,
+      "province": "대구",
+      "count": 38
+    },
+    {
+      "year": 2022,
+      "province": "대전",
+      "count": 18
+    },
+    {
+      "year": 2022,
+      "province": "부산",
+      "count": 51
+    },
+    {
+      "year": 2022,
+      "province": "서울",
+      "count": 24
+    },
+    {
+      "year": 2022,
+      "province": "세종",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "province": "울산",
+      "count": 21
+    },
+    {
+      "year": 2022,
+      "province": "인천",
+      "count": 17
+    },
+    {
+      "year": 2022,
+      "province": "전남",
+      "count": 98
+    },
+    {
+      "year": 2022,
+      "province": "전북",
+      "count": 75
+    },
+    {
+      "year": 2022,
+      "province": "제주",
+      "count": 41
+    },
+    {
+      "year": 2022,
+      "province": "충남",
+      "count": 107
+    },
+    {
+      "year": 2022,
+      "province": "충북",
+      "count": 29
+    },
+    {
+      "year": 2023,
+      "province": "강원",
+      "count": 118
+    },
+    {
+      "year": 2023,
+      "province": "경기",
+      "count": 125
+    },
+    {
+      "year": 2023,
+      "province": "경남",
+      "count": 142
+    },
+    {
+      "year": 2023,
+      "province": "경북",
+      "count": 85
+    },
+    {
+      "year": 2023,
+      "province": "광주",
+      "count": 15
+    },
+    {
+      "year": 2023,
+      "province": "대구",
+      "count": 39
+    },
+    {
+      "year": 2023,
+      "province": "대전",
+      "count": 19
+    },
+    {
+      "year": 2023,
+      "province": "부산",
+      "count": 54
+    },
+    {
+      "year": 2023,
+      "province": "서울",
+      "count": 82
+    },
+    {
+      "year": 2023,
+      "province": "세종",
+      "count": 8
+    },
+    {
+      "year": 2023,
+      "province": "울산",
+      "count": 32
+    },
+    {
+      "year": 2023,
+      "province": "인천",
+      "count": 42
+    },
+    {
+      "year": 2023,
+      "province": "전남",
+      "count": 100
+    },
+    {
+      "year": 2023,
+      "province": "전북",
+      "count": 88
+    },
+    {
+      "year": 2023,
+      "province": "제주",
+      "count": 44
+    },
+    {
+      "year": 2023,
+      "province": "충남",
+      "count": 101
+    },
+    {
+      "year": 2023,
+      "province": "충북",
+      "count": 35
+    },
+    {
+      "year": 2024,
+      "province": "강원",
+      "count": 117
+    },
+    {
+      "year": 2024,
+      "province": "경기",
+      "count": 144
+    },
+    {
+      "year": 2024,
+      "province": "경남",
+      "count": 135
+    },
+    {
+      "year": 2024,
+      "province": "경북",
+      "count": 86
+    },
+    {
+      "year": 2024,
+      "province": "광주",
+      "count": 21
+    },
+    {
+      "year": 2024,
+      "province": "대구",
+      "count": 33
+    },
+    {
+      "year": 2024,
+      "province": "대전",
+      "count": 20
+    },
+    {
+      "year": 2024,
+      "province": "부산",
+      "count": 55
+    },
+    {
+      "year": 2024,
+      "province": "서울",
+      "count": 77
+    },
+    {
+      "year": 2024,
+      "province": "세종",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "province": "울산",
+      "count": 36
+    },
+    {
+      "year": 2024,
+      "province": "인천",
+      "count": 40
+    },
+    {
+      "year": 2024,
+      "province": "전남",
+      "count": 121
+    },
+    {
+      "year": 2024,
+      "province": "전북",
+      "count": 87
+    },
+    {
+      "year": 2024,
+      "province": "제주",
+      "count": 49
+    },
+    {
+      "year": 2024,
+      "province": "충남",
+      "count": 106
+    },
+    {
+      "year": 2024,
+      "province": "충북",
+      "count": 39
+    },
+    {
+      "year": 2025,
+      "province": "강원",
+      "count": 123
+    },
+    {
+      "year": 2025,
+      "province": "경기",
+      "count": 155
+    },
+    {
+      "year": 2025,
+      "province": "경남",
+      "count": 109
+    },
+    {
+      "year": 2025,
+      "province": "경북",
+      "count": 101
+    },
+    {
+      "year": 2025,
+      "province": "광주",
+      "count": 19
+    },
+    {
+      "year": 2025,
+      "province": "대구",
+      "count": 38
+    },
+    {
+      "year": 2025,
+      "province": "대전",
+      "count": 22
+    },
+    {
+      "year": 2025,
+      "province": "부산",
+      "count": 57
+    },
+    {
+      "year": 2025,
+      "province": "서울",
+      "count": 71
+    },
+    {
+      "year": 2025,
+      "province": "세종",
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "province": "울산",
+      "count": 34
+    },
+    {
+      "year": 2025,
+      "province": "인천",
+      "count": 28
+    },
+    {
+      "year": 2025,
+      "province": "전남",
+      "count": 143
+    },
+    {
+      "year": 2025,
+      "province": "전북",
+      "count": 89
+    },
+    {
+      "year": 2025,
+      "province": "제주",
+      "count": 57
+    },
+    {
+      "year": 2025,
+      "province": "충남",
+      "count": 101
+    },
+    {
+      "year": 2025,
+      "province": "충북",
+      "count": 60
+    },
+    {
+      "year": 2026,
+      "province": "강원",
+      "count": 153
+    },
+    {
+      "year": 2026,
+      "province": "경기",
+      "count": 150
+    },
+    {
+      "year": 2026,
+      "province": "경남",
+      "count": 109
+    },
+    {
+      "year": 2026,
+      "province": "경북",
+      "count": 125
+    },
+    {
+      "year": 2026,
+      "province": "광주",
+      "count": 19
+    },
+    {
+      "year": 2026,
+      "province": "대구",
+      "count": 32
+    },
+    {
+      "year": 2026,
+      "province": "대전",
+      "count": 23
+    },
+    {
+      "year": 2026,
+      "province": "부산",
+      "count": 61
+    },
+    {
+      "year": 2026,
+      "province": "서울",
+      "count": 68
+    },
+    {
+      "year": 2026,
+      "province": "세종",
+      "count": 7
+    },
+    {
+      "year": 2026,
+      "province": "울산",
+      "count": 31
+    },
+    {
+      "year": 2026,
+      "province": "인천",
+      "count": 26
+    },
+    {
+      "year": 2026,
+      "province": "전남",
+      "count": 130
+    },
+    {
+      "year": 2026,
+      "province": "전북",
+      "count": 96
+    },
+    {
+      "year": 2026,
+      "province": "제주",
+      "count": 55
+    },
+    {
+      "year": 2026,
+      "province": "충남",
+      "count": 116
+    },
+    {
+      "year": 2026,
+      "province": "충북",
+      "count": 65
+    }
+  ],
+  "by_year_type": [
+    {
+      "year": 2017,
+      "festival_type": "·문화예술",
+      "count": 6
+    },
+    {
+      "year": 2017,
+      "festival_type": "·생태자연",
+      "count": 3
+    },
+    {
+      "year": 2017,
+      "festival_type": "·주민화합",
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "festival_type": "·지역특산물",
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "festival_type": "경연산업",
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "festival_type": "기타",
+      "count": 16
+    },
+    {
+      "year": 2017,
+      "festival_type": "문화예술",
+      "count": 214
+    },
+    {
+      "year": 2017,
+      "festival_type": "산업",
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "festival_type": "생태관광",
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "festival_type": "생태자연",
+      "count": 123
+    },
+    {
+      "year": 2017,
+      "festival_type": "생태자원",
+      "count": 5
+    },
+    {
+      "year": 2017,
+      "festival_type": "생태지원",
+      "count": 2
+    },
+    {
+      "year": 2017,
+      "festival_type": "전통역사",
+      "count": 126
+    },
+    {
+      "year": 2017,
+      "festival_type": "주민화합",
+      "count": 39
+    },
+    {
+      "year": 2017,
+      "festival_type": "지역특산물",
+      "count": 191
+    },
+    {
+      "year": 2017,
+      "festival_type": "지역특산물 주민화합",
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "festival_type": "지역특산물/ 문화예술",
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "festival_type": "특산물",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "-",
+      "count": 8
+    },
+    {
+      "year": 2018,
+      "festival_type": "18 지역대표공연예술제 지원사업",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "18 평창 문화올림픽 지원",
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "festival_type": "강원전통음식 관광상품화",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "공동마케팅 지원",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "과학창의재단 지역축제 지원사업",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "국제영화제 육성지원 사업",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "농촌축제 지원",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "대중문화콘텐츠산업육성",
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "festival_type": "대한민국 국제농기계자재박람회 지원",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "도시관광 및 산업관광 활성화",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "문화관광축제 지원",
+      "count": 37
+    },
+    {
+      "year": 2018,
+      "festival_type": "문화관광축제 지원(최우수)",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "문화관광축제지원",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "문화재 야행 사업",
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "festival_type": "문화재야행",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "문화재야행 사업",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "문화재야행 지원",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "보은 속리산 천왕봉 산신제",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "보훈사업지원",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "불교산사예술제",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "상설문화관광프로그램 지원",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "아시아퍼시픽뮤징미팅",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "역사전통문화도시조성사업",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "영화발전기금",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "자연유산민속행사",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "전통발효식품육성사업 지원",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "정원산업디자인전",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "지역경제특별회계(생활)",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "지역대표공연예술제",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "지역대표공연예술제지원사업 (기금)",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "지역문화관광 체험프로그램 운영",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "지역문화관광 체험프로그램 운영",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "지역특화문화행사",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "지역특화문화행사지원",
+      "count": 5
+    },
+    {
+      "year": 2018,
+      "festival_type": "지역행복생활권 연계협력사업 지원",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "청도세계코미디예술제개최 지원",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "코리아드라마페스티벌",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "팔공산 산중전통장터 승시",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "평창문화올림픽 지원 (문화예술관련 프로그램지원)",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "폐광지역관광자원화사업",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "포괄보조사업(지역특화문화행사지원)",
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "festival_type": "한국어 전통 기반 조성 및 확산 사업",
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "festival_type": "형형색색 달구벌 관등놀이",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "-",
+      "count": 24
+    },
+    {
+      "year": 2019,
+      "festival_type": "(균특) 구로아시아한마당음악회",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "19 지역문화재 활용사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "19년 국제영화제 육성지원 사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "19년 문화관광축제(논산강경젓갈축제) 지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "19년 지역대표공연예술제 지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "고싸움놀이 축제(보조)",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "관광진흥개발기금 지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "국제영화제 육성지원 사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "내용없음",
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "festival_type": "농촌관광축제육성지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "대중문화콘텐츠산업육성",
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "festival_type": "대한민국독서대전지자체지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "동물보호문화축제",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "문예진흥기금 지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화관광 축제지원사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화관광축제 지원",
+      "count": 30
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화관광축제 지원(우수)",
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화관광축제 지원(유망)",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화관광축제 지원(최우수)",
+      "count": 3
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화관광축제 지원사업 (관광진흥개발기금)",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화관광축제(우수) 지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화관광축제지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화예술진흥기금",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화예술진흥기금 공모사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화유산 활용진흥",
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화재야행",
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화콘텐츠행사 지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "문화특화지역조성사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "보은 속리산 천왕봉 산신제",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "불교산사예술제",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "상수원관리지역 주민지원사업(광역)",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "생태관광지역지정·육성",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "수원화성문화제(국비)",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "영화진흥기금",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "올해의 관광도시 선정∙육성 (2019 관광도시)",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "자연유산 민속행사",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "전통시장축제(공동마케팅)",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "종교문화행사 지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역대표 공연예술제",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역대표 공연예술제 지원(공무신청중)",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역대표 공연예술제 지원사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역대표공연에술제 공모사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역대표공연예술제",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역대표공연예술제 공모 신청",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역문화행사 지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역문화행사지원",
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역상생사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역전략식품산업육성사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역특성화산업육성사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역특화문화행사",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역특화문화행사 지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역특화문화행사지원",
+      "count": 4
+    },
+    {
+      "year": 2019,
+      "festival_type": "지역혁신역량강화",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "청도세계코미디예술제개최 지원",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "코리아드라마페스티벌",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "폐광지역관광자원화사업",
+      "count": 1
+    },
+    {
+      "year": 2019,
+      "festival_type": "해당 없음",
+      "count": 3
+    },
+    {
+      "year": 2019,
+      "festival_type": "해당사항 없음",
+      "count": 2
+    },
+    {
+      "year": 2019,
+      "festival_type": "해당없음",
+      "count": 9
+    },
+    {
+      "year": 2019,
+      "festival_type": "해양관광육성 (부산항축제지원)",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "festival_type": "-",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "festival_type": "·문화예술",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "festival_type": "·문화예술 (과학)",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "festival_type": "·전통역사",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "festival_type": "·주민화합",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "festival_type": "·지역특산물",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "festival_type": "20 국제영화제 육성 지원 사업",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "festival_type": "기타",
+      "count": 27
+    },
+    {
+      "year": 2020,
+      "festival_type": "문화관광축제 지원",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "festival_type": "문화예술",
+      "count": 294
+    },
+    {
+      "year": 2020,
+      "festival_type": "백제역사",
+      "count": 1
+    },
+    {
+      "year": 2020,
+      "festival_type": "생태자연",
+      "count": 172
+    },
+    {
+      "year": 2020,
+      "festival_type": "전통역사",
+      "count": 114
+    },
+    {
+      "year": 2020,
+      "festival_type": "주민화합",
+      "count": 77
+    },
+    {
+      "year": 2020,
+      "festival_type": "지역특산물",
+      "count": 218
+    },
+    {
+      "year": 2021,
+      "festival_type": "·전통역사 ·문화예술 ·생태자연 ·지역특산물 ·주민화합",
+      "count": 2
+    },
+    {
+      "year": 2021,
+      "festival_type": "기타",
+      "count": 32
+    },
+    {
+      "year": 2021,
+      "festival_type": "문화예술",
+      "count": 319
+    },
+    {
+      "year": 2021,
+      "festival_type": "백제역사",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "festival_type": "생태자연",
+      "count": 198
+    },
+    {
+      "year": 2021,
+      "festival_type": "전통역사",
+      "count": 115
+    },
+    {
+      "year": 2021,
+      "festival_type": "주민화합",
+      "count": 81
+    },
+    {
+      "year": 2021,
+      "festival_type": "주민화합(전통시장 활성화)",
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "festival_type": "지역특산물",
+      "count": 253
+    },
+    {
+      "year": 2021,
+      "festival_type": "지역특산물 주민화합",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "공연 및 체험행사",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "관광",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "festival_type": "관광특산",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타",
+      "count": 29
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(계절축제)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(과학전시체험 등)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(관광)",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(관광축제)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(산업육성)",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(원도심활성화)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(주민화합 등)",
+      "count": 32
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(주민화합",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(주민화합)",
+      "count": 14
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(주민화합등)",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(주민화홥 등)",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(주민화홥)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(지역산업축제)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(특산물,주민화합)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(해양스포츠)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "기타(해양스포츠행사 등)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "농특산물",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화관광",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화관광축제",
+      "count": 12
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술",
+      "count": 253
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술 / 레저스포츠",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술 / 전통역사 / 기타(주민화합 등)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술 특산물",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술",
+      "count": 3
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술,기타(주민화합 등)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술,전통역사",
+      "count": 4
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술/생태환경",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "문화예술제",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "반려 악기",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "백제역사",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "생태자연",
+      "count": 164
+    },
+    {
+      "year": 2022,
+      "festival_type": "생태자연 특산물",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "생태자연",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "festival_type": "생태자연",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "생태자연&전통역사",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "생태자연+문화예술",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "생태환경",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "ㅇ 문화예술",
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "festival_type": "ㅇ 문화예술 ㅇ 기타(주민화합등)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "ㅇ 문화예술 ㅇ 생태자연",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "ㅇ 문화예술 ㅇ 자연생태 ㅇ 기타(주민화합등)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "ㅇ 문화예술 ㅇ 전통역사",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "ㅇ 전통문화",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "ㅇ 춤경연 대회(전국춤 ",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "ㅇ생태자연 ㅇ특산물",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "역사문화",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "일반축제",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "작품전시",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "전통역사",
+      "count": 112
+    },
+    {
+      "year": 2022,
+      "festival_type": "전통역사 문화예술",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "전통역사",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "주민화합",
+      "count": 20
+    },
+    {
+      "year": 2022,
+      "festival_type": "지역축제",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "지역특산물",
+      "count": 8
+    },
+    {
+      "year": 2022,
+      "festival_type": "지역특산물(가덕도대구)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "지역특산물(대저토마토)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "지역특산물(전어)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "특산물",
+      "count": 209
+    },
+    {
+      "year": 2022,
+      "festival_type": "특산물",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "특산물",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "특산물(기타)",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "특산물/문화예술",
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "festival_type": "특산물&생태자연",
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "festival_type": "특산품",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "공연예술",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "관광",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "관광(산업)자원",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타",
+      "count": 32
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(관광)",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(관광자원)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(관광행사)",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(문화,관광)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(문화관광)",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(민군화합)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(반려동물)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(산업육성)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(시민화합)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(어촌마을 홍보)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(주민",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(주민화합 등)",
+      "count": 62
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(주민화합)",
+      "count": 18
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(체육 등)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "기타(체험 및 전시)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "농촌문화",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "festival_type": "농특산물",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "festival_type": "대규모행사",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화관광",
+      "count": 17
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 321
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술 기타(주민화합 등)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술 기타(주민화합)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술 전통역사",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술 전통역사 기타(주민화합 등)",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술 특산물",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 5
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술,전통역사",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화예술/생태환경",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "문화제",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "festival_type": "생태 자연",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "생태자연",
+      "count": 203
+    },
+    {
+      "year": 2023,
+      "festival_type": "생태자연",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "생태자연",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "생태자연",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "festival_type": "생태자연,역사,문화예술 등",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "생태자원",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "festival_type": "생태환경",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "수산물 축제",
+      "count": 6
+    },
+    {
+      "year": 2023,
+      "festival_type": "시민축제",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "ㅇ 기타(평생학습축제)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "ㅇ 기타(해넘이)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "ㅇ 지역 전통문화",
+      "count": 4
+    },
+    {
+      "year": 2023,
+      "festival_type": "ㅇ 특산물",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "ㅇ IFEZ 20주년 기념",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "역사과학",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "역사인물",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "예술축제",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "festival_type": "일반축제",
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "festival_type": "자연",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "전통 역사",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "전통문화",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "전통역사",
+      "count": 125
+    },
+    {
+      "year": 2023,
+      "festival_type": "전통역사 기타(주민화합)",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "전통역사 문화예술",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "전통역사",
+      "count": 2
+    },
+    {
+      "year": 2023,
+      "festival_type": "전통역사",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "전통행장",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "주민화합",
+      "count": 19
+    },
+    {
+      "year": 2023,
+      "festival_type": "지역특산물",
+      "count": 12
+    },
+    {
+      "year": 2023,
+      "festival_type": "천문과학",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "청년축제",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "특산물",
+      "count": 210
+    },
+    {
+      "year": 2023,
+      "festival_type": "특산물 축제",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "특산물",
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "festival_type": "패션뷰티축제",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "과학문화예술",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "관광진흥",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타",
+      "count": 81
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(경제활성화)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(관광)",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(관광자원)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(꽃축제)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(문화,관광)",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(박람회 등)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(산업육성)",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(산업축제)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(상권활성화)",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(스포츠관광)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(시장활성화)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(음식)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(주민화합 등)",
+      "count": 32
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(주민화합)",
+      "count": 20
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(주민화홥)",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(지역산업)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(체육 등)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(체험 및 전시)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(체험행사)",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "festival_type": "기타(평생학습 결과물 전시",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "놀이체험",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화관광",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술",
+      "count": 333
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술",
+      "count": 9
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술",
+      "count": 8
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술,전통역사",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "festival_type": "문화예술(과학)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "상권활성화",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "생태자연",
+      "count": 209
+    },
+    {
+      "year": 2024,
+      "festival_type": "생태자연",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "생태자연",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "생태자연",
+      "count": 3
+    },
+    {
+      "year": 2024,
+      "festival_type": "생태자연",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "festival_type": "생태자연",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "생태자연/특산물",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "festival_type": "수산물 지역축제 및 체험행사",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "festival_type": "수산물 축제",
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "festival_type": "안전문화",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "역사문화",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "festival_type": "역사인물",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "예술축제",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "음식",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "자연",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "festival_type": "전통문화",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "festival_type": "전통역사",
+      "count": 143
+    },
+    {
+      "year": 2024,
+      "festival_type": "전통역사 특산물",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "전통역사",
+      "count": 4
+    },
+    {
+      "year": 2024,
+      "festival_type": "전통역사",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "전통역사",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "전통역사과학",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "전통역시",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "주민화합",
+      "count": 11
+    },
+    {
+      "year": 2024,
+      "festival_type": "지역경제활성화",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "지역농특산물홍보",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "지역자원",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "지역특산물",
+      "count": 5
+    },
+    {
+      "year": 2024,
+      "festival_type": "테마",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "테마(새)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "특산물",
+      "count": 214
+    },
+    {
+      "year": 2024,
+      "festival_type": "특산물",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "특산물",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "festival_type": "특산물",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "특산물",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "특산물(먹거리)",
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "festival_type": "특산물축제",
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "festival_type": "특산품",
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "festival_type": "문화예술",
+      "count": 447
+    },
+    {
+      "year": 2025,
+      "festival_type": "문화예술",
+      "count": 8
+    },
+    {
+      "year": 2025,
+      "festival_type": "자연생태",
+      "count": 219
+    },
+    {
+      "year": 2025,
+      "festival_type": "자연생태",
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "festival_type": "자연생태",
+      "count": 3
+    },
+    {
+      "year": 2025,
+      "festival_type": "전통역사",
+      "count": 150
+    },
+    {
+      "year": 2025,
+      "festival_type": "주민화합",
+      "count": 119
+    },
+    {
+      "year": 2025,
+      "festival_type": "지역특산물",
+      "count": 266
+    },
+    {
+      "year": 2025,
+      "festival_type": "지역특산물",
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "festival_type": "문화예술",
+      "count": 471
+    },
+    {
+      "year": 2026,
+      "festival_type": "자연생태",
+      "count": 228
+    },
+    {
+      "year": 2026,
+      "festival_type": "전통역사",
+      "count": 146
+    },
+    {
+      "year": 2026,
+      "festival_type": "주민화합",
+      "count": 154
+    },
+    {
+      "year": 2026,
+      "festival_type": "지역특산물",
+      "count": 267
+    }
+  ]
+}

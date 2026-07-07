@@ -27,6 +27,7 @@ Updated: 2026-07-07.
 - MCST GET probe confirms downloadable 2017-2026 annual ZIPs with byte sizes and SHA-256 hashes; raw binaries are not committed.
 - MCST archive schema probe confirms 2017-2026 annual workbooks and records first-sheet aggregate festival counts before full row normalization.
 - MCST 2017-2026 annual workbooks are now extracted into a normalized master-draft with 10,198 festival-year records. Staff names and phone numbers from public sheets are intentionally omitted.
+- Lightweight MCST master summaries now provide year, province and festival-type aggregate indexes for dashboard use.
 
 ## Current limitations
 - The repository is not yet a complete national archive of every 2016-2026 Korean festival.
