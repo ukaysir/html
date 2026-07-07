@@ -290,6 +290,21 @@
       "next_evidence_needed": "지방재정365 row, 평가용역 원문, 유료/무료 프로그램 split, 부스/협찬 수입, 계약/RFP/수행평가."
     },
     {
+      "id": "mungyeong-teabowl-2024-2026",
+      "record_type": "festival_case",
+      "festival": "문경찻사발축제",
+      "years": "2024-2026",
+      "page": "mungyeong-teabowl-cultural-value-budget-recovery-dossier.html",
+      "question": "문화형 축제의 낮은 직접회수율은 실패인가?",
+      "short_answer": "전통도자 공공가치와 방문 성과는 강하지만 2024 회수율 6.6% lead는 직접수익 gap이다. 2025 패스권·상품권·관광지 할인 개편이 실제 지역환류를 만들었는지 조인이 필요하다.",
+      "evidence_level": "B+ cultural/outcome, B budget-recovery lead, C attribution",
+      "procurement_link": "strong context",
+      "outcome_link": "mixed-strong",
+      "primary_causes": ["cultural_public_value", "budget_recovery", "free_entry", "voucher_pass", "procurement_context"],
+      "not_yet_proven": "예산낭비 확정 또는 특정 대행사·하청업체 책임.",
+      "next_evidence_needed": "지방재정365 row, 패스권 판매, 상품권 redemption, 도자 판매, 체험료 세목, 평가보고서, 낙찰자/과업/수행평가."
+    },
+    {
       "id": "budget-waste-model",
       "record_type": "model",
       "festival": "예산낭비 판정 모델",
@@ -321,6 +336,7 @@
     }
   ]
 }
+
 
 
 

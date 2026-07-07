@@ -1,0 +1,120 @@
+{
+  "id": "mungyeong-teabowl-cultural-value-budget-recovery-dossier",
+  "title": "Mungyeong Teabowl Festival cultural-value and budget-recovery dossier",
+  "festival": "문경찻사발축제",
+  "years": "2024-2026",
+  "last_updated": "2026-07-08",
+  "verdict": {
+    "summary": "문화·전승 공공가치가 강하지만 직접 회수율이 낮은 budget-recovery gap 사례다.",
+    "classification": "B+ cultural/outcome, B budget-recovery lead, B procurement context, C contractor attribution",
+    "plain_language": "문경찻사발축제는 전통 도자·찻사발이라는 명확한 정체성과 참여형 콘텐츠가 있어 실패로 단정하기 어렵다. 그러나 2024년 원가 15억 원 대비 직접 입장수익 9,931만 원, 회수율 6.6% lead는 직접수익 구조가 약하다는 뜻이다. 2025년 패스권·상품권·관광지 할인 연계가 이 gap을 줄였는지 확인해야 한다."
+  },
+  "key_numbers": [
+    {
+      "year": 2024,
+      "metric": "reported_total_cost",
+      "value": "KRW 1,500,000,000",
+      "source": "Yeongnam/Daum fiscal comparison"
+    },
+    {
+      "year": 2024,
+      "metric": "reported_admission_revenue",
+      "value": "KRW 99,310,000",
+      "source": "Yeongnam/Daum fiscal comparison"
+    },
+    {
+      "year": 2024,
+      "metric": "reported_recovery_rate",
+      "value": "6.6%",
+      "source": "Yeongnam/Daum fiscal comparison"
+    },
+    {
+      "year": 2024,
+      "metric": "reported_visitors_and_effect",
+      "value": "280,000 visitors; KRW 16.2b regional economic effect lead",
+      "source": "Yeongnam/Daum fiscal comparison"
+    },
+    {
+      "year": 2025,
+      "metric": "reported_visitors",
+      "value": "240,000 visitors",
+      "source": "Daum/Kyongbuk wrap-up"
+    },
+    {
+      "year": 2025,
+      "metric": "planning_program_agency_budget",
+      "value": "KRW 530,000,000",
+      "source": "BidPro / Mungyeong Tourism Organization tender lead"
+    }
+  ],
+  "cause_cards": [
+    {
+      "question": "왜 직접 회수율이 낮은가?",
+      "answer": "공식 구조가 입장료 무료, 체험료 별도인 문화형 축제다. 직접 입장수익은 작지만 도자 판매, 체험료, 패스권, 지역소비가 별도 세목으로 흩어질 가능성이 있다.",
+      "evidence_strength": "B",
+      "risk": "입장수익만 보면 과소평가될 수 있으나, 세목별 결산 없이는 보조금 효율도 검증할 수 없다."
+    },
+    {
+      "question": "왜 실패로만 보면 안 되나?",
+      "answer": "문경 도자, 장작가마, 찻사발, 다례, 국제교류전, 공모대전 등 지역 고유의 문화자산을 보유하고 2024/2025 방문객과 경제효과 lead가 있다.",
+      "evidence_strength": "B+",
+      "risk": "방문객과 경제효과 산식은 검증 전까지 예산효율의 대체증거가 아니다."
+    },
+    {
+      "question": "2025년에 무엇을 개선했나?",
+      "answer": "축제패스권을 문경사랑상품권과 지역 관광지 할인권으로 개편하고, 야외 방탈출·요장투어·가족 프로그램·KTX/무료버스 연계를 통해 체류형 구조로 바꿨다.",
+      "evidence_strength": "B",
+      "risk": "개선책이 실제 직접회수율과 지역상권 매출을 얼마나 높였는지는 추가 자료가 필요하다."
+    },
+    {
+      "question": "대행사 문제인가?",
+      "answer": "2025 기획·프로그램 운영 대행용역 5.3억 원과 2024 개폐막식 대행 1.8억 원 등 조달 entry point가 있다. 그러나 저회수율은 축제정책/가격구조 문제일 가능성이 크고, 특정 대행사 귀속은 아직 불가하다.",
+      "evidence_strength": "B procurement / C attribution",
+      "risk": "과업 범위, 낙찰자, 수행평가, 프로그램별 성과를 연결해야만 책임귀속 가능하다."
+    }
+  ],
+  "sources": [
+    {
+      "name": "KTO Visit Korea official page",
+      "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=79a118fc-7a02-4262-be71-030a1fc3d815",
+      "use": "2026 dates, free admission/paid experiences, operator, program mix, food-price listing"
+    },
+    {
+      "name": "Yeongnam/Daum fiscal comparison",
+      "url": "https://v.daum.net/v/20260607095747981?f=p",
+      "use": "2024 total cost, admission revenue, recovery rate, visitor and economic-effect leads"
+    },
+    {
+      "name": "Daum/Kyongbuk 2025 wrap-up",
+      "url": "https://v.daum.net/v/53i0HGqySM?f=p",
+      "use": "2025 visitors, pass/voucher/tourism discount redesign, family content, KTX/bus linkage and operation improvements"
+    },
+    {
+      "name": "Daum/Daegu Ilbo 2026 preview",
+      "url": "https://v.daum.net/v/WpKJENHloP",
+      "use": "2026 honorary cultural-tourism status, international exchange, smart reservation, safety/rest improvements"
+    },
+    {
+      "name": "Mungyeong Tourism Organization 2025 tender page",
+      "url": "https://www.mgtpcr.or.kr/web/board.do?bbsIdx=2208216&menuIdx=413",
+      "use": "official 2025 planning/program operation agency RFP posting"
+    },
+    {
+      "name": "BidPro 2025 tender summary",
+      "url": "https://www.bidpro.co.kr/n0_ipchal/konggo/svc/konggo_view.asp?num=2796913",
+      "use": "KRW 530m planning/program operation agency budget and qualification lead"
+    },
+    {
+      "name": "Mungyeong Tourism Corporation 2024 opening/closing tender",
+      "url": "https://www.mgtpcr.or.kr/web/board.do?bbsIdx=2207776&menuIdx=413",
+      "use": "KRW 180m opening/closing ceremony agency procurement context"
+    }
+  ],
+  "next_evidence_needed": [
+    "Local Finance 365 raw cost/revenue row and detailed revenue categories",
+    "2025 and 2026 evaluation reports with pass sales, coupon redemption and tourism-discount usage",
+    "pottery/artist sales, booth income, paid-experience fees and public-account return path",
+    "visitor-count method, satisfaction, stay-time and local-spend survey microdata",
+    "agency award result, RFP scope and completion evaluation before contractor attribution"
+  ]
+}

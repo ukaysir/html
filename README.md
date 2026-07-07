@@ -210,3 +210,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/sangju-hat-free-access-budget-risk-dossier.json: free-access budget-risk dossier separating 2024 zero-revenue/free-entry explanation, paid-content weakness, 2025 content-maturation efforts, outcome leads and contractor-attribution guardrails.
 - sangju-hat-free-access-budget-risk-dossier.html: human-readable explanation of why Sangju World Hat Festival is a free-access public-value vs direct-revenue case rather than a proven contractor-failure case.
+
+## Mungyeong Teabowl cultural-value/budget-recovery dossier
+
+- data/mungyeong-teabowl-cultural-value-budget-recovery-dossier.json: cultural public-value and budget-recovery dossier separating free-entry/paid-experience structure, 2024 low recovery lead, 2025 pass/voucher/tourism-discount redesign, and agency-procurement context.
+- mungyeong-teabowl-cultural-value-budget-recovery-dossier.html: human-readable explanation of why Mungyeong Teabowl Festival has budget-recovery risk without being reducible to failure or contractor causality.

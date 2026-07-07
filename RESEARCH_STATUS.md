@@ -234,3 +234,9 @@ Updated: 2026-07-07.
 - Added a free-access budget-risk dossier for Sangju World Hat Festival covering the 2024 city-funded/zero-revenue lead, explicit paid-content weakness explanation, 2025 content-maturation attempts and reported visitor/stay/economic-effect improvement.
 - Classified the case as B+ for direct cause of revenue weakness, B for outcome leads and C for contractor attribution because no public evidence yet ties a specific agency or subcontractor to the revenue model problem.
 - Added data/sangju-hat-free-access-budget-risk-dossier.json, .csv, sangju-hat-free-access-budget-risk-dossier.html, evidence note, and case-matrix links.
+
+## Checkpoint: Mungyeong Teabowl cultural-value/budget-recovery dossier (2026-07-08T07:15:00+09:00)
+
+- Added a cultural-value/budget-recovery dossier for Mungyeong Teabowl Festival covering free-entry/paid-experience structure, 2024 low direct-recovery lead, 2025 pass/voucher/tourism-discount redesign and 2026 experiential/smart-operation improvements.
+- Separated cultural public value from direct revenue recovery: low admission recovery is a budget-risk lead, but not a failure verdict without local-spend, satisfaction, artist-sales and evaluation-method evidence.
+- Added data/mungyeong-teabowl-cultural-value-budget-recovery-dossier.json, .csv, mungyeong-teabowl-cultural-value-budget-recovery-dossier.html, evidence note, and case-matrix links.
