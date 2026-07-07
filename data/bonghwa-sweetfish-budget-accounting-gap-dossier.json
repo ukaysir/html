@@ -1,0 +1,114 @@
+{
+  "id": "bonghwa-sweetfish-budget-accounting-gap-dossier",
+  "title": "Bonghwa Sweetfish Festival budget/accounting gap dossier",
+  "festival": "봉화은어축제",
+  "years": "2016-2026",
+  "last_updated": "2026-07-08",
+  "verdict": {
+    "summary": "성과와 유료 콘텐츠는 강하지만 예산·회계 설명이 약한 budget-accounting gap 사례다.",
+    "classification": "B+ content/success, B budget-risk lead, B natural-shock, C contractor attribution",
+    "plain_language": "봉화은어축제는 은어잡이 유료체험과 상품권 환급 구조가 있어 수익모델이 전혀 없는 축제로 보기는 어렵다. 그러나 2024년 결산 비교에서는 집행액 21억5,067만 원, 수익 0원으로 보도되어 회계 귀속·공시 입력·수익 환류 구조를 반드시 확인해야 한다."
+  },
+  "key_numbers": [
+    {
+      "year": 2026,
+      "metric": "experience_fee",
+      "value": "KRW 12,000 with KRW 5,000 Bonghwa Love gift-certificate refund",
+      "source": "KTO Visit Korea official festival page"
+    },
+    {
+      "year": 2024,
+      "metric": "reported_execution_cost",
+      "value": "KRW 2,150,670,000",
+      "source": "Yeongnam/Daum fiscal comparison lead"
+    },
+    {
+      "year": 2024,
+      "metric": "reported_settlement_revenue",
+      "value": "KRW 0",
+      "source": "Yeongnam/Daum fiscal comparison lead"
+    },
+    {
+      "year": 2025,
+      "metric": "festival_revenue_donation",
+      "value": "KRW 50,000,000 donated from part of festival revenue",
+      "source": "NewsPim/NewDaily"
+    },
+    {
+      "year": 2026,
+      "metric": "event_agency_service_budget",
+      "value": "KRW 690,000,000",
+      "source": "G2B tender PDF"
+    }
+  ],
+  "cause_cards": [
+    {
+      "question": "왜 실패로 단정하지 않나?",
+      "answer": "공식 2026 구조에 유료 은어잡이, 상품권 환급, 물놀이/공연/주민참여 프로그램이 있고 2025 수익금 기부와 2026 콘텐츠 대상 수상 신호가 있다.",
+      "evidence_strength": "B+",
+      "risk": "성과 보도와 수상은 예산효율을 자동으로 증명하지 않는다."
+    },
+    {
+      "question": "왜 예산 리스크인가?",
+      "answer": "2024 보도는 21억 원대 집행에도 결산서상 수익 0원, 효과지표 계획/결과 동일 문제를 제기했다.",
+      "evidence_strength": "B lead",
+      "risk": "군 관계자도 공시 표시와 내부 입력 차이를 언급했으므로 공시 원문과 결산 ledger 조인이 필요하다."
+    },
+    {
+      "question": "2023년은 수요예측 실패인가?",
+      "answer": "아니다. 집중호우로 내성천 일대가 침수되고 인명·재산 피해가 발생해 안전·복구 우선으로 취소된 자연재난 사례다.",
+      "evidence_strength": "B",
+      "risk": "사전 물고기 확보·처분 손실은 운영 리스크지만 대행사 실패로 단정할 수 없다."
+    },
+    {
+      "question": "대행사/하청 구조는 어디까지 확인되나?",
+      "answer": "2026 행사대행용역 6.9억 원, 부스 임대분양, 푸드트럭 운영자, 반두 대여 부스 입찰 공고가 확인된다.",
+      "evidence_strength": "B procurement context / C attribution",
+      "risk": "아직 2026 사후 성과와 수행평가가 없으므로 성공·실패 귀속은 보류한다."
+    }
+  ],
+  "sources": [
+    {
+      "name": "KTO Visit Korea official page",
+      "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=9cfdf097-5fcd-469f-ab72-b979b3cb69ce",
+      "use": "2026 schedule, operator, paid experience fees, voucher refund, program and anti-gouging/safety campaign"
+    },
+    {
+      "name": "Bonghwa County tourism page",
+      "url": "https://www.bonghwa.go.kr/tour/contents.do?mid=0201000000",
+      "use": "origin, ecological identity, clean Naeseongcheon context, sweetfish-catching core content"
+    },
+    {
+      "name": "Yeongnam/Daum fiscal comparison",
+      "url": "https://v.daum.net/v/HsbQq4RfDE",
+      "use": "2024 high execution cost, 0 reported revenue and indicator-methodology criticism"
+    },
+    {
+      "name": "NewsPim 2025 revenue donation",
+      "url": "https://www.newspim.com/news/view/20250804001145",
+      "use": "KRW 50m donation from part of festival revenue and public-return signal"
+    },
+    {
+      "name": "G2B tender PDF",
+      "url": "https://www.g2b.go.kr/fs/fsc/fsca/fileUpload.do?k00=a2MMYzianzwExorC2swMQwxC2swNQwwC2syNgwvZGF0YS9BdHRhY2hmaWxlcy9wbnBlLzIwMjYvMDUvMjIvNDc1NzI1OTJlZjk5NDY1MjhlYTU5MzZkNDE2MDBmMDQucGRmC2szMQzqs7Xqs6DrrLgo7KCcMjjtmowg7J2A7Ja07LaV7KCcIO2WieyCrOuMgO2WieyaqeyXrSkucGRmC2syMQw4YWEyNjI5YS1hYWVlLTQwNWMtOThkYy1lNTYyMTkwNmNjZTYsMQ%3D%3D",
+      "use": "2026 event agency tender, KRW 690m budget, limited competition, negotiated contract"
+    },
+    {
+      "name": "Bonghwa Festival Tourism Foundation procurement list",
+      "url": "https://www.bhftf.or.kr/bbs/board.php?bo_table=bh_business&page=1&sca=&sfl=&sod=desc&sop=and&sst=wr_datetime&stx=",
+      "use": "2026 agency evaluator, booth, food-truck and bandu-rental procurement/recruitment notices"
+    },
+    {
+      "name": "DealSite EconomyTV 2023 flood cancellation",
+      "url": "https://dealsitetv.com/articles/100655",
+      "use": "flood damage, Naeseongcheon inundation, emergency board cancellation"
+    }
+  ],
+  "next_evidence_needed": [
+    "Local Finance 365 raw festival-cost row for 2024 and 2025",
+    "foundation settlement report separating ticket revenue, voucher refunds, booth/food-truck/rental income and donations",
+    "gift-certificate redemption data by merchant category",
+    "2026 event-agency award result, RFP scope and completion evaluation",
+    "flood cancellation cost ledger for already-procured sweetfish, facilities and contract cancellation handling"
+  ]
+}

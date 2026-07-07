@@ -222,3 +222,9 @@ Updated: 2026-07-07.
 - Added a mixed success/price-boundary dossier for Hampyeong Butterfly Festival covering paid ecological content, coupon/local-capture structure, 2024 cost-recovery lead, 2026 outcome signals and the 2023 nearby night-market price controversy.
 - Classified the case as B+ success, B price-boundary and C contractor attribution: stage procurement exists, but the current evidence does not support blaming a contractor/subcontractor for price controversy or crediting one for total success.
 - Added data/hampyeong-butterfly-success-price-boundary-dossier.json, .csv, hampyeong-butterfly-success-price-boundary-dossier.html, evidence note, and case-matrix links.
+
+## Checkpoint: Bonghwa Sweetfish budget/accounting gap dossier (2026-07-08T06:45:00+09:00)
+
+- Added a budget/accounting gap dossier for Bonghwa Sweetfish Festival covering paid experience fees, Bonghwa Love gift-certificate refunds, 2024 high-cost/zero-revenue lead, 2025 festival-revenue donation and 2026 event-agency/booth procurement layers.
+- Classified 2023 cancellation as a natural-disaster/safety recovery case caused by heavy rain and Naeseongcheon flooding, not demand-forecast or contractor failure.
+- Added data/bonghwa-sweetfish-budget-accounting-gap-dossier.json, .csv, bonghwa-sweetfish-budget-accounting-gap-dossier.html, evidence note, and case-matrix links.

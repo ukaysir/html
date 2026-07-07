@@ -200,3 +200,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/hampyeong-butterfly-success-price-boundary-dossier.json: mixed success dossier separating paid ecological content, coupon/local-capture structure, budget-recovery lead, 2023 nearby night-market price controversy and stage-procurement attribution limits.
 - hampyeong-butterfly-success-price-boundary-dossier.html: human-readable explanation of why Hampyeong is a success benchmark with a price-boundary risk rather than a proven subcontractor-failure case.
+
+## Bonghwa Sweetfish budget/accounting gap dossier
+
+- data/bonghwa-sweetfish-budget-accounting-gap-dossier.json: budget-accounting gap dossier separating paid experience/voucher structure, 2024 zero-revenue fiscal lead, 2025 revenue donation signal, 2023 flood cancellation and 2026 agency/booth procurement layers.
+- bonghwa-sweetfish-budget-accounting-gap-dossier.html: human-readable explanation of why Bonghwa Sweetfish Festival should be treated as an accounting/reconciliation and natural-shock case before calling it waste or contractor failure.

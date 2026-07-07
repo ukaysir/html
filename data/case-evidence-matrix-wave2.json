@@ -260,6 +260,21 @@
       "next_evidence_needed": "지방재정365 원가회계, 평가보고서, 쿠폰 redemption, 야시장 허가/운영자 경계, 무대 용역 과업·수행평가."
     },
     {
+      "id": "bonghwa-sweetfish-2016-2026",
+      "record_type": "festival_case",
+      "festival": "봉화은어축제",
+      "years": "2016-2026",
+      "page": "bonghwa-sweetfish-budget-accounting-gap-dossier.html",
+      "question": "성과가 있는데 왜 예산·회계 리스크인가?",
+      "short_answer": "유료 은어잡이와 상품권 환급, 2025 수익금 기부가 있어 실패로 단정하기 어렵다. 그러나 2024 고집행·수익 0원 lead와 효과지표 불투명성 때문에 회계귀속/공시입력/수익환류 조인이 필요하다.",
+      "evidence_level": "B+ content, B budget lead, B natural shock, C attribution",
+      "procurement_link": "strong for 2026 pre-event",
+      "outcome_link": "mixed",
+      "primary_causes": ["budget_accounting_gap", "paid_content", "voucher_loop", "flood_cancellation", "multi_layer_procurement"],
+      "not_yet_proven": "예산낭비 확정 또는 특정 대행사·하청업체 책임.",
+      "next_evidence_needed": "지방재정365 row, 재단 결산 ledger, 체험권 매출, 상품권 redemption, 낙찰자/과업/수행평가, 2023 취소비용."
+    },
+    {
       "id": "budget-waste-model",
       "record_type": "model",
       "festival": "예산낭비 판정 모델",
@@ -291,4 +306,5 @@
     }
   ]
 }
+
 
