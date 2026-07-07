@@ -4,6 +4,8 @@ Public-source-only research dashboard for tracing why Korean festivals succeed o
 
 Open `index.html` to view the dashboard.
 
+See `RESEARCH_STATUS.md` for checkpoint status, completed evidence layers and remaining gaps.
+
 ## Scope
 - 2016-2026 Korean festivals.
 - Demand forecast, visitor performance, budget, contracts, agencies, public subcontract/booth traces and operational risk evidence.
