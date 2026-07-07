@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-08T01:17:40+09:00",
+    "purpose": "Use MCST-designated cultural tourism festivals as a success/benchmark cohort against the 10,198-row national festival master.",
+    "extraction_status": "official_page_metadata_captured; attachment text extraction pending because viewer/download path did not expose raw file in first probe."
+  },
+  "official_sources": [
+    {
+      "id": "mcst_press_20260123",
+      "title": "세계인 사로잡은 케이-컬처 종합 체험장, 2026~2027 문화관광축제 27개 선정",
+      "url": "https://www.mcst.go.kr/site/s_notice/press/pressView.jsp?pSeq=22212",
+      "published": "2026-01-23",
+      "captured_facts": [
+        "2026~2027 문화관광축제 27개 최종 선정 보도자료",
+        "본문파일 HWPX 249KB and PDF 212KB listed",
+        "공공누리 1유형 source page"
+      ]
+    },
+    {
+      "id": "mcst_list_20260220",
+      "title": "2026-2027년 문화관광축제 및 예비축제 목록",
+      "url": "https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pDataCD=0417000000&pSeq=2108&pType=",
+      "published": "2026-02-20",
+      "captured_facts": [
+        "2026-2027년 문화관광축제 및 예비축제 목록 HWP 135KB listed",
+        "공공누리 4유형 source page",
+        "담당부서 국민관광진흥과"
+      ]
+    },
+    {
+      "id": "nabis_duplicate_policy_record",
+      "title": "나비스 중앙부처 정책보도 mirror",
+      "url": "https://www.nabis.go.kr/policyDetailView.do?gbnCode=P50&menucd=20&poIdx=21722&refCode=20",
+      "published": "2026-01-23",
+      "captured_facts": [
+        "27개 중 20개 재지정, 7개 신규 선정 구조 확인",
+        "신규 예시: 부산국제록페스티벌, 논산딸기축제, 세종축제",
+        "글로벌축제/예비글로벌축제 추가 선정 계획 언급"
+      ]
+    }
+  ],
+  "benchmark_logic": [
+    "MCST-selected cultural tourism festivals should be treated as a benchmark cohort, not as automatic success proof.",
+    "Compare selected/reselected/new festival cohorts against MCST master fields: budget, visitor history, outsourcing, dates, region, festival type.",
+    "Use selection/reselection status as one dependent variable in success analysis; use price/crowding/procurement incidents as counter-evidence.",
+    "Global festival policy should be checked against demand dispersion: whether national attention spreads to regions or concentrates congestion in already-famous festivals."
+  ],
+  "confirmed_named_examples": [
+    {
+      "name": "부산국제록페스티벌",
+      "status": "new_2026_2027_example_from_policy_record",
+      "use": "new selection case: youth/music demand, large-event operations, sponsorship/procurement"
+    },
+    {
+      "name": "논산딸기축제",
+      "status": "new_2026_2027_example_from_policy_record",
+      "use": "new selection case: agritourism/local product, food price/sales management"
+    },
+    {
+      "name": "세종축제",
+      "status": "new_2026_2027_example_from_policy_record",
+      "use": "new selection case: city identity and public-space operations"
+    },
+    {
+      "name": "인천펜타포트뮤직페스티벌",
+      "status": "existing_global_festival_from_mcst_search_index",
+      "use": "global festival case: paid music festival, crowd/safety/sponsor model"
+    },
+    {
+      "name": "화천산천어축제",
+      "status": "existing_global_festival_from_mcst_search_index",
+      "use": "winter global festival and demand/satisfaction benchmark"
+    },
+    {
+      "name": "수원화성문화제",
+      "status": "existing_global_festival_from_mcst_search_index",
+      "use": "heritage/city festival global benchmark"
+    }
+  ],
+  "next_extraction_tasks": [
+    "Resolve raw HWP/HWPX/PDF attachment download URL or use public preview text where available.",
+    "Extract full 27 cultural tourism festival names and preliminary festival names.",
+    "Join selected names to MCST 2026 master and match-key index.",
+    "Compare selected cohort against procurement queue and case dossiers."
+  ]
+}
