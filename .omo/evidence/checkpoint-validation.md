@@ -1,0 +1,1 @@
+checkpoint validation passed
