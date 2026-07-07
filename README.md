@@ -47,3 +47,4 @@ Pages was checked as not enabled during the research run. To publish, use:
 - `data/master-source-inventory.json`
 - `data/mcst-download-manifest.json`
 - `data/mcst-download-probe.json`
+- `data/mcst-archive-schema-probe.json`

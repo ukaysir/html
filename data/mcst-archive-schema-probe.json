@@ -1,0 +1,94 @@
+{
+  "version": "2026-07-08.mcst-archive-schema-probe",
+  "access_date": "2026-07-08",
+  "purpose": "Probe the downloaded MCST annual regional-festival ZIP contents and first worksheet rows before full normalization.",
+  "method": "Downloaded ZIPs to a temporary directory, extracted the first XLSX entry per year to a temporary directory, parsed xl/sharedStrings.xml and xl/worksheets/sheet1.xml for the first visible rows.",
+  "raw_binary_policy": "Raw ZIP/XLSX binaries were not committed. This file records derived metadata and first-row summaries only.",
+  "annual_workbooks": [
+    {
+      "year": 2017,
+      "xlsx_bytes": 353740,
+      "reported_total_festivals": 733,
+      "first_title": "2017년 지역축제 개최 계획",
+      "summary_row": "합계 733; 서울 60; 부산 33; 대구 24; 인천 19; 광주 8; 대전 9; 울산 10; 세종 3; 경기 78; 강원 68; 충북 36; 충남 90; 전북 53; 전남 102; 경북 65; 경남 46; 제주 29",
+      "notes": ["ZIP also contains a HWP culture-tourism-festival file."]
+    },
+    {
+      "year": 2018,
+      "xlsx_bytes": 584113,
+      "reported_total_festivals": 886,
+      "first_title": "2018년 지역축제 개최 계획",
+      "summary_row": "합계 886; 서울 126; 부산 37; 대구 24; 인천 26; 광주 9; 대전 10; 울산 24; 세종 3; 경기 94; 강원 75; 충북 46; 충남 93; 전북 51; 전남 105; 경북 77; 경남 58; 제주 28",
+      "notes": ["ZIP also contains a HWP culture-tourism-festival file."]
+    },
+    {
+      "year": 2019,
+      "xlsx_bytes": 379089,
+      "reported_total_festivals": 884,
+      "first_title": "2019년 지역축제 개최 계획",
+      "summary_row": "합계 884; 서울 93; 부산 44; 대구 25; 인천 32; 광주 8; 대전 15; 울산 20; 세종 2; 경기 105; 강원 68; 충북 49; 충남 92; 전북 50; 전남 107; 경북 68; 경남 66; 제주 40",
+      "notes": []
+    },
+    {
+      "year": 2020,
+      "xlsx_bytes": 509315,
+      "reported_total_festivals": 968,
+      "first_title": "2020년 지역축제 개최 현황(10.16 기준)",
+      "summary_row": "총계 968; 서울 81; 부산 45; 대구 38; 인천 19; 광주 8; 대전 8; 울산 23; 세종 2; 경기 110; 강원 97; 충북 40; 충남 98; 전북 57; 전남 122; 경북 86; 경남 95; 제주 39",
+      "notes": ["2020 is a status snapshot during COVID disruption, not a normal annual plan."]
+    },
+    {
+      "year": 2021,
+      "xlsx_bytes": 521112,
+      "reported_total_festivals": 1004,
+      "first_title": "2021년 지역축제 개최 계획(1~12월)",
+      "summary_row": "합계 1004; 서울 92; 부산 48; 대구 40; 인천 18; 광주 8; 대전 9; 울산 19; 세종 2; 경기 110; 강원 95; 충북 40; 충남 101; 전북 75; 전남 119; 경북 91; 경남 109; 제주 28",
+      "notes": []
+    },
+    {
+      "year": 2022,
+      "xlsx_bytes": 192822,
+      "reported_total_festivals": 944,
+      "first_title": "2022년 지역축제 개최 계획(1~12월)",
+      "summary_row": "합계 944; 서울 24; 부산 51; 대구 38; 인천 17; 광주 7; 대전 18; 울산 21; 세종 4; 경기 112; 강원 104; 충북 29; 충남 107; 전북 75; 전남 98; 경북 77; 경남 121; 제주 41",
+      "notes": ["Summary row order in workbook lists provinces first and total last."]
+    },
+    {
+      "year": 2023,
+      "xlsx_bytes": 229177,
+      "reported_total_festivals": 1129,
+      "first_title": "2023년 지역축제 개최 계획(1~12월)",
+      "summary_row": "합계 1129; 서울 82; 부산 54; 대구 39; 인천 42; 광주 15; 대전 19; 울산 32; 세종 8; 경기 125; 강원 118; 충북 35; 충남 101; 전북 88; 전남 100; 경북 85; 경남 142; 제주 44",
+      "notes": []
+    },
+    {
+      "year": 2024,
+      "xlsx_bytes": 289801,
+      "reported_total_festivals": 1170,
+      "first_title": "2024년 지역축제 개최 계획(1~12월)",
+      "summary_row": "합계 1170; 서울 77; 부산 55; 대구 33; 인천 40; 광주 21; 대전 20; 울산 36; 세종 4; 경기 144; 강원 117; 충북 39; 충남 106; 전북 87; 전남 121; 경북 86; 경남 135; 제주 49",
+      "notes": []
+    },
+    {
+      "year": 2025,
+      "xlsx_bytes": 317449,
+      "reported_total_festivals": 1214,
+      "first_title": "2025년 지역축제 개최 계획(1~12월)",
+      "summary_row": "합계 1214; 서울 71; 부산 57; 대구 38; 인천 28; 광주 19; 대전 22; 울산 34; 세종 7; 경기 155; 강원 123; 충북 60; 충남 101; 전북 89; 전남 143; 경북 101; 경남 109; 제주 57",
+      "notes": []
+    },
+    {
+      "year": 2026,
+      "xlsx_bytes": 383783,
+      "reported_total_festivals": 1266,
+      "first_title": "2026년 지역축제 개최 계획(1~12월)",
+      "summary_row": "합계 1266; 서울 68; 부산 61; 대구 32; 인천 26; 광주 19; 대전 23; 울산 31; 세종 7; 경기 150; 강원 153; 충북 65; 충남 116; 전북 96; 전남 130; 경북 125; 경남 109; 제주 55",
+      "notes": []
+    }
+  ],
+  "cross_year_notes": [
+    "The annual files use the same broad inclusion rule: multi-day culture/tourism/art/local festivals involving unspecified public participation.",
+    "The workbooks also include exclusion criteria such as contest-only events, simple resident consolation events, pure art performances and weakly festival-like expos or conferences.",
+    "Full normalization must skip title, summary, note and aggregate rows before extracting event-level festival records."
+  ]
+}

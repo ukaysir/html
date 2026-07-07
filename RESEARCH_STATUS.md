@@ -25,6 +25,7 @@ Updated: 2026-07-07.
 - Collection-readiness model for festival-year key normalization, source inventory and staged ingestion tasks.
 - MCST annual download-pattern manifest for 2017-2026 candidate ZIP files.
 - MCST GET probe confirms downloadable 2017-2026 annual ZIPs with byte sizes and SHA-256 hashes; raw binaries are not committed.
+- MCST archive schema probe confirms 2017-2026 annual workbooks and records first-sheet aggregate festival counts before full row normalization.
 
 ## Current limitations
 - The repository is not yet a complete national archive of every 2016-2026 Korean festival.
