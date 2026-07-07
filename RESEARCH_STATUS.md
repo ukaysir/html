@@ -204,3 +204,9 @@ Updated: 2026-07-07.
 - Added a mixed dossier for Andong International Maskdance Festival separating 2024 visitor/global-content success signals from low direct-recovery and economic-effect methodology review needs.
 - Preserved the distinction between cultural public value, direct revenue recovery, visitor-counting methodology, citywide capacity and contractor causality.
 - Added data/andong-maskdance-mixed-budget-identity-dossier.json, .csv, andong-maskdance-mixed-budget-identity-dossier.html, evidence note, and case-matrix links.
+
+## Checkpoint: Jinju Namgang Lantern price/social-license dossier (2026-07-08T06:00:00+09:00)
+
+- Added a mixed price/social-license dossier for Jinju Namgang Lantern Festival covering 2016 paid-entry conflict, 2026 free-entry/paid-experience model, 2025 outcome signals and 2025 food-truck price controversy.
+- Separated global-festival success signals from booth-price governance, resident inconvenience, crowding and unsupported subcontractor causality claims.
+- Added data/jinju-lantern-price-social-license-dossier.json, .csv, jinju-lantern-price-social-license-dossier.html, evidence note, and case-matrix links.

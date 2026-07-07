@@ -185,3 +185,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/andong-maskdance-mixed-budget-identity-dossier.json: mixed dossier separating visitor/global-content success signals from low direct-recovery and economic-effect methodology risks.
 - andong-maskdance-mixed-budget-identity-dossier.html: human-readable "success or budget risk?" page for Andong International Maskdance Festival.
+
+## Jinju Namgang Lantern price/social-license dossier
+
+- data/jinju-lantern-price-social-license-dossier.json: mixed dossier on paid-entry controversy, free-entry/paid-experience model, global-festival growth and booth-price governance.
+- jinju-lantern-price-social-license-dossier.html: human-readable page showing why a successful global festival can still carry price, booth, resident-inconvenience and social-license risks.

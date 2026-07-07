@@ -1,0 +1,118 @@
+{
+  "artifact": "jinju-lantern-price-social-license-dossier",
+  "generated_at": "2026-07-08T06:00:00+09:00",
+  "festival": "진주남강유등축제",
+  "region": "경상남도 진주시",
+  "period_focus": "2016 paid-entry controversy, 2025 price/social-license risk, 2026 global-festival model",
+  "evidence_level": "B+ mixed success/price governance, C social-media-origin price incident until vendor contract proof",
+  "short_verdict": "A successful/global festival can still carry price, booth and citizen social-license risk. Current public evidence supports a price-governance and resident-inconvenience dossier, not a proven subcontractor-failure claim.",
+  "why_it_matters": [
+    "It shows the tradeoff between cost recovery through paid access and public social license.",
+    "It shows how a free-entry model can still use paid micro-experiences while managing price fairness.",
+    "It links big success headlines to field-level dissatisfaction risks: food price, price display, shuttle/traffic burden and crowd bottlenecks.",
+    "It gives a concrete booth-control outcome: a controversial food truck was expelled after price complaints."
+  ],
+  "stakeholders": {
+    "public_host": "진주시",
+    "festival_organizations": "진주문화예술재단 / 진주남강유등축제 제전위원회",
+    "commercial_nodes": "food trucks, food booths, paid experience operators",
+    "contractor_causality_status": "not proven from current public evidence"
+  },
+  "causal_chain": [
+    {
+      "stage": "2016 paid-entry/social-license controversy",
+      "evidence": "Yonhap reported the city used budget pressure and festival-quality improvement as reasons for full paid entry, with adult admission at 10,000 KRW, while citizen-use limits and screen/fence controversy produced opposition.",
+      "cause_type": ["paid_entry", "budget_pressure", "social_license", "resident_access"],
+      "confidence": "B"
+    },
+    {
+      "stage": "2026 free-entry with paid micro-experiences",
+      "evidence": "KTO lists the festival as free admission with some paid experience programs such as bridge crossing, wish lantern and floating lantern activities.",
+      "cause_type": ["pricing_model", "paid_experience", "accessibility"],
+      "confidence": "A-"
+    },
+    {
+      "stage": "2026-2028 global-festival growth plan",
+      "evidence": "Media coverage of the MCST/KTO global-festival selection says the festival will receive 800M KRW per year for three years and target 2M visitors including 80,000 foreigners by 2028.",
+      "cause_type": ["global_festival", "foreign_visitor", "stay_type_tourism"],
+      "confidence": "B"
+    },
+    {
+      "stage": "2025 outcome/satisfaction signal",
+      "evidence": "Evaluation coverage reports 1.72M visitors, 62.5% outside visitors, 143,383 KRW average spend, about 240B KRW regional economic effect and improved satisfaction, while noting 72.8% day/short visitors and need for stay-type content.",
+      "cause_type": ["visitor_outcome", "economic_effect", "stay_type_gap", "satisfaction"],
+      "confidence": "B"
+    },
+    {
+      "stage": "2025 booth/price incident",
+      "evidence": "Yonhap reported Jinju expelled the food truck that sold a small 10,000 KRW chicken-gangjeong after field verification; it also reported the food-truck rent rumor was checked and rent was about 125,000 KRW per day.",
+      "cause_type": ["price_governance", "food_truck", "one_strike", "rent_myth"],
+      "confidence": "B"
+    },
+    {
+      "stage": "2025 citizen-inconvenience and field-control risk",
+      "evidence": "Local reporting described repeated price/no-display complaints, resident frustration with shuttle/traffic guidance and crowded bottlenecks around weekend evening paths.",
+      "cause_type": ["social_license", "traffic", "crowding", "price_display"],
+      "confidence": "C"
+    }
+  ],
+  "not_supported_claims": [
+    "The whole festival failed.",
+    "A subcontractor caused the price controversy.",
+    "Free entry eliminated all price-governance risk.",
+    "Global-festival selection proves visitor satisfaction without field-level controls.",
+    "High booth rent caused the 10,000 KRW chicken-gangjeong price."
+  ],
+  "next_evidence_needed": [
+    "Food-truck/booth selection notice, fee schedule and operator contract",
+    "Price-display rules and violation/expulsion records",
+    "Civil complaint counts by price, traffic, crowding and resident access",
+    "Official evaluation report methodology for visitor count, spend and economic effect",
+    "Traffic/shuttle plan and resident impact mitigation data"
+  ],
+  "sources": [
+    {
+      "title": "Yonhap 2016 paid-entry/screen controversy",
+      "url": "https://www.yna.co.kr/view/AKR20160518129100052",
+      "grade": "B",
+      "supports": "paid-entry rationale, admission price, citizen access controversy and paid-content response"
+    },
+    {
+      "title": "KTO Visit Korea festival page",
+      "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=aebdd924-73cd-4187-be5e-ba29ccf19c49",
+      "grade": "A-",
+      "supports": "2026 period, free entry, paid experience menu, operator and program"
+    },
+    {
+      "title": "Daum/press global festival selection coverage",
+      "url": "https://v.daum.net/v/20260312151529509?f=p",
+      "grade": "B",
+      "supports": "2026-2028 global-festival selection, 2M visitor target and foreign visitor plan"
+    },
+    {
+      "title": "2025 evaluation report coverage",
+      "url": "https://www.sj-ccnews.com/news/articleView.html?idxno=54224",
+      "grade": "B",
+      "supports": "visitor count, outside visitor share, spend, economic effect, satisfaction and stay-type gap"
+    },
+    {
+      "title": "Yonhap 2025 food-truck expulsion report",
+      "url": "https://www.yna.co.kr/view/AKR20251016104900052",
+      "grade": "B",
+      "supports": "food-truck expulsion and rent-rumor check"
+    },
+    {
+      "title": "Jinju News local criticism report",
+      "url": "https://www.newsjinju.kr/news/articleView.html?idxno=52570",
+      "grade": "C",
+      "supports": "price/no-display complaints, citizen inconvenience and crowd bottleneck risk"
+    },
+    {
+      "title": "Official festival website",
+      "url": "https://yudeung.com/",
+      "grade": "A-",
+      "supports": "2025 period, venue, light-up time, bridge/booth operating time, program structure and official notices"
+    }
+  ]
+}
+

@@ -10,10 +10,10 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 14,
+    "festival_case_records": 15,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
-    "price_or_booth_governance_records": 3,
+    "price_or_booth_governance_records": 4,
     "demand_or_crowd_records": 4,
     "weather_or_nature_dependency_records": 2,
     "budget_waste_requires_join_model": true
@@ -63,6 +63,21 @@
       "primary_causes": ["night_market_boundary", "price_monitoring", "vendor_scope", "public_apology"],
       "not_yet_proven": "문제 판매자가 공식 축제 용역/하청 범위에 있었다는 증거.",
       "next_evidence_needed": "공식 입점자 명단, 야시장 운영 허가·위탁 범위, 축제장 경계와 단속 권한."
+    },
+    {
+      "id": "jinju-lantern-2016-2026",
+      "record_type": "festival_case",
+      "festival": "진주남강유등축제",
+      "years": "2016, 2025-2026",
+      "page": "jinju-lantern-price-social-license-dossier.html",
+      "question": "성공한 글로벌 축제에도 가격·시민수용성 리스크가 남는가?",
+      "short_answer": "그렇다. 유료화·가림막 논란, 무료입장+유료체험 전환, 글로벌축제 성장, 바가지 푸드트럭 퇴출이 공존하는 price/social-license case다.",
+      "evidence_level": "B+ mixed, C field-risk",
+      "procurement_link": "medium-low",
+      "outcome_link": "strong",
+      "primary_causes": ["price_governance", "paid_entry", "social_license", "booth_control", "stay_type_gap"],
+      "not_yet_proven": "하청업체 또는 총괄대행사 책임.",
+      "next_evidence_needed": "부스 선정공고, 임대료·계약, 가격표 규정, 위반 제재 기록, 시민 민원/교통/혼잡 데이터."
     },
     {
       "id": "incheon-crowd-2024-2025",
