@@ -23,6 +23,7 @@ Updated: 2026-07-07.
 - Coverage matrix explaining the 2017-2026 backbone and 2016 nationwide master-data gap.
 - Cause-first index for climate/safety, price/booth, traffic/access, content/identity, budget/contract, social-license and data-gap exploration.
 - Collection-readiness model for festival-year key normalization, source inventory and staged ingestion tasks.
+- MCST annual download-pattern manifest for 2017-2026 candidate ZIP files.
 
 ## Current limitations
 - The repository is not yet a complete national archive of every 2016-2026 Korean festival.

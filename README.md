@@ -45,3 +45,4 @@ Pages was checked as not enabled during the research run. To publish, use:
 - `data/normalized-key-spec.json`
 - `data/collection-backlog.json`
 - `data/master-source-inventory.json`
+- `data/mcst-download-manifest.json`

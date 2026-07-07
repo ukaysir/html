@@ -14,7 +14,8 @@
       "blocked_by": [],
       "notes": [
         "Schedules may change by local-government decision.",
-        "Keep raw files or checksums when download succeeds."
+        "Keep raw files or checksums when download succeeds.",
+        "MCST page JavaScript calls file_download with pFileName={year}_festival.zip, pRealName={year}_festival.zip and pPath=PORTAL.DOCUMENT.UPLOAD."
       ]
     },
     {

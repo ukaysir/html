@@ -1,0 +1,40 @@
+{
+  "version": "2026-07-08.mcst-download-pattern",
+  "access_date": "2026-07-08",
+  "purpose": "Record the public MCST annual regional-festival download pattern discovered from the current page JavaScript.",
+  "page_url": "https://www.mcst.go.kr/site/s_culture/festival/festivalList.jsp",
+  "download_function": {
+    "function_name": "fnDown",
+    "observed_logic": "strFileNM = downYear + '_festival.zip'; strSavedFileNM = downYear + '_festival.zip'; file_download(strFileNM, strSavedFileNM, 'PORTAL.DOCUMENT.UPLOAD')",
+    "file_download_endpoint": "https://www.mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile",
+    "query_parameters": {
+      "pFileName": "{year}_festival.zip",
+      "pRealName": "{year}_festival.zip",
+      "pPath": "PORTAL.DOCUMENT.UPLOAD",
+      "pFlag": ""
+    }
+  },
+  "annual_candidates": [
+    {"year": 2026, "expected_file_name": "2026_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2025, "expected_file_name": "2025_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2024, "expected_file_name": "2024_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2023, "expected_file_name": "2023_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2022, "expected_file_name": "2022_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2021, "expected_file_name": "2021_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2020, "expected_file_name": "2020_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2019, "expected_file_name": "2019_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2018, "expected_file_name": "2018_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2017, "expected_file_name": "2017_festival.zip", "status": "candidate_from_page_function"},
+    {"year": 2016, "expected_file_name": "2016_festival.zip", "status": "not_exposed_on_current_page"}
+  ],
+  "preview_file": {
+    "display_name": "2024-2025 문화관광축제 현황.pdf",
+    "saved_file_name": "2024_2025_festival.pdf",
+    "viewer_url": "https://www.mcst.go.kr/attachFiles/viewer/skin/doc.html?fn=2024_2025_festival.pdf&rs=/attachFiles/viewer/result/document/"
+  },
+  "cautions": [
+    "This manifest records the public page download pattern; it does not prove every annual candidate was successfully downloaded.",
+    "Actual ingestion should capture HTTP status, content type, file size and checksum per year before marking records as confirmed_master.",
+    "Do not infer 2016 availability from the pattern because the current page exposes only 2017-2026 annual records."
+  ]
+}
