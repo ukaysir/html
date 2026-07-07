@@ -1,0 +1,8 @@
+metric,claim,value_or_signal,why_it_matters,source_ids,evidence_level
+price_governance,Overall classification,price governance and brand-protection prevention case,Use as control case for price/booth failure prevention,S2|S3|S4|S5,B+
+visitor_count_2024,2024 visitor outcome,about 80k visitors,Outcome lead before/after control changes,S6|S7,B
+visitor_count_2026,2026 visitor outcome,about 80k visitors,Shows repeated scale after smart/price controls,S9,B
+economic_effect_2024,2024 evaluation lead,direct KRW 4.9b and indirect KRW 10.0b,Needs formula and finance join before budget judgment,S7,B
+price_control_controls,Control package,market-price display|price labels|complaint system|citizen monitors|sanctions,Separates prevention from after-the-fact apology,S2|S4|S5|S8,B+
+supply_reallocation,Program budget/control shift,performance/opening reduced and crab experience/tasting supply expanded,Addresses commodity access and price perception,S4|S5,B
+contractor_attribution,Outsourcing causality,not proven,No public evidence ties a contractor/subcontractor to the price-control result,S1|S2|S5,C

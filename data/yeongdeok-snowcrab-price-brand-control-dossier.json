@@ -1,0 +1,80 @@
+{
+  "id": "yeongdeok-snowcrab-price-brand-control-dossier",
+  "title": "영덕대게축제 가격·브랜드 보호 dossier",
+  "festival": "영덕대게축제",
+  "region": "경상북도 영덕군",
+  "years_covered": [2024, 2025, 2026],
+  "classification": {
+    "overall": "price_governance_prevention_case",
+    "price_governance": "B+",
+    "outcome_evidence": "B",
+    "procurement_context": "C",
+    "contractor_attribution": "C"
+  },
+  "one_line_verdict": "실패 사례가 아니라 가격·브랜드 보호 예방 사례다. 생물 대게의 가격변동 리스크를 시판가 표시, 가격표 사전부착, 모니터 봉사단, 신고시스템, 체험 물량 확대로 제어한 모델이다.",
+  "core_mechanism": [
+    "생물 대게는 수요·공급에 따라 가격이 크게 바뀌어 고정가격이 어렵고 바가지 인식 리스크가 크다.",
+    "영덕군·강구수협·상가대표·축제추진위원회·영덕문화관광재단이 가격 준수와 브랜드 보호를 같은 문제로 묶었다.",
+    "공연·개막식 비중을 줄이고 대게낚시·통발잡이·시식·특별가 판매 같은 직접 체험과 공급 물량을 늘렸다.",
+    "현장 가격표, 시판가 명시, 신고시스템, 시민 모니터, 위반 제재, 불법 노점/중량 속임수 점검으로 price information asymmetry를 줄였다.",
+    "키오스크, 스마트 줄서기, 화장실 혼잡도 안내, 동선 설계, 체험 회전율 개선으로 대기·혼잡 불만을 줄이는 운영 개선을 붙였다."
+  ],
+  "why_success_or_prevention": [
+    "2024 공식 재단 공지와 평가 보도는 8만여 방문, 체험 프로그램 강화, 안전·바가지 근절·친환경 실천을 전환점으로 기록한다.",
+    "2024 평가용역 보도는 직접 49억 원, 간접 100억 원, 총 149억 원 경제효과와 가격 안내판/바가지 신고 시스템을 모범사례로 제시한다.",
+    "2026 보도는 8만여 방문, 대게낚시·통발잡이·달리기 등 체험형 콘텐츠, 지역사랑상품권 환급 lead, 가격표·시민 모니터링을 성과요인으로 제시한다.",
+    "불만 예방형 축제의 핵심은 축제장 내부와 인근 대게거리의 가격·브랜드 이미지가 서로 영향을 준다는 점을 운영 주체가 인식한 것이다."
+  ],
+  "known_weaknesses": [
+    "2024 평가 보도는 야간 프로그램 부재, 지역민 낮은 참여도, 축제 홈페이지 비활성화를 개선점으로 적었다.",
+    "공식 조달/대행사 계약 단서는 이 pass에서 강하게 확보하지 못했다. 따라서 contractor attribution은 C다.",
+    "2026 성과 보도는 언론 lead이며 최종 평가보고서, 만족도, 실제 매출/상품권 환급액 조인이 필요하다."
+  ],
+  "stakeholder_map": [
+    {"actor": "영덕군", "role": "주최·정책조정·가격/위생/수산/관광 행정축"},
+    {"actor": "영덕대게축제추진위원회", "role": "체험·판매 프로그램 운영 및 축제 완성도 발언/조정축"},
+    {"actor": "영덕문화관광재단", "role": "축제 공지·운영기관·모니터 봉사단 모집/관리 lead"},
+    {"actor": "강구수협", "role": "대게 유통·시판가/품질·상가 협의 축"},
+    {"actor": "강구항 대게거리·삼사해상공원 상가대표", "role": "가격 준수와 브랜드 보호의 현장 판매 주체"},
+    {"actor": "시민 모니터 봉사단", "role": "가격표, 바가지, 중량 속임수, 불법 노점, 환경·화장실, 관광객 의견 점검"}
+  ],
+  "metrics_to_track": [
+    {"metric": "visitor_count", "lead_value": "2024 and 2026 around 80k reports", "needed": "official evaluation report and counting method"},
+    {"metric": "economic_effect", "lead_value": "2024 direct KRW 4.9b, indirect KRW 10.0b, total KRW 14.9b report", "needed": "formula, sample, Local Finance 365 row"},
+    {"metric": "price_incidents", "lead_value": "complaint system and monitor operation exist", "needed": "number of complaints, violations and sanctions"},
+    {"metric": "experience_supply", "lead_value": "2024 experience/tasting crab supply and 2026 daily experience operation leads", "needed": "tickets sold, wait time, sellout rate"},
+    {"metric": "local_capture", "lead_value": "2026 local gift certificate refund lead", "needed": "refund amount and redemption by merchant category"}
+  ],
+  "evidence_records": [
+    {"id": "YD-01", "type": "official_event", "claim": "2026 official tourism page confirms date and venue.", "source_ids": ["S1"]},
+    {"id": "YD-02", "type": "program_control", "claim": "2026 program uses crab fishing/trap-catching, auction, special sales, kiosk, smart queueing, restroom congestion info, price monitors and booth price labels.", "source_ids": ["S2", "S3"]},
+    {"id": "YD-03", "type": "price_governance", "claim": "2024 anti-overcharge meeting aligned county, Suhyup, merchants, festival committee and foundation around market-price display and brand protection.", "source_ids": ["S4", "S5"]},
+    {"id": "YD-04", "type": "supply_reallocation", "claim": "2024 reporting says performance/opening ceremony was reduced or omitted to expand crab experience/tasting supply.", "source_ids": ["S4", "S5"]},
+    {"id": "YD-05", "type": "outcome_2024", "claim": "2024 official foundation notice and evaluation report lead show about 80k visitors and KRW 14.9b total economic effect.", "source_ids": ["S6", "S7"]},
+    {"id": "YD-06", "type": "citizen_monitor", "claim": "Citizen monitor role includes stealth checks for price display, overcharge, weight deception, illegal stalls, environment, restroom condition and visitor opinion.", "source_ids": ["S8"]},
+    {"id": "YD-07", "type": "outcome_2026", "claim": "2026 wrap-up lead reports about 80k visitors and cites experience rotation, line reduction, flow design, local gift-certificate refund and price monitoring.", "source_ids": ["S9"]}
+  ],
+  "not_yet_proven": [
+    "That an event agency or subcontractor caused the price-control success.",
+    "That overcharge was eliminated quantitatively; public sources show control mechanisms, not violation-rate data.",
+    "That 2026 local gift-certificate refund produced net local economic gain without leakage."
+  ],
+  "next_evidence_needed": [
+    "Official 2026 evaluation report with visitor count, satisfaction, complaint counts, wait-time and economic-effect formula.",
+    "Booth price table archives and violation/sanction ledger.",
+    "Festival committee or foundation contracts/RFPs for stage, booth, kiosk, smart queueing and monitor operations.",
+    "Local gift certificate refund amount and redemption ledger.",
+    "Comparison against festivals with price controversy to identify missing controls."
+  ],
+  "sources": [
+    {"id": "S1", "title": "영덕스테이 - 제29회 영덕대게축제", "url": "https://ydstay.kr/stayEvent/detail?category=F&category2=%EC%98%81%EB%8D%95&id=165", "evidence": "2026 dates and venue"},
+    {"id": "S2", "title": "연합뉴스 - 2026 영덕대게축제 체험형 축제 개최", "url": "https://www.yna.co.kr/view/AKR20260317163200053", "evidence": "experience programs, kiosk, smart queueing, restroom congestion information, price monitoring and price labels"},
+    {"id": "S3", "title": "매일신문 - 2026 더 잡고 더 먹고", "url": "https://www.imaeil.com/page/view/2026031811213326357", "evidence": "supply preparation, discount/special price sales, kiosk, smart queueing and price monitor/labels"},
+    {"id": "S4", "title": "매일신문 - 2024 바가지 요금 근절", "url": "https://www.imaeil.com/page/view/2024022714240847066", "evidence": "commodity price volatility, market-price display, reallocation to tasting/experience, price disclosure, sanctions and complaint center"},
+    {"id": "S5", "title": "프라임경제 - 2024 가격 준수 간담회", "url": "https://www.newsprime.co.kr/news/article/?no=629825", "evidence": "stakeholder meeting, brand protection, market price display, doubled experience program, 18% tasting/experience crab budget increase, owner-run booth rule"},
+    {"id": "S6", "title": "영덕문화관광재단 - 2024 8만 인파 종료 공지", "url": "https://www.ydct.org/board/notice/read/335", "evidence": "80k visitors, reduced performances/expanded experience, safety, anti-overcharge and eco-friendly operations"},
+    {"id": "S7", "title": "쿠키뉴스 - 2024 평가용역 보고회", "url": "https://www.kukinews.com/article/view/kuk202404170105", "evidence": "80k visitors, direct KRW 4.9b, indirect KRW 10.0b, total KRW 14.9b, price boards and complaint system; weaknesses"},
+    {"id": "S8", "title": "신경북뉴스 - 시민 모니터 봉사단 모집", "url": "https://skbnews.kr/news/article.html?no=47498", "evidence": "monitor checks for price labels, overcharge, weight deception, illegal stalls, environment, restroom condition and visitor opinion"},
+    {"id": "S9", "title": "경북신문 - 2026 제29회 마무리", "url": "https://www.kbsm.net/news/view.php?idx=513798", "evidence": "80k visitors, experience rotation, flow design, local gift-certificate refund, price labels and citizen monitoring"}
+  ]
+}

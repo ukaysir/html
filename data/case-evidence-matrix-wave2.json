@@ -10,10 +10,10 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 20,
+    "festival_case_records": 21,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
-    "price_or_booth_governance_records": 4,
+    "price_or_booth_governance_records": 6,
     "demand_or_crowd_records": 4,
     "weather_or_nature_dependency_records": 2,
     "budget_waste_requires_join_model": true,
@@ -307,6 +307,27 @@
       ],
       "not_yet_proven": "특정 대행사·하청업체 실패 또는 최종 예산낭비 판정.",
       "next_evidence_needed": "일별 얼음두께, 안전관리계획, 지방재정365 원가회계, 상품권 환류, 평가보고서 원문."
+    },
+    {
+      "id": "yeongdeok-snowcrab-2024-2026",
+      "record_type": "festival_case",
+      "festival": "영덕대게축제",
+      "years": "2024-2026",
+      "page": "yeongdeok-snowcrab-price-brand-control-dossier.html",
+      "question": "가격·부스 바가지 리스크를 사전에 어떻게 막았나?",
+      "short_answer": "생물 대게의 가격변동 리스크를 시판가 표시, 가격표 사전부착, 시민 모니터, 신고시스템, 체험·시식 물량 확대, 스마트 줄서기로 제어한 price-governance prevention case다.",
+      "evidence_level": "B+ price governance, B outcome, C attribution",
+      "procurement_link": "weak for contractor, strong stakeholder context",
+      "outcome_link": "strong prevention/outcome lead",
+      "primary_causes": [
+        "price_governance",
+        "commodity_supply",
+        "brand_protection",
+        "citizen_monitor",
+        "smart_queue"
+      ],
+      "not_yet_proven": "특정 대행사·하청업체 성공 귀속, 바가지 완전 근절의 정량 효과, 상품권 환급의 순지역효과.",
+      "next_evidence_needed": "2026 평가보고서, 민원/위반/제재 ledger, 부스 가격표 archive, 계약/RFP/낙찰자, 상품권 환급·사용 ledger."
     },
     {
       "id": "cheongsong-apple-2025-2026",

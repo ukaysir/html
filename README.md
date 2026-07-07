@@ -220,3 +220,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/cheongsong-apple-metric-opacity-success-dossier.json: success/control dossier separating offline visitors, online visits, direct/indirect economic effects, satisfaction, sales and procurement context.
 - cheongsong-apple-metric-opacity-success-dossier.html: human-readable explanation of why Cheongsong Apple Festival is a success case with metric-transparency risk rather than a failure or contractor-causality case.
+
+## Yeongdeok Snow Crab price/brand-control dossier
+
+- data/yeongdeok-snowcrab-price-brand-control-dossier.json: price-governance prevention dossier separating live-commodity price volatility, market-price disclosure, booth labels, citizen monitors, complaint systems, supply expansion and contractor-attribution limits.
+- yeongdeok-snowcrab-price-brand-control-dossier.html: human-readable explanation of why Yeongdeok Snow Crab Festival is a brand-protection and price-control benchmark rather than a proven subcontractor case.

@@ -246,3 +246,9 @@ Updated: 2026-07-07.
 - Added a success/control dossier for Cheongsong Apple Festival covering participatory content, hybrid online expansion, price-fixed sales, wildfire recovery narrative, satisfaction/economic-effect reporting and 2025/2026 stage-performance procurement context.
 - Classified the case as B+ success, B metric-opacity and C contractor attribution: economic-effect formulas and online/offline visitor definitions must be audited before using the numbers for demand forecasting or budget-waste decisions.
 - Added data/cheongsong-apple-metric-opacity-success-dossier.json, .csv, cheongsong-apple-metric-opacity-success-dossier.html, evidence note, case-matrix links and why-cause router links.
+
+## Checkpoint: Yeongdeok Snow Crab price/brand-control dossier (2026-07-08T07:45:00+09:00)
+
+- Added a price-governance prevention dossier for Yeongdeok Snow Crab Festival covering live-commodity price volatility, stakeholder agreement, market-price display, booth price labels, complaint systems, citizen monitoring, crab experience/tasting supply expansion and smart queueing.
+- Classified the case as B+ price governance, B outcome lead and C contractor attribution: public evidence supports a price/brand-control model, not a hidden agency or subcontractor causality claim.
+- Added data/yeongdeok-snowcrab-price-brand-control-dossier.json, .csv, yeongdeok-snowcrab-price-brand-control-dossier.html, evidence note, case-matrix links and why-cause router links.
