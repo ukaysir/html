@@ -10,11 +10,12 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 12,
+    "festival_case_records": 13,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 3,
     "demand_or_crowd_records": 4,
+    "weather_or_nature_dependency_records": 2,
     "budget_waste_requires_join_model": true
   },
   "records": [
@@ -169,6 +170,21 @@
       "next_evidence_needed": "코스 폐쇄 이력, 안전점검표, 기상자료, 입장권/지역소비 연결."
     },
     {
+      "id": "hwacheon-sancheoneo-2020-2026",
+      "record_type": "festival_case",
+      "festival": "화천산천어축제",
+      "years": "2020, 2025-2026",
+      "page": "hwacheon-sancheoneo-weather-recovery-dossier.html",
+      "question": "날씨 실패에서 왜 회복했나?",
+      "short_answer": "대행사 실패보다 자연조건 의존형 조건부 수요예측 사례다. 2020년은 고온·결빙·코로나·ASF가 겹쳤고, 회복은 안전한 얼음수용량, 유료 체험, 지역환급, 가격공시, 해외마케팅이 설명한다.",
+      "evidence_level": "B+ weather/success, C budget lead",
+      "procurement_link": "medium",
+      "outcome_link": "strong",
+      "primary_causes": ["weather", "ice_capacity", "safety_inspection", "voucher_loop", "budget_recovery"],
+      "not_yet_proven": "특정 대행사·하청업체 실패 또는 최종 예산낭비 판정.",
+      "next_evidence_needed": "일별 얼음두께, 안전관리계획, 지방재정365 원가회계, 상품권 환류, 평가보고서 원문."
+    },
+    {
       "id": "bupyeong-dongnae-gap",
       "record_type": "festival_case",
       "festival": "부평풍물대축제 / 동래읍성역사축제",
@@ -215,4 +231,3 @@
     }
   ]
 }
-

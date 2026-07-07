@@ -186,3 +186,9 @@ Updated: 2026-07-07.
 - Added a human-first matrix that re-indexes current dossiers by question: contractor/procurement, price/booth, demand/crowd, budget waste, safety/weather, success contrast and procurement gap.
 - Added explicit guardrails for when a case can and cannot be blamed on a contractor, subcontractor, booth operator or public host.
 - Added data/case-evidence-matrix-wave2.json, .csv, case-evidence-matrix-wave2.html, and evidence note.
+
+## Checkpoint: Hwacheon Sancheoneo weather/recovery dossier (2026-07-08T05:15:00+09:00)
+
+- Added a weather-dependent winter festival dossier comparing the 2020 warm-winter/COVID/ASF crisis with 2025-2026 safety, visitor, economic-effect and local-capture success signals.
+- Classified the case as B+ for weather/safety/success-model evidence and C for budget-recovery until Local Finance 365 cost-accounting rows are joined.
+- Added data/hwacheon-sancheoneo-weather-recovery-dossier.json, .csv, hwacheon-sancheoneo-weather-recovery-dossier.html, evidence note, and case-matrix links.

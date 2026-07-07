@@ -1,0 +1,123 @@
+{
+  "artifact": "hwacheon-sancheoneo-weather-recovery-dossier",
+  "generated_at": "2026-07-08T05:15:00+09:00",
+  "festival": "얼음나라화천 산천어축제",
+  "region": "강원특별자치도 화천군",
+  "period_focus": "2020 crisis, 2025-2026 recovery/success signals",
+  "evidence_level": "B+ weather/success model, C budget-recovery lead until Local Finance 365 join",
+  "short_verdict": "This is a nature-dependent festival model, not a proven contractor-failure case. The 2020 failure mode was warm winter/ice safety plus COVID-19 and ASF; later success signals point to conditional ice-capacity management, paid core experience, local voucher circulation, price disclosure and global winter-content positioning.",
+  "why_it_matters": [
+    "It shows why demand forecasting for winter festivals must be conditional on ice thickness, water flow, rain/warm-spell probability and alternative capacity.",
+    "It provides a success-side control for budget-waste analysis because paid core programs and regional voucher circulation can recover part of public spend and localize consumption.",
+    "It warns against blaming an event agency without contract-scope evidence when the strongest public causes are weather, disease risk, safety thresholds and product design."
+  ],
+  "stakeholders": {
+    "public_host": "화천군청",
+    "organizer_or_operator": "(재)나라 / 재단법인 나라",
+    "official_page_or_data_operator": "KTO festival information, Hwacheon County notice, festival official site",
+    "contractor_causality_status": "not proven from current public evidence"
+  },
+  "causal_chain": [
+    {
+      "stage": "2020 external shock",
+      "evidence": "Warm weather and rain weakened the ice-fishing premise; media reported the ice-fishing area was stopped after opening for safety. ASF and COVID-19 simultaneously raised disease-control and demand concerns.",
+      "cause_type": ["weather", "ice_condition", "public_health", "regional_economy"],
+      "confidence": "B"
+    },
+    {
+      "stage": "Safety-control recovery",
+      "evidence": "2025 reporting states Hwacheon used long-running freezing know-how, adjusted water volume/flow, made ice over 30cm thick by opening and put rescue divers in daily to check thickness and strength.",
+      "cause_type": ["ice_capacity", "safety_inspection", "operational_knowhow"],
+      "confidence": "B"
+    },
+    {
+      "stage": "Demand and local capture",
+      "evidence": "2025 reporting shows 1 million cumulative visitors in 14 days, use of local return vouchers, official food-price disclosure and over 60% revisit signal.",
+      "cause_type": ["demand", "voucher_loop", "price_disclosure", "revisit"],
+      "confidence": "B"
+    },
+    {
+      "stage": "2026 economic-effect signal",
+      "evidence": "2026 evaluation report coverage cites a 722-person survey, average spending of 80,930 KRW, about 101.8 billion KRW direct economic effect, 66.7% merchant sales-increase experience and foreign visitor ice-fishing satisfaction of 89%.",
+      "cause_type": ["economic_effect", "merchant_effect", "satisfaction", "foreign_marketing"],
+      "confidence": "B"
+    },
+    {
+      "stage": "Budget-recovery lead",
+      "evidence": "A 2026 fiscal-analysis article reports 2024 execution of 4.655 billion KRW and admission revenue of 2.414 billion KRW, a 51.8% recovery lead. This remains C until the official cost-accounting row is joined.",
+      "cause_type": ["budget_recovery", "paid_core_experience", "local_currency"],
+      "confidence": "C"
+    }
+  ],
+  "not_supported_claims": [
+    "A subcontractor or agency caused the 2020 difficulty.",
+    "High public spend itself proves waste.",
+    "The 2026 economic-effect headline alone proves net public value without cost and externality join.",
+    "Visitor count alone proves satisfaction or local merchant benefit."
+  ],
+  "planning_model": {
+    "forecast_unit": "conditional capacity, not raw expected visitors",
+    "minimum_variables": [
+      "ice thickness and strength",
+      "water flow and water level",
+      "warm-spell and rain probability",
+      "alternative non-ice capacity",
+      "public-health and livestock-disease restrictions",
+      "transport and parking capacity",
+      "paid-experience conversion",
+      "local voucher redemption and merchant sales"
+    ],
+    "decision_rule": "If ice capacity falls below the safe operating threshold, visitor demand should be capped or shifted to alternative paid/non-ice programs before marketing volume is increased."
+  },
+  "sources": [
+    {
+      "title": "KTO Visit Korea festival page",
+      "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=02a1c2ab-bce7-404a-9c8f-4eb4ac69acb3",
+      "grade": "A-",
+      "supports": "festival period, location, paid nature, operator, program, safety/food facilities and official price menu"
+    },
+    {
+      "title": "Hwacheon County 2026 sponsorship notice",
+      "url": "https://www.ihc.go.kr//www/selectBbsNttView.do?bbsNo=11&integrDeptCode=&key=2338&nttNo=178379&pageIndex=772&searchCnd=all&searchCtgry=&searchKrwd=",
+      "grade": "A",
+      "supports": "official 2026 period, venue, host and organizer structure"
+    },
+    {
+      "title": "Yonhap 2020 crisis report",
+      "url": "https://www.yna.co.kr/view/AKR20200205152300062",
+      "grade": "B",
+      "supports": "ASF and COVID-19 compounding the winter festival crisis"
+    },
+    {
+      "title": "Nongmin 2020 warm winter/COVID report",
+      "url": "https://www.nongmin.com/article/20200202319190",
+      "grade": "B",
+      "supports": "warm winter, ice-fishing closure after opening and local-economy impact"
+    },
+    {
+      "title": "Yonhap 2025 visitor/safety report",
+      "url": "https://www.yna.co.kr/view/AKR20250124149600062",
+      "grade": "B",
+      "supports": "1 million visitors in 14 days, exception years, price disclosure, voucher loop and daily ice-safety checks"
+    },
+    {
+      "title": "Yonhap 2026 economic-effect report",
+      "url": "https://www.yna.co.kr/view/AKR20260521152000062",
+      "grade": "B",
+      "supports": "survey sample, spending, direct economic effect, merchant effect, satisfaction and foreign visitor signal"
+    },
+    {
+      "title": "Korea policy cost-accounting disclosure background",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148766361",
+      "grade": "A",
+      "supports": "event/festival cost accounting disclosure system and inclusion of outsourced/indirect execution"
+    },
+    {
+      "title": "Yeongnam/Daum 2026 fiscal comparison",
+      "url": "https://v.daum.net/v/HsbQq4RfDE",
+      "grade": "C",
+      "supports": "2024 cost-recovery lead requiring official finance verification"
+    }
+  ]
+}
+

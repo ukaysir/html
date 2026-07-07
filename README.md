@@ -119,6 +119,11 @@ Pages was checked as not enabled during the research run. To publish, use:
 - data/cheorwon-ice-2026-safety-outcome-dossier.json: winter festival outcome, cultural-tourism-selection, weather/safety risk, and agency-evaluation leads.
 - cheorwon-ice-2026-safety-outcome-dossier.html: human-readable dossier explaining why this case must be analyzed through weather, safety, course operation, and regional linkage.
 
+## Hwacheon Sancheoneo weather/recovery dossier
+
+- data/hwacheon-sancheoneo-weather-recovery-dossier.json: weather-dependent winter festival model comparing the 2020 crisis with 2025-2026 recovery/success signals.
+- hwacheon-sancheoneo-weather-recovery-dossier.html: human-readable explanation of why this is a conditional ice-capacity, safety, local-capture and cost-recovery case rather than a proven contractor-failure case.
+
 ## Case evidence matrix
 
 - data/case-evidence-matrix-wave2.json: current dossier matrix by human question, cause type, evidence level, procurement link, outcome link and next evidence needed.

@@ -1,0 +1,7 @@
+stage,evidence_level,cause_type,short_finding,next_evidence_needed
+2020 external shock,B,weather|ice_condition|public_health|regional_economy,"Warm winter and unsafe ice conditions hit the core experience; COVID-19 and ASF compounded demand and local-economy risk.",Official safety decision log and daily ice-thickness data.
+Safety-control recovery,B,ice_capacity|safety_inspection|operational_knowhow,"2025 reporting points to water-flow control, 30cm+ ice by opening and daily diver checks.",Official safety plan and inspection records.
+Demand and local capture,B,demand|voucher_loop|price_disclosure|revisit,"1 million visitors in 14 days, local voucher return, official food-price disclosure and over 60% revisit signal.",Voucher redemption by merchant category and satisfaction detail.
+2026 economic-effect signal,B,economic_effect|merchant_effect|satisfaction|foreign_marketing,"2026 evaluation coverage reports 101.8 billion KRW direct effect, 80,930 KRW average spend and merchant/satisfaction signals.",Full evaluation report and methodology tables.
+Budget-recovery lead,C,budget_recovery|paid_core_experience|local_currency,"A fiscal-analysis article reports 2024 execution 4.655B KRW and admission revenue 2.414B KRW, or 51.8% recovery.",Official Local Finance 365 cost-accounting row and revenue classification.
+
