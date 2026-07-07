@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-07-08T03:48:00+09:00",
+  "festival": "홍천강 꽁꽁축제",
+  "region": "강원 홍천군",
+  "case_type": "night_market_boundary_price_risk",
+  "headline_assessment": "The 2024 price controversy is a boundary-control case: official festival vendors and nearby/night-market vendors may be operationally distinct, but visitors experience both as part of the festival.",
+  "confidence": "B+ for public apology and official-vendor/night-market distinction; C for exact night-market contract path until agreement documents are found.",
+  "short_answer": {
+    "why_did_it_fail": "A night-market food-price controversy damaged the festival experience. The foundation acknowledged management negligence and said it requested correction from the night-market consignment/operator side, while also distinguishing official in-festival vendors selected by foundation bidding and pre-agreed menus/prices.",
+    "was_it_a_subcontractor_problem": "Partly possible but not proven. Public reporting identifies a night-market entrusted/operator side, but the actual agreement, authority scope and price-control obligations are not yet in the dataset.",
+    "what_must_be_checked_next": "Night-market operating agreement, official vendor bid documents, menu/price pre-approval records, correction request record, booth/vendor list and complaint log."
+  },
+  "known_facts": [
+    {
+      "fact": "The reported disputed purchase was 20,000 won sundae, 7,000 won tteokbokki and 7,000 won noodles, total 34,000 won.",
+      "source_url": "https://www.yna.co.kr/view/AKR20240117102800062",
+      "evidence_level": "B"
+    },
+    {
+      "fact": "Hongcheon Cultural Foundation apologized for negligent management of night-market stores and said it would monitor prices.",
+      "source_url": "https://www.yna.co.kr/view/AKR20240117102800062",
+      "evidence_level": "B+"
+    },
+    {
+      "fact": "The foundation said official festival vendors inside the venue were selected by foundation bidding and menu/prices were pre-agreed, mostly under 10,000 won.",
+      "source_url": "https://www.yna.co.kr/view/AKR20240117102800062",
+      "evidence_level": "B+"
+    },
+    {
+      "fact": "The foundation said it requested correction from the night-market consignment/operator side and set up a price-gouging report center.",
+      "source_url": "https://www.yna.co.kr/view/AKR20240117102800062",
+      "evidence_level": "B+"
+    },
+    {
+      "fact": "Gangwon tourism information lists the 2025 festival host as Hongcheon County and supervisor/organizer as Hongcheon Cultural Foundation.",
+      "source_url": "https://www.gangwon.to/gwtour/now/festival?articleSeq=727",
+      "evidence_level": "A"
+    },
+    {
+      "fact": "Current official festival information publishes core activity ticket prices and local gift-certificate return structures.",
+      "source_url": "https://xn--9y5b95fmvab9w.kr/Home/H60000/H60500/html",
+      "evidence_level": "A"
+    }
+  ],
+  "why_chain": [
+    {
+      "step": 1,
+      "label": "Visitor-facing symptom",
+      "finding": "Food price and portion complaints spread from an online community and created a public dissatisfaction signal.",
+      "claim_strength": "B"
+    },
+    {
+      "step": 2,
+      "label": "Operational boundary",
+      "finding": "Public reporting separates foundation-selected in-venue vendors from nearby/night-market stores.",
+      "claim_strength": "B+"
+    },
+    {
+      "step": 3,
+      "label": "Control failure",
+      "finding": "Even if outside the official vendor package, night-market sellers were close enough to damage festival trust, so the brand-risk control boundary was wider than the contract boundary.",
+      "claim_strength": "B"
+    },
+    {
+      "step": 4,
+      "label": "Corrective response",
+      "finding": "The foundation acknowledged negligence, requested price correction and promised monitoring/report-center operation.",
+      "claim_strength": "B+"
+    },
+    {
+      "step": 5,
+      "label": "Proof gap",
+      "finding": "The dataset still lacks the night-market consignment agreement, official vendor bid package, final vendor list and inspection results.",
+      "claim_strength": "A gap"
+    }
+  ],
+  "comparison_to_yeongyang": {
+    "same_pattern": "Both cases show that vendors perceived as part of the festival can damage the whole festival brand even when the organizer frames them as external or boundary cases.",
+    "different_pattern": "Yeongyang has a stronger external-mobile-merchant responsibility admission and broker/seat-fee lead; Hongcheon has a clearer official-vendor versus night-market boundary and a foundation bidding/pre-agreed price statement.",
+    "research_priority": "Hongcheon should be used to map formal vendor boundaries and price-control obligations; Yeongyang should be used to map external merchant and seat-fee pressure."
+  },
+  "evidence_gaps": [
+    "Night-market consignment/operator agreement and price-control clause",
+    "Official festival vendor bid notice, award result and menu/price approval records",
+    "Whether night-market stores were inside, adjacent to or branded by the festival layout",
+    "Price-gouging report-center complaint log and correction result",
+    "2025/2026 recurrence or prevention evidence, including menu-board publication"
+  ],
+  "source_urls": [
+    "https://www.yna.co.kr/view/AKR20240117102800062",
+    "https://xn--9y5b95fmvab9w.kr/Home/H60000/H60500/html",
+    "https://www.gangwon.to/gwtour/now/festival?articleSeq=727",
+    "https://news.ikbc.co.kr/article/view/kbc202401170025"
+  ]
+}

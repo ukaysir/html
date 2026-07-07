@@ -144,3 +144,9 @@ Updated: 2026-07-07.
 - Built a detailed dossier for the 2023 Yeongyang Sannamul old-snack price controversy and the 2024/2026 corrective governance trail.
 - Classified the case as B+ for public responsibility and corrective-policy chain, but only C for broker/seat-fee mechanics until primary allocation/contract records are found.
 - Added data/yeongyang-sannamul-price-governance-dossier.json, .csv, yeongyang-sannamul-price-governance-dossier.html, and evidence note.
+
+## Checkpoint: Hongcheon Ice night-market price dossier (2026-07-08T03:48:00+09:00)
+
+- Built a boundary-control dossier for the 2024 Hongcheon River Ice Festival night-market price controversy.
+- Separated official in-venue vendors selected by foundation bidding and pre-agreed menu/prices from the nearby/night-market operator lead.
+- Added data/hongcheon-ice-nightmarket-price-dossier.json, .csv, hongcheon-ice-nightmarket-price-dossier.html, and evidence note.

@@ -1,0 +1,9 @@
+item,value
+festival,홍천강 꽁꽁축제
+region,강원 홍천군
+case_type,night_market_boundary_price_risk
+headline_assessment,Official festival vendors and night-market vendors may be operationally distinct but visitors experience both as festival experience
+confidence,B+ for apology and official/night-market distinction; C for exact agreement path
+key_failure_path,night-market price complaint -> foundation apology -> official vendor distinction -> correction request and monitoring -> missing agreement/vendor records
+subcontractor_conclusion,Possible night-market operator issue but not proven without agreement documents
+next_documents,night-market agreement; official vendor bid documents; menu-price approval; vendor list; complaint log; correction result

@@ -138,3 +138,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/yeongyang-sannamul-price-governance-dossier.json: detailed price/booth governance chain for the 2023 Yeongyang old-snack controversy and later corrective measures.
 - yeongyang-sannamul-price-governance-dossier.html: human-readable answer to whether the issue was vendor behavior, operating structure, broker/seat-fee mechanics, or a proven subcontractor problem.
+
+## Hongcheon Ice night-market price dossier
+
+- data/hongcheon-ice-nightmarket-price-dossier.json: boundary-control dossier for the 2024 Hongcheon River Ice Festival night-market price controversy.
+- hongcheon-ice-nightmarket-price-dossier.html: human-readable split between official festival vendors, nearby/night-market sellers, consignment/operator leads and missing contract proof.
