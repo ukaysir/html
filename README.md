@@ -121,6 +121,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 ## Case evidence matrix
 
+- data/case-evidence-matrix-wave2.json: current dossier matrix by human question, cause type, evidence level, procurement link, outcome link and next evidence needed.
+- case-evidence-matrix-wave2.html: human-readable "why did this fail/succeed?" comparison table for contractor, price/booth, crowd, budget, safety and success-control questions.
 - data/case-evidence-matrix-wave1.json: current dossier index by evidence level, procurement link, outcome link, and risk axes.
 - case-evidence-matrix-wave1.html: human-readable matrix for deciding whether a case is contractor/procurement, demand/crowding, safety/weather, or pre-event monitoring.
 

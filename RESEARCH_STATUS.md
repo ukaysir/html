@@ -180,3 +180,9 @@ Updated: 2026-07-07.
 - Added a budget-waste evidence model so high budget is not automatically treated as waste.
 - Defined risk flags for high net cost with weak outcomes, unverified headline economic effects, contract scope mismatch, externalized inconvenience and booth/price leakage.
 - Added data/budget-waste-causality-model-wave1.json, .csv, budget-waste-causality-model-wave1.html, and evidence note.
+
+## Checkpoint: case evidence matrix wave 2 (2026-07-08T05:00:00+09:00)
+
+- Added a human-first matrix that re-indexes current dossiers by question: contractor/procurement, price/booth, demand/crowd, budget waste, safety/weather, success contrast and procurement gap.
+- Added explicit guardrails for when a case can and cannot be blamed on a contractor, subcontractor, booth operator or public host.
+- Added data/case-evidence-matrix-wave2.json, .csv, case-evidence-matrix-wave2.html, and evidence note.
