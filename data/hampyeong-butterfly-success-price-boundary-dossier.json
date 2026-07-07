@@ -1,0 +1,125 @@
+{
+  "id": "hampyeong-butterfly-success-price-boundary-dossier",
+  "title": "Hampyeong Butterfly Festival success and price-boundary dossier",
+  "festival": "함평나비대축제",
+  "years": "2023-2026",
+  "last_updated": "2026-07-08",
+  "verdict": {
+    "summary": "성공 대조군이지만 가격관리 사각지대가 드러난 혼합 사례다.",
+    "classification": "B+ success, B price-boundary, C contractor attribution",
+    "plain_language": "축제 본체는 유료 생태체험, 쿠폰 환류, 입장수익, 지역 판매 실적이 있어 예산낭비 실패로 단정하기 어렵다. 다만 2023년 인근 야시장 바가지 논란은 축제장 안팎 가격통제 경계가 취약하면 만족도와 사회적 신뢰가 훼손될 수 있음을 보여준다."
+  },
+  "key_numbers": [
+    {
+      "year": 2026,
+      "metric": "visitors",
+      "value": "236,000+",
+      "source": "Yonhap, citing Hampyeong County"
+    },
+    {
+      "year": 2026,
+      "metric": "admission_revenue",
+      "value": "KRW 830,000,000",
+      "source": "Yonhap, citing Hampyeong County"
+    },
+    {
+      "year": 2026,
+      "metric": "local_agricultural_specialty_sales",
+      "value": "KRW 286,000,000",
+      "source": "Yonhap, citing Hampyeong County"
+    },
+    {
+      "year": 2026,
+      "metric": "booth_and_convenience_facility_sales",
+      "value": "KRW 900,000,000",
+      "source": "Yonhap, citing Hampyeong County"
+    },
+    {
+      "year": 2024,
+      "metric": "reported_cost_recovery_lead",
+      "value": "42.2% recovery on KRW 1.3859b execution and KRW 585.5m admission revenue",
+      "source": "Yeongnam/Daum fiscal comparison; verify with Local Finance 365"
+    },
+    {
+      "year": 2026,
+      "metric": "stage_service_procurement_lead",
+      "value": "KRW 90m budget / KRW 87m award lead",
+      "source": "Sankun bid summary; official foundation tender page confirms tender posting"
+    }
+  ],
+  "cause_cards": [
+    {
+      "question": "왜 성공 대조군인가?",
+      "answer": "주제가 명확한 생태체험, 유료 입장, 참여형 콘텐츠, 지역 농특산물 판매, 쿠폰 환류가 한 구조 안에 있다.",
+      "evidence_strength": "B+",
+      "risk": "방문객 수와 매출은 성과 신호이지만 만족도, 재방문, 순지역소비까지 자동으로 증명하지 않는다."
+    },
+    {
+      "question": "왜 예산낭비로 단정하면 안 되나?",
+      "answer": "2024년 원가회수율 42.2%라는 비교 리드와 2026년 입장료/판매 실적이 있어 비용 대비 공공·지역 환류를 따져야 한다.",
+      "evidence_strength": "B lead",
+      "risk": "최종 판단은 지방재정365 원가회계, 평가보고서, 쿠폰 사용처 자료와 조인해야 한다."
+    },
+    {
+      "question": "왜 만족도 리스크가 남았나?",
+      "answer": "2023년 인근 사유지 야시장 가격 논란은 공식 축제장 밖이라도 관광객 경험에는 결합되어 보인다는 경계관리 문제를 만든다.",
+      "evidence_strength": "B",
+      "risk": "야시장 판매자를 공식 하청으로 단정할 수 없다. 다만 지자체의 축제장 안팎 물가점검 책임은 남는다."
+    },
+    {
+      "question": "대행사/하청 문제인가?",
+      "answer": "2026년 무대 설치·운영 용역 등 조달 흔적은 있으나, 이는 무대 범위의 procurement context다. 가격 논란 또는 전체 성공을 해당 업체 책임으로 귀속할 근거는 없다.",
+      "evidence_strength": "C attribution",
+      "risk": "과업지시서, 계약서, 현장문제 위치·시간, 운영자 식별이 연결될 때만 강한 인과 주장이 가능하다."
+    }
+  ],
+  "sources": [
+    {
+      "name": "KTO Visit Korea official festival page",
+      "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=6995b351-4b45-4c86-947e-f44a07e087f8",
+      "use": "2026 dates, operator, paid entry, program mix, food price listing"
+    },
+    {
+      "name": "Yonhap 2026 wrap-up",
+      "url": "https://www.yna.co.kr/view/AKR20260506062700054",
+      "use": "visitors, admission revenue, local sales, participatory content outcome"
+    },
+    {
+      "name": "The Fact via Daum advance-ticket report",
+      "url": "https://v.daum.net/v/20260316171856167",
+      "use": "advance ticket discount, coupon return, local-shop usability, linked ecological facilities discount"
+    },
+    {
+      "name": "Yeongnam/Daum fiscal comparison",
+      "url": "https://v.daum.net/v/20260607095747981?f=p",
+      "use": "2024 cost-recovery lead and local-currency loop comparison"
+    },
+    {
+      "name": "Yonhap 2023 price controversy",
+      "url": "https://www.yna.co.kr/view/AKR20230602104800054",
+      "use": "nearby night-market fishcake price controversy, county apology and price-check response"
+    },
+    {
+      "name": "KCI success-factor study",
+      "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001783021",
+      "use": "theme, resident participation, organization, infrastructure and operations expertise caveat"
+    },
+    {
+      "name": "Hampyeong Festival Tourism Foundation tender page",
+      "url": "https://www.hpftf.or.kr/boardView.do?boardId=BD0002&movePage=1&pageId=www17&seq=4784288",
+      "use": "official 2026 stage installation/operation tender posting"
+    },
+    {
+      "name": "Sankun bid summary",
+      "url": "https://www.sankun.com/bid-info/aqWNEIAGxvzbm1nahMv3R2RdVqzjXfukJAsrP578FUA",
+      "use": "third-party tender amount and award lead; not used as final causality proof"
+    }
+  ],
+  "next_evidence_needed": [
+    "Local Finance 365 row for 2024/2025/2026 cost, revenue and net cost",
+    "official evaluation report with visitor-count method, satisfaction and local economic-effect formula",
+    "coupon redemption data by merchant category and geography",
+    "booth/night-market allocation records, permits and operator boundaries for 2023 controversy",
+    "stage/event service RFP scope and completion evaluation before contractor attribution"
+  ]
+}

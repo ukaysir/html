@@ -216,3 +216,9 @@ Updated: 2026-07-07.
 - Added a success benchmark dossier for Boryeong Mud Festival covering paid mud-experience zones, local voucher return, foreign visitors, night/performance content, stay/spend signals and marketing-attribution caveats.
 - Classified Boryeong as a budget-waste control case: high spend is not waste when paid conversion and local-capture evidence are strong, but contractor attribution remains unproven.
 - Added data/boryeong-mud-success-local-capture-dossier.json, .csv, boryeong-mud-success-local-capture-dossier.html, evidence note, and case-matrix links.
+
+## Checkpoint: Hampyeong Butterfly success/price-boundary dossier (2026-07-08T06:30:00+09:00)
+
+- Added a mixed success/price-boundary dossier for Hampyeong Butterfly Festival covering paid ecological content, coupon/local-capture structure, 2024 cost-recovery lead, 2026 outcome signals and the 2023 nearby night-market price controversy.
+- Classified the case as B+ success, B price-boundary and C contractor attribution: stage procurement exists, but the current evidence does not support blaming a contractor/subcontractor for price controversy or crediting one for total success.
+- Added data/hampyeong-butterfly-success-price-boundary-dossier.json, .csv, hampyeong-butterfly-success-price-boundary-dossier.html, evidence note, and case-matrix links.

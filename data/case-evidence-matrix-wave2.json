@@ -245,6 +245,21 @@
       "next_evidence_needed": "입찰공고, 계약결과, 과업지시서, 평가결과."
     },
     {
+      "id": "hampyeong-butterfly-2023-2026",
+      "record_type": "festival_case",
+      "festival": "함평나비대축제",
+      "years": "2023-2026",
+      "page": "hampyeong-butterfly-success-price-boundary-dossier.html",
+      "question": "성공 축제에서도 바가지·예산 리스크를 어떻게 분리하나?",
+      "short_answer": "유료 생태체험, 쿠폰 환류, 입장수익, 지역 판매 성과가 있는 success benchmark다. 다만 2023년 인근 야시장 가격 논란은 축제장 안팎 가격경계 실패로 분리해야 하며 하청 귀속은 보류다.",
+      "evidence_level": "B+ success, B price-boundary, C contractor attribution",
+      "procurement_link": "medium",
+      "outcome_link": "strong",
+      "primary_causes": ["paid_content", "coupon_loop", "resident_participation", "price_boundary", "stage_procurement_gap"],
+      "not_yet_proven": "특정 대행사·하청업체가 가격 논란 또는 전체 성과의 원인이라는 주장.",
+      "next_evidence_needed": "지방재정365 원가회계, 평가보고서, 쿠폰 redemption, 야시장 허가/운영자 경계, 무대 용역 과업·수행평가."
+    },
+    {
       "id": "budget-waste-model",
       "record_type": "model",
       "festival": "예산낭비 판정 모델",
@@ -276,3 +291,4 @@
     }
   ]
 }
+

@@ -195,3 +195,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/boryeong-mud-success-local-capture-dossier.json: success benchmark for paid experiential content, local voucher return, foreign demand, stay/spend and marketing-attribution caveats.
 - boryeong-mud-success-local-capture-dossier.html: human-readable comparator for why a high-cost festival may avoid budget-waste classification when direct paid conversion and local-capture evidence are strong.
+
+## Hampyeong Butterfly success/price-boundary dossier
+
+- data/hampyeong-butterfly-success-price-boundary-dossier.json: mixed success dossier separating paid ecological content, coupon/local-capture structure, budget-recovery lead, 2023 nearby night-market price controversy and stage-procurement attribution limits.
+- hampyeong-butterfly-success-price-boundary-dossier.html: human-readable explanation of why Hampyeong is a success benchmark with a price-boundary risk rather than a proven subcontractor-failure case.
