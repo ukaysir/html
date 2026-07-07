@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-07-08T03:00:00+09:00",
+  "purpose": "Human-readable index for all current festival dossiers, emphasizing why-causality and evidence strength.",
+  "levels": {
+    "Level A": "Causal candidate now: outcome/problem and governance/procurement/operation links are public.",
+    "Level B+": "Official governance/procurement chain plus outcome signal or pre-event risk, but causal attribution is incomplete.",
+    "Level C": "Outcome/success evidence is strong, but contractor/procurement attribution remains unproven."
+  },
+  "cases": [
+    {
+      "case_id": "pentaport-2019",
+      "festival": "인천펜타포트음악축제",
+      "year": 2019,
+      "status": "failure_or_problem_candidate",
+      "primary_question": "왜 문제가 됐나: 운영주체 전환/선정분쟁/라인업·소통?",
+      "evidence_level": "Level A",
+      "procurement_link": "strong",
+      "outcome_link": "strong",
+      "risk_axes": ["operator_transition", "procurement_dispute", "programming", "communication", "price_value"],
+      "dossier_url": "pentaport-2019-cause-dossier.html",
+      "next_best_evidence": "법원 결정문, ITO 평가결과, 계약/협약, 관람객/만족도"
+    },
+    {
+      "case_id": "pentaport-2025",
+      "festival": "인천펜타포트음악축제",
+      "year": 2025,
+      "status": "success_case",
+      "primary_question": "왜 잘 됐나: 안전/폭염/라인업/지역상생?",
+      "evidence_level": "Level C",
+      "procurement_link": "medium",
+      "outcome_link": "strong",
+      "risk_axes": ["crowding", "heat_safety", "programming", "local_linkage", "satisfaction"],
+      "dossier_url": "pentaport-2025-success-dossier.html",
+      "next_best_evidence": "공동사업자 계약/과업분장, 정산, 시간대별 밀집도"
+    },
+    {
+      "case_id": "bucheon-comics-2025",
+      "festival": "부천국제만화축제",
+      "year": 2025,
+      "status": "governance_outcome_bridge",
+      "primary_question": "공식 조달체인과 성과 신호가 연결되는가?",
+      "evidence_level": "Level B+",
+      "procurement_link": "strong",
+      "outcome_link": "medium_high",
+      "risk_axes": ["procurement_evaluation", "program_mix", "cosplay", "cultural_tourism_selection"],
+      "dossier_url": "bucheon-comics-2025-governance-dossier.html",
+      "next_best_evidence": "평가PDF 업체명/점수, 계약/정산, 만족도/민원"
+    },
+    {
+      "case_id": "suwon-hwaseong-2026",
+      "festival": "수원화성문화제",
+      "year": 2026,
+      "status": "pre_event_risk",
+      "primary_question": "개최 전 무엇을 모니터링해야 하나?",
+      "evidence_level": "Level B+",
+      "procurement_link": "strong",
+      "outcome_link": "pre_event",
+      "risk_axes": ["crowding", "food_booth_policy", "foreigner_reception", "parade_peak", "procurement_evaluation"],
+      "dossier_url": "suwon-hwaseong-2026-pre-event-dossier.html",
+      "next_best_evidence": "RFP/과업지시서 원문, 평가PDF 텍스트, 개최 후 방문객/민원"
+    },
+    {
+      "case_id": "cheorwon-ice-2026",
+      "festival": "철원한탄강얼음트레킹",
+      "year": 2026,
+      "status": "safety_outcome_bridge",
+      "primary_question": "겨울 자연축제 성공/위험 요인은 무엇인가?",
+      "evidence_level": "Level B+/C",
+      "procurement_link": "medium_high",
+      "outcome_link": "strong",
+      "risk_axes": ["weather", "ice_condition", "course_safety", "fee_service", "local_linkage"],
+      "dossier_url": "cheorwon-ice-2026-safety-outcome-dossier.html",
+      "next_best_evidence": "기상/수위/코스 개방 이력, 2026 계약/정산, 사고/만족도"
+    }
+  ]
+}

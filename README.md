@@ -118,3 +118,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/cheorwon-ice-2026-safety-outcome-dossier.json: winter festival outcome, cultural-tourism-selection, weather/safety risk, and agency-evaluation leads.
 - cheorwon-ice-2026-safety-outcome-dossier.html: human-readable dossier explaining why this case must be analyzed through weather, safety, course operation, and regional linkage.
+
+## Case evidence matrix
+
+- data/case-evidence-matrix-wave1.json: current dossier index by evidence level, procurement link, outcome link, and risk axes.
+- case-evidence-matrix-wave1.html: human-readable matrix for deciding whether a case is contractor/procurement, demand/crowding, safety/weather, or pre-event monitoring.

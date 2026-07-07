@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Festival Case Evidence Matrix Wave 1</title>
+  <style>
+    :root{--ink:#17191b;--muted:#687078;--bg:#f4f1e9;--panel:#fffdf8;--line:#d7d0c1;--a:#0d6b4e;--b:#8c6200;--c:#245f89;--risk:#9b332b}
+    body{margin:0;background:radial-gradient(circle at top left,#d9f3e2,transparent 27%),radial-gradient(circle at top right,#ffe1be,transparent 24%),linear-gradient(140deg,#f4f1e9,#e7e2d6);color:var(--ink);font-family:"Noto Serif KR",Georgia,serif}
+    header{padding:42px 28px 24px;border-bottom:1px solid var(--line)}
+    h1{margin:0;font-size:clamp(32px,5vw,58px);letter-spacing:-.05em}
+    main{max-width:1220px;margin:0 auto;padding:24px}
+    .panel,.card{background:rgba(255,253,248,.84);border:1px solid var(--line);border-radius:22px;padding:18px;margin:14px 0;box-shadow:0 16px 34px rgba(50,44,35,.08)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:14px}
+    .tag{display:inline-block;border-radius:999px;background:#e6dbc8;padding:5px 11px;font:700 12px "Segoe UI",sans-serif}
+    h2{margin:34px 0 12px}
+    h3{margin:0 0 8px;font-size:21px}
+    p,li{line-height:1.68}
+    a{color:#18537f;text-decoration-thickness:1px;text-underline-offset:3px}
+    .a{color:var(--a)}.b{color:var(--b)}.c{color:var(--c)}.risk{color:var(--risk)}
+    .small{font:13px/1.6 "Segoe UI","Noto Sans KR",sans-serif;color:var(--muted)}
+    table{width:100%;border-collapse:collapse;background:#fffdf8cc;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+    th,td{padding:12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:14px}
+    th{font:700 13px "Segoe UI",sans-serif;background:#e8dfcf}
+    code{font-family:"Cascadia Mono",monospace;font-size:12px;background:#f2eadb;border-radius:8px;padding:2px 5px}
+  </style>
+</head>
+<body>
+  <header>
+    <span class="tag">case index / wave 1</span>
+    <h1>축제 원인분석 evidence matrix</h1>
+    <p>“왜 망했지? 대행사? 기상? 혼잡? 프로그램?”을 빠르게 판별하기 위한 현재 dossier 색인이다.</p>
+  </header>
+  <main>
+    <section class="grid">
+      <article class="card"><h3 class="a">Level A</h3><p>지금 원인 후보로 분석 가능. 사건/성과와 운영·조달 구조가 공개 근거로 연결됨.</p></article>
+      <article class="card"><h3 class="b">Level B+</h3><p>공식 조달·평가와 성과/리스크 신호가 있으나 계약상 책임 귀속은 미완.</p></article>
+      <article class="card"><h3 class="c">Level C</h3><p>성과는 강하지만 누가/어떤 과업으로 만들었는지 아직 분리 전.</p></article>
+    </section>
+
+    <section class="panel">
+      <h2>읽는 법</h2>
+      <p><strong>Procurement link</strong>가 강하면 대행사·용역·하청 추적이 가능하다. <strong>Outcome link</strong>가 강하면 방문객·만족도·민원·안전 같은 결과가 있다. 둘 다 강해야 “왜”를 인과 후보로 올릴 수 있다.</p>
+    </section>
+
+    <h2>현재 case matrix</h2>
+    <table>
+      <thead><tr><th>축제/연도</th><th>질문</th><th>등급</th><th>조달 연결</th><th>결과 연결</th><th>리스크 축</th><th>열기</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>인천펜타포트 2019</td>
+          <td>왜 문제가 됐나: 운영주체 전환/선정분쟁/라인업·소통?</td>
+          <td class="a">Level A</td><td>strong</td><td>strong</td>
+          <td><code>operator_transition</code> <code>procurement_dispute</code> <code>programming</code> <code>communication</code> <code>price_value</code></td>
+          <td><a href="pentaport-2019-cause-dossier.html">dossier</a></td>
+        </tr>
+        <tr>
+          <td>인천펜타포트 2025</td>
+          <td>왜 잘 됐나: 안전/폭염/라인업/지역상생?</td>
+          <td class="c">Level C</td><td>medium</td><td>strong</td>
+          <td><code>crowding</code> <code>heat_safety</code> <code>programming</code> <code>local_linkage</code> <code>satisfaction</code></td>
+          <td><a href="pentaport-2025-success-dossier.html">dossier</a></td>
+        </tr>
+        <tr>
+          <td>부천국제만화축제 2025</td>
+          <td>공식 조달체인과 성과 신호가 연결되는가?</td>
+          <td class="b">Level B+</td><td>strong</td><td>medium-high</td>
+          <td><code>procurement_evaluation</code> <code>program_mix</code> <code>cosplay</code> <code>cultural_tourism_selection</code></td>
+          <td><a href="bucheon-comics-2025-governance-dossier.html">dossier</a></td>
+        </tr>
+        <tr>
+          <td>수원화성문화제 2026</td>
+          <td>개최 전 무엇을 모니터링해야 하나?</td>
+          <td class="b">Level B+</td><td>strong</td><td>pre-event</td>
+          <td><code>crowding</code> <code>food_booth_policy</code> <code>foreigner_reception</code> <code>parade_peak</code> <code>procurement_evaluation</code></td>
+          <td><a href="suwon-hwaseong-2026-pre-event-dossier.html">dossier</a></td>
+        </tr>
+        <tr>
+          <td>철원한탄강얼음트레킹 2026</td>
+          <td>겨울 자연축제 성공/위험 요인은 무엇인가?</td>
+          <td class="b">Level B+/C</td><td>medium-high</td><td>strong</td>
+          <td><code>weather</code> <code>ice_condition</code> <code>course_safety</code> <code>fee_service</code> <code>local_linkage</code></td>
+          <td><a href="cheorwon-ice-2026-safety-outcome-dossier.html">dossier</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>다음 확장 우선순위</h2>
+    <section class="grid">
+      <article class="card">
+        <h3>1. Level A 추가 발굴</h3>
+        <p>실패/논란/민원이 공개된 케이스를 먼저 찾는다. 그래야 “왜” 분석의 밀도가 올라간다.</p>
+      </article>
+      <article class="card">
+        <h3>2. PDF/HWP 추출</h3>
+        <p>평가결과 PDF와 제안요청서 HWP에서 업체명·점수·과업범위를 추출해야 대행사 귀속이 가능하다.</p>
+      </article>
+      <article class="card">
+        <h3>3. 결과 데이터 결합</h3>
+        <p>방문객, 만족도, 민원, 안전사고, 예산/정산을 붙여야 예산낭비와 쏠림 리스크를 수치화할 수 있다.</p>
+      </article>
+    </section>
+
+    <h2>데이터 파일</h2>
+    <p><a href="data/case-evidence-matrix-wave1.json">JSON</a> / <a href="data/case-evidence-matrix-wave1.csv">CSV</a></p>
+  </main>
+</body>
+</html>

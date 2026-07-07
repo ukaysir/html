@@ -121,3 +121,8 @@ Updated: 2026-07-07.
 - Built a winter/nature-dependent festival dossier for Cheorwon Hantangang Ice Trekking 2026.
 - Connected 2026 visitor outcome, cultural-tourism-festival selection, official 2024 agency-evaluation disclosure, 2020 weather postponement precedent, and safety/course-operation risk factors.
 - Added data/cheorwon-ice-2026-safety-outcome-dossier.json, .csv, cheorwon-ice-2026-safety-outcome-dossier.html, and evidence note.
+
+## Checkpoint: case evidence matrix (2026-07-08T03:00:00+09:00)
+
+- Added a dossier index/evidence matrix so the HTML can be read by cause type: procurement/contractor, demand/crowding, weather/safety, programming, local linkage, or pre-event monitoring.
+- Added data/case-evidence-matrix-wave1.json, .csv, case-evidence-matrix-wave1.html, and evidence note.
