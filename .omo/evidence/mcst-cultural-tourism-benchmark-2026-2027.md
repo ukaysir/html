@@ -57,3 +57,12 @@ Generated: 2026-07-08T01:23:21+09:00
 
 ## Interpretation guardrail
 This benchmark cohort is not automatic proof of success. It is a comparison group for finance/procurement/crowding/satisfaction analysis.
+
+## Name-resolution checkpoint (2026-07-08T01:27:22+09:00)
+
+Added data/mcst-cultural-tourism-benchmark-name-resolution.json and .csv for the four non-exact joins:
+
+- 동래읍성축제: official selection name appears shorter than the operating name 동래읍성역사축제 on Dongnae-gu's official festival page.
+- 부천국제만화제: 2027-only watchlist case; operating source uses 부천국제만화축제.
+- 부평풍물대축제: fuzzy because the MCST master row includes 2026년 제30회 prefix.
+- 철원한탄강얼음트레킹: fuzzy because the operating/master name includes spacing and 축제 suffix.

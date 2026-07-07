@@ -59,3 +59,8 @@ Updated: 2026-07-07.
 - Extracted the official 27-name 2026-2027 cultural-tourism festival cohort from the MCST HWPX press attachment using public UplDownloadFile parameters visible in the official HTML.
 - Joined the 27 official names to the 2026 MCST regional festival master: exact 23, fuzzy 2, unmatched 2.
 - Updated data/mcst-cultural-tourism-benchmark-2026-2027.json, added .csv, refreshed mcst-cultural-tourism-benchmark-2026-2027.html, and added ULW instrumentation under .omo/ulw-research/20260708-mcst-benchmark-join/.
+
+## Checkpoint: benchmark name-resolution layer (2026-07-08T01:27:22+09:00)
+
+- Added data/mcst-cultural-tourism-benchmark-name-resolution.json and .csv to explain the four non-exact benchmark joins.
+- Updated mcst-cultural-tourism-benchmark-2026-2027.html with a name-resolution table so human reviewers can understand why a selected festival may fail exact matching.

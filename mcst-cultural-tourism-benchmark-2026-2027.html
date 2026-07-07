@@ -45,6 +45,16 @@
 <tr><td>평창송어축제</td><td>2026-2027</td><td><span class='pill exact_2026_master_match'>exact_2026_master_match</span></td><td>강원 평창군<br><small>평창송어축제 · 예산 18백만원 · 전년도 방문객 227725</small></td><td>2026-2027 문화관광축제</td></tr>
 <tr><td>화성뱃놀이축제</td><td>2026-2027</td><td><span class='pill exact_2026_master_match'>exact_2026_master_match</span></td><td>경기 화성시<br><small>제16회 화성 뱃놀이 축제 · 예산 40백만원 · 전년도 방문객 271520</small></td><td>2026-2027 문화관광축제</td></tr></tbody></table></section>
     <section class="panel"><h2>해석</h2><p>이 표는 “문체부가 선정했으니 성공”이라고 단정하기 위한 것이 아니다. 같은 축제명을 예산, 방문객, 외주/대행, 입찰, 바가지요금, 혼잡, 만족도 증거와 연결해 <strong>왜 선정될 만큼 강했는지</strong> 또는 <strong>선정 이후에도 어떤 리스크가 남는지</strong>를 추적하기 위한 기준 테이블이다.</p></section>
+<section class="panel" id="name-resolution">
+  <h2>명칭 변형 해소: fuzzy/missing 4건</h2>
+  <p>문화관광축제 공식 선정명과 실제 운영명/MCST master명이 다르면 조달·예산 검색이 실패한다. 아래 4건은 자동 매칭 실패가 아니라 명칭 변형 규칙이 필요한 케이스다.</p>
+  <table><thead><tr><th>공식명</th><th>기존 조인</th><th>운영/후보명</th><th>분류</th><th>권장 조인 규칙</th><th>출처</th></tr></thead><tbody><tr><td>동래읍성축제</td><td>not_matched_in_2026_master_by_name</td><td>동래읍성역사축제</td><td>official_selection_name_shorter_than_operating_name</td><td>Allow alias: 동래읍성축제 -> 동래읍성역사축제; search local finance/procurement under both names.</td><td><a href='https://www.dongnae.go.kr/festival/index.dongnae'>source</a></td></tr>
+<tr><td>부천국제만화제</td><td>not_matched_in_2026_master_by_name</td><td>부천국제만화축제</td><td>2027_only_and_operating_name_variant</td><td>Do not force-match to 2026 master; add 2027 watchlist and search aliases 부천국제만화제/부천국제만화축제/BICOF.</td><td><a href='https://www.komacon.kr/komacon_m/news/view.asp?b_code=18&b_sq=29856&nowPage=1&s_cate=&s_fld=&s_txt='>source</a></td></tr>
+<tr><td>부평풍물대축제</td><td>fuzzy_2026_master_match</td><td>2026년 제30회 부평풍물대축제</td><td>edition_prefix_in_master</td><td>Strip year and ordinal prefixes such as 2026년 제30회 before exact matching.</td><td><a href='https://portal.icbp.go.kr/bpf/pungmul/introduce.asp'>source</a></td></tr>
+<tr><td>철원한탄강얼음트레킹</td><td>fuzzy_2026_master_match</td><td>철원 한탄강 얼음트레킹 축제</td><td>spacing_and_suffix_variant</td><td>Normalize spaces and allow 축제 suffix for exact matching.</td><td><a href='https://gcwcf.or.kr/w1_c_6_1/5'>source</a></td></tr></tbody></table>
+</section>
+
   </main>
 </body>
 </html>
+

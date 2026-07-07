@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-08T01:27:22+09:00",
+    "purpose": "Resolve fuzzy/unmatched rows from the MCST 2026-2027 cultural-tourism benchmark join.",
+    "total_cases": 4,
+    "resolution_summary": [
+      "2 cases are not true failures of the benchmark cohort: Dongnae uses a longer operating name, and Bucheon is 2027-only with an operating-name variant.",
+      "2 fuzzy cases can be made exact by stripping edition prefixes or normalizing spacing/suffixes.",
+      "These rules should be applied before finance/procurement searches to avoid false missing evidence."
+    ]
+  },
+  "cases": [
+    {
+      "official_name": "동래읍성축제",
+      "observed_master_status": "not_matched_in_2026_master_by_name",
+      "likely_canonical_or_operating_name": "동래읍성역사축제",
+      "resolution_class": "official_selection_name_shorter_than_operating_name",
+      "source_url": "https://www.dongnae.go.kr/festival/index.dongnae",
+      "source_evidence": "동래구 공식 축제 홈페이지는 동래읍성역사축제 명칭과 제32회 2026 공지 흐름을 표시한다.",
+      "recommended_join_rule": "Allow alias: 동래읍성축제 -> 동래읍성역사축제; search local finance/procurement under both names."
+    },
+    {
+      "official_name": "부천국제만화제",
+      "observed_master_status": "not_matched_in_2026_master_by_name",
+      "likely_canonical_or_operating_name": "부천국제만화축제",
+      "resolution_class": "2027_only_and_operating_name_variant",
+      "source_url": "https://www.komacon.kr/komacon_m/news/view.asp?b_code=18&b_sq=29856&nowPage=1&s_cate=&s_fld=&s_txt=",
+      "source_evidence": "한국만화영상진흥원 보도자료 제목은 부천국제만화축제의 2027 문화관광축제 신규 선정을 표시한다.",
+      "recommended_join_rule": "Do not force-match to 2026 master; add 2027 watchlist and search aliases 부천국제만화제/부천국제만화축제/BICOF."
+    },
+    {
+      "official_name": "부평풍물대축제",
+      "observed_master_status": "fuzzy_2026_master_match",
+      "likely_canonical_or_operating_name": "2026년 제30회 부평풍물대축제",
+      "resolution_class": "edition_prefix_in_master",
+      "source_url": "https://portal.icbp.go.kr/bpf/pungmul/introduce.asp",
+      "source_evidence": "부평구청 축제개요는 2026년 제30회 부평풍물대축제와 2026.10.2~10.4 일정을 표시한다.",
+      "recommended_join_rule": "Strip year and ordinal prefixes such as 2026년 제30회 before exact matching."
+    },
+    {
+      "official_name": "철원한탄강얼음트레킹",
+      "observed_master_status": "fuzzy_2026_master_match",
+      "likely_canonical_or_operating_name": "철원 한탄강 얼음트레킹 축제",
+      "resolution_class": "spacing_and_suffix_variant",
+      "source_url": "https://gcwcf.or.kr/w1_c_6_1/5",
+      "source_evidence": "철원문화재단 축제개요는 제14회 철원 한탄강 얼음트레킹 축제와 2026.01.17~2026.01.25 기간을 표시한다.",
+      "recommended_join_rule": "Normalize spaces and allow 축제 suffix for exact matching."
+    }
+  ]
+}
