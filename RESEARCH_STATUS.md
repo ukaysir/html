@@ -323,3 +323,11 @@ Updated: 2026-07-07.
 - Added DESIGN.md before redesign work and introduced one shared Toss-like minimal style in ssets/toss-report-theme.css.
 - Linked the shared Pretendard-based theme into every top-level HTML file for consistent typography and page structure.
 - Added estival-common-patterns-synthesis.html summarizing success patterns, failure/risk patterns, and a festival-by-festival pattern map.
+
+## Checkpoint: 2026-07-08T11:45:00+09:00
+- Added 서울세계불꽃축제 crowd/public-private governance dossier.
+- New files: .omo/evidence/seoul-fireworks-crowd-public-private-governance-dossier.md, data/seoul-fireworks-crowd-public-private-governance-dossier.json, data/seoul-fireworks-crowd-public-private-governance-dossier.csv, $slug.html.
+- Updated case evidence matrix to 32 festival records and added public_private_megacity_records.
+- Added why-router coverage for public/private mega-event responsibility and linked 서울세계불꽃축제 into demand/crowd and budget/outsourcing governance routes.
+- Updated common-pattern synthesis count and festival pattern map.
+- Evidence status: A-. Strong public-source support for 100만 인파, police/Seoul/Hanwha safety operations, traffic controls, toilet/trash/medical capacity, and resident externality claims. Exact public cost allocation still requires official budget/settlement data.

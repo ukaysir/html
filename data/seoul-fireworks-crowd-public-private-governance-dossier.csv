@@ -1,0 +1,2 @@
+case_id,festival,region,period_scope,verdict,confidence,primary_problem,key_causes,procurement_signal,next_data_needs
+seoul-fireworks-2024-2025,서울세계불꽃축제,서울 여의도 한강공원,2024-2025,""콘텐츠 성공과 도시 운영 리스크가 공존하는 공공/민간 초대형 인파 축제"",A-,""100만명급 도시 인파/민간주최+공공안전교통청소/주민 소음·쓰레기 외부비용"",""mega_crowd_bottleneck;public_private_responsibility;resident_externality;real_time_monitoring;waste_toilet_medical_capacity"",""한화 주최, 서울시·경찰·소방·자치구 종합안전본부, 서울시 행정지원 약 4억원 보도, 임시화장실 90동/정리 1,200명/경찰 3,448명"",""서울시·자치구 예산/정산;한화 행사비;경찰/소방/교통 투입비;유동인구;쓰레기량;소음민원;응급/사고 로그""

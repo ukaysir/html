@@ -4,6 +4,24 @@
   "purpose": "Human-readable routing layer so reviewers can start from the question 'why did this festival fail or succeed?' rather than from raw festival names.",
   "routes": [
     {
+      "id": "public-private-mega-event",
+      "question": "민간 주최인데 공공 안전·교통·청소 비용이 크게 발생하는가?",
+      "use_when": "기업/민간이 콘텐츠를 주최하지만 지자체, 경찰, 소방, 교통기관, 자치구가 인파·교통·청소·응급·민원을 실질적으로 부담할 때.",
+      "diagnostic_rule": "민간 행사비와 공공 지원예산, 인력 투입, 교통통제, 청소/화장실, 민원, 응급/사고 로그를 별도 열로 분리해 총 사회비용을 계산한다.",
+      "cases": [
+        {
+          "festival": "서울세계불꽃축제 2024-2025",
+          "page": "seoul-fireworks-crowd-public-private-governance-dossier.html",
+          "signal": "한화 주최, 100만 인파, 서울시·경찰·소방·자치구 지원, 주민 외부비용"
+        },
+        {
+          "festival": "부산불꽃축제 2022-2026",
+          "page": "busan-fireworks-crowd-ticket-procurement-dossier.html",
+          "signal": "시비/협찬/입장권과 대행/안전/교통 비용 결합"
+        }
+      ]
+    },
+    {
       "id": "paid-experience-local-capture",
       "question": "유료 체험존·상품권·지역상권 환류가 핵심인가?",
       "use_when": "전면 유료화가 아니라 체험존/좌석/프로그램을 유료화하고 지역상품권, 할인쿠폰, 체류시간, 상권 소비로 수익을 되돌리는 구조일 때.",
@@ -82,6 +100,11 @@
           "festival": "보령머드축제 2020-2026",
           "page": "boryeong-mud-global-paid-experience-governance-dossier.html",
           "signal": "영업배상책임보험 7,550만 원, 행사요원 상해보험, 글로벌푸드존 생산물배상보험"
+        },
+        {
+          "festival": "서울세계불꽃축제 2024-2025",
+          "page": "seoul-fireworks-crowd-public-private-governance-dossier.html",
+          "signal": "한화 민간 주최 + 서울시/경찰/소방/자치구 공공지원, 행정지원 약 4억 원 보도"
         }
       ]
     },
@@ -186,6 +209,11 @@
           "festival": "부산불꽃축제 2022-2026",
           "page": "busan-fireworks-crowd-ticket-procurement-dossier.html",
           "signal": "77만→103만→117만 수요 변동, 100만 명급 인파, 순차귀가/교통통제"
+        },
+        {
+          "festival": "서울세계불꽃축제 2024-2025",
+          "page": "seoul-fireworks-crowd-public-private-governance-dossier.html",
+          "signal": "100만 명 예상, 경찰 3,448명, 병목구간/역사/교량 통제"
         }
       ]
     },

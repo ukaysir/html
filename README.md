@@ -280,3 +280,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added DESIGN.md as the shared design-system contract.
 - Added ssets/toss-report-theme.css and linked it from every top-level HTML file to force Pretendard and one Toss-like minimal dashboard style across the report.
 - Added estival-common-patterns-synthesis.html as the final synthesis page comparing success and failure patterns across all festival cases.
+
+### Seoul Fireworks crowd/public-private governance dossier
+- Added seoul-fireworks-crowd-public-private-governance-dossier.html and structured JSON/CSV data for 서울세계불꽃축제 2024-2025.
+- Classifies the case as a public/private mega-event governance case: Hanwha private hosting plus Seoul/police/fire/district public safety, traffic, cleanup, and resident externality costs.
+- Updated the common-pattern synthesis to include public/private mega-event cost and responsibility boundaries.

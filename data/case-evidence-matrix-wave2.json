@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 31,
+    "festival_case_records": 32,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
@@ -23,9 +23,29 @@
     "mega_crowd_firework_records": 1,
     "winter_climate_success_records": 1,
     "paid_access_social_license_records": 1,
-    "paid_experience_global_records": 1
+    "paid_experience_global_records": 1,
+    "public_private_megacity_records": 1
   },
   "records": [
+    {
+      "id": "seoul-fireworks-2024-2025",
+      "festival": "서울세계불꽃축제 2024-2025",
+      "region": "서울특별시",
+      "case_type": "100만 명급 공공/민간 초대형 인파·주민 외부비용 혼합 사례",
+      "confidence": "A-",
+      "primary_causes": [
+        "mega_crowd_bottleneck",
+        "public_private_responsibility",
+        "resident_externality",
+        "real_time_monitoring",
+        "waste_toilet_medical_capacity"
+      ],
+      "demand_signal": "2025년 100만 명 예상, 경찰 3,448명 투입, 여의동로 전면통제와 여의나루역 무정차/출입구 폐쇄 가능성.",
+      "budget_procurement_signal": "한화 민간 주최와 서울시·경찰·소방·자치구 공공지원 결합. 서울시 행정지원 약 4억 원 보도는 공식 예산서 확인 필요.",
+      "why_it_matters": "민간 축제라도 공공 안전·교통·청소·응급·주민 민원 비용이 발생한다. 성공 판단은 불꽃 품질보다 귀가 병목과 공공/민간 책임분담까지 포함해야 한다.",
+      "page": "seoul-fireworks-crowd-public-private-governance-dossier.html",
+      "data": "data/seoul-fireworks-crowd-public-private-governance-dossier.json"
+    },
     {
       "id": "boryeong-mud-2020-2026",
       "festival": "보령머드축제 2020-2026",
