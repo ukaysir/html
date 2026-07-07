@@ -28,6 +28,7 @@ Updated: 2026-07-07.
 - MCST archive schema probe confirms 2017-2026 annual workbooks and records first-sheet aggregate festival counts before full row normalization.
 - MCST 2017-2026 annual workbooks are now extracted into a normalized master-draft with 10,198 festival-year records. Staff names and phone numbers from public sheets are intentionally omitted.
 - Lightweight MCST master summaries now provide year, province and festival-type aggregate indexes for dashboard use.
+- MCST 2017-2021 legacy `period_raw` strings now have a non-destructive date overlay for 4,475 records. Exact ranges were parsed for 2,357 records and single-day dates for 98 records; ambiguous month/mid-month/tentative strings remain flagged for review.
 
 ## Current limitations
 - The repository is not yet a complete national archive of every 2016-2026 Korean festival.
@@ -38,7 +39,7 @@ Updated: 2026-07-07.
 - RFP/procurement documents show planning responsibility and scope, not outcome causality by themselves.
 
 ## Next research waves
-- Refine MCST annual master date parsing for 2017-2021 legacy raw period strings and attach row-level QA flags.
+- Review ambiguous MCST 2017-2021 period strings that remain partial/unparsed after conservative overlay parsing.
 - Backfill 2016 through local datasets, MCST selected-festival reports and local-government archives while marking coverage status.
 - Join Local Finance 365 cost records to festival-year keys for large disclosed events.
 - Expand NaraJangteo contract matching with notice number, agency, date, amount, method and supplier where public.

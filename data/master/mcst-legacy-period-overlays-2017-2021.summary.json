@@ -1,0 +1,163 @@
+{
+  "version": "2026-07-08.legacy-period-overlay-summary",
+  "total_records": 4475,
+  "by_year": [
+    {
+      "year": 2017,
+      "total": 733,
+      "exact": 446,
+      "single_day": 10,
+      "partial_or_unparsed": 277
+    },
+    {
+      "year": 2018,
+      "total": 886,
+      "exact": 500,
+      "single_day": 36,
+      "partial_or_unparsed": 350
+    },
+    {
+      "year": 2019,
+      "total": 884,
+      "exact": 521,
+      "single_day": 26,
+      "partial_or_unparsed": 337
+    },
+    {
+      "year": 2020,
+      "total": 968,
+      "exact": 503,
+      "single_day": 4,
+      "partial_or_unparsed": 461
+    },
+    {
+      "year": 2021,
+      "total": 1004,
+      "exact": 387,
+      "single_day": 22,
+      "partial_or_unparsed": 595
+    }
+  ],
+  "by_year_status": [
+    {
+      "year": 2017,
+      "status": "missing_or_ambiguous",
+      "count": 13
+    },
+    {
+      "year": 2017,
+      "status": "parsed_exact_range",
+      "count": 446
+    },
+    {
+      "year": 2017,
+      "status": "parsed_single_day",
+      "count": 10
+    },
+    {
+      "year": 2017,
+      "status": "partial_month",
+      "count": 262
+    },
+    {
+      "year": 2017,
+      "status": "unparsed",
+      "count": 2
+    },
+    {
+      "year": 2018,
+      "status": "missing_or_ambiguous",
+      "count": 12
+    },
+    {
+      "year": 2018,
+      "status": "parsed_exact_range",
+      "count": 500
+    },
+    {
+      "year": 2018,
+      "status": "parsed_single_day",
+      "count": 36
+    },
+    {
+      "year": 2018,
+      "status": "partial_month",
+      "count": 332
+    },
+    {
+      "year": 2018,
+      "status": "unparsed",
+      "count": 6
+    },
+    {
+      "year": 2019,
+      "status": "missing_or_ambiguous",
+      "count": 18
+    },
+    {
+      "year": 2019,
+      "status": "parsed_exact_range",
+      "count": 521
+    },
+    {
+      "year": 2019,
+      "status": "parsed_single_day",
+      "count": 26
+    },
+    {
+      "year": 2019,
+      "status": "partial_month",
+      "count": 316
+    },
+    {
+      "year": 2019,
+      "status": "unparsed",
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "status": "missing_or_ambiguous",
+      "count": 2
+    },
+    {
+      "year": 2020,
+      "status": "parsed_exact_range",
+      "count": 503
+    },
+    {
+      "year": 2020,
+      "status": "parsed_single_day",
+      "count": 4
+    },
+    {
+      "year": 2020,
+      "status": "partial_month",
+      "count": 459
+    },
+    {
+      "year": 2021,
+      "status": "missing_or_ambiguous",
+      "count": 17
+    },
+    {
+      "year": 2021,
+      "status": "parsed_exact_range",
+      "count": 387
+    },
+    {
+      "year": 2021,
+      "status": "parsed_single_day",
+      "count": 22
+    },
+    {
+      "year": 2021,
+      "status": "partial_month",
+      "count": 576
+    },
+    {
+      "year": 2021,
+      "status": "unparsed",
+      "count": 2
+    }
+  ]
+}

@@ -53,3 +53,6 @@ Pages was checked as not enabled during the research run. To publish, use:
 - `data/master/mcst-region-festivals-2017-2026.summary.json`
 - `data/master/mcst-region-festivals-2017-2026.summary-expanded.json`
 - `data/master/mcst-region-festivals-2017-2026.lite-index.json`
+- `data/master/mcst-legacy-period-overlays-2017-2021.json`
+- `data/master/mcst-legacy-period-overlays-2017-2021.csv`
+- `data/master/mcst-legacy-period-overlays-2017-2021.summary.json`
