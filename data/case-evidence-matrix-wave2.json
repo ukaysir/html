@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 26,
+    "festival_case_records": 27,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
@@ -18,7 +18,8 @@
     "weather_or_nature_dependency_records": 3,
     "budget_waste_requires_join_model": true,
     "metric_opacity_records": 1,
-    "content_social_license_records": 1
+    "content_social_license_records": 1,
+    "season_heat_comfort_records": 1
   },
   "records": [
     {
@@ -371,6 +372,26 @@
       ],
       "not_yet_proven": "자연조건 관리와 성과 사이의 정량 인과.",
       "next_evidence_needed": "코스 폐쇄 이력, 안전점검표, 기상자료, 입장권/지역소비 연결."
+    },
+    {
+      "id": "muan-lotus-2023-2026",
+      "festival": "무안연꽃축제 2023-2026",
+      "region": "전남 무안군",
+      "case_type": "여름 자연축제 편의·가격·조달구조 통제 사례",
+      "confidence": "B+",
+      "primary_causes": [
+        "summer_heat",
+        "bloom_timing",
+        "visitor_fatigue",
+        "price_trust",
+        "disaster_scale_down",
+        "outsourcing_procurement"
+      ],
+      "demand_signal": "2026년 3일간 약 8만 명 방문 결과 보도. 일정 단축은 수요 확대보다 방문 피로와 운영 효율을 겨냥한 조정으로 해석된다.",
+      "budget_procurement_signal": "2026 행사대행 용역 공고 미러: 민간행사보조사업, 무안군 입찰대행, 축제추진위원회 계약, 사업비 3억3000만 원, 총괄운영/무대/행사 전반 범위.",
+      "why_it_matters": "여름 자연축제의 실패 원인은 대형 인파 자체보다 폭염, 개화, 체류 피로, 가격 신뢰, 대행사 실행범위가 동시에 흔들릴 때 발생한다. 무안은 사전 통제 장치가 공개자료에 비교적 잘 남은 사례다.",
+      "page": "muan-lotus-heat-shuttle-procurement-dossier.html",
+      "data": "data/muan-lotus-heat-shuttle-procurement-dossier.json"
     },
     {
       "id": "inje-icefish-2019-2026",

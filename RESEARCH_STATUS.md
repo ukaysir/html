@@ -282,3 +282,10 @@ Updated: 2026-07-07.
 - Added a winter-site failure dossier for Inje Icefish Festival covering 2019 person-counting/economic-effect baseline, 2023 demand/effect lead, 2024-2026 cancellations, Soyang Dam water-level threshold, insufficient freezing, site submersion, safety risk and four-season tourism adaptation leads.
 - Classified the case as B+ climate/water-level, B+ demand history and C contractor attribution: public evidence supports physical site-condition failure, not demand disappearance or hidden subcontractor causality.
 - Added data/inje-icefish-climate-waterlevel-cancellation-dossier.json, .csv, inje-icefish-climate-waterlevel-cancellation-dossier.html, evidence note, case-matrix links and why-cause router links.
+
+## Checkpoint: 2026-07-08T09:15:00+09:00
+- Added 무안연꽃축제 heat/shuttle/procurement dossier.
+- New files: .omo/evidence/muan-lotus-heat-shuttle-procurement-dossier.md, data/muan-lotus-heat-shuttle-procurement-dossier.json, data/muan-lotus-heat-shuttle-procurement-dossier.csv, $slug.html.
+- Updated case evidence matrix to 27 festival records and added season_heat_comfort_records.
+- Added why-router path for season/heat/bloom/comfort failures and corrected the demand/crowd row links to point to 광양매화축제 and 세종낙화축제 instead of price-row cases.
+- Evidence status: B+. Public sources support the seasonal redesign, price-control measures, disaster scale-down, and procurement structure. They do not yet prove contractor fault or final budget efficiency.

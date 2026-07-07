@@ -250,3 +250,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/inje-icefish-climate-waterlevel-cancellation-dossier.json: winter-site failure dossier separating historical demand/economic effect, Soyang Dam water-level threshold, insufficient freezing, safety cancellation, dam-governance constraints and four-season adaptation leads.
 - inje-icefish-climate-waterlevel-cancellation-dossier.html: human-readable explanation of why Inje Icefish Festival is a climate/water-level site failure rather than a demand or subcontractor failure.
+
+### Muan Lotus Festival heat/shuttle/procurement dossier
+- Added muan-lotus-heat-shuttle-procurement-dossier.html and structured JSON/CSV data for 무안연꽃축제 2023-2026.
+- Classifies the case as summer heat, bloom timing, visitor fatigue, price trust, disaster scale-down, and outsourcing/procurement context rather than a proven failure.
+- Captures the 2026 schedule reduction and cooling/night-program redesign, 2024 price-control measures, 2023 heavy-rain scale-down, and 2026 event-agency RFP mirror.
