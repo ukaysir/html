@@ -1,0 +1,8 @@
+metric,claim,value_or_signal,why_it_matters,source_ids,evidence_level
+classification,Overall classification,crowd traffic stabilization case,Night spectacle with concentrated peak demand,S1|S2|S6|S10,B+
+initial_bottleneck_2023,First-year issue,around 50k draw and parking/traffic bottleneck,Shows demand exceeded initial site capacity,S1|S7,B
+traffic_controls_2024,Traffic package,7 parking lots|parking staff|illegal parking enforcement|traffic control,Public response to initial bottleneck,S2|S3,B+
+evaluation_2024,Outcome and gaps,80k visitors with positive safety/traffic/parking but food/content/facility gaps,Shows partial stabilization not total completion,S5|S6,B+
+outcome_2025,Visitor/effect lead,105k crowd and KRW 13.1b economic effect,Scale increased after stabilization,S8|S9,B
+outcome_2026,Stabilized crowd lead,100k crowd|max instant 20k|no safety accident,Peak-density and safety evidence needed next,S10|S11|S12,B
+contractor_attribution,Contractor causality,not proven,No public RFP-to-outcome chain yet,S1|S2|S10,C

@@ -10,11 +10,11 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 24,
+    "festival_case_records": 25,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 7,
-    "demand_or_crowd_records": 5,
+    "demand_or_crowd_records": 6,
     "weather_or_nature_dependency_records": 2,
     "budget_waste_requires_join_model": true,
     "metric_opacity_records": 1,
@@ -143,6 +143,27 @@
       ],
       "not_yet_proven": "특정 대행사의 수요예측 과업 실패.",
       "next_evidence_needed": "사전 예상인원 산정 근거, 안전관리계획, 교통대책 발주 범위, 사후 민원/만족도."
+    },
+    {
+      "id": "sejong-nakhwa-2023-2026",
+      "record_type": "festival_case",
+      "festival": "세종낙화축제",
+      "years": "2023-2026",
+      "page": "sejong-nakhwa-crowd-traffic-stabilization-dossier.html",
+      "question": "첫해 교통·주차 병목을 어떻게 안정화했나?",
+      "short_answer": "2023년 초기 교통·주차 대란 이후 7개 주차장 관리, 불법주정차 단속, 대중교통 홍보, 안전/화재관리, 연출 장소 조정으로 8만~10만명 규모를 안정화한 night-spectacle capacity case다.",
+      "evidence_level": "B+ traffic/safety, B outcome, C attribution",
+      "procurement_link": "weak",
+      "outcome_link": "strong stabilization lead",
+      "primary_causes": [
+        "crowd_peak",
+        "traffic_capacity",
+        "parking_control",
+        "fire_safety",
+        "content_food_gap"
+      ],
+      "not_yet_proven": "교통위험 완전 해소, 경제효과 순효과, 특정 대행사·하청업체 귀속.",
+      "next_evidence_needed": "시간대별 방문밀도, 퇴장시간, 주차/대중교통 분담률, 안전일지, 편의시설/먹거리 개선자료, 계약/RFP."
     },
     {
       "id": "gwangyang-maehwa-2018-2026",

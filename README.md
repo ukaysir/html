@@ -240,3 +240,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/namwon-chunhyang-price-recovery-dossier.json: price-governance recovery dossier separating 2023 food-price controversy, direct booth control, price/weight labels, enforcement, outside-merchant boundary, Theborn/Baek Jong-won cooperation, marketing-procurement context and visitor recovery leads.
 - namwon-chunhyang-price-recovery-dossier.html: human-readable explanation of why Chunhyang Festival's food-price recovery is a booth-governance case rather than a simple subcontractor or marketing-agency case.
+
+## Sejong Nakhwa crowd/traffic stabilization dossier
+
+- data/sejong-nakhwa-crowd-traffic-stabilization-dossier.json: night-spectacle crowd dossier separating first-year traffic/parking bottleneck, parking/traffic controls, safety/fire controls, evaluation gaps, visitor/economic-effect leads and contractor-attribution limits.
+- sejong-nakhwa-crowd-traffic-stabilization-dossier.html: human-readable explanation of why Sejong Nakhwa Festival is a crowd-peak and traffic-capacity stabilization case rather than a simple subcontractor case.

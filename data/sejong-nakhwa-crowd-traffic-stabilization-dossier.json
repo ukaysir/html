@@ -1,0 +1,68 @@
+{
+  "id": "sejong-nakhwa-crowd-traffic-stabilization-dossier",
+  "title": "세종낙화축제 인파·교통 안정화 dossier",
+  "festival": "세종낙화축제",
+  "region": "세종특별자치시",
+  "years_covered": [2023, 2024, 2025, 2026],
+  "classification": {
+    "overall": "crowd_traffic_stabilization_case",
+    "initial_bottleneck_evidence": "B",
+    "traffic_safety_control_evidence": "B+",
+    "outcome_evidence": "B",
+    "contractor_attribution": "C"
+  },
+  "one_line_verdict": "첫해 5만 안팎 인파와 주차·교통 대란을 겪은 뒤, 7개 주차장 관리·불법주정차 단속·대중교통 홍보·안전/화재관리·연출 장소 조정으로 8만~10만명 규모를 안정화한 crowd/capacity case다.",
+  "causal_chain": [
+    "낙화는 짧은 시간대에 절정이 오는 야간 시각 콘텐츠라 관람객이 특정 시간·장소에 몰린다.",
+    "2023년 첫 선 당시 5만 안팎 유입 효과는 컸지만 주차 2,500여 대 규모로는 부족했고 교통 지·정체와 주차 대란을 노출했다.",
+    "2024년 시는 경찰·소방 등 유관기관과 교통대책 회의를 열고 7개 주차장, 입출차 관리, 불법주정차 단속, 교통통제를 준비했다.",
+    "2024년 평가에서는 8만여 관람객과 높은 안전·교통·주차 평가가 나왔지만 콘텐츠·먹거리·편의시설 부족이 남은 과제로 제시됐다.",
+    "2025년에는 10만5천명 lead와 60% 외지인, 131억 경제효과 lead가 제시됐다.",
+    "2026년에는 10만 인파, 순간 최대 2만명, 안전사고 없는 마무리, 사전 살수와 안전인력 배치 등이 보도됐다."
+  ],
+  "why_it_matters": [
+    "야간 불꽃형 축제는 총 방문객보다 피크 시간대 밀도와 퇴장 동선이 더 중요하다.",
+    "주차장 수와 교통통제만으로는 부족하고, 연출 장소, 관람 시야, 사전 대중교통 홍보, 현장 대기 콘텐츠와 먹거리까지 같이 설계해야 한다.",
+    "2024년 평가처럼 교통·안전은 개선되었어도 콘텐츠·먹거리·편의시설이 부족하면 만족도 저하 원인이 남는다.",
+    "불꽃·낙화 행사는 화재 예방, 사전 살수, 안전인력, 소방 협업이 수요예측과 같은 수준의 핵심 변수다."
+  ],
+  "outcome_leads": [
+    "2024년 8만여 관람객, 안전·교통·주차 호평, 가족 단위 54.8%, 도보/자전거 약 31% lead.",
+    "2025년 10만5천 구름 인파, 60% 외지인, 131억 경제효과 lead.",
+    "2026년 10만명 이상, 순간 최대 2만명, 안전사고 없이 마무리 lead."
+  ],
+  "not_yet_proven": [
+    "That crowding/traffic risk is fully solved; peak density, egress time and complaint data are still needed.",
+    "That 2025/2026 economic effects are net of traffic, policing, safety and opportunity costs.",
+    "That a specific agency or subcontractor caused the initial bottleneck or later stabilization."
+  ],
+  "next_evidence_needed": [
+    "Official after-action report with hourly visitor density and egress timing.",
+    "Parking occupancy, shuttle/public-transport ridership and illegal-parking enforcement ledger.",
+    "Safety plan, fire-prevention checklist, incident log and emergency deployment map.",
+    "Food/convenience satisfaction and vendor plan after 2024 evaluation gaps.",
+    "Procurement/RFP documents for stage, safety, traffic, lighting and operations if contractor attribution is investigated."
+  ],
+  "evidence_records": [
+    {"id": "SN-01", "type": "initial_bottleneck", "claim": "2023 first-year event drew around 50k but exposed traffic congestion and parking shortage around 2,500 spaces.", "source_ids": ["S1", "S7"]},
+    {"id": "SN-02", "type": "traffic_control", "claim": "2024 traffic planning used 7 nearby parking lots, parking managers, illegal-parking enforcement and traffic control.", "source_ids": ["S2", "S3"]},
+    {"id": "SN-03", "type": "safety_control", "claim": "2024 safety planning treated the night firework event as requiring strict site control and situation management.", "source_ids": ["S4"]},
+    {"id": "SN-04", "type": "evaluation_2024", "claim": "2024 evaluation reported 80k visitors and positive safety/traffic/parking reviews but content, food and convenience gaps.", "source_ids": ["S5", "S6"]},
+    {"id": "SN-05", "type": "outcome_2025", "claim": "2025 reporting gives 105k crowd, 60% outside visitors and KRW 13.1b economic effect lead.", "source_ids": ["S8", "S9"]},
+    {"id": "SN-06", "type": "outcome_2026", "claim": "2026 reporting gives 100k crowd, maximum instant 20k, no safety accident and pre-watering/safety-staff controls.", "source_ids": ["S10", "S11", "S12"]}
+  ],
+  "sources": [
+    {"id": "S1", "title": "디트NEWS24 - 역대급 관람 인파, 호된 신고식", "url": "https://www.dtnews24.com/news/articleView.html?idxno=746095", "evidence": "2023 first-year traffic/parking bottleneck and 2,500-space shortage lead"},
+    {"id": "S2", "title": "충청메시지 - 2024 교통대책 집중 점검", "url": "https://www.ccmessage.kr/news/articleView.html?idxno=57843", "evidence": "7 parking lots, parking management staff, illegal parking enforcement"},
+    {"id": "S3", "title": "세종의소리 - 교통통제·불법주정차 단속", "url": "https://www.sjsori.com/news/articleView.html?idxno=69099", "evidence": "traffic control and emergency review"},
+    {"id": "S4", "title": "세종의소리 - 2024 안전관리 만전", "url": "https://www.sjsori.com/news/articleView.html?idxno=69027", "evidence": "night firework safety-control framing"},
+    {"id": "S5", "title": "대전일보 - 8만명, 만족도 높았다", "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2143194", "evidence": "2024 evaluation report lead"},
+    {"id": "S6", "title": "세종FM - 2024 평가보고회", "url": "https://sfm.kr/270/?bmode=view&idx=57166419", "evidence": "80k visitors, safety/traffic/parking positive, content/food/facility gaps, 31% walking/biking"},
+    {"id": "S7", "title": "Daum - 세종 낙화축제 도시 특화 브랜드", "url": "https://v.daum.net/v/8ovpJzKpOF?f=p", "evidence": "2023 first-year problems, 2024-2025 venue adjustment, 2026 stabilization"},
+    {"id": "S8", "title": "문화저널 맥 - 10만5천 구름 인파", "url": "https://www.themac.co.kr/news/articleView.html?idxno=5776", "evidence": "2025 crowd lead"},
+    {"id": "S9", "title": "eTV뉴스 - 2025 외지인 60%, 131억 효과", "url": "https://etvnews.co.kr/m/view.php?idx=7128", "evidence": "outside visitor share and economic effect lead"},
+    {"id": "S10", "title": "충청뉴스 - 2026 10만 인파, 안전사고 없이 마무리", "url": "https://www.ccnnews.co.kr/news/articleView.html?idxno=409755", "evidence": "2026 100k crowd and no-accident lead"},
+    {"id": "S11", "title": "캡뉴스 - 현장 10만 인파", "url": "https://www.capnews.kr/news/articleView.html?idxno=78223", "evidence": "pre-watering and safety-staff controls"},
+    {"id": "S12", "title": "현대일보 - 순간 최대 2만, 누적 10만", "url": "https://www.hdnews.co.kr/news/articleView.html?idxno=348210", "evidence": "maximum instant crowd and cumulative visitors"}
+  ]
+}

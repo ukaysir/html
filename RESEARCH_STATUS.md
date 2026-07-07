@@ -270,3 +270,9 @@ Updated: 2026-07-07.
 - Added a price-governance recovery dossier for Namwon Chunhyang Festival covering the 2023 high-price/low-portion controversy, 2024 direct booth rental, price/weight labels, KRW 10k menu cap, expulsion/admin/criminal action, Theborn/Baek Jong-won food trust mechanism, outside-merchant enforcement and 2025/2026 visitor recovery leads.
 - Classified the case as B+ price recovery, B procurement context and C contractor attribution: the KRW 250m promotion/marketing tender is real context, but not food-price causality without RFP scope and booth-operation evidence.
 - Added data/namwon-chunhyang-price-recovery-dossier.json, .csv, namwon-chunhyang-price-recovery-dossier.html, evidence note, case-matrix links and why-cause router links.
+
+## Checkpoint: Sejong Nakhwa crowd/traffic stabilization dossier (2026-07-08T08:45:00+09:00)
+
+- Added a night-spectacle crowd/traffic dossier for Sejong Nakhwa Festival covering the 2023 first-year parking/traffic bottleneck, 2024 parking/traffic/safety controls, 2024 evaluation gaps, 2025 outside-visitor/economic-effect leads and 2026 no-accident 100k-crowd lead.
+- Classified the case as B+ traffic/safety stabilization, B outcome and C contractor attribution: public evidence supports capacity planning and public safety/traffic coordination, not hidden subcontractor causality.
+- Added data/sejong-nakhwa-crowd-traffic-stabilization-dossier.json, .csv, sejong-nakhwa-crowd-traffic-stabilization-dossier.html, evidence note, case-matrix links and why-cause router links.
