@@ -305,3 +305,10 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added gangneung-coffee-urban-brand-mobility-dossier.html plus structured JSON/CSV and evidence dossier for 강릉커피축제 2020-2026.
 - Key cause: coffee-city branding and local vendor capture drove success, while parking, spatial concentration, and district-level commerce imbalance remain planning risks.
 
+
+
+### 원주댄싱카니발 도심·K-댄스·대행/교통 리스크 사례
+- Added wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html plus structured JSON/CSV and evidence dossier for 원주댄싱카니발 2016-2026.
+- Case id: wonju-dancing-2016-2026.
+- Key cause: 도심 퍼레이드와 시민참여, 군악·K-댄스 전환은 성공 요인이나 날씨·감염병·주차/동선·방문객 산식·무대시스템 용역 KPI가 예산/만족도 리스크다.
+

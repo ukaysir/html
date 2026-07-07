@@ -1,0 +1,98 @@
+{
+  "id": "wonju-dancing-2016-2026",
+  "title": "원주댄싱카니발 2016-2026 도심·K-댄스·대행/교통 리스크 dossier",
+  "generated_at": "2026-07-08",
+  "evidence_grade": "B+",
+  "core_question": "원주댄싱카니발은 왜 성공했으며, 왜 반복적으로 만족도·예산·수요예측 리스크가 남는가?",
+  "short_verdict": "도심 참여형 성공+날씨·교통·측정·대행 리스크",
+  "why_summary": "도심 퍼레이드와 시민참여, 군악·K-댄스·지역문화자산 결합은 성공 요인이지만, 태풍·감염병·주차/동선·방문객 산식 불일치·무대/운영 용역 KPI가 만족도와 예산 리스크다.",
+  "timeline": [
+    {
+      "year": "2016-2017",
+      "signal": "도심 퍼레이드·군악·시민참여 기반 성장",
+      "why": "원주 고유 정체성이 방문객 51만명과 경제파급 395억1,400만원으로 연결됐으나 먹거리·주차·체험 부족이 남음",
+      "sources": [
+        "https://www.ddcwj.com/content/festival.php",
+        "https://kwnews.co.kr/page/view/2018010100000000062"
+      ]
+    },
+    {
+      "year": "2018",
+      "signal": "방문객 54만명, 직접경제효과 223억5,000만원",
+      "why": "성과는 강했지만 음식부스 위생, 주차장 부족, 순환버스 제한이 만족도 병목",
+      "sources": [
+        "https://www.kado.net/news/articleView.html?idxno=943702"
+      ]
+    },
+    {
+      "year": "2019",
+      "signal": "태풍 영향으로 방문객 36만명, 경제효과 208억원",
+      "why": "콘텐츠 만족도와 별개로 날씨와 동선/편의 문제가 성과를 흔듦",
+      "sources": [
+        "https://www.iwjnews.com/news/articleView.html?idxno=34810"
+      ]
+    },
+    {
+      "year": "2020-2021",
+      "signal": "전면 취소 후 온·오프라인 하이브리드 축소",
+      "why": "감염병 충격이 콘텐츠보다 운영 가능 규모를 결정",
+      "sources": [
+        "https://www.g1tv.co.kr/news/?mid=1_207_3&newsid=231304",
+        "https://www.yna.co.kr/view/AKR20211108112600062"
+      ]
+    },
+    {
+      "year": "2024",
+      "signal": "K-POP·K-댄스 콘텐츠형 전환",
+      "why": "퍼레이드 중심 이미지를 젊은층·해외팀 경연 포맷으로 재정의",
+      "sources": [
+        "https://www.yna.co.kr/view/AKR20240814142300062",
+        "https://council.wonju.go.kr/content/minutes/freeSpeech.html?f_code=&fidx=844&opt=&page=9&pg=vv&sword="
+      ]
+    },
+    {
+      "year": "2025",
+      "signal": "지역문화자산 결합과 방문객 집계 불일치",
+      "why": "30만 초기 보도와 19만8,864명 최종 집계가 공존해 지표 정의가 핵심",
+      "sources": [
+        "https://www.yna.co.kr/view/AKR20250904046300062",
+        "https://www.yna.co.kr/view/AKR20250929033900062",
+        "https://www.kwnews.co.kr/page/view/2025122217351381053"
+      ]
+    },
+    {
+      "year": "2025-2026",
+      "signal": "무대시스템·운영 용역 관리 필요",
+      "why": "낙찰자와 금액은 확인되나 계약 KPI와 현장 만족도 연결 전까지 귀책 단정 금지",
+      "sources": [
+        "https://www.bidpro.co.kr/n0_ipchal/konggo/svc/konggo_view.asp?num=2918863",
+        "https://www.sankun.com/bid-info/kMWDciW92OJCpKXagG6-Ks7dXxo80PsrkRoVP43gA-Q",
+        "https://www.ddcwj.com/main.php"
+      ]
+    }
+  ],
+  "data_to_collect_next": [
+    "일자·시간대별 유입/퇴장 인원과 집계 방식",
+    "주차장별 만차 시간·셔틀 탑승률·교통 지연·민원",
+    "부스/푸드트럭 가격표·위생점검·매출·위반/제재",
+    "무대·운영·홍보·안전 용역별 과업, 낙찰자, 검수, 성과평가",
+    "방문객 만족도 문항별 원자료와 경제효과 산식",
+    "날씨·우천·태풍 경보와 프로그램 변경/취소 내역"
+  ],
+  "sources": [
+    "https://www.ddcwj.com/content/festival.php",
+    "https://kwnews.co.kr/page/view/2018010100000000062",
+    "https://www.kado.net/news/articleView.html?idxno=943702",
+    "https://www.iwjnews.com/news/articleView.html?idxno=34810",
+    "https://www.g1tv.co.kr/news/?mid=1_207_3&newsid=231304",
+    "https://www.yna.co.kr/view/AKR20211108112600062",
+    "https://www.yna.co.kr/view/AKR20240814142300062",
+    "https://council.wonju.go.kr/content/minutes/freeSpeech.html?f_code=&fidx=844&opt=&page=9&pg=vv&sword=",
+    "https://www.yna.co.kr/view/AKR20250904046300062",
+    "https://www.yna.co.kr/view/AKR20250929033900062",
+    "https://www.kwnews.co.kr/page/view/2025122217351381053",
+    "https://www.bidpro.co.kr/n0_ipchal/konggo/svc/konggo_view.asp?num=2918863",
+    "https://www.sankun.com/bid-info/kMWDciW92OJCpKXagG6-Ks7dXxo80PsrkRoVP43gA-Q",
+    "https://www.ddcwj.com/main.php"
+  ]
+}

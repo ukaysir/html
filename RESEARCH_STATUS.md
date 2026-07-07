@@ -355,3 +355,10 @@ Updated: 2026-07-07.
 - Evidence: official festival site, 2025 performance metrics, 2024 parking bottleneck, 2020 cancellation, 2021 delay, long-run evaluation, 2023 outsourcing award.
 - Planning implication: collect parking/shuttle capacity, district-level cafe sales, visitor stay spending, and outsourced operation KPIs alongside visitor totals.
 
+
+
+## Checkpoint: 원주댄싱카니발 2016-2026
+- Added case id: wonju-dancing-2016-2026.
+- Evidence: official archive, 2017/2018/2019 evaluation coverage, 2020 cancellation, 2021 hybrid operation, 2024 K-댄스 repositioning, 2025 opening/completion/final evaluation, 2025 stage-system procurement.
+- Planning implication: collect visitor-count definition, parking/shuttle/traffic logs, food booth price and hygiene records, stage/operation procurement KPIs, and weather-triggered program changes before blaming any contractor.
+

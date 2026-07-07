@@ -91,6 +91,13 @@
       "diagnostic_rule": "예산서, 정산서, 협찬금, 유료좌석 판매량, 용역별 과업지시서/낙찰금액/검수자료, 민원·사고 로그를 같은 책임 흐름도로 연결한다.",
       "cases": [
         {
+          "id": "wonju-dancing-2016-2026",
+          "festival": "원주댄싱카니발 2016-2026",
+          "html": "wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html",
+          "evidence_grade": "B+",
+          "why": "도심 시민참여·K-댄스 전환은 성공, 날씨·주차·동선·측정·용역 KPI는 리스크"
+        },
+        {
           "festival": "부산불꽃축제 2022-2026",
           "page": "busan-fireworks-crowd-ticket-procurement-dossier.html",
           "signal": "경호/시설/음향/화장실/조명 분절 용역, 유료좌석, KNN 예산 논란 보도"
@@ -157,6 +164,13 @@
       "confidence_rule": "Level A requires outcome plus contractor/procurement plus timeline linkage.",
       "cases": [
         {
+          "id": "wonju-dancing-2016-2026",
+          "festival": "원주댄싱카니발 2016-2026",
+          "html": "wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html",
+          "evidence_grade": "B+",
+          "why": "도심 시민참여·K-댄스 전환은 성공, 날씨·주차·동선·측정·용역 KPI는 리스크"
+        },
+        {
           "festival": "인천 펜타포트음악축제 2019",
           "page": "pentaport-2019-cause-dossier.html",
           "status": "Level A causal-candidate"
@@ -217,6 +231,13 @@
       "answer_rule": "Compare expected attendance, actual attendance, site geometry, safety-plan threshold, staffing, traffic and exit timing.",
       "confidence_rule": "Strong cases need expected-attendance basis and after-action records; current public leads are B-level.",
       "cases": [
+        {
+          "id": "wonju-dancing-2016-2026",
+          "festival": "원주댄싱카니발 2016-2026",
+          "html": "wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html",
+          "evidence_grade": "B+",
+          "why": "도심 시민참여·K-댄스 전환은 성공, 날씨·주차·동선·측정·용역 KPI는 리스크"
+        },
         {
           "festival": "약사사 산사음악회 2025",
           "page": "incheon-crowd-forecast-threshold-dossier.html",
@@ -280,6 +301,13 @@
       "confidence_rule": "Weather-only evidence is not enough; course operation and safety decision records are required.",
       "cases": [
         {
+          "id": "wonju-dancing-2016-2026",
+          "festival": "원주댄싱카니발 2016-2026",
+          "html": "wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html",
+          "evidence_grade": "B+",
+          "why": "도심 시민참여·K-댄스 전환은 성공, 날씨·주차·동선·측정·용역 KPI는 리스크"
+        },
+        {
           "festival": "철원 한탄강 얼음트레킹 2026",
           "page": "cheorwon-ice-2026-safety-outcome-dossier.html",
           "status": "winter safety/outcome bridge"
@@ -321,6 +349,13 @@
       "confidence_rule": "Strong cases need public decision records, deliberation or civic-conflict evidence, content redesign evidence and outcome/counter-signal after redesign.",
       "cases": [
         {
+          "id": "wonju-dancing-2016-2026",
+          "festival": "원주댄싱카니발 2016-2026",
+          "html": "wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html",
+          "evidence_grade": "B+",
+          "why": "도심 시민참여·K-댄스 전환은 성공, 날씨·주차·동선·측정·용역 KPI는 리스크"
+        },
+        {
           "festival": "제주들불축제 2022-2026",
           "page": "jeju-fire-content-social-license-transition-dossier.html",
           "status": "content/social-license transition case"
@@ -351,6 +386,13 @@
       "answer_rule": "Offline visitors, online visits, direct sales, direct economic effects, indirect effects, satisfaction and media estimates must be stored as separate claims before being used for demand or budget decisions.",
       "confidence_rule": "Strong interpretation requires original evaluation report formula, sample, item definitions and finance rows; media numbers alone are leads.",
       "cases": [
+        {
+          "id": "wonju-dancing-2016-2026",
+          "festival": "원주댄싱카니발 2016-2026",
+          "html": "wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html",
+          "evidence_grade": "B+",
+          "why": "도심 시민참여·K-댄스 전환은 성공, 날씨·주차·동선·측정·용역 KPI는 리스크"
+        },
         {
           "festival": "청송사과축제 2025",
           "page": "cheongsong-apple-metric-opacity-success-dossier.html",
