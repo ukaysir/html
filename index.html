@@ -17,7 +17,7 @@
       <div class="eyebrow">Agent-only public-source festival intelligence</div>
       <h1>이 축제는 왜 성공했고, 왜 실패했나?</h1>
       <p class="lead">2016-2026년 대한민국 축제를 공개자료로 추적합니다. 수요예측 실패, 관광객 쏠림, 예산 낭비, 대행사·하청·부스 구조를 한 화면에서 연결하되, 결론은 항상 근거와 신뢰도에 의해 제한합니다.</p>
-      <nav class="jump" aria-label="대시보드 바로가기"><a class="badge" href="#festival-search">축제 검색</a><a class="badge" href="#cause-explorer">원인 탐색</a><a class="badge" href="#relations">관계망</a><a class="badge" href="#contracts">계약</a><a class="badge" href="#scoring">점수화</a><a class="badge" href="#access">접근성</a><a class="badge" href="#sources">출처</a></nav>
+      <nav class="jump" aria-label="대시보드 바로가기"><a class="badge" href="#festival-search">축제 검색</a><a class="badge" href="#cause-explorer">원인 탐색</a><a class="badge" href="#relations">관계망</a><a class="badge" href="#relationship-evidence">관계 증거</a><a class="badge" href="#contracts">계약</a><a class="badge" href="#scoring">점수화</a><a class="badge" href="#access">접근성</a><a class="badge" href="#coverage">커버리지</a><a class="badge" href="#sources">출처</a></nav>
     </div>
     <aside class="panel">
       <h2 style="margin-top:0">현재 상태</h2>
@@ -76,6 +76,12 @@
     </div>
   </section>
 
+  <section class="section panel" id="relationship-evidence">
+    <h2>관계 증거 매트릭스</h2>
+    <p class="section-intro">대행사·하청·부스 관계는 추정하지 않습니다. 공개자료가 직접 보여주는 관계만 아래처럼 분리합니다.</p>
+    <div class="table-wrap"><table class="table"><thead><tr><th>관계 유형</th><th>예시 축제</th><th>공개자료가 말하는 것</th><th>해석 규칙</th></tr></thead><tbody><tr><td>주최·주관</td><td>대덕물빛축제, 여주오곡나루축제</td><td>지자체, 문화원, 재단, 추진위원회 역할</td><td>운영 책임과 예산 책임을 분리해 저장</td></tr><tr><td>총괄 대행</td><td>대전 동구동락 축제, 진해군항제</td><td>행사대행 용역 공고, 제안요청서, 계약방식</td><td>낙찰자 확인 전에는 “조달 중”으로만 표시</td></tr><tr><td>재하도급 제한</td><td>가야문화축제</td><td>공동수급·제3자 재용역 불가 조항</td><td>해당 용역 패키지에만 적용, 축제 전체로 일반화 금지</td></tr><tr><td>입찰 취소·변경</td><td>무안연꽃축제</td><td>용역비 변경으로 공고 취소</td><td>예산 변동 신호로 저장, 실패 원인으로 단정 금지</td></tr><tr><td>부스 모집·선정</td><td>진주남강유등축제, 여주오곡나루축제, 부산국제록페스티벌</td><td>먹거리·판매부스 모집, 푸드코트 우선협상대상자</td><td>모집 공고와 최종 선정 공고를 다른 증거로 분리</td></tr></tbody></table></div>
+  </section>
+
   <section class="section" id="contracts">
     <h2>계약·재정 분석</h2>
     <div class="table-wrap"><table class="table"><caption class="muted">공식 계약·재정 소스와 해석값</caption><thead><tr><th>축</th><th>주요 소스</th><th>볼 수 있는 값</th><th>원인 분석에서의 역할</th></tr></thead><tbody><tr><td>원가</td><td>행사축제원가회계정보</td><td>총비용, 사업수익, 순원가, 행사기간</td><td>예산 대비 성과·순원가 논란을 정량화</td></tr><tr><td>예산</td><td>행사·축제경비편성내역</td><td>행사운영비, 보상금, 보조금, 시설비</td><td>무대·대행·보조금 편중 여부를 탐색</td></tr><tr><td>계약</td><td>계약현황, 나라장터</td><td>계약방법, 금액, 업체, 취소·변경, 과업</td><td>대행사 구조와 실행 책임 범위를 확인</td></tr><tr><td>공고</td><td>나라장터 입찰공고·첨부</td><td>제안요청서, 과업지시서, 제한조건, 평가기준</td><td>기획 의도와 실제 운영 책임을 비교</td></tr></tbody></table></div>
@@ -92,6 +98,12 @@
     <h2>접근 가능성 판단</h2>
     <p class="section-intro">일반 웹검색만으로는 누락이 큽니다. 공공 데이터셋 페이지, 첨부파일, 지방재정 화면, 나라장터 문서, 관광 데이터랩 화면을 각각 다른 접근 등급으로 다룹니다.</p>
     <div class="table-wrap"><table class="table"><thead><tr><th>소스</th><th>현재 접근</th><th>제약</th><th>대응</th></tr></thead><tbody><tr><td>공공데이터포털 OpenAPI</td><td>문서 공개, API는 활용신청/키 필요</td><td>서비스키 없이는 대량 호출 불가</td><td>데이터셋 메타와 파일형 공개자료 우선</td></tr><tr><td>나라장터 첨부</td><td>일부 직접 링크 가능</td><td>첨부 만료·보안·JS 흐름 존재</td><td>공고번호·기관·날짜를 같이 저장</td></tr><tr><td>지방재정365</td><td>화면·다운로드 중심 접근</td><td>API는 키/신청 필요 가능</td><td>행사축제원가·경비·계약을 분리 수집</td></tr><tr><td>관광 데이터랩</td><td>대시보드 지표 확인 가능</td><td>빅데이터 추정치, exact count 아님</td><td>추세 신호로만 사용하고 caveat 부착</td></tr></tbody></table></div>
+  </section>
+
+  <section class="section panel" id="coverage">
+    <h2>공식 데이터 커버리지</h2>
+    <p class="section-intro">전국 모든 축제를 한 번에 설명하는 단일 원천은 확인되지 않았습니다. 그래서 마스터·성과·재정·계약 레이어를 분리해 조인합니다.</p>
+    <div class="grid three"><article class="card ok"><h3>2017-2026 마스터</h3><p class="muted">문체부 연도별 지역축제 자료를 backbone으로 사용합니다.</p></article><article class="card warn"><h3>2016 gap</h3><p class="muted">현재 확인된 공식 2016 자료는 문화관광축제 43개 평가보고서 성격이라 전국 전체 마스터가 아닙니다.</p></article><article class="card info"><h3>계약 조인</h3><p class="muted">나라장터는 축제 ID가 없으므로 축제명, 기관, 일정, 용역명으로 high/medium/low 매칭합니다.</p></article></div>
   </section>
 
   <section class="section panel" id="cases">
