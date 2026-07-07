@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>축제 예산 회수율 비교 리드 Wave 1</title>
+  <meta name="description" content="지역축제 예산낭비 판단을 위해 총집행액, 자체수익, 회수율, 지역환류를 비교하는 lead queue">
+  <style>
+    :root{--surface-primary:#1f1633;--surface-deep:#150f23;--surface-card:#271d3f;--border:#3b2b5f;--text-primary:#fff;--text-secondary:#d8d3e5;--text-muted:#a99fbd;--accent:#c2ef4e;--warning:#ffb287;--danger:#ff6b8f;--info:#8ea7ff;--radius:22px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 12% -10%,rgba(255,178,135,.16),transparent 31%),radial-gradient(circle at 88% 2%,rgba(194,239,78,.13),transparent 28%),linear-gradient(180deg,var(--surface-primary),var(--surface-deep));color:var(--text-primary);font-family:Pretendard,"Noto Sans KR","Segoe UI",sans-serif;line-height:1.68}
+    a{color:var(--accent);text-underline-offset:3px}.wrap{width:min(1260px,calc(100% - 32px));margin:0 auto}.hero{padding:56px 0 24px}.eyebrow{color:var(--accent);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:900}.hero h1{margin:12px 0 14px;font-size:clamp(34px,6vw,66px);line-height:1.05;letter-spacing:-.05em}.lead{max-width:940px;color:var(--text-secondary);font-size:clamp(16px,2vw,20px)}
+    .panel,.card{background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.026));border:1px solid var(--border);border-radius:var(--radius);box-shadow:0 22px 70px rgba(0,0,0,.24)}.panel{padding:22px;margin:18px 0}.card{padding:18px}.grid{display:grid;gap:14px}.three{grid-template-columns:repeat(3,1fr)}.badge{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--border);border-radius:999px;padding:5px 10px;margin:3px;color:var(--text-secondary);background:rgba(255,255,255,.04);font-size:12px;font-weight:800}.a{color:var(--accent)}.b{color:var(--info)}.c{color:var(--warning)}.d{color:var(--danger)}.muted{color:var(--text-secondary)}h2{font-size:clamp(25px,3vw,40px);line-height:1.15;letter-spacing:-.03em;margin:0 0 10px}h3{margin:0 0 8px;font-size:20px}.ok{border-left:4px solid var(--accent)}.warn{border-left:4px solid var(--warning)}.bad{border-left:4px solid var(--danger)}.table-wrap{overflow:auto;border:1px solid var(--border);border-radius:18px}.table{width:100%;border-collapse:collapse;min-width:1020px;background:rgba(21,15,35,.5)}.table th,.table td{padding:12px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top;font-size:14px}.table th{color:var(--accent);font-size:13px;background:rgba(255,255,255,.05)}.table tr:last-child td{border-bottom:0}.source{display:grid;grid-template-columns:230px 1fr 90px;gap:12px;padding:12px 0;border-top:1px solid var(--border)}.source:first-child{border-top:0}footer{padding:34px 0 46px;color:var(--text-muted);font-size:13px}@media(max-width:960px){.three,.source{grid-template-columns:1fr}.hero{padding-top:36px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header class="hero wrap">
+    <div class="eyebrow">budget recovery comparator / wave 1</div>
+    <h1>예산낭비는 총액이 아니라 회수·환류·성과 불일치로 본다</h1>
+    <p class="lead">이 페이지는 최종 감사 결과가 아니다. 공개 재정기사와 원가회계 공개제도를 결합해, 지방재정365에서 어느 축제부터 원가·수익·성과를 대조해야 하는지 정렬하는 lead queue다.</p>
+    <p><a href="index.html">메인 대시보드</a> · <a href="budget-waste-causality-model-wave1.html">예산낭비 모델</a> · <a href="data/budget-recovery-comparator-wave1.json">JSON</a> · <a href="data/budget-recovery-comparator-wave1.csv">CSV</a></p>
+  </header>
+  <main class="wrap">
+    <section class="grid three">
+      <article class="card ok"><h3>낮은 리스크 후보</h3><p class="muted">총액이 커도 유료 핵심콘텐츠, 입장수익, 지역상품권, 상인매출이 확인되면 낭비 단정이 약해진다.</p><span class="badge a">화천·함평 lead</span></article>
+      <article class="card warn"><h3>검토 필요</h3><p class="muted">경제효과는 크다고 발표하지만 직접 회수율이 낮은 경우, 산식·방문객·지역소비가 실제인지 확인해야 한다.</p><span class="badge c">문경·안동 lead</span></article>
+      <article class="card bad"><h3>우선 검증</h3><p class="muted">고집행액에 자체수익 0원 또는 보고 불일치가 있으면 공익목적과 지역환류 증거가 더 강해야 한다.</p><span class="badge d">봉화·상주 lead</span></article>
+    </section>
+
+    <section class="panel">
+      <h2>비교표</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead><tr><th>축제</th><th>2024 총집행 lead</th><th>자체/입장수익 lead</th><th>회수율</th><th>리스크</th><th>해석</th><th>다음 조인</th></tr></thead>
+          <tbody>
+            <tr><td>화천 산천어축제</td><td>46.55억원</td><td>24.14억원</td><td class="a">51.8%</td><td>low-to-review</td><td>고지출이지만 회수율과 지역상품권 모델이 강한 benchmark lead.</td><td>원가회계 row, 평가보고서, 상품권 환류</td></tr>
+            <tr><td>함평나비대축제</td><td>13.859억원</td><td>5.855억원</td><td class="a">42.2%</td><td>low-to-review</td><td>유료체험 기반 회수 모델. 공식 평가방법 확인 필요.</td><td>원가회계 row, 유료 관람객, 평가보고서</td></tr>
+            <tr><td>문경찻사발축제</td><td>15억원</td><td>0.9931억원</td><td class="c">6.6%</td><td>medium</td><td>유료요소가 있으나 직접회수 낮음. 지역환류가 근거를 보완해야 한다.</td><td>유료/무료 프로그램 split, 상권소비</td></tr>
+            <tr><td>안동국제탈춤페스티벌</td><td>19.69억원</td><td>1.0408억원</td><td class="c">5.3%</td><td>medium-high</td><td>경제효과 headline 대비 직접회수 낮음. 방문객·유료구역·산식 검증 필요.</td><td>평가 산식, 유료 입장객, 지역상권 소비</td></tr>
+            <tr><td>봉화은어축제</td><td>21.5067억원</td><td>0원</td><td class="d">0%</td><td>high-review</td><td>수익 0원 lead와 입력/보고 불일치 가능성까지 함께 검증해야 한다.</td><td>원가회계 정정 여부, 수익 항목, 평가산식</td></tr>
+            <tr><td>상주세계모자페스티벌</td><td>12.7134억원</td><td>0원</td><td class="d">0%</td><td>high-review</td><td>무료축제 자체가 문제는 아니지만 콘텐츠 차별성·공익·지역환류가 필요하다.</td><td>방문객, 지역소비, 만족도, 콘텐츠 고유성</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>판정 규칙</h2>
+      <p class="muted">회수율은 낭비 판정의 충분조건이 아니다. 하지만 `고집행 + 낮은 회수 + 약한 지역환류 + 검증 안 된 경제효과`가 동시에 나타나면 우선 조사대상이 된다.</p>
+      <p><span class="badge">gross cost</span><span class="badge">own revenue</span><span class="badge">local capture</span><span class="badge">public value</span><span class="badge">methodology check</span></p>
+    </section>
+
+    <section class="panel">
+      <h2>Sources</h2>
+      <div class="source"><b>영남일보/다음</b><a href="https://v.daum.net/v/HsbQq4RfDE">2024 cost/revenue/recovery-rate lead values</a><span class="badge c">C</span></div>
+      <div class="source"><b>정책브리핑</b><a href="https://www.korea.kr/news/policyNewsView.do?newsId=148766361">행사·축제 원가회계정보 공개제도 배경</a><span class="badge a">A</span></div>
+      <div class="source"><b>공공데이터포털</b><a href="https://www.data.go.kr/data/15056968/openapi.do">지방재정365 행사축제 원가회계정보 API metadata</a><span class="badge a">A</span></div>
+    </section>
+  </main>
+  <footer class="wrap">Use as a lead queue only. Final budget-waste conclusions require official cost-accounting rows, contracts, visitor/satisfaction and local-spend evidence.</footer>
+</body>
+</html>
+

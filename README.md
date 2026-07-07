@@ -175,3 +175,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/budget-waste-causality-model-wave1.json: evidence model for deciding when a festival has budget-waste risk without equating high budget with waste.
 - budget-waste-causality-model-wave1.html: human-readable scoring flow using net cost, revenue, visitor/satisfaction evidence, local spend, external costs and contract accountability.
+
+## Budget recovery comparator
+
+- data/budget-recovery-comparator-wave1.json: lead queue comparing reported 2024 festival cost, own revenue, recovery rate and budget-waste investigation priority.
+- budget-recovery-comparator-wave1.html: human-readable comparator that separates high-spend/high-recovery benchmarks from low-recovery or zero-revenue review leads.

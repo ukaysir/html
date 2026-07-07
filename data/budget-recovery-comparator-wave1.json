@@ -1,0 +1,107 @@
+{
+  "artifact": "budget-recovery-comparator-wave1",
+  "generated_at": "2026-07-08T05:30:00+09:00",
+  "purpose": "Prioritize festival budget-waste investigation by comparing cost recovery, paid-content model and local-capture evidence.",
+  "evidence_rule": "Treat all numeric entries from media fiscal analysis as C-level leads until Local Finance 365 event/festival cost-accounting rows, official evaluation reports and revenue categories are joined.",
+  "why_this_exists": [
+    "Gross budget is a weak waste signal.",
+    "Cost recovery and local-capture mechanisms show whether public spend can circulate back through paid content, vouchers and merchant sales.",
+    "Low or zero own-revenue is not automatically bad, but it needs stronger public-value and local-capture evidence.",
+    "Headline economic-effect numbers require methodology checks, especially when planned and reported figures appear identical."
+  ],
+  "sources": [
+    {
+      "title": "Yeongnam/Daum fiscal-analysis article",
+      "url": "https://v.daum.net/v/HsbQq4RfDE",
+      "grade": "C",
+      "supports": "2024 cost/revenue/recovery leads for selected festivals"
+    },
+    {
+      "title": "Korea policy briefing on event/festival cost-accounting disclosure",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148766361",
+      "grade": "A",
+      "supports": "official rationale and scope for event/festival cost-accounting disclosure"
+    },
+    {
+      "title": "Public Data Portal Local Finance 365 event/festival cost API",
+      "url": "https://www.data.go.kr/data/15056968/openapi.do",
+      "grade": "A",
+      "supports": "official machine-collection target for cost-accounting rows"
+    }
+  ],
+  "records": [
+    {
+      "festival": "화천 산천어축제",
+      "year": 2024,
+      "region": "강원 화천군",
+      "gross_execution_krw": 4655000000,
+      "own_revenue_or_admission_krw": 2414000000,
+      "reported_recovery_rate": 51.8,
+      "reported_effect": "유료 입장객 153만명, 지역경제 파급효과 1,150억원 lead",
+      "interpretation": "High-spend but high-recovery benchmark; not a budget-waste case unless official cost rows contradict revenue/local-capture claims.",
+      "risk_label": "low-to-review",
+      "next_join": "Local Finance 365 cost row, official evaluation report, voucher redemption and merchant-sales data"
+    },
+    {
+      "festival": "함평나비대축제",
+      "year": 2024,
+      "region": "전남 함평군",
+      "gross_execution_krw": 1385900000,
+      "own_revenue_or_admission_krw": 585500000,
+      "reported_recovery_rate": 42.2,
+      "reported_effect": "유료 관람객 116,495명, 공식 평가보고서 지역경제 파급효과 162억원 lead",
+      "interpretation": "Paid-content and cost-recovery comparator. Needs official row and evaluation methodology verification.",
+      "risk_label": "low-to-review",
+      "next_join": "Local Finance 365 cost row, official evaluation report, paid visitor count and revenue category"
+    },
+    {
+      "festival": "문경찻사발축제",
+      "year": 2024,
+      "region": "경북 문경시",
+      "gross_execution_krw": 1500000000,
+      "own_revenue_or_admission_krw": 99310000,
+      "reported_recovery_rate": 6.6,
+      "reported_effect": "방문객 28만여명, 지역경제 파급효과 162억원 lead",
+      "interpretation": "Low recovery despite paid elements; not waste by itself, but public-value and local-capture evidence must carry more weight.",
+      "risk_label": "medium",
+      "next_join": "Cost row, evaluation report, paid/free program split and merchant local-capture evidence"
+    },
+    {
+      "festival": "안동국제탈춤페스티벌",
+      "year": 2024,
+      "region": "경북 안동시",
+      "gross_execution_krw": 1969000000,
+      "own_revenue_or_admission_krw": 104080000,
+      "reported_recovery_rate": 5.3,
+      "reported_effect": "지역경제 파급효과 441억원, 유료 입장객 18,925명 lead",
+      "interpretation": "Low direct recovery with large claimed impact. Needs methodology check before budget-waste inference.",
+      "risk_label": "medium-high",
+      "next_join": "Cost row, evaluation report, visitor counting method, paid-zone policy and merchant-spend evidence"
+    },
+    {
+      "festival": "봉화은어축제",
+      "year": 2024,
+      "region": "경북 봉화군",
+      "gross_execution_krw": 2150670000,
+      "own_revenue_or_admission_krw": 0,
+      "reported_recovery_rate": 0.0,
+      "reported_effect": "지역경제 파급효과 133억원 lead; article flags plan/result similarity concern",
+      "interpretation": "Zero-revenue/high-spend lead. Requires official verification because system-entry or reporting mismatch may exist.",
+      "risk_label": "high-review",
+      "next_join": "Cost row, revenue classification, official evaluation methodology and correction/explanation if any"
+    },
+    {
+      "festival": "상주세계모자페스티벌",
+      "year": 2024,
+      "region": "경북 상주시",
+      "gross_execution_krw": 1271340000,
+      "own_revenue_or_admission_krw": 0,
+      "reported_recovery_rate": 0.0,
+      "reported_effect": "무료입장 구조 lead",
+      "interpretation": "Zero-revenue lead. Needs public-value, local-capture and content-differentiation evidence to defend the spend.",
+      "risk_label": "high-review",
+      "next_join": "Cost row, attendance, merchant spend, resident satisfaction and content uniqueness evidence"
+    }
+  ]
+}
+

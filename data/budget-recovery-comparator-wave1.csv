@@ -1,0 +1,8 @@
+festival,year,region,gross_execution_krw,own_revenue_or_admission_krw,reported_recovery_rate,risk_label,interpretation,next_join
+화천 산천어축제,2024,강원 화천군,4655000000,2414000000,51.8,low-to-review,"High-spend but high-recovery benchmark; not a budget-waste case unless official cost rows contradict revenue/local-capture claims.",Local Finance 365 cost row official evaluation report voucher redemption merchant-sales data
+함평나비대축제,2024,전남 함평군,1385900000,585500000,42.2,low-to-review,"Paid-content and cost-recovery comparator. Needs official row and evaluation methodology verification.",Local Finance 365 cost row official evaluation report paid visitor count revenue category
+문경찻사발축제,2024,경북 문경시,1500000000,99310000,6.6,medium,"Low recovery despite paid elements; not waste by itself but public-value and local-capture evidence must carry more weight.",Cost row evaluation report paid/free program split merchant local-capture evidence
+안동국제탈춤페스티벌,2024,경북 안동시,1969000000,104080000,5.3,medium-high,"Low direct recovery with large claimed impact. Needs methodology check before budget-waste inference.",Cost row evaluation report visitor counting method paid-zone policy merchant-spend evidence
+봉화은어축제,2024,경북 봉화군,2150670000,0,0.0,high-review,"Zero-revenue/high-spend lead. Requires official verification because system-entry or reporting mismatch may exist.",Cost row revenue classification official evaluation methodology correction/explanation if any
+상주세계모자페스티벌,2024,경북 상주시,1271340000,0,0.0,high-review,"Zero-revenue lead. Needs public-value local-capture and content-differentiation evidence to defend the spend.",Cost row attendance merchant spend resident satisfaction content uniqueness evidence
+

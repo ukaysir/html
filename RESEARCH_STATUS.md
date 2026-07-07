@@ -192,3 +192,9 @@ Updated: 2026-07-07.
 - Added a weather-dependent winter festival dossier comparing the 2020 warm-winter/COVID/ASF crisis with 2025-2026 safety, visitor, economic-effect and local-capture success signals.
 - Classified the case as B+ for weather/safety/success-model evidence and C for budget-recovery until Local Finance 365 cost-accounting rows are joined.
 - Added data/hwacheon-sancheoneo-weather-recovery-dossier.json, .csv, hwacheon-sancheoneo-weather-recovery-dossier.html, evidence note, and case-matrix links.
+
+## Checkpoint: budget recovery comparator wave 1 (2026-07-08T05:30:00+09:00)
+
+- Added a budget-recovery lead queue comparing reported 2024 gross execution, admission/own revenue, recovery rate and investigation priority.
+- Separated high-spend/high-recovery benchmark leads from low-recovery and zero-revenue review leads while preserving the guardrail that media numeric leads need Local Finance 365 verification.
+- Added data/budget-recovery-comparator-wave1.json, .csv, budget-recovery-comparator-wave1.html, and evidence note.
