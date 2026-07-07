@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "coverage_status": ["confirmed_official", "partial_official", "public_best_effort", "missing_unverified"],
+  "source_grades": ["A", "B", "C", "D"],
+  "tables": {
+    "festivals": ["festival_id", "year", "name", "province", "municipality", "venue", "start_date", "end_date", "type", "organizer", "coverage_status", "evidence_ids"],
+    "performance": ["festival_id", "metric", "value", "unit", "aggregation_basis", "interpretation_note", "evidence_ids"],
+    "finance": ["festival_id", "cost", "revenue", "net_cost", "budget_category", "evidence_ids"],
+    "procurement": ["festival_id", "notice_no", "contract_no", "agency", "vendor", "method", "amount", "match_confidence", "match_reason", "evidence_ids"],
+    "issues": ["festival_id", "category", "polarity", "claim", "confidence", "evidence_ids"],
+    "relations": ["from_entity", "relation", "to_entity", "confidence", "public_trace", "evidence_ids"]
+  }
+}

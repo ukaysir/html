@@ -1,0 +1,7 @@
+[
+  {"claim_id":"C1","statement":"2016-2026 national festival coverage cannot be honestly claimed complete from a single public source.","status":"supported","risk":"high","evidence_ids":["E1","E2","E3"],"dashboard_section":"limitations"},
+  {"claim_id":"C2","statement":"Performance metrics should separate official visitor trends from exact attendance totals.","status":"supported","risk":"high","evidence_ids":["E4","E5"],"dashboard_section":"festival-detail"},
+  {"claim_id":"C3","statement":"Finance and contract analysis should join cost accounting, budget allocation and contract status datasets.","status":"supported","risk":"normal","evidence_ids":["E6","E7","E8"],"dashboard_section":"contracts"},
+  {"claim_id":"C4","statement":"Festival procurement matching requires confidence tiers because notice titles, attachments and festival names can differ.","status":"supported","risk":"normal","evidence_ids":["E9","E10"],"dashboard_section":"relations"},
+  {"claim_id":"C5","statement":"Human-readable dashboard flow should show answer first, evidence second and raw sources last.","status":"supported","risk":"normal","evidence_ids":["E11","E12"],"dashboard_section":"overview"}
+]
