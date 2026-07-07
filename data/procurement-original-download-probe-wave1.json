@@ -1,0 +1,200 @@
+{
+  "created_at": "2026-07-08T01:45:00+09:00",
+  "scope": "P2 benchmark festivals procurement original-download and evidence-upgrade probe",
+  "method": [
+    "prioritize official festival/foundation/city pages",
+    "use public procurement mirrors only as search leads",
+    "probe HTTP HEAD or referrer GET where direct attachment URLs are visible",
+    "separate causal-use strength before making contractor or planning-failure claims"
+  ],
+  "claim_strength_scale": {
+    "official_original_downloadable": "Official source page plus downloadable attachment; can support RFP/task-order claims.",
+    "official_evaluation_result": "Official source page discloses evaluation result; can support vendor-selection and governance-process claims.",
+    "official_original_with_referrer": "Official attachment is downloadable only when the official page is used as referrer; still strong source, but automation needs page context.",
+    "mirror_downloadable_original_copy": "Public mirror serves an apparent original document; useful for analysis but should be upgraded to official source before final causal claims.",
+    "public_mirror_only": "Search/procurement clue only; do not use as final proof of contractor responsibility.",
+    "official_event_only": "Confirms event details, not procurement structure."
+  },
+  "items": [
+    {
+      "festival": "수원화성문화제",
+      "year": 2020,
+      "source_class": "official_original_with_referrer",
+      "artifact_type": "입찰공고+공고문+과업지시서+제안요청서",
+      "source_title": "제57회 수원화성문화제 행사 대행 용역 입찰 공고(협상계약)",
+      "source_url": "https://www.swcf.or.kr/?idx=17955&p=115&page=8&viewMode=view",
+      "download_probe": [
+        {
+          "url": "https://www.swcf.or.kr/inc/down.php?fileIdx=47566",
+          "without_referrer": "200 text/html size=545",
+          "with_referrer": "200 application/force-download size=20992"
+        },
+        {
+          "url": "https://www.swcf.or.kr/inc/down.php?fileIdx=47567",
+          "without_referrer": "200 text/html size=545",
+          "with_referrer": "200 application/force-download size=138752"
+        }
+      ],
+      "causal_use": "용역/RFP 구조 입증",
+      "why_it_matters": "행사 대행 용역·과업지시서·제안요청서가 공식 페이지에 존재해 기획-대행 구조 추적의 기준점이 된다.",
+      "next_gap": "2026 제63회 원문 공고·평가결과·계약상대자 필요"
+    },
+    {
+      "festival": "수원화성문화제",
+      "year": 2026,
+      "source_class": "public_mirror_only",
+      "artifact_type": "입찰공고 단서",
+      "source_title": "제63회 수원화성문화제 행사운영 용역(협상)",
+      "source_url": "https://www.momo365.net/BidInfo?ViewType=detail&cd=free&iBidCode=2026042830130-0",
+      "download_probe": "not_probed_mirror",
+      "causal_use": "검색 큐 단서",
+      "why_it_matters": "2026년 행사운영 용역 존재를 시사하지만 민간 미러라 원문 근거로는 약하다.",
+      "next_gap": "G2B 또는 수원시/수원문화재단 원문 확보 필요"
+    },
+    {
+      "festival": "부천국제만화축제",
+      "year": 2025,
+      "source_class": "official_original",
+      "artifact_type": "입찰공고+제안요청서",
+      "source_title": "2025년 부천국제만화축제 및 경기국제코스프레페스티벌 기획 운영 용역",
+      "source_url": "https://www.komacon.kr/b_sys/index.asp?b_code=1&b_mode=view&b_sq=29271&nowPage=210&s_cate=&s_fld=&s_txt=",
+      "download_probe": "official_page_lists_hwp_attachments",
+      "causal_use": "용역/RFP 구조 입증",
+      "why_it_matters": "공식 발주기관 사이트에 공고문과 제안요청서가 존재한다.",
+      "next_gap": "첨부 URL/header 추출 및 과업 범위 텍스트화"
+    },
+    {
+      "festival": "부천국제만화축제",
+      "year": 2025,
+      "source_class": "official_evaluation_result",
+      "artifact_type": "제안서 평가결과",
+      "source_title": "2025년 부천국제만화축제 및 경기국제코스프레페스티벌 기획 운영 용역 제안서 평가 결과 알림",
+      "source_url": "https://www.komacon.kr/b_sys/index.asp?b_code=4&b_mode=view&b_sq=29393&nowPage=3&s_cate=2&s_fld=&s_txt=",
+      "download_probe": "search exposed att_sq=10540,10541 PDFs",
+      "causal_use": "공고-평가 연결",
+      "why_it_matters": "공고와 평가결과가 같은 발주기관에서 확인되어 업체선정 과정까지 원인 후보로 추적할 수 있다.",
+      "next_gap": "PDF 평가표에서 점수·업체명·평가항목 추출"
+    },
+    {
+      "festival": "부천국제만화축제",
+      "year": 2022,
+      "source_class": "official_original_downloadable",
+      "artifact_type": "홈페이지 개편 및 운영 용역",
+      "source_title": "제25회 부천국제만화축제 홈페이지 개편 및 운영 용역",
+      "source_url": "https://www.komacon.kr/b_sys/index.asp?b_code=1&b_mode=view&b_sq=26680&nowPage=54&s_cate=&s_fld=&s_txt=",
+      "download_probe": [
+        {
+          "url": "https://www.komacon.kr/b_sys/include/download.asp?att_sq=8481",
+          "with_referrer": "200 application/octet-stream size=90112"
+        },
+        {
+          "url": "https://www.komacon.kr/b_sys/include/download.asp?att_sq=8483",
+          "with_referrer": "200 application/octet-stream size=113152"
+        },
+        {
+          "url": "https://www.komacon.kr/b_sys/include/download.asp?att_sq=8484",
+          "with_referrer": "200 application/octet-stream size=945966"
+        }
+      ],
+      "causal_use": "보조 운영구조 근거",
+      "why_it_matters": "전체 축제 운영은 아니지만 축제 홈페이지 운영·과업지시서가 공식 첨부로 확인된다.",
+      "next_gap": "축제 전체 운영대행과 혼동하지 않도록 별도 분류 유지"
+    },
+    {
+      "festival": "인천펜타포트음악축제",
+      "year": 2026,
+      "source_class": "mirror_downloadable_original_copy",
+      "artifact_type": "공모지침서 PDF",
+      "source_title": "2026 인천펜타포트음악축제 공동 사업자 모집 공모지침서",
+      "source_url": "https://grant-documents.thevc.kr/289427_%28%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0%291._2026_%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8%EC%9D%8C%EC%95%85%EC%B6%95%EC%A0%9C_%EA%B3%B5%EB%AA%A8%EC%A7%80%EC%B9%A8%EC%84%9C.pdf",
+      "download_probe": "HEAD 200 application/pdf content-length=2859677",
+      "causal_use": "공동사업자 구조 강한 단서",
+      "why_it_matters": "공모지침서 PDF가 공개되어 공동사업자·투자확약·제안서 구조를 분석할 수 있다.",
+      "next_gap": "ITO/G2B 원문 페이지 확보 필요"
+    },
+    {
+      "festival": "인천펜타포트음악축제",
+      "year": 2026,
+      "source_class": "g2b_direct_blocked",
+      "artifact_type": "공모지침서 HWP",
+      "source_title": "나라장터 첨부파일 direct URL",
+      "source_url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01257257&bidPbancOrd=000&fileSeq=2&fileType=&prcmBsneSeCd=09",
+      "download_probe": "HEAD 403 JSON",
+      "causal_use": "접근성 한계",
+      "why_it_matters": "원문 플랫폼 URL은 식별됐지만 익명 direct 다운로드가 차단되어 자동수집 경로에 장애가 있다.",
+      "next_gap": "브라우저/공고 상세 페이지 기반 합법 접근 경로 확인"
+    },
+    {
+      "festival": "인천펜타포트음악축제",
+      "year": 2026,
+      "source_class": "third_party_news",
+      "artifact_type": "협상적격 1순위",
+      "source_title": "2026 인천펜타포트음악축제 공동사업자 모집 결과 보도",
+      "source_url": "https://v.daum.net/v/20260223175505907?f=p",
+      "download_probe": "not_download_artifact",
+      "causal_use": "사업자 단서",
+      "why_it_matters": "경기일보가 협상적격 1순위로 선정됐다는 보도로 운영 주체 추적의 시작점이 된다.",
+      "next_gap": "ITO 공식 선정결과 공고 또는 계약자료 필요"
+    },
+    {
+      "festival": "인천펜타포트음악축제",
+      "year": "2018-2019",
+      "source_class": "policy_report",
+      "artifact_type": "운영조직 연구보고서",
+      "source_title": "인천 음악축제 운영조직의 효율화 방안",
+      "source_url": "https://www.ii.re.kr/base/linked/report/preview?atchSeq=1&boardNo=15431&div=A1&projcd=1020JU0003&seq=4",
+      "download_probe": "public_pdf",
+      "causal_use": "구조적 배경",
+      "why_it_matters": "인천관광공사가 공동주관사를 선정해 개최하는 구조와 과거 공동주관사 예시를 설명한다.",
+      "next_gap": "2020-2026 공동사업자 연속 테이블화"
+    },
+    {
+      "festival": "철원한탄강얼음트레킹",
+      "year": 2024,
+      "source_class": "official_evaluation_result",
+      "artifact_type": "제안서 평가결과",
+      "source_title": "제13회 철원 한탄강 얼음트레킹 축제 주관대행용역 제안서 평가결과 공개",
+      "source_url": "https://gcwcf.or.kr/w5_2/63",
+      "download_probe": "curl HEAD redirected to se-cu error; browser/search page text available",
+      "causal_use": "평가결과 근거",
+      "why_it_matters": "공식 재단 페이지가 평가결과 공개를 명시하므로 업체선정·평가항목 추적의 출발점이다.",
+      "next_gap": "첨부파일 또는 평가표 직접 URL 확보 필요"
+    },
+    {
+      "festival": "철원한탄강얼음트레킹",
+      "year": 2021,
+      "source_class": "procurement_mirror",
+      "artifact_type": "입찰공고 HWP 단서",
+      "source_title": "제10회 철원 한탄강 얼음트레킹 축제 주관대행용역",
+      "source_url": "https://cnc.cacf.or.kr/main/html/sub04/0401.html?GotoPage=197&mode=V&no=4e6856ef006b3ae5ce41cd65a6042c68",
+      "download_probe": "mirror_page_lists_hwp",
+      "causal_use": "과거 RFP 구조 단서",
+      "why_it_matters": "과거 주관대행용역 공고와 G2B 원문번호가 확인되어 장기 운영구조 추적에 유용하다.",
+      "next_gap": "G2B 원문과 낙찰/계약/정산 자료 연결 필요"
+    },
+    {
+      "festival": "부평풍물대축제",
+      "year": 2026,
+      "source_class": "official_event_only",
+      "artifact_type": "행사개요",
+      "source_title": "부평풍물대축제 공식 소개",
+      "source_url": "https://portal.icbp.go.kr/bpf/pungmul/introduce.asp",
+      "download_probe": "not_procurement",
+      "causal_use": "행사 실재 근거",
+      "why_it_matters": "행사 개요는 공식이나 대행·계약 구조는 아직 확인되지 않았다.",
+      "next_gap": "부평구/문화재단 입찰공고·평가결과 검색 필요"
+    },
+    {
+      "festival": "동래읍성축제",
+      "year": 2026,
+      "source_class": "official_event_only",
+      "artifact_type": "행사개요",
+      "source_title": "동래읍성축제 공식 페이지",
+      "source_url": "https://www.dongnae.go.kr/festival/index.dongnae",
+      "download_probe": "not_procurement",
+      "causal_use": "행사 실재 근거",
+      "why_it_matters": "행사 개요는 공식이나 대행·계약 구조는 아직 확인되지 않았다.",
+      "next_gap": "동래구 입찰공고·보조금·정산자료 검색 필요"
+    }
+  ]
+}

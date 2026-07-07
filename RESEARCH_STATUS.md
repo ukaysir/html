@@ -80,3 +80,8 @@ Updated: 2026-07-07.
 
 - Classified procurement/agency evidence seeds into official original, official event page, official evaluation result, mirror, and publicity-only source classes.
 - Added data/procurement-source-strength-wave1.json, .csv, and procurement-source-strength-wave1.html.
+
+## Checkpoint: procurement original download probe (2026-07-08T01:45:00+09:00)
+
+- Probed official/mirror attachment accessibility for Suwon, Bucheon, Incheon Pentaport, Cheorwon, Bupyeong, and Dongnae benchmark cases.
+- Added data/procurement-original-download-probe-wave1.json, .csv, procurement-original-download-probe-wave1.html, and evidence note.

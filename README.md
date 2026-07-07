@@ -83,3 +83,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/procurement-source-strength-wave1.json: source-strength classification for procurement/agency leads.
 - procurement-source-strength-wave1.html: human-readable distinction between official originals, official event pages, mirrors, and publicity-only leads.
+
+## Procurement original download probe
+
+- data/procurement-original-download-probe-wave1.json: official attachment download and source-upgrade probe for P2 benchmark festivals.
+- procurement-original-download-probe-wave1.html: human-readable map of official original, evaluation result, mirror-only, blocked, and event-only evidence.

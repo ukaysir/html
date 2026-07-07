@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Procurement Original Download Probe Wave 1</title>
+  <style>
+    :root{--ink:#201a16;--muted:#6d625c;--paper:#fff7ec;--line:#e2cfb8;--good:#126b45;--warn:#a76400;--bad:#9b2f24;--blue:#255b85}
+    body{margin:0;background:linear-gradient(135deg,#fff7ec,#f4ead7);color:var(--ink);font-family:Georgia,"Noto Serif KR",serif}
+    header{padding:36px 28px 18px;border-bottom:1px solid var(--line)}
+    h1{margin:0;font-size:clamp(28px,5vw,52px);letter-spacing:-.04em}
+    main{max-width:1180px;margin:0 auto;padding:24px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+    .card,.flow,.row{background:rgba(255,255,255,.68);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 10px 28px rgba(75,48,24,.08)}
+    .tag{display:inline-block;border-radius:999px;padding:4px 10px;font:700 12px/1.4 "Segoe UI",sans-serif;background:#efe1cc;color:#4e3927}
+    .good{color:var(--good)}.warn{color:var(--warn)}.bad{color:var(--bad)}.blue{color:var(--blue)}
+    h2{margin:30px 0 12px;font-size:24px}
+    h3{margin:0 0 8px;font-size:19px}
+    p,li{line-height:1.65}
+    table{width:100%;border-collapse:collapse;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+    th,td{padding:12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+    th{font:700 13px "Segoe UI",sans-serif;background:#ead9c2}
+    td{font-size:14px}
+    a{color:#184f7f;text-decoration-thickness:1px;text-underline-offset:3px}
+    .small{font:13px/1.55 "Segoe UI","Noto Sans KR",sans-serif;color:var(--muted)}
+    .strong{font-weight:700}
+  </style>
+</head>
+<body>
+  <header>
+    <span class="tag">2026-07-08 / wave 1</span>
+    <h1>대행·용역 원문 다운로드 가능성 조사</h1>
+    <p>“왜 망했지?”를 판단하기 전에, 계약·대행·평가 근거가 얼마나 강한지 먼저 분리한다.</p>
+  </header>
+  <main>
+    <section class="grid">
+      <article class="card">
+        <h3 class="good">공식 원문으로 승격</h3>
+        <p>수원 2020, 부천 2022/2025는 공식 페이지와 첨부가 확인되어 RFP·과업지시서 기반 분석이 가능하다.</p>
+      </article>
+      <article class="card">
+        <h3 class="warn">강한 단서지만 원문 보강 필요</h3>
+        <p>인천펜타포트 2026은 공모지침서 PDF가 공개 미러에서 다운로드되지만, ITO/G2B 원문 페이지 확보 전까지는 최종 증거로 쓰지 않는다.</p>
+      </article>
+      <article class="card">
+        <h3 class="bad">행사정보와 계약정보 분리</h3>
+        <p>부평·동래는 공식 행사 페이지는 있으나 이번 wave에서 대행·평가·계약 원문은 아직 없다.</p>
+      </article>
+    </section>
+
+    <h2>사람이 보는 판단 흐름</h2>
+    <section class="flow">
+      <p><span class="strong">1. 공식 RFP/과업지시서가 있는가?</span> 있으면 기획 요구사항과 대행 범위를 읽는다.</p>
+      <p><span class="strong">2. 평가결과가 있는가?</span> 있으면 업체선정·평가항목·위원 구성 리스크를 본다.</p>
+      <p><span class="strong">3. 계약/정산/민원/보도와 연결되는가?</span> 연결될 때만 “하청·대행 구조가 실패 원인일 수 있다”고 올린다.</p>
+      <p><span class="strong">4. 미러뿐인가?</span> 검색 큐로만 유지하고, 원인 주장에는 쓰지 않는다.</p>
+    </section>
+
+    <h2>증거 강도별 케이스</h2>
+    <table>
+      <thead>
+        <tr><th>축제</th><th>연도</th><th>강도</th><th>근거</th><th>왜 중요한가</th><th>다음 공백</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>수원화성문화제</td><td>2020</td><td class="good">공식 원문 + referrer 다운로드</td>
+          <td><a href="https://www.swcf.or.kr/?idx=17955&p=115&page=8&viewMode=view">SWCF 제57회 행사 대행 용역</a><br><span class="small">fileIdx 47566/47567: referrer GET 시 force-download</span></td>
+          <td>대행 용역·과업지시서·제안요청서 구조가 공식으로 확인된다.</td>
+          <td>2026 제63회 원문·평가결과·계약상대자</td>
+        </tr>
+        <tr>
+          <td>부천국제만화축제</td><td>2025</td><td class="good">공식 공고 + 공식 평가결과</td>
+          <td><a href="https://www.komacon.kr/b_sys/index.asp?b_code=1&b_mode=view&b_sq=29271&nowPage=210&s_cate=&s_fld=&s_txt=">KOMACON 2025 기획 운영 용역 공고</a><br><a href="https://www.komacon.kr/b_sys/index.asp?b_code=4&b_mode=view&b_sq=29393&nowPage=3&s_cate=2&s_fld=&s_txt=">KOMACON 2025 평가결과</a></td>
+          <td>공고-제안요청서-평가결과를 같은 발주기관에서 연결할 수 있다.</td>
+          <td>평가표 PDF에서 업체명·점수·평가항목 추출</td>
+        </tr>
+        <tr>
+          <td>부천국제만화축제</td><td>2022</td><td class="good">공식 첨부 다운로드</td>
+          <td><a href="https://www.komacon.kr/b_sys/index.asp?b_code=1&b_mode=view&b_sq=26680&nowPage=54&s_cate=&s_fld=&s_txt=">제25회 홈페이지 개편 및 운영 용역</a><br><span class="small">att_sq 8481/8483/8484 다운로드 확인</span></td>
+          <td>홈페이지 운영 과업은 확인되지만 전체 축제 운영대행과 혼동하면 안 된다.</td>
+          <td>전체 축제 운영대행 자료와 별도 태깅</td>
+        </tr>
+        <tr>
+          <td>인천펜타포트음악축제</td><td>2026</td><td class="warn">미러 PDF 다운로드 + G2B direct 403</td>
+          <td><a href="https://grant-documents.thevc.kr/289427_%28%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0%291._2026_%EC%9D%B8%EC%B2%9C%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8%EC%9D%8C%EC%95%85%EC%B6%95%EC%A0%9C_%EA%B3%B5%EB%AA%A8%EC%A7%80%EC%B9%A8%EC%84%9C.pdf">공모지침서 PDF mirror</a></td>
+          <td>공동사업자·투자확약·제안서 구조 분석 가능성이 높다.</td>
+          <td>ITO/G2B 원문 페이지, 선정결과, 계약자료</td>
+        </tr>
+        <tr>
+          <td>인천펜타포트음악축제</td><td>2018-2019</td><td class="blue">정책 연구 근거</td>
+          <td><a href="https://www.ii.re.kr/base/linked/report/preview?atchSeq=1&boardNo=15431&div=A1&projcd=1020JU0003&seq=4">인천 음악축제 운영조직의 효율화 방안</a></td>
+          <td>인천관광공사와 공동주관사 구조를 설명해 장기 운영 리스크 분석의 배경이 된다.</td>
+          <td>2020-2026 공동사업자 연속 테이블</td>
+        </tr>
+        <tr>
+          <td>철원한탄강얼음트레킹</td><td>2024</td><td class="good">공식 평가결과 페이지</td>
+          <td><a href="https://gcwcf.or.kr/w5_2/63">GCWCF 제13회 주관대행용역 평가결과</a></td>
+          <td>평가결과 공개 자체가 확인되어 업체선정 과정 추적이 가능하다.</td>
+          <td>평가표 첨부 URL 또는 계약상대자</td>
+        </tr>
+        <tr>
+          <td>부평풍물대축제 / 동래읍성축제</td><td>2026</td><td class="bad">행사 공식정보만 확인</td>
+          <td><a href="https://portal.icbp.go.kr/bpf/pungmul/introduce.asp">부평 공식</a> / <a href="https://www.dongnae.go.kr/festival/index.dongnae">동래 공식</a></td>
+          <td>행사 실재는 공식이나 대행·계약 원인 분석에는 아직 부족하다.</td>
+          <td>지자체 입찰공고·평가결과·정산자료</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>데이터 파일</h2>
+    <p><a href="data/procurement-original-download-probe-wave1.json">JSON</a> / <a href="data/procurement-original-download-probe-wave1.csv">CSV</a></p>
+  </main>
+</body>
+</html>
