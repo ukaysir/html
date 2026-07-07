@@ -10,7 +10,7 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 13,
+    "festival_case_records": 14,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 3,
@@ -93,6 +93,21 @@
       "primary_causes": ["mixed_success", "traffic_externality", "budget_question", "merchant_impact"],
       "not_yet_proven": "예산낭비 확정 또는 특정 업체 책임.",
       "next_evidence_needed": "순원가, 보조금, 계약 범위, 지역소비 실측, 만족도, 교통 외부비용."
+    },
+    {
+      "id": "andong-maskdance-2024-2026",
+      "record_type": "festival_case",
+      "festival": "안동국제탈춤페스티벌",
+      "years": "2019, 2024, 2026",
+      "page": "andong-maskdance-mixed-budget-identity-dossier.html",
+      "question": "성공인가, 예산 리스크인가?",
+      "short_answer": "혼합 사례다. 2024 방문객·해외공연단 신호는 강하지만, 직접 회수율과 경제효과 산식은 지방재정365·평가보고서 조인이 필요하다.",
+      "evidence_level": "B+ mixed, C budget lead",
+      "procurement_link": "low",
+      "outcome_link": "strong",
+      "primary_causes": ["mixed_success", "budget_recovery", "identity", "visitor_counting", "city_capacity"],
+      "not_yet_proven": "예산낭비 확정 또는 특정 대행사·하청업체 책임.",
+      "next_evidence_needed": "원가회계 row, 평가보고서, 유료/무료 프로그램 split, 방문객 중복 제거 방식, 지역상권 소비."
     },
     {
       "id": "jinhae-gunhangje-2023-2026",

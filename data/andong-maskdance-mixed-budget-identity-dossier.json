@@ -1,0 +1,104 @@
+{
+  "artifact": "andong-maskdance-mixed-budget-identity-dossier",
+  "generated_at": "2026-07-08T05:45:00+09:00",
+  "festival": "안동국제탈춤페스티벌",
+  "region": "경상북도 안동시",
+  "period_focus": "2019 methodology baseline, 2024 outcome/budget lead, 2026 program identity",
+  "evidence_level": "B+ mixed outcome, C budget recovery until official finance join",
+  "short_verdict": "A mixed-success case: 2024 visitor and global-content signals are strong, but direct recovery and visitor/economic-effect methodology require verification before budget-efficiency or waste conclusions.",
+  "why_it_matters": [
+    "It prevents overclaiming failure when visitor and global-program signals are strong.",
+    "It prevents overclaiming success when direct revenue is low and economic-effect methodology remains unverified.",
+    "It shows why budget analysis needs paid/free split, local-capture data and visitor-counting methodology.",
+    "It creates a model for cultural-heritage festivals where public value may matter, but must still be evidenced."
+  ],
+  "stakeholders": {
+    "official_operator_2026": "한국정신문화재단",
+    "public_context": "안동시 / 안동 관광·문화 ecosystem",
+    "contractor_causality_status": "not supported from current public evidence"
+  },
+  "causal_chain": [
+    {
+      "stage": "2024 public success signal",
+      "evidence": "Yonhap reported 1.48 million visitors over 10 days, up 68% from the previous year, with 25 countries and 35 overseas performance groups.",
+      "cause_type": ["demand", "global_programming", "participatory_content"],
+      "confidence": "B"
+    },
+    {
+      "stage": "2024 improvement tasks",
+      "evidence": "Reporting said Andong identified tasks including strengthening representative programs, creative use of Korean mask dance, whole-city site preparation and foreign visitor convenience.",
+      "cause_type": ["identity", "site_capacity", "foreign_visitor_convenience"],
+      "confidence": "B"
+    },
+    {
+      "stage": "2026 official program identity",
+      "evidence": "KTO and Korea Spirit Culture Foundation pages describe a 2026 festival centered on UNESCO-listed Korean mask dance, international mask-dance performances, contests, parades, citizen participation, night events and Hahoe Seonyu Julbulnori.",
+      "cause_type": ["cultural_identity", "program_mix", "citywide_festival"],
+      "confidence": "A-"
+    },
+    {
+      "stage": "2024 budget-recovery lead",
+      "evidence": "A fiscal-analysis article reports 2024 execution of 1.969B KRW, admission/own revenue of 104.08M KRW, 5.3% recovery and 18,925 paid visitors.",
+      "cause_type": ["budget_recovery", "paid_free_split", "public_value"],
+      "confidence": "C"
+    },
+    {
+      "stage": "2019 methodology warning",
+      "evidence": "2019 reporting recorded economic-effect and visitor-count inflation criticism, double-count risk, and attempts to estimate valid visitors using stay-time survey methods.",
+      "cause_type": ["visitor_counting", "economic_effect_methodology", "evaluation_quality"],
+      "confidence": "B"
+    }
+  ],
+  "not_supported_claims": [
+    "The festival failed in 2024.",
+    "The festival wasted budget solely because direct recovery was low.",
+    "The festival was budget efficient solely because 1.48 million people visited.",
+    "A contractor or subcontractor caused the low direct recovery."
+  ],
+  "next_evidence_needed": [
+    "Local Finance 365 cost-accounting row for 2024 and 2025",
+    "Official evaluation report tables and visitor-count method",
+    "Paid/free program split and ticket revenue category",
+    "Local merchant spend, overnight stay, foreign visitor convenience and satisfaction data",
+    "Contract/RFP scope if outsourcing responsibility is later investigated"
+  ],
+  "sources": [
+    {
+      "title": "Yonhap 2024 visitor/outcome report",
+      "url": "https://www.yna.co.kr/view/AKR20241007075100053",
+      "grade": "B",
+      "supports": "1.48M visitors, 68% increase, overseas groups, improvement tasks"
+    },
+    {
+      "title": "KTO Visit Korea festival page",
+      "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=644495a7-65e3-42ef-8993-e18e2e71a8bd",
+      "grade": "A-",
+      "supports": "2026 period, operator, free/some paid pricing, program identity and food pricing"
+    },
+    {
+      "title": "Korea Spirit Culture Foundation page",
+      "url": "https://www.kfce.or.kr/home/sub2/sub2_3.asp",
+      "grade": "A-",
+      "supports": "2026 period, sites and program categories"
+    },
+    {
+      "title": "Yeongnam/Daum fiscal-analysis article",
+      "url": "https://v.daum.net/v/HsbQq4RfDE",
+      "grade": "C",
+      "supports": "2024 execution/revenue/recovery lead"
+    },
+    {
+      "title": "Maeil 2019 evaluation report coverage",
+      "url": "https://www.imaeil.com/page/view/2019120315554371436",
+      "grade": "B",
+      "supports": "self-reliance improvement and visitor-count double-count caveat"
+    },
+    {
+      "title": "Yonhap 2019 economic-effect report",
+      "url": "https://www.yna.co.kr/view/AKR20191202106800053",
+      "grade": "B",
+      "supports": "2019 economic-effect, spend and revisit baseline"
+    }
+  ]
+}
+

@@ -180,3 +180,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/budget-recovery-comparator-wave1.json: lead queue comparing reported 2024 festival cost, own revenue, recovery rate and budget-waste investigation priority.
 - budget-recovery-comparator-wave1.html: human-readable comparator that separates high-spend/high-recovery benchmarks from low-recovery or zero-revenue review leads.
+
+## Andong Maskdance mixed budget/identity dossier
+
+- data/andong-maskdance-mixed-budget-identity-dossier.json: mixed dossier separating visitor/global-content success signals from low direct-recovery and economic-effect methodology risks.
+- andong-maskdance-mixed-budget-identity-dossier.html: human-readable "success or budget risk?" page for Andong International Maskdance Festival.

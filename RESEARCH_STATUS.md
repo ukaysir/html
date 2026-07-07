@@ -198,3 +198,9 @@ Updated: 2026-07-07.
 - Added a budget-recovery lead queue comparing reported 2024 gross execution, admission/own revenue, recovery rate and investigation priority.
 - Separated high-spend/high-recovery benchmark leads from low-recovery and zero-revenue review leads while preserving the guardrail that media numeric leads need Local Finance 365 verification.
 - Added data/budget-recovery-comparator-wave1.json, .csv, budget-recovery-comparator-wave1.html, and evidence note.
+
+## Checkpoint: Andong Maskdance mixed budget/identity dossier (2026-07-08T05:45:00+09:00)
+
+- Added a mixed dossier for Andong International Maskdance Festival separating 2024 visitor/global-content success signals from low direct-recovery and economic-effect methodology review needs.
+- Preserved the distinction between cultural public value, direct revenue recovery, visitor-counting methodology, citywide capacity and contractor causality.
+- Added data/andong-maskdance-mixed-budget-identity-dossier.json, .csv, andong-maskdance-mixed-budget-identity-dossier.html, evidence note, and case-matrix links.
