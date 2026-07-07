@@ -133,3 +133,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/festival-failure-risk-leads-wave1.json: first lead queue for price/booth control, demand forecast, crowd safety, traffic and budget traceability risks.
 - festival-failure-risk-leads-wave1.html: human-readable "why did this go wrong?" queue separating symptoms, operating boundaries, documents to collect and causal guardrails.
+
+## Yeongyang Sannamul price governance dossier
+
+- data/yeongyang-sannamul-price-governance-dossier.json: detailed price/booth governance chain for the 2023 Yeongyang old-snack controversy and later corrective measures.
+- yeongyang-sannamul-price-governance-dossier.html: human-readable answer to whether the issue was vendor behavior, operating structure, broker/seat-fee mechanics, or a proven subcontractor problem.

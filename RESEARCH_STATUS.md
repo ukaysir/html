@@ -138,3 +138,9 @@ Updated: 2026-07-07.
 - Added the first cross-case failure/risk lead queue for price/booth governance, night-market boundary gaps, sponsorship/host structure, demand-forecast thresholds, crowd safety, traffic and budget traceability.
 - Separated final causality from leads: each record now states what evidence must be collected before blaming a contractor, subcontractor, booth operator or public host.
 - Added data/festival-failure-risk-leads-wave1.json, .csv, festival-failure-risk-leads-wave1.html, and evidence note.
+
+## Checkpoint: Yeongyang Sannamul price governance dossier (2026-07-08T03:36:00+09:00)
+
+- Built a detailed dossier for the 2023 Yeongyang Sannamul old-snack price controversy and the 2024/2026 corrective governance trail.
+- Classified the case as B+ for public responsibility and corrective-policy chain, but only C for broker/seat-fee mechanics until primary allocation/contract records are found.
+- Added data/yeongyang-sannamul-price-governance-dossier.json, .csv, yeongyang-sannamul-price-governance-dossier.html, and evidence note.

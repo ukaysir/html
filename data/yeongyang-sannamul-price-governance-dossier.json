@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-07-08T03:36:00+09:00",
+  "festival": "영양 산나물축제",
+  "region": "경북 영양군",
+  "case_type": "price_booth_governance_failure_and_response",
+  "headline_assessment": "The 2023 old-snack price controversy is best treated as a booth/merchant-governance failure lead, not as a simple one-vendor story and not yet as a proven contractor/subcontractor fault.",
+  "confidence": "B+ for public responsibility and corrective-policy chain; C for broker/seat-fee mechanics until primary records are found.",
+  "short_answer": {
+    "why_did_it_fail": "Public evidence points to a failure to manage sellers perceived as part of the festival experience. Yeongyang County later acknowledged that mobile merchants were part of the festival and should have been managed. Later policy responses targeted price/weight display, on-site inspection, report handling, local merchant-operated food streets and real-time quality control.",
+    "was_it_a_subcontractor_problem": "Not proven. Media reports describe a broker or 'team leader' style intermediary and inflated seat-fee mechanics, but public official procurement/contract records connecting that chain to a contractor or subcontractor have not yet been joined.",
+    "what_must_be_checked_next": "2023 merchant/booth allocation records, market association or night-market operation agreement, any festival operating-agency contract, price disclosure rules, and post-event settlement/evaluation records."
+  },
+  "timeline": [
+    {
+      "date": "2023-06-04",
+      "event": "TV broadcast triggered national controversy over old-snack pricing at Yeongyang market during the festival context.",
+      "evidence_level": "B",
+      "source_url": "https://www.yna.co.kr/view/AKR20230606050800053"
+    },
+    {
+      "date": "2023-06-06",
+      "event": "Yeongyang County apologized and acknowledged that framing the matter as only an external-merchant issue was inappropriate.",
+      "evidence_level": "B+",
+      "source_url": "https://www.yna.co.kr/view/AKR20230606050800053"
+    },
+    {
+      "date": "2023-06-24",
+      "event": "Media reports, citing MBC, described a broker/seat-fee mechanism and a reported 1.8 million won entry cost for the vendor.",
+      "evidence_level": "C",
+      "source_url": "https://www.asiae.co.kr/article/2023062410002529309"
+    },
+    {
+      "date": "2024-05-02",
+      "event": "Before the next festival, Yeongyang announced intensive price checks, a vice-county-governor-led inspection team, price/weight display checks, a complaint center, local merchant-operated food street and real-time quality management.",
+      "evidence_level": "B+",
+      "source_url": "https://www.yna.co.kr/view/AKR20240502110300053"
+    },
+    {
+      "date": "2024-05-08",
+      "event": "OhmyNews reported continuing concern that measures focused on inspection but did not clearly solve booth-cost pressure.",
+      "evidence_level": "C",
+      "source_url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003028503"
+    },
+    {
+      "date": "2026-04-08",
+      "event": "Yeongyang Festival and Tourism Foundation publicly recruited 2026 booths for sales, tasting, experience and promotion, including local and non-local application channels.",
+      "evidence_level": "A",
+      "source_url": "https://www.yftf.kr/albin/bbs/board.php?bo_table=notice&wr_id=200"
+    }
+  ],
+  "why_chain": [
+    {
+      "step": 1,
+      "label": "Visitor symptom",
+      "finding": "A visitor-facing price shock damaged trust in the festival brand.",
+      "claim_strength": "B"
+    },
+    {
+      "step": 2,
+      "label": "Responsibility boundary",
+      "finding": "The county first emphasized an external merchant but later acknowledged that external/mobile merchants are still part of festival responsibility.",
+      "claim_strength": "B+"
+    },
+    {
+      "step": 3,
+      "label": "Structural candidate",
+      "finding": "Broker/seat-fee reporting suggests inflated participation costs may create pressure to overcharge, but this remains media-level unless primary allocation records are found.",
+      "claim_strength": "C"
+    },
+    {
+      "step": 4,
+      "label": "Corrective levers",
+      "finding": "2024 responses targeted price/weight disclosure, inspection, complaint response, local merchant operation and quality control.",
+      "claim_strength": "B+"
+    },
+    {
+      "step": 5,
+      "label": "Remaining proof gap",
+      "finding": "The chain still lacks the 2023 vendor list, booth-fee trail, broker authority trail, operating contract and post-event settlement.",
+      "claim_strength": "A gap"
+    }
+  ],
+  "evidence_gaps": [
+    "2023 booth recruitment notice and final seller allocation list",
+    "Official seat-fee or booth-fee schedule for the market/night-market area",
+    "Whether a market association, festival committee, foundation or agency held the right to allocate night-market spaces",
+    "Any public contract or agreement with a festival operating agency or night-market operator",
+    "2024 inspection results: number of checks, violations, corrective actions and complaints",
+    "2025 and 2026 recurrence or non-recurrence evidence"
+  ],
+  "source_urls": [
+    "https://www.yna.co.kr/view/AKR20230606050800053",
+    "https://www.asiae.co.kr/article/2023062410002529309",
+    "https://www.yna.co.kr/view/AKR20240502110300053",
+    "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003028503",
+    "https://www.yftf.kr/albin/bbs/board.php?bo_table=notice&wr_id=200"
+  ]
+}
