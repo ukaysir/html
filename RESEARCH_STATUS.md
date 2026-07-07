@@ -75,3 +75,8 @@ Updated: 2026-07-07.
 - Built a P2 procurement/agency search queue for 7 benchmark festivals.
 - Added evidence seeds for Bucheon, Incheon Pentaport, Cheorwon, Suwon, Bupyeong, Dongnae, and Eumseong where public search found initial leads.
 - Added guardrail that bid notices are not fault findings until contracts/results/outcomes are joined.
+
+## Checkpoint: procurement source strength (2026-07-08T01:35:18+09:00)
+
+- Classified procurement/agency evidence seeds into official original, official event page, official evaluation result, mirror, and publicity-only source classes.
+- Added data/procurement-source-strength-wave1.json, .csv, and procurement-source-strength-wave1.html.

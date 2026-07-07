@@ -78,3 +78,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/benchmark-procurement-search-queue.json: procurement/agency search queue for P2 benchmark festivals.
 - enchmark-procurement-search-queue.html: human-readable query plan and evidence-seed page for contractor/procurement tracing.
+
+## Procurement source strength
+
+- data/procurement-source-strength-wave1.json: source-strength classification for procurement/agency leads.
+- procurement-source-strength-wave1.html: human-readable distinction between official originals, official event pages, mirrors, and publicity-only leads.
