@@ -1,0 +1,82 @@
+{
+  "id": "jeju-fire-content-social-license-transition-dossier",
+  "title": "제주들불축제 콘텐츠·사회수용성 전환 dossier",
+  "festival": "제주들불축제",
+  "region": "제주특별자치도 제주시",
+  "years_covered": [2022, 2023, 2024, 2025, 2026],
+  "classification": {
+    "overall": "content_identity_social_license_transition_case",
+    "content_risk_evidence": "B+",
+    "weather_cancellation_evidence": "B",
+    "recovery_outcome_evidence": "B",
+    "contractor_attribution": "C"
+  },
+  "one_line_verdict": "축제의 차별화 요소였던 오름 불놓기가 기후위기·산불·생태훼손·공론화 리스크가 되면서 핵심 콘텐츠를 폐지/대체/일부 복원하는 전환을 겪은 social-license case다.",
+  "causal_chain": [
+    "제주들불축제의 핵심 매력은 새별오름을 태우는 대형 불 퍼포먼스였다.",
+    "그러나 산불경보, 강풍, 코로나19, 환경파괴·탄소배출·생명체 훼손·위법성 논란이 누적되며 핵심 콘텐츠의 정당성이 약해졌다.",
+    "2023년 숙의형 원탁회의는 유지 의견과 폐지 의견이 갈렸지만, 오름 불놓기의 근본 변화와 생태 가치 중심 전환을 권고했다.",
+    "제주시는 2023년 10월 오름 불놓기를 하지 않겠다고 발표하고 2024년 축제를 건너뛰며 새 콘텐츠를 개발하기로 했다.",
+    "2025년에는 가상 불놓기/미디어아트 방식으로 전환했지만 태풍급 강풍으로 주요 일정이 취소되며 정체성 혼란이 다시 커졌다.",
+    "2026년에는 오름 불놓기는 폐지 상태로 유지하되 디지털 불놓기, 횃불대행진, 달집태우기, 다회용기, 상생장터, 바가지 차단 등으로 회복을 시도했다."
+  ],
+  "why_failure_or_transition": [
+    "핵심 콘텐츠가 안전·환경 리스크와 직접 충돌했다. 이 경우 홍보 강화나 대행사 변경만으로 해결되지 않는다.",
+    "공론화 결과는 축제 유지와 폐지 의견이 갈린 상태였고, 시민기반 생태축제라는 새 정체성을 설계해야 했다.",
+    "디지털 전환은 환경 리스크를 줄였지만 전통적 자극성과 현장 몰입을 대체해야 하는 정체성 과제가 남았다.",
+    "2025년 강풍 취소는 자연충격이지만, 이미 정체성 논쟁 중이던 축제라 취소 후유증이 더 크게 나타났다.",
+    "2026년 만족도와 경제효과 lead는 회복 신호이나, 달집태우기·횃불·불꽃쇼 재도입을 둘러싼 사회수용성 논쟁은 계속 추적해야 한다."
+  ],
+  "outcome_leads": [
+    "2025년 조기 종료에도 첫날 방문객 44,368명, 직전 축제 대비 75% 증가, 경제효과 49.94억 원 lead.",
+    "2026년 평가 보도는 경제효과 123억 원, 만족도 4.04/5, 지속 참여 의향 4.26, 추천 의향 4.27 lead를 제시한다.",
+    "2026년 긍정요인으로 몰입형 대체 콘텐츠, 의전 간소화, 다회용기, 바가지/불법노점 차단, 상생장터가 제시됐다.",
+    "2026년 개선점으로 안전한 달집태우기, 먹거리 다양화, 야간조명, 교통약자 편의시설 확대가 제시됐다."
+  ],
+  "stakeholder_and_governance": [
+    {"actor": "제주시", "role": "주최/정책결정, 오름 불놓기 폐지 및 재설계 발표"},
+    {"actor": "제주시관광축제추진협의회", "role": "2026 공식 주최/주관 축"},
+    {"actor": "숙의형 원탁회의 운영위원회/도민 참여단", "role": "존폐·전환 공론화와 권고"},
+    {"actor": "시민기획단/자문단", "role": "2025 지속가능 축제 기본계획 논의"},
+    {"actor": "환경단체·시민사회", "role": "기후위기, 탄소배출, 산불, 생태훼손 문제 제기"},
+    {"actor": "도의회·지역사회", "role": "오름 불놓기 폐지 절차와 조례/감사 논쟁"}
+  ],
+  "not_yet_proven": [
+    "That the 2026 recovery permanently resolved the festival's identity conflict.",
+    "That digital fire/media-art can fully substitute for the former oreum-burning spectacle in repeat demand.",
+    "That any agency or subcontractor caused the cancellation, controversy or recovery.",
+    "That economic-effect leads are net of public cost, safety cost and social-license loss."
+  ],
+  "next_evidence_needed": [
+    "Official 2026 evaluation report PDF with visitor count, sample, satisfaction item distribution and economic-effect formula.",
+    "Safety plan and weather decision records for 2025 strong-wind cancellation and 2026 daljip/fire programs.",
+    "Public budget and Local Finance 365 cost rows for 2024 non-held, 2025 interrupted and 2026 redesigned festivals.",
+    "Contracts/RFPs for media-art, stage, safety, market, fire/firework and waste-management operations.",
+    "Public-opinion time series after 2026 to test whether social license recovered or remained split."
+  ],
+  "evidence_records": [
+    {"id": "JF-01", "type": "official_event", "claim": "2026 official website identifies the festival, organizer and festival promotion council.", "source_ids": ["S1"]},
+    {"id": "JF-02", "type": "official_tourism", "claim": "VisitKorea lists 2026 period and program classes around pre-events, daljip, oreum docents, performances, experiences and eco programs.", "source_ids": ["S2"]},
+    {"id": "JF-03", "type": "governance_decision", "claim": "2023 deliberation and Jeju City decision removed oreum burning after environmental, carbon, wildfire and ecological concerns.", "source_ids": ["S3", "S4", "S5"]},
+    {"id": "JF-04", "type": "transition_plan", "claim": "2025 plan replaced oreum burning with virtual fire/media art after citizen planning and content redesign.", "source_ids": ["S6", "S7"]},
+    {"id": "JF-05", "type": "weather_shock", "claim": "2025 digital-transition festival was cut short by strong wind, intensifying identity/direction criticism.", "source_ids": ["S8", "S9"]},
+    {"id": "JF-06", "type": "recovery_2026", "claim": "2026 brought back torch parade/daljip burning while keeping oreum burning abolished and adding eco/market/price controls.", "source_ids": ["S10", "S11", "S12"]},
+    {"id": "JF-07", "type": "outcome_2026", "claim": "2026 evaluation reporting shows KRW 12.3b economic effect, satisfaction 4.04/5 and improvement items.", "source_ids": ["S13", "S14"]}
+  ],
+  "sources": [
+    {"id": "S1", "title": "2026 제주들불축제 공식 홈페이지", "url": "https://firefestivaljeju.com/", "evidence": "2026 official site and organizer/supervisor information"},
+    {"id": "S2", "title": "VisitKorea - 제주들불축제", "url": "https://english.visitkorea.or.kr/svc/contents/contentsViewCid.do?cmsCid=667418", "evidence": "2026 dates and program categories"},
+    {"id": "S3", "title": "경향신문 - 원탁회의 결과", "url": "https://www.khan.co.kr/article/202309261603021", "evidence": "187-person deliberation result, maintain/abolish split and alternatives"},
+    {"id": "S4", "title": "연합뉴스 - 오름 불 놓기 27년만에 사라진다", "url": "https://www.yna.co.kr/view/AKR20231011056600056", "evidence": "Jeju City decision, no 2024 festival, new content development, environmental/wildfire concerns"},
+    {"id": "S5", "title": "YTN - 불 없는 들불축제", "url": "https://www.ytn.co.kr/_ln/0115_202310150210167838", "evidence": "public explanation of accepting deliberation recommendation and abolishing oreum burning"},
+    {"id": "S6", "title": "연합뉴스 - 2025 가상 불놓기", "url": "https://www.yna.co.kr/view/AKR20250113094700056", "evidence": "2025 virtual fire/media-art replacement and sustainable-festival planning process"},
+    {"id": "S7", "title": "경향신문 - 미디어아트 대체", "url": "https://www.khan.co.kr/article/202501131626011", "evidence": "digital/virtual fire plan"},
+    {"id": "S8", "title": "헤드라인제주 - 허무한 종료", "url": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=565346", "evidence": "2025 strong-wind cancellation and identity/direction criticism"},
+    {"id": "S9", "title": "제주도민일보 - 2025 경제효과", "url": "https://www.jejudomin.co.kr/news/articleView.html?idxno=311616", "evidence": "2025 first-day visitors and KRW 4.994b effect lead despite early termination"},
+    {"id": "S10", "title": "연합뉴스 - 2026 횃불대행진·달집태우기 재등장", "url": "https://www.yna.co.kr/view/AKR20260305098400056", "evidence": "2026 event plan, reduced protocol, storytelling, return of torch/daljip"},
+    {"id": "S11", "title": "연합뉴스 - 2026 개막", "url": "https://www.yna.co.kr/view/AKR20260313083400056", "evidence": "eco programs, multi-use containers, local market, digital torch/daljip/media art"},
+    {"id": "S12", "title": "Daum - 바가지 차단 제주들불축제", "url": "https://v.daum.net/v/20260314151242537", "evidence": "price-control and designated-festival subsidy-risk context"},
+    {"id": "S13", "title": "한라일보 - 2026 경제효과 123억", "url": "https://m.ihalla.com/article.php?aid=1779593312786238079", "evidence": "2026 economic effect, satisfaction, positive factors and improvement needs"},
+    {"id": "S14", "title": "제주투데이 - 만족도 및 추천의향 상승", "url": "https://www.ijejutoday.com/news/articleView.html?idxno=402157", "evidence": "2026 satisfaction, participation and recommendation leads"}
+  ]
+}

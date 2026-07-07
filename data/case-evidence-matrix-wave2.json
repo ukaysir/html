@@ -10,14 +10,15 @@
     "Use success/prevention cases as controls to identify what failing cases lacked."
   ],
   "summary": {
-    "festival_case_records": 22,
+    "festival_case_records": 23,
     "model_or_router_records": 2,
     "strong_contractor_causal_candidate": 1,
     "price_or_booth_governance_records": 6,
     "demand_or_crowd_records": 5,
     "weather_or_nature_dependency_records": 2,
     "budget_waste_requires_join_model": true,
-    "metric_opacity_records": 1
+    "metric_opacity_records": 1,
+    "content_social_license_records": 1
   },
   "records": [
     {
@@ -286,6 +287,27 @@
       ],
       "not_yet_proven": "2026 실제 실패 또는 성공.",
       "next_evidence_needed": "사후 방문객, 동선/교통 민원, 만족도, 계약 수행평가."
+    },
+    {
+      "id": "jeju-fire-2022-2026",
+      "record_type": "festival_case",
+      "festival": "제주들불축제",
+      "years": "2022-2026",
+      "page": "jeju-fire-content-social-license-transition-dossier.html",
+      "question": "핵심 콘텐츠 자체가 실패 원인이 될 수 있는가?",
+      "short_answer": "그렇다. 새별오름 불놓기는 차별화 요소였지만 기후위기·산불·생태훼손·공론화 리스크와 충돌하면서 사회수용성 전환 대상이 됐다. 대행사 문제가 아니라 content/social-license case다.",
+      "evidence_level": "B+ content/social-license, B weather shock, C attribution",
+      "procurement_link": "weak",
+      "outcome_link": "mixed recovery lead",
+      "primary_causes": [
+        "content_identity",
+        "social_license",
+        "environment_risk",
+        "weather_shock",
+        "governance_transition"
+      ],
+      "not_yet_proven": "정체성 갈등 완전 해소, 디지털 불 대체효과, 특정 대행사·하청업체 귀속, 경제효과 순효과.",
+      "next_evidence_needed": "2026 평가보고서 원문, 안전·기상 의사결정 기록, 지방재정365 원가, 미디어아트/무대/안전/시장 계약, 여론 시계열."
     },
     {
       "id": "cheorwon-ice-2026",

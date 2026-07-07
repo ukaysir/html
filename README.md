@@ -230,3 +230,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/gwangyang-maehwa-traffic-demand-redesign-dossier.json: demand/crowd/traffic dossier separating bloom timing, parking capacity, shuttle design, real-time traffic information, paid-entry/local-voucher loop, satisfaction and contractor-attribution limits.
 - gwangyang-maehwa-traffic-demand-redesign-dossier.html: human-readable explanation of why Gwangyang Maehwa Festival is a traffic-capacity redesign case rather than a simple crowding failure or subcontractor case.
+
+## Jeju Fire content/social-license transition dossier
+
+- data/jeju-fire-content-social-license-transition-dossier.json: content-identity and social-license dossier separating oreum-burning controversy, deliberation, weather interruption, digital/hybrid redesign, recovery metrics and contractor-attribution limits.
+- jeju-fire-content-social-license-transition-dossier.html: human-readable explanation of why Jeju Fire Festival is a flagship-content risk and social-license transition case rather than a simple contractor or demand-forecast case.

@@ -258,3 +258,9 @@ Updated: 2026-07-07.
 - Added a demand/crowd/traffic redesign dossier for Gwangyang Maehwa Festival covering historic road/parking limits, 2024 car-free/shuttle/real-time traffic controls, 2026 parking and shuttle capacity, accumulated-temperature bloom prediction, paid-entry/local-voucher refund and satisfaction/outcome leads.
 - Classified the case as B+ demand/traffic redesign, B+ outcome and C contractor attribution: public evidence supports a capacity-matching model, not a hidden agency or subcontractor causality claim.
 - Added data/gwangyang-maehwa-traffic-demand-redesign-dossier.json, .csv, gwangyang-maehwa-traffic-demand-redesign-dossier.html, evidence note, case-matrix links and why-cause router links.
+
+## Checkpoint: Jeju Fire content/social-license transition dossier (2026-07-08T08:15:00+09:00)
+
+- Added a content/social-license transition dossier for Jeju Fire Festival covering oreum-burning controversy, climate/wildfire/ecological concerns, 2023 deliberation, 2024 non-held redesign year, 2025 virtual-fire wind interruption and 2026 hybrid recovery leads.
+- Classified the case as B+ content/social-license, B weather shock/recovery lead and C contractor attribution: the evidence supports a flagship-content legitimacy problem, not a hidden agency or subcontractor causality claim.
+- Added data/jeju-fire-content-social-license-transition-dossier.json, .csv, jeju-fire-content-social-license-transition-dossier.html, evidence note, case-matrix links and why-cause router route.

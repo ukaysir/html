@@ -111,6 +111,19 @@
       ]
     },
     {
+      "id": "content-social-license",
+      "question": "핵심 콘텐츠나 축제 정체성 자체가 문제인가?",
+      "answer_rule": "When the flagship content collides with safety, climate, environment, resident legitimacy or identity expectations, treat it as content/social-license transition before looking for contractors.",
+      "confidence_rule": "Strong cases need public decision records, deliberation or civic-conflict evidence, content redesign evidence and outcome/counter-signal after redesign.",
+      "cases": [
+        {
+          "festival": "제주들불축제 2022-2026",
+          "page": "jeju-fire-content-social-license-transition-dossier.html",
+          "status": "content/social-license transition case"
+        }
+      ]
+    },
+    {
       "id": "budget-waste",
       "question": "예산 낭비 리스크인가?",
       "answer_rule": "Do not treat high budget as waste. Join net public cost, revenue, visitor/satisfaction evidence, local-spend capture, external inconvenience and contract accountability.",
