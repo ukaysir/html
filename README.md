@@ -123,3 +123,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/case-evidence-matrix-wave1.json: current dossier index by evidence level, procurement link, outcome link, and risk axes.
 - case-evidence-matrix-wave1.html: human-readable matrix for deciding whether a case is contractor/procurement, demand/crowding, safety/weather, or pre-event monitoring.
+
+## Bupyeong/Dongnae procurement gap dossier
+
+- data/bupyeong-dongnae-gap-dossier.json: official event/cultural-tourism evidence and missing procurement/agency evidence for Bupyeong and Dongnae.
+- bupyeong-dongnae-gap-dossier.html: human-readable gap map showing why contractor causality is not yet supportable for these cases.

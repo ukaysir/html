@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>부평·동래 조달 gap dossier</title>
+  <style>
+    :root{--ink:#1b1c18;--muted:#6b6e63;--bg:#f2f3e7;--panel:#fffef7;--line:#d7d8c3;--green:#166b49;--amber:#9a6500;--red:#94382c;--blue:#285a87}
+    body{margin:0;background:radial-gradient(circle at 15% 0,#f7e7a7,transparent 27%),linear-gradient(145deg,#f2f3e7,#e5eadf);color:var(--ink);font-family:"Noto Serif KR",Georgia,serif}
+    header{padding:42px 28px 24px;border-bottom:1px solid var(--line)}
+    h1{margin:0;font-size:clamp(32px,5vw,58px);letter-spacing:-.05em}
+    main{max-width:1180px;margin:0 auto;padding:24px}
+    .panel,.case,.gap{background:rgba(255,254,247,.86);border:1px solid var(--line);border-radius:22px;padding:18px;margin:14px 0;box-shadow:0 16px 34px rgba(68,70,38,.08)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+    .tag{display:inline-block;border-radius:999px;background:#e5e3c9;padding:5px 11px;font:700 12px "Segoe UI",sans-serif}
+    h2{margin:34px 0 12px}
+    h3{margin:0 0 8px;font-size:21px}
+    p,li{line-height:1.7}
+    a{color:#18537f;text-decoration-thickness:1px;text-underline-offset:3px}
+    .green{color:var(--green)}.amber{color:var(--amber)}.red{color:var(--red)}.blue{color:var(--blue)}
+    .small{font:13px/1.6 "Segoe UI","Noto Sans KR",sans-serif;color:var(--muted)}
+    table{width:100%;border-collapse:collapse;background:#fffef7cc;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+    th,td{padding:12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:14px}
+    th{font:700 13px "Segoe UI",sans-serif;background:#e8e6cc}
+    code{font-family:"Cascadia Mono",monospace;font-size:12px;background:#efecd4;border-radius:8px;padding:2px 5px}
+  </style>
+</head>
+<body>
+  <header>
+    <span class="tag">gap dossier / no contractor claim yet</span>
+    <h1>부평풍물대축제·동래읍성역사축제: 조달 증거 공백</h1>
+    <p>공식 행사정보와 문화관광축제 선정 근거는 강하지만, 주 행사 운영대행·평가결과·계약자료는 아직 연결되지 않았다.</p>
+  </header>
+  <main>
+    <section class="panel">
+      <h2>판단 원칙</h2>
+      <p>이 두 축제는 아직 “대행사/하청 때문”이라는 원인 분석에 쓰면 안 된다. 대신 행사 구조, 문화관광축제 선정, 먹거리/요금, 거리혼잡, 역사·전통 콘텐츠 관점에서 다음 조사 우선순위로 둔다.</p>
+    </section>
+
+    <section class="grid">
+      <article class="case">
+        <h3 class="green">부평풍물대축제 2026</h3>
+        <p>2026.10.02~10.04, 무료, 부평대로 일대. KTO는 먹거리 부스 없음과 인근 식당 이용을 안내한다. 2026~2027 문화관광축제 선정과 30주년 맥락이 있다.</p>
+        <p><a href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=e7f655b5-b2d3-4923-90ba-6d7ce678b381">KTO 행사정보</a> / <a href="https://www.yna.co.kr/view/AKR20260126075700065">연합뉴스 선정 보도</a></p>
+      </article>
+      <article class="case">
+        <h3 class="blue">동래읍성역사축제 2026</h3>
+        <p>2026.10.16~10.18, 무료+일부 유료 프로그램, 동래파전 등 먹거리 가격 정보 노출. 2025 부산지역축제 평가에서 전문가 최고점 보도가 있고 2026~2027 문화관광축제 신규 지정 맥락이 있다.</p>
+        <p><a href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=78db2649-69d9-4710-a0d3-3c8f91c26720">KTO 행사정보</a> / <a href="https://v.daum.net/v/20260208181350354">부산지역축제 평가 보도</a></p>
+      </article>
+    </section>
+
+    <h2>Gap matrix</h2>
+    <table>
+      <thead><tr><th>축제</th><th>현재 강점</th><th>조달 공백</th><th>리스크 축</th><th>다음 검색 대상</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>부평풍물대축제</td>
+          <td>공식 일정, 무료 행사, 주최/주관, 먹거리 부스 없음, 문화관광축제 선정, 2020 만족도 조사 페이지</td>
+          <td class="red">주 행사 운영대행 RFP/평가/계약 미확보</td>
+          <td><code>food_booth_policy</code> <code>street_crowding</code> <code>long_history</code> <code>cultural_tourism_selection</code></td>
+          <td>부평구 계약정보, 부평구문화재단 입찰, 축제위원회 예산/정산, 만족도 조사 원문</td>
+        </tr>
+        <tr>
+          <td>동래읍성역사축제</td>
+          <td>공식 일정, 유료/무료 혼합, 먹거리 가격, 공식 홈페이지, 부산지역축제 전문가평가, 문화관광축제 선정</td>
+          <td class="red">주 행사 운영대행 RFP/평가/계약 미확보</td>
+          <td><code>paid_programs</code> <code>food_price</code> <code>historic_reenactment</code> <code>visitor_satisfaction</code></td>
+          <td>동래구 계약정보, 동래문화원/추진위원회 입찰, 부산축제조직위 평가보고서</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>왜 이 gap이 중요한가</h2>
+    <section class="grid">
+      <article class="gap">
+        <h3>대행사 원인 주장 차단</h3>
+        <p>조달자료가 없으면 하청·대행사 책임을 말할 수 없다. 대신 “조달 증거 미확보”로 표시해야 분석 신뢰도가 유지된다.</p>
+      </article>
+      <article class="gap">
+        <h3>먹거리/가격 리스크</h3>
+        <p>부평은 먹거리 부스 없음, 동래는 먹거리 가격 노출이라는 반대 구조다. 둘 다 만족도와 민원 분석에 중요하다.</p>
+      </article>
+      <article class="gap">
+        <h3>문화관광축제 선정</h3>
+        <p>선정은 성공 신호지만, 선정 이유와 실제 운영품질은 별도로 확인해야 한다. 세부 평가표가 필요하다.</p>
+      </article>
+    </section>
+
+    <h2>데이터 파일</h2>
+    <p><a href="data/bupyeong-dongnae-gap-dossier.json">JSON</a> / <a href="data/bupyeong-dongnae-gap-dossier.csv">CSV</a></p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-07-08T03:12:00+09:00",
+  "purpose": "Track P2 benchmark cases with strong event/cultural-tourism evidence but incomplete procurement/agency evidence.",
+  "classification_note": "Do not infer contractor/subcontract causality for these cases yet. Use them as monitoring and search-priority cases.",
+  "cases": [
+    {
+      "case_id": "bupyeong-pungmul-2026",
+      "festival": "부평풍물대축제",
+      "year": 2026,
+      "current_level": "Level D+/B-",
+      "known_strength": [
+        "KTO official event page",
+        "2026.10.02~2026.10.04 schedule",
+        "free event",
+        "organizers: Incheon Bupyeong-gu / festival committee / Bupyeong Cultural Foundation / Bupyeong Cultural Center",
+        "no food booth policy with nearby restaurant guidance",
+        "2026~2027 cultural tourism festival selection",
+        "2020 visitor satisfaction survey page exists"
+      ],
+      "procurement_gap": "Main festival operation tender/RFP/evaluation/contract not yet found.",
+      "outcome_signal": "2026~2027 cultural tourism festival, 30th anniversary, official event schedule.",
+      "risk_axes": [
+        "food_booth_policy",
+        "street_crowding",
+        "parade/performance",
+        "cultural_tourism_selection",
+        "long_history"
+      ],
+      "sources": [
+        "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=e7f655b5-b2d3-4923-90ba-6d7ce678b381",
+        "https://www.yna.co.kr/view/AKR20260126075700065",
+        "https://www.icbp.go.kr/vote/voteAnswResult.do?pgno=5&sitediv=main&vote_seq=2014"
+      ],
+      "next_search_targets": [
+        "부평구 계약정보",
+        "부평구문화재단 입찰/제안서평가",
+        "부평구 축제위원회 예산/정산",
+        "부평풍물대축제 만족도 조사"
+      ]
+    },
+    {
+      "case_id": "dongnae-eupseong-2026",
+      "festival": "동래읍성역사축제",
+      "year": 2026,
+      "current_level": "Level D+/B-",
+      "known_strength": [
+        "KTO official event page",
+        "2026.10.16~2026.10.18 schedule",
+        "free with paid programs",
+        "food price information listed",
+        "official homepage",
+        "2026~2027 cultural tourism festival selection",
+        "2025 Busan festival evaluation: expert top score reported"
+      ],
+      "procurement_gap": "Main festival operation tender/RFP/evaluation/contract not yet found.",
+      "outcome_signal": "2025 expert top-score report and 2026~2027 cultural tourism festival designation.",
+      "risk_axes": [
+        "paid_programs",
+        "food_price",
+        "historic_reenactment",
+        "visitor_satisfaction",
+        "weather",
+        "spatial_layout"
+      ],
+      "sources": [
+        "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=78db2649-69d9-4710-a0d3-3c8f91c26720",
+        "https://v.daum.net/v/20260208181350354",
+        "https://v.daum.net/v/t7euUfu5AY",
+        "https://www.dongnae.go.kr/festival/index.dongnae"
+      ],
+      "next_search_targets": [
+        "동래구 계약정보",
+        "동래문화원/축제추진위원회 입찰공고",
+        "부산축제조직위원회 2025 평가보고서",
+        "동래읍성축제 만족도 조사"
+      ]
+    }
+  ]
+}

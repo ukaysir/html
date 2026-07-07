@@ -126,3 +126,9 @@ Updated: 2026-07-07.
 
 - Added a dossier index/evidence matrix so the HTML can be read by cause type: procurement/contractor, demand/crowding, weather/safety, programming, local linkage, or pre-event monitoring.
 - Added data/case-evidence-matrix-wave1.json, .csv, case-evidence-matrix-wave1.html, and evidence note.
+
+## Checkpoint: Bupyeong/Dongnae procurement gap dossier (2026-07-08T03:12:00+09:00)
+
+- Added a gap dossier for Bupyeong Pungmul Festival and Dongnae Eupseong Historical Festival.
+- Marked both as cases with strong official event/cultural-tourism evidence but insufficient procurement/agency evidence for contractor causality.
+- Added data/bupyeong-dongnae-gap-dossier.json, .csv, bupyeong-dongnae-gap-dossier.html, and evidence note.
