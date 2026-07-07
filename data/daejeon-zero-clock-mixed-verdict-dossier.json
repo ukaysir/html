@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-07-08T04:16:00+09:00",
+  "festival": "대전 0시축제",
+  "region": "대전광역시",
+  "case_type": "mixed_success_civic_inconvenience_budget_effect_debate",
+  "headline_assessment": "Daejeon Zero O'Clock Festival should be treated as a mixed-verdict case: official visitor/economic/3-no-risk signals are strong, but traffic disruption, budget transparency, local identity and economic-effect methodology remain contested.",
+  "confidence": "B+ for official success metrics and price-prevention governance; C/B for opposition and civic-inconvenience critiques depending on source type.",
+  "short_answer": {
+    "why_success_candidate": "Daejeon City reported more than two million visitors in 2024, a 3-no festival record around safety incidents, trash and price gouging, high SNS reach and estimated total economic effect of 403.3 billion KRW.",
+    "why_failure_or_risk_candidate": "Critics question whether headline visitor/economic-effect metrics reflect local merchants' lived outcome, whether large budget input was transparent and efficient, and whether long central-road closure created disproportionate civic inconvenience.",
+    "what_to_collect_next": "Official evaluation report, raw visitor-count method, contract/budget execution, card-sales analysis, merchant survey, traffic-control complaints and public transport capacity data."
+  },
+  "evidence": [
+    {
+      "id": "official-2024-success",
+      "claim": "Daejeon City said the 2024 festival drew more than two million visitors, almost double the previous year's 1.1 million, using thermal-sensor unmanned counters.",
+      "source_url": "https://www.daejeon.go.kr/drh/depart/board/boardNormalView.do?boardId=blog_0001&menuSeq=1625&ntatcSeq=1463521656&pageIndex=1",
+      "evidence_level": "A/B"
+    },
+    {
+      "id": "official-3-no-and-economic-effect",
+      "claim": "Daejeon City framed the festival as a two-year 3-no festival around safety incidents, trash and price gouging, and estimated 403.3 billion KRW total economic effect.",
+      "source_url": "https://www.daejeon.go.kr/drh/depart/board/boardNormalView.do?boardId=blog_0001&menuSeq=1625&ntatcSeq=1463521656&pageIndex=1",
+      "evidence_level": "A/B"
+    },
+    {
+      "id": "official-traffic-apology",
+      "claim": "The mayor apologized for daily-life inconvenience caused by full vehicle control on Jungang-ro and Daejong-ro sections and said shortcomings would be improved.",
+      "source_url": "https://www.daejeon.go.kr/drh/depart/board/boardNormalView.do?boardId=blog_0001&menuSeq=1625&ntatcSeq=1463521656&pageIndex=1",
+      "evidence_level": "A/B"
+    },
+    {
+      "id": "critical-success-or-failure-frame",
+      "claim": "A media analysis framed the festival's success or failure as dependent on evaluation criteria: the city emphasizes visitors and economic effect, while critics emphasize local identity, budget transparency and civic inconvenience.",
+      "source_url": "https://v.daum.net/v/u2vdY9bYM2",
+      "evidence_level": "C"
+    },
+    {
+      "id": "critical-merchant-survey-claim",
+      "claim": "The same analysis cites a political forum claim that only 23 percent of surveyed small merchants said sales rose, while 71 percent said sales fell.",
+      "source_url": "https://v.daum.net/v/u2vdY9bYM2",
+      "evidence_level": "C"
+    },
+    {
+      "id": "traffic-capacity-critique",
+      "claim": "A public-opinion article argued that subway extension, circular buses and parking measures did not fully resolve structural transport limits, including a single subway line and 10-minute intervals.",
+      "source_url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003134418",
+      "evidence_level": "C"
+    },
+    {
+      "id": "price-prevention-2025",
+      "claim": "For 2025, Daejeon signed an agreement with eight downtown merchant associations for price gouging prevention, kindness and fair-trade culture.",
+      "source_url": "https://v.daum.net/v/uM0auYKGUJ?f=p",
+      "evidence_level": "B"
+    }
+  ],
+  "why_chain": [
+    {
+      "step": 1,
+      "label": "Official success metrics",
+      "finding": "Visitors, economic effect, SNS reach and 3-no festival framing create a strong success narrative."
+    },
+    {
+      "step": 2,
+      "label": "Measurement challenge",
+      "finding": "Visitor counting and economic-effect estimation must be audited against methodology, duplication, direct/indirect effects and merchant-level outcomes."
+    },
+    {
+      "step": 3,
+      "label": "Civic inconvenience",
+      "finding": "Long central-road closures and transit constraints can reduce resident satisfaction even if tourist attendance rises."
+    },
+    {
+      "step": 4,
+      "label": "Price and merchant governance",
+      "finding": "Merchant association agreements and price-display commitments are preventive controls, not proof of economic benefit."
+    },
+    {
+      "step": 5,
+      "label": "Mixed verdict",
+      "finding": "The case should not be labeled success or failure without preserving both official outcome signals and counter-evidence."
+    }
+  ],
+  "documents_to_collect_next": [
+    "Final 2024 evaluation report and raw methodology for visitor counting",
+    "Economic-effect calculation model and assumptions",
+    "Budget execution, contract packages and outsourced operating scopes",
+    "Card-sales and merchant-survey data by zone and industry",
+    "Traffic-control plan, bus rerouting, subway extension capacity and complaint logs",
+    "2025 price agreement implementation results and inspection records"
+  ],
+  "source_urls": [
+    "https://www.daejeon.go.kr/drh/depart/board/boardNormalView.do?boardId=blog_0001&menuSeq=1625&ntatcSeq=1463521656&pageIndex=1",
+    "https://v.daum.net/v/u2vdY9bYM2",
+    "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003134418",
+    "https://v.daum.net/v/uM0auYKGUJ?f=p"
+  ]
+}

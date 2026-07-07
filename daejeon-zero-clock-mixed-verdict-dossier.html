@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>대전 0시축제 혼합 판정 Dossier</title>
+  <style>
+    :root{--bg:#14110c;--panel:#231b13;--ink:#fff6e4;--muted:#cdbda2;--line:#60492e;--neon:#d8f56e;--blue:#8cbcff;--amber:#ffc46f;--red:#ff735f;--green:#7ee49b}
+    *{box-sizing:border-box}body{margin:0;font-family:Pretendard,"Noto Sans KR","Segoe UI",sans-serif;background:radial-gradient(circle at 12% 0,rgba(216,245,110,.14),transparent 28%),radial-gradient(circle at 88% 16%,rgba(140,188,255,.12),transparent 30%),linear-gradient(180deg,var(--bg),#090704);color:var(--ink);line-height:1.66}.wrap{width:min(1160px,calc(100% - 32px));margin:auto}header{padding:54px 0 28px}.kicker{font-size:12px;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:var(--neon)}h1{font-size:clamp(34px,6vw,64px);line-height:1.05;margin:12px 0;letter-spacing:-.05em}h2{font-size:clamp(24px,3vw,38px);margin:0 0 12px;letter-spacing:-.03em}h3{margin:0 0 8px}.lead{font-size:18px;color:var(--muted);max-width:920px}.panel,.card{background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:22px;box-shadow:0 20px 60px rgba(0,0,0,.25)}.panel{padding:24px;margin:18px 0}.grid{display:grid;gap:16px}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.card{padding:18px}.muted{color:var(--muted)}.badge{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:5px 10px;margin:3px;background:rgba(255,255,255,.045);font-size:12px;color:var(--muted)}.a{color:var(--neon)}.b{color:var(--blue)}.c{color:var(--amber)}.bad{color:var(--red)}.ok{color:var(--green)}.chain{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.chain div{border:1px solid var(--line);border-radius:16px;padding:14px;background:rgba(255,255,255,.05)}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}.table{width:100%;border-collapse:collapse;min-width:900px}.table th,.table td{padding:12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.table th{color:var(--neon);background:rgba(255,255,255,.055);font-size:13px}.source a{color:var(--neon);word-break:break-all}footer{padding:34px 0;color:#9d927c;font-size:13px}@media(max-width:900px){.two,.three,.chain{grid-template-columns:1fr}.table{font-size:14px}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="kicker">Mixed success/failure dossier</div>
+    <h1>대전 0시축제는 성공인가 실패인가?</h1>
+    <p class="lead">정답은 “측정 기준에 따라 혼합”입니다. 공식 지표는 방문객·경제효과·3무 축제를 강하게 말하지만, 반대편 증거는 교통통제, 예산·경제효과 검증, 지역 정체성, 상인 체감효과를 묻습니다.</p>
+    <p><a class="badge" href="index.html">메인으로</a><a class="badge" href="data/daejeon-zero-clock-mixed-verdict-dossier.json">JSON</a><a class="badge" href="data/daejeon-zero-clock-mixed-verdict-dossier.csv">CSV</a></p>
+  </header>
+
+  <main class="wrap">
+    <section class="grid three">
+      <article class="card">
+        <h3>성공 신호</h3>
+        <p class="muted">대전시는 2024년 단일기간 200만명 이상 방문, 2년 연속 안전사고·쓰레기·바가지요금 없는 3무 축제, 총 4,033억원 경제효과 추산을 제시했습니다.</p>
+      </article>
+      <article class="card">
+        <h3>실패/리스크 신호</h3>
+        <p class="muted">비판 측은 경제효과 산식, 예산 투입, 콘텐츠 정체성, 중앙로 장기 통제로 인한 시민 불편, 소상공인 체감 매출을 문제 삼습니다.</p>
+      </article>
+      <article class="card">
+        <h3>판정 방식</h3>
+        <p class="muted">이 케이스는 성공/실패 단일 라벨을 붙이면 왜곡됩니다. 공식 성과와 반대증거를 둘 다 보존한 mixed verdict로 두어야 합니다.</p>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>왜 혼합 판정인가</h2>
+      <div class="chain">
+        <div><b>방문객</b><br><span class="muted">200만+ 공식 발표</span></div>
+        <div><b>경제효과</b><br><span class="muted">직접·간접 4,033억원 추산</span></div>
+        <div><b>반대증거</b><br><span class="muted">상인 체감·산식 논쟁</span></div>
+        <div><b>교통</b><br><span class="muted">중앙로 장기 통제</span></div>
+        <div><b>개선 과제</b><br><span class="muted">평가 원자료·계약·카드매출</span></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>증거 매트릭스</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead><tr><th>항목</th><th>확인된 주장</th><th>해석</th><th>등급</th></tr></thead>
+          <tbody>
+            <tr><td>방문객</td><td>대전시는 2024년 200만명 이상, 전년 110만명의 거의 두 배라고 발표</td><td>대규모 수요 창출은 성공 신호. 단, 중복·계수 방식 검토 필요</td><td><span class="badge a">A/B</span></td></tr>
+            <tr><td>경제효과</td><td>직접 1,123억원, 간접 2,910억원, 총 4,033억원 추산</td><td>공식 성과 신호지만 산식·가정·지역상권 분포를 확인해야 함</td><td><span class="badge a">A/B</span></td></tr>
+            <tr><td>3무 축제</td><td>안전사고·쓰레기·바가지요금 없는 축제로 공식 평가</td><td>운영 리스크 통제 성공 후보. 독립 점검자료 필요</td><td><span class="badge a">A/B</span></td></tr>
+            <tr><td>교통 불편</td><td>중앙로·대종로 차량 통제 불편에 대해 시장이 사과</td><td>성공한 축제라도 주민 만족도 리스크는 남음</td><td><span class="badge a">A/B</span></td></tr>
+            <tr><td>상인 체감</td><td>비판 보도는 소상공인 설문에서 매출 하락 응답이 많았다는 주장을 소개</td><td>공식 경제효과와 상인 체감이 충돌하는 반대증거</td><td><span class="badge c">C</span></td></tr>
+            <tr><td>교통대책 한계</td><td>지하철 연장, 순환버스, 공영주차장에도 단일 노선·배차·주차 부족 지적</td><td>방문객 수요 대비 이동수단 용량 문제</td><td><span class="badge c">C</span></td></tr>
+            <tr><td>상인회 협약</td><td>2025년 원도심 8개 상인회와 바가지요금 근절·공정거래 협약</td><td>가격 리스크 예방 장치. 실행 결과 추적 필요</td><td><span class="badge b">B</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>다음 수집 문서</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead><tr><th>문서</th><th>확인 질문</th><th>왜 필요한가</th></tr></thead>
+          <tbody>
+            <tr><td>최종 평가보고서</td><td>방문객 계수·만족도·경제효과 산식 공개 여부</td><td>성공 지표 검증</td></tr>
+            <tr><td>예산·계약 집행내역</td><td>행사대행, 무대, 안전, 교통, 홍보 비용 배분</td><td>예산 낭비/효율 판단</td></tr>
+            <tr><td>카드매출·상권자료</td><td>지역·업종별 실제 매출 변화</td><td>경제효과와 상인 체감 충돌 해결</td></tr>
+            <tr><td>교통계획·민원</td><td>도로통제 기간, 버스 우회, 지하철 증편, 민원 건수</td><td>대규모 관광객 쏠림에 따른 만족도 저하 측정</td></tr>
+            <tr><td>상인회 협약 이행 결과</td><td>가격표시, 적발, 시정, 민원 감소</td><td>3무 축제 주장의 독립 검증</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel source">
+      <h2>출처</h2>
+      <p><a href="https://www.daejeon.go.kr/drh/depart/board/boardNormalView.do?boardId=blog_0001&menuSeq=1625&ntatcSeq=1463521656&pageIndex=1">대전광역시: 2024 대전 0시축제 공식 결과 브리핑</a></p>
+      <p><a href="https://v.daum.net/v/u2vdY9bYM2">아이뉴스24/Daum: 대전 0시축제 성공인가 실패인가</a></p>
+      <p><a href="https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003134418">오마이뉴스: 대전 0시축제 교통대책 비판</a></p>
+      <p><a href="https://v.daum.net/v/uM0auYKGUJ?f=p">대전시 보도자료/Daum: 2025 원도심 8개 상인회 협약</a></p>
+    </section>
+  </main>
+  <footer class="wrap">Dossier level: B+ official success and prevention signals, C/B counter-evidence. No single success/failure label is assigned.</footer>
+</body>
+</html>

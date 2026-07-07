@@ -148,3 +148,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/incheon-crowd-forecast-threshold-dossier.json: demand-forecast and safety-threshold dossier for Yaksasa Mountain Temple Concert and Yeongjong Fireworks Festa.
 - incheon-crowd-forecast-threshold-dossier.html: human-readable model linking expected attendance, 1,000-person planning threshold, site bottlenecks, late deployment and traffic dissatisfaction.
+
+## Daejeon Zero O'Clock mixed verdict dossier
+
+- data/daejeon-zero-clock-mixed-verdict-dossier.json: mixed success/failure dossier separating official visitors/economic effect/3-no festival claims from traffic, budget and merchant-impact counter-evidence.
+- daejeon-zero-clock-mixed-verdict-dossier.html: human-readable "success or failure?" page that preserves both official outcome signals and civic inconvenience risks.

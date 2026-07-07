@@ -156,3 +156,9 @@ Updated: 2026-07-07.
 - Built a demand-forecast and safety-threshold dossier for Yaksasa Mountain Temple Concert and Yeongjong Fireworks Festa.
 - Connected case evidence to MOIS local-festival safety thresholds and Incheon City's four-stage crowd-safety model.
 - Added data/incheon-crowd-forecast-threshold-dossier.json, .csv, incheon-crowd-forecast-threshold-dossier.html, and evidence note.
+
+## Checkpoint: Daejeon Zero O'Clock mixed verdict dossier (2026-07-08T04:16:00+09:00)
+
+- Built a mixed verdict dossier for Daejeon Zero O'Clock Festival.
+- Preserved official success signals, including visitor count, economic effect and 3-no festival claims, while separating traffic, budget, local-identity and merchant-impact counter-evidence.
+- Added data/daejeon-zero-clock-mixed-verdict-dossier.json, .csv, daejeon-zero-clock-mixed-verdict-dossier.html, and evidence note.
