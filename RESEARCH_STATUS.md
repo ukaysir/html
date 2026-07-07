@@ -115,3 +115,9 @@ Updated: 2026-07-07.
 - Built a pre-event governance/crowd-risk dossier for the 63rd Suwon Hwaseong Cultural Festival.
 - Upgraded the 2026 case from mirror-only tender lead to official Suwon evaluation-result disclosure with downloadable PDF attachment.
 - Added data/suwon-hwaseong-2026-pre-event-dossier.json, .csv, suwon-hwaseong-2026-pre-event-dossier.html, and evidence note.
+
+## Checkpoint: Cheorwon Ice Trekking 2026 safety/outcome dossier (2026-07-08T02:49:00+09:00)
+
+- Built a winter/nature-dependent festival dossier for Cheorwon Hantangang Ice Trekking 2026.
+- Connected 2026 visitor outcome, cultural-tourism-festival selection, official 2024 agency-evaluation disclosure, 2020 weather postponement precedent, and safety/course-operation risk factors.
+- Added data/cheorwon-ice-2026-safety-outcome-dossier.json, .csv, cheorwon-ice-2026-safety-outcome-dossier.html, and evidence note.

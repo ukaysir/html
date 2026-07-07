@@ -113,3 +113,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/suwon-hwaseong-2026-pre-event-dossier.json: official evaluation disclosure, tender/RFP leads, and pre-event crowd/food/foreign-visitor risk variables.
 - suwon-hwaseong-2026-pre-event-dossier.html: human-readable checklist for what to monitor before and after the October 2026 festival.
+
+## Cheorwon Ice Trekking 2026 safety/outcome dossier
+
+- data/cheorwon-ice-2026-safety-outcome-dossier.json: winter festival outcome, cultural-tourism-selection, weather/safety risk, and agency-evaluation leads.
+- cheorwon-ice-2026-safety-outcome-dossier.html: human-readable dossier explaining why this case must be analyzed through weather, safety, course operation, and regional linkage.

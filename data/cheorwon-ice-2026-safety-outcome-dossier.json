@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-07-08T02:49:00+09:00",
+  "case_id": "cheorwon-ice-2026",
+  "festival": "철원한탄강얼음트레킹",
+  "year": 2026,
+  "classification": "Level B+/C safety-outcome bridge",
+  "short_answer": "철원한탄강얼음트레킹은 2026년 유료관광객 3만5000여 명, 총 10만여 명 방문과 2026~2027 문화관광축제 선정이라는 성과가 있다. 하지만 이 축제의 핵심 원인은 일반적인 행사대행보다 기상·결빙·수위·코스 안전점검·폐쇄/개통 판단·요금/편의서비스·지역상권 연계에 있다. 2024 공식 주관대행 평가결과는 있으나 2026 계약/정산/사고/만족도 자료가 필요하다.",
+  "evidence_chain": [
+    {
+      "section": "event_period",
+      "finding": "2026 철원 한탄강 얼음트레킹 축제 기간 2026.01.17~2026.01.25",
+      "evidence_strength": "high",
+      "source_url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=e545101d-5bed-4a95-85c2-9ad0b15a84a6",
+      "analysis_role": "행사 종료와 성과 집계 기준",
+      "open_gap": "일자별 방문객·운영시간"
+    },
+    {
+      "section": "visitor_outcome",
+      "finding": "2026 제14회 축제 유료관광객 3만5000여 명, 총 10만여 명 방문",
+      "evidence_strength": "medium_high",
+      "source_url": "https://v.daum.net/v/20260128001009586",
+      "analysis_role": "수요 결과와 지역 파급의 핵심 지표",
+      "open_gap": "집계 방식·무료/유료 구분·시간대별 쏠림"
+    },
+    {
+      "section": "cultural_tourism_selection",
+      "finding": "2026~2027 문화관광축제 선정, 국비 4000만원과 홍보마케팅/관광상품 개발 지원",
+      "evidence_strength": "medium_high",
+      "source_url": "https://www.yna.co.kr/view/AKR20260127045100062",
+      "analysis_role": "정책평가 기반 성공 신호",
+      "open_gap": "문체부 평가 세부점수"
+    },
+    {
+      "section": "selection_criteria",
+      "finding": "최근 2년 전문가·소비자·지역주민 평가, 부정적 문제, 운영 역량, 수용태세를 종합 평가",
+      "evidence_strength": "medium_high",
+      "source_url": "https://www.yna.co.kr/view/AKR20260127045100062",
+      "analysis_role": "운영·수용태세가 성공 조건임을 보여줌",
+      "open_gap": "세부 평가표와 항목별 점수"
+    },
+    {
+      "section": "future_improvements",
+      "finding": "안전관리 체계 강화, 합리적 요금 및 편의서비스 개선, 지역상권 연계 체류형 관광상품 개발 계획",
+      "evidence_strength": "medium_high",
+      "source_url": "https://www.yna.co.kr/view/AKR20260127045100062",
+      "analysis_role": "성공 유지/리스크 관리 방향",
+      "open_gap": "실제 개선 이행·예산·민원 변화"
+    },
+    {
+      "section": "official_eval_2024",
+      "finding": "철원문화재단 공식 제13회 주관대행용역 제안서 평가결과 공개",
+      "evidence_strength": "high",
+      "source_url": "https://gcwcf.or.kr/w5_2/63",
+      "analysis_role": "대행사/평가구조 추적 시작점",
+      "open_gap": "2026 평가결과·계약상대자·평가표"
+    },
+    {
+      "section": "weather_failure_prior",
+      "finding": "2020 제8회 축제는 때아닌 겨울 폭우와 한탄강 수위 급상승으로 안전사고 예방 차원에서 1주일 연기",
+      "evidence_strength": "medium_high",
+      "source_url": "https://www.queen.co.kr/news/articleView.html?idxno=325412",
+      "analysis_role": "자연환경 의존 축제의 실패/연기 리스크 근거",
+      "open_gap": "기상자료·수위자료·환불/비용 손실"
+    },
+    {
+      "section": "course_safety_rule",
+      "finding": "결빙구간은 안전점검 후 개통, 기상상황에 따라 예고 없이 폐쇄 가능, 얼음구간 아이젠 착용 필요",
+      "evidence_strength": "medium",
+      "source_url": "https://www.instagram.com/cheorwon_cf/",
+      "analysis_role": "현장 안전운영과 만족도 리스크",
+      "open_gap": "공식 홈페이지/운영계획 원문 확보"
+    },
+    {
+      "section": "content_asset",
+      "finding": "유네스코 세계지질공원 한탄강의 주상절리와 겨울경관을 체험하는 차별화 콘텐츠",
+      "evidence_strength": "medium_high",
+      "source_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148959450",
+      "analysis_role": "자연자원 기반 목적 방문 수요",
+      "open_gap": "외래객/재방문율/체류형 상품 데이터"
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis": "기상·수위 리스크를 안전하게 통제한 것이 성과의 전제",
+      "support": "2020년 폭우/수위 상승으로 연기된 선례와 2026년 10만 방문 성과가 동시에 존재한다.",
+      "current_confidence": "medium",
+      "needed_to_confirm": "2026 일자별 기온·강수·수위·코스 개방/폐쇄 이력"
+    },
+    {
+      "hypothesis": "합리적 요금/편의서비스/지역상권 연계가 문화관광축제 선정에 중요",
+      "support": "선정 보도에서 요금, 편의서비스, 지역상권 연계 체류형 상품 개발이 향후 과제로 언급된다.",
+      "current_confidence": "medium",
+      "needed_to_confirm": "요금표, 상품권 환급, 민원, 상권 매출"
+    },
+    {
+      "hypothesis": "자연경관 차별성이 목적 방문 수요를 만든다",
+      "support": "유네스코 세계지질공원, 주상절리, 겨울 얼음길이 반복적으로 핵심 콘텐츠로 제시된다.",
+      "current_confidence": "medium_high",
+      "needed_to_confirm": "방문동기 설문, 재방문율, 외지/외국인 비율"
+    },
+    {
+      "hypothesis": "대행사 운영능력은 중요하지만 아직 귀속 불가",
+      "support": "2024 공식 주관대행 평가결과는 있으나 2026 업체/계약/정산/사고 자료가 없다.",
+      "current_confidence": "medium_low",
+      "needed_to_confirm": "2026 평가결과, 계약상대자, 과업지시서, 정산자료"
+    }
+  ]
+}
