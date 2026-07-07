@@ -15,5 +15,13 @@ The HTML report should be an investigation surface rather than a raw table. The 
 - Cases: Failure/success evidence clusters around crowding/access, pricing, weather/safety, budget efficiency, content differentiation and governance/evaluation.
 - UI: A three-layer civic-investigation report shell is appropriate: narrative answer, evidence workspace, source/provenance drawers.
 
+## Expansion wave 2 findings
+- Access feasibility: public dataset metadata and file pages are usable immediately, but many OpenAPI endpoints require service-key application. These are recorded as public-docs-only until a key is available.
+- G2B/Nara procurement: direct attachment links can expose RFPs and task instructions, but link expiry, guarded downloads and JavaScript flows mean every contract match must store the notice number, agency, date and attachment evidence.
+- Local finance: cost-accounting, budget allocation and contract status should be treated as separate tables rather than one blended budget field.
+- Scoring: causal conclusions should use source-grade weights, evidence confidence, trend caveats, counterevidence and contract-match confidence. Weak evidence can sort a lead but cannot produce a strong claim.
+- Relation graph: public roles should be encoded as nodes and edges only when a source directly supports them. Hidden subcontracting, informal coordination and booth relationships remain `unknown`, `not_disclosed` or `not_observable` unless public documents name them.
+- GitHub Pages: the repository root contains `index.html` and is ready for Pages, but Pages was not enabled when checked. The likely final URL after enabling is `https://ukaysir.github.io/html/`.
+
 ## Claim discipline
 Every claim in the final dashboard must carry a confidence grade. Hidden subcontracting or private coordination must not be asserted unless a public source names it.

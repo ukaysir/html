@@ -1,0 +1,56 @@
+{
+  "version": "2026-07-07.wave2",
+  "purpose": "Rank Korean festival success/failure cause hypotheses without overstating weak public evidence.",
+  "source_grade_weight": {
+    "A_official_raw_data": 4,
+    "B_official_document": 3,
+    "C_media_review_social_signal": 2,
+    "D_unverified_or_missing": 1
+  },
+  "confidence_weight": {
+    "high": 1.0,
+    "medium": 0.7,
+    "low": 0.4
+  },
+  "trend_penalty": {
+    "none": 0,
+    "mild": 1,
+    "strong": 2
+  },
+  "contract_match_weight": {
+    "high": 1.0,
+    "medium": 0.7,
+    "low": 0.4,
+    "reject": 0.0
+  },
+  "formula": {
+    "support": "sum(source_grade_weight * confidence_weight)",
+    "counter": "sum(counter_evidence_grade_weight * counter_evidence_confidence_weight)",
+    "net": "support - counter - 0.5 * trend_penalty - 0.25 * uncertainty_count",
+    "bands": [
+      { "max_net": 0, "score": 0, "label_ko": "보류" },
+      { "max_net": 2, "score": 25, "label_ko": "약한 신호" },
+      { "max_net": 4, "score": 50, "label_ko": "검토 필요" },
+      { "max_net": 6, "score": 75, "label_ko": "강한 후보" },
+      { "max_net": null, "score": 100, "label_ko": "강한 원인" }
+    ]
+  },
+  "domains": [
+    "demand_forecast_mismatch",
+    "crowding_access",
+    "traffic_parking",
+    "safety_weather",
+    "price_merchant",
+    "content_differentiation",
+    "budget_efficiency",
+    "contract_vendor_structure",
+    "governance_evaluation",
+    "public_data_insufficiency"
+  ],
+  "hard_rules": [
+    "Do not infer causality from a single weak C/D signal.",
+    "Do not assert subcontracting unless a public source names the relationship.",
+    "Treat Korea Tourism Data Lab and SNS indicators as trend signals unless exact methodology supports exact counts.",
+    "Downgrade any conclusion when contract_match_confidence is low or reject."
+  ]
+}

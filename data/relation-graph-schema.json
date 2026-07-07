@@ -1,0 +1,68 @@
+{
+  "version": "2026-07-07.wave2",
+  "purpose": "Represent public-source festival stakeholder relationships without inventing hidden links.",
+  "node_types": [
+    "local_government",
+    "public_foundation",
+    "festival_committee",
+    "lead_contractor",
+    "subcontractor",
+    "booth_vendor",
+    "police_agency",
+    "fire_agency",
+    "traffic_agency",
+    "resident_group",
+    "visitor_group"
+  ],
+  "edge_types": [
+    "hosts",
+    "supervises",
+    "commissions",
+    "contracts_to",
+    "delegates_to",
+    "subcontracts_to",
+    "recruits",
+    "applies_to",
+    "supports",
+    "coordinates_with",
+    "operates_booth",
+    "provides_signal",
+    "attends",
+    "serves"
+  ],
+  "confidence_values": ["certain", "high", "medium", "low", "speculative"],
+  "missing_states": ["known", "unknown", "not_disclosed", "not_observable", "contradicted"],
+  "relationship_strength": ["formal", "operational", "coordination", "market", "social", "signal"],
+  "node_schema": {
+    "id": "stable slug",
+    "type": "one node_types value",
+    "name": "public name",
+    "display_label_ko": "Korean dashboard label",
+    "source_grade": "primary|official_secondary|public_registry|media_report|signal|unknown",
+    "evidence_count": "integer",
+    "confidence": "confidence_values value",
+    "match_confidence": "high|medium|low|reject|null",
+    "missing_state": "missing_states value",
+    "signals": "short text array",
+    "evidence": "source id array"
+  },
+  "edge_schema": {
+    "id": "stable slug",
+    "type": "one edge_types value",
+    "source_node_id": "node id",
+    "target_node_id": "node id",
+    "direction": "directed",
+    "confidence": "confidence_values value",
+    "match_confidence": "high|medium|low|reject|null",
+    "missing_state": "missing_states value",
+    "relationship_strength": "relationship_strength value",
+    "evidence": "source id array"
+  },
+  "rules": [
+    "Split government supervision from vendor contracting when both appear.",
+    "Use recruits for public booth/vendor 모집 notices; use contracts_to only when a selection or contract is confirmed.",
+    "Use subcontracts_to only when a public document directly states a subcontract, cooperation company or execution company relationship.",
+    "Use provides_signal for visitors and residents unless a source proves formal decision authority.",
+    "Store missing but relevant relationships as unknown/not_disclosed rather than deleting the gap."
+  ]
+}

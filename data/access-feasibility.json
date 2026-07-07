@@ -1,0 +1,55 @@
+{
+  "version": "2026-07-07.wave2",
+  "purpose": "Classify which public festival data sources can be used by this agent-only research run.",
+  "sources": [
+    {
+      "id": "data_go_kr_openapi",
+      "label_ko": "공공데이터포털 OpenAPI",
+      "access_status": "public_docs_key_required_for_api",
+      "usable_now": ["dataset metadata", "field descriptions", "public file pages"],
+      "blocked_or_limited": ["bulk API calls without service key", "some 활용신청 flows"],
+      "research_response": "Use metadata and public file datasets first; record API-key dependency explicitly."
+    },
+    {
+      "id": "g2b_nara_attachments",
+      "label_ko": "나라장터 입찰공고·첨부",
+      "access_status": "public_attachment_links_guarded_or_expiring",
+      "usable_now": ["notice pages", "some direct attachment downloads", "notice number and agency metadata"],
+      "blocked_or_limited": ["expired attachments", "JavaScript download flows", "guarded sessions"],
+      "research_response": "Save notice number, agency, date and title with every vendor/contract match."
+    },
+    {
+      "id": "local_finance_365",
+      "label_ko": "지방재정365",
+      "access_status": "public_pages_downloads_api_may_require_key",
+      "usable_now": ["cost accounting pages", "budget allocation pages", "contract status pages"],
+      "blocked_or_limited": ["OpenAPI key requirement", "inconsistent local-government naming"],
+      "research_response": "Keep cost, budget and contract records as separate evidence axes."
+    },
+    {
+      "id": "kto_datalab",
+      "label_ko": "한국관광 데이터랩",
+      "access_status": "dashboard_public_methodology_limited",
+      "usable_now": ["visitor trend", "daily average", "card spending trend", "demographic signal"],
+      "blocked_or_limited": ["not exact visitor count", "some AI or login-gated features", "SNS completeness limits"],
+      "research_response": "Use as trend evidence with trend_caveat; do not treat as census truth."
+    },
+    {
+      "id": "mcst_festival_pages",
+      "label_ko": "문체부 지역축제·문화관광축제",
+      "access_status": "public_official_pages",
+      "usable_now": ["2017-2026 regional festival index", "2016 culture-tourism-festival report"],
+      "blocked_or_limited": ["no single confirmed public 2016 all-regional-festival master"],
+      "research_response": "Use 2017-2026 as strongest master; mark 2016 as coverage gap and backfill locally."
+    }
+  ],
+  "forbidden_methods": [
+    "phone_call",
+    "email_request",
+    "interview",
+    "information_disclosure_request",
+    "paid_database",
+    "login_only_private_area",
+    "access_control_bypass"
+  ]
+}
