@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-08T01:33:24+09:00",
+    "scope": "P2 benchmark festivals from benchmark-risk-priority-queue; procurement/agency search queue.",
+    "total": 7,
+    "guardrail": "Evidence leads are search seeds. They are not fault findings and must be confirmed against original notices, awards, contracts, and outcomes."
+  },
+  "queue": [
+    {
+      "priority": "P2",
+      "risk_score": 9,
+      "official_name": "부천국제만화제",
+      "candidate_name": null,
+      "region": null,
+      "period_raw": null,
+      "budget_million_krw": null,
+      "visitors_previous_total": null,
+      "join_status": "not_matched_in_2026_master_by_name",
+      "procurement_depth": "evidence_seeded",
+      "search_terms": [
+        "부천국제만화제 행사대행 용역",
+        "부천국제만화제 입찰 공고",
+        "부천국제만화제 제안요청서",
+        "부천국제만화제 주관대행용역",
+        "부천국제만화제 계약 결과",
+        " 부천국제만화제 용역",
+        "부천국제만화제 제안서 평가결과"
+      ],
+      "evidence_leads": [
+        {
+          "source_type": "bid_mirror",
+          "title": "2026년 부천국제만화축제 및 경기국제코스프레페스티벌 기획·운영 용역",
+          "url": "https://www.bidpro.co.kr/n0_ipchal/konggo/svc/konggo_view.asp?num=3139714",
+          "evidence": "공고번호 R26BK01611985-000, 공고기관 경기도 부천시, 수요기관 한국만화영상진흥원 단서",
+          "reliability": "mirror_needs_original_confirmation"
+        },
+        {
+          "source_type": "official_operator",
+          "title": "부천국제만화축제 2027 문화관광축제 신규 선정",
+          "url": "https://www.komacon.kr/komacon_m/news/view.asp?b_code=18&b_sq=29856&nowPage=1&s_cate=&s_fld=&s_txt=",
+          "evidence": "한국만화영상진흥원 공식 보도자료 제목/작성일 확인",
+          "reliability": "official_operator_page"
+        }
+      ],
+      "next_actions": [
+        "confirm original public notice or official page",
+        "extract RFP/task scope/evaluation criteria",
+        "find awardee/contract amount/change or settlement result",
+        "join with visitor/satisfaction/crowding evidence",
+        "avoid attributing failure to contractor without contract and result evidence"
+      ]
+    },
+    {
+      "priority": "P2",
+      "risk_score": 8,
+      "official_name": "부평풍물대축제",
+      "candidate_name": "2026년 제30회 부평풍물대축제",
+      "region": "인천 부평구",
+      "period_raw": "2026-10-02~2026-10-04",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 230282.0,
+      "join_status": "fuzzy_2026_master_match",
+      "procurement_depth": "evidence_seeded",
+      "search_terms": [
+        "부평풍물대축제 행사대행 용역",
+        "부평풍물대축제 입찰 공고",
+        "부평풍물대축제 제안요청서",
+        "부평풍물대축제 주관대행용역",
+        "부평풍물대축제 계약 결과",
+        "인천 부평구 부평풍물대축제 용역",
+        "부평풍물대축제 제안서 평가결과"
+      ],
+      "evidence_leads": [
+        {
+          "source_type": "official_festival",
+          "title": "부평풍물대축제 축제개요",
+          "url": "https://portal.icbp.go.kr/bpf/pungmul/introduce.asp",
+          "evidence": "2026년 제30회 부평풍물대축제, 2026.10.2~10.4, 부평구축제위원회 연락처 확인",
+          "reliability": "official_local_page"
+        },
+        {
+          "source_type": "kto_festival_detail",
+          "title": "한국관광공사 문화관광축제 상세",
+          "url": "https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=e7f655b5-b2d3-4923-90ba-6d7ce678b381",
+          "evidence": "부평구/축제위원회/문화재단/문화원 운영기관 및 먹거리 부스 없음 단서",
+          "reliability": "official_tourism_portal"
+        }
+      ],
+      "next_actions": [
+        "confirm original public notice or official page",
+        "extract RFP/task scope/evaluation criteria",
+        "find awardee/contract amount/change or settlement result",
+        "join with visitor/satisfaction/crowding evidence",
+        "avoid attributing failure to contractor without contract and result evidence"
+      ]
+    },
+    {
+      "priority": "P2",
+      "risk_score": 8,
+      "official_name": "수원화성문화제",
+      "candidate_name": "제63회 수원화성문화제",
+      "region": "경기 수원시",
+      "period_raw": "2026-10-04~2026-10-11",
+      "budget_million_krw": 698.0,
+      "visitors_previous_total": 709154.0,
+      "join_status": "exact_2026_master_match",
+      "procurement_depth": "evidence_seeded",
+      "search_terms": [
+        "수원화성문화제 행사대행 용역",
+        "수원화성문화제 입찰 공고",
+        "수원화성문화제 제안요청서",
+        "수원화성문화제 주관대행용역",
+        "수원화성문화제 계약 결과",
+        "경기 수원시 수원화성문화제 용역",
+        "수원화성문화제 제안서 평가결과"
+      ],
+      "evidence_leads": [
+        {
+          "source_type": "official_foundation_bid_archive",
+          "title": "제57회 수원화성문화제 행사 대행 용역 입찰 공고",
+          "url": "https://www.swcf.or.kr/?idx=17955&p=115&page=3&viewMode=view",
+          "evidence": "행사 대행 용역, 협상계약, 사업금액 500,000,000원, 과업지시서/제안요청서 첨부 단서",
+          "reliability": "official_foundation_archive"
+        },
+        {
+          "source_type": "official_festival_detail",
+          "title": "수원화성문화제 2026 축제 정보",
+          "url": "https://www.visitsuwon.or.kr/base/menu/baseView?menuLevel=2&menuNo=5",
+          "evidence": "제63회 수원화성문화제, 2026.10.4~10.11, 주최/주관 확인",
+          "reliability": "official_local_tourism_page"
+        },
+        {
+          "source_type": "official_foundation_bid_list",
+          "title": "수원문화재단 2026 입찰공고 목록",
+          "url": "https://www.swcf.or.kr/?p=115",
+          "evidence": "2026 수원화성 미디어아트 시스템 설치 및 행사 운영 등 용역 단서",
+          "reliability": "official_foundation_list"
+        }
+      ],
+      "next_actions": [
+        "confirm original public notice or official page",
+        "extract RFP/task scope/evaluation criteria",
+        "find awardee/contract amount/change or settlement result",
+        "join with visitor/satisfaction/crowding evidence",
+        "avoid attributing failure to contractor without contract and result evidence"
+      ]
+    },
+    {
+      "priority": "P2",
+      "risk_score": 8,
+      "official_name": "음성품바축제",
+      "candidate_name": "제27회 음성품바축제",
+      "region": "충북 음성군",
+      "period_raw": "2026-06-10~2026-06-14",
+      "budget_million_krw": 0.0,
+      "visitors_previous_total": 328190.0,
+      "join_status": "exact_2026_master_match",
+      "procurement_depth": "thin_seed",
+      "search_terms": [
+        "음성품바축제 행사대행 용역",
+        "음성품바축제 입찰 공고",
+        "음성품바축제 제안요청서",
+        "음성품바축제 주관대행용역",
+        "음성품바축제 계약 결과",
+        "충북 음성군 음성품바축제 용역",
+        "음성품바축제 제안서 평가결과"
+      ],
+      "evidence_leads": [
+        {
+          "source_type": "event_publicity",
+          "title": "2026 음성품바축제 개최 정보",
+          "url": "https://www.youtube.com/watch?v=JFW8jekAZPo",
+          "evidence": "2026.06.10~06.14, 설성공원/꽃동네 일원 개최 단서",
+          "reliability": "publicity_needs_official_contract_source"
+        }
+      ],
+      "next_actions": [
+        "confirm original public notice or official page",
+        "extract RFP/task scope/evaluation criteria",
+        "find awardee/contract amount/change or settlement result",
+        "join with visitor/satisfaction/crowding evidence",
+        "avoid attributing failure to contractor without contract and result evidence"
+      ]
+    },
+    {
+      "priority": "P2",
+      "risk_score": 8,
+      "official_name": "인천펜타포트음악축제",
+      "candidate_name": "제21회 인천 펜타포트 음악축제",
+      "region": "인천 -",
+      "period_raw": "2026-07-31~2026-08-02",
+      "budget_million_krw": 800.0,
+      "visitors_previous_total": 150000.0,
+      "join_status": "exact_2026_master_match",
+      "procurement_depth": "evidence_seeded",
+      "search_terms": [
+        "인천펜타포트음악축제 행사대행 용역",
+        "인천펜타포트음악축제 입찰 공고",
+        "인천펜타포트음악축제 제안요청서",
+        "인천펜타포트음악축제 주관대행용역",
+        "인천펜타포트음악축제 계약 결과",
+        "인천 - 인천펜타포트음악축제 용역",
+        "인천펜타포트음악축제 제안서 평가결과"
+      ],
+      "evidence_leads": [
+        {
+          "source_type": "bid_mirror",
+          "title": "2026 인천펜타포트음악축제 공동 사업자 모집 공모",
+          "url": "https://www.ecast.co.kr/board_lgdB62/13165",
+          "evidence": "공고번호 2025-227호, 공동사업자 모집 공모 단서",
+          "reliability": "mirror_needs_original_confirmation"
+        },
+        {
+          "source_type": "grant_mirror",
+          "title": "2026 인천펜타포트음악축제 공동사업자 모집",
+          "url": "https://thevc.kr/grants/9928a58a284ec816653cedc1",
+          "evidence": "협약기간 2026.12.31, 추정금액 3,715,000,000원, 분담금/민간투자 단서",
+          "reliability": "mirror_needs_original_confirmation"
+        }
+      ],
+      "next_actions": [
+        "confirm original public notice or official page",
+        "extract RFP/task scope/evaluation criteria",
+        "find awardee/contract amount/change or settlement result",
+        "join with visitor/satisfaction/crowding evidence",
+        "avoid attributing failure to contractor without contract and result evidence"
+      ]
+    },
+    {
+      "priority": "P2",
+      "risk_score": 8,
+      "official_name": "철원한탄강얼음트레킹",
+      "candidate_name": "철원한탄강얼음트레킹 축제",
+      "region": "강원 철원군",
+      "period_raw": "2026-01-17~2026-01-25",
+      "budget_million_krw": 0.0,
+      "visitors_previous_total": 150000.0,
+      "join_status": "fuzzy_2026_master_match",
+      "procurement_depth": "evidence_seeded",
+      "search_terms": [
+        "철원한탄강얼음트레킹 행사대행 용역",
+        "철원한탄강얼음트레킹 입찰 공고",
+        "철원한탄강얼음트레킹 제안요청서",
+        "철원한탄강얼음트레킹 주관대행용역",
+        "철원한탄강얼음트레킹 계약 결과",
+        "강원 철원군 철원한탄강얼음트레킹 용역",
+        "철원한탄강얼음트레킹 제안서 평가결과"
+      ],
+      "evidence_leads": [
+        {
+          "source_type": "official_foundation_notice",
+          "title": "제13회 철원 한탄강 얼음트레킹 축제 주관대행용역 제안서 평가결과",
+          "url": "https://gcwcf.or.kr/w5_2/63",
+          "evidence": "철원문화재단 공고, 협상에 의한 계약체결기준에 따른 평가결과 공개 단서",
+          "reliability": "official_foundation_page"
+        },
+        {
+          "source_type": "official_festival_detail",
+          "title": "제14회 철원 한탄강 얼음트레킹 축제 개요",
+          "url": "https://gcwcf.or.kr/w1_c_6_1/5",
+          "evidence": "2026.01.17~01.25, 철원문화재단 주최/주관 단서",
+          "reliability": "official_foundation_page"
+        },
+        {
+          "source_type": "bid_archive",
+          "title": "제10회 철원 한탄강 얼음트레킹 축제 주관대행용역",
+          "url": "https://cnc.cacf.or.kr/main/html/sub04/0401.html?GotoPage=193&mode=V&no=4e6856ef006b3ae5ce41cd65a6042c68",
+          "evidence": "G2B 공고번호 20211205891-00 과거 주관대행용역 단서",
+          "reliability": "archive_with_g2b_original_link"
+        }
+      ],
+      "next_actions": [
+        "confirm original public notice or official page",
+        "extract RFP/task scope/evaluation criteria",
+        "find awardee/contract amount/change or settlement result",
+        "join with visitor/satisfaction/crowding evidence",
+        "avoid attributing failure to contractor without contract and result evidence"
+      ]
+    },
+    {
+      "priority": "P2",
+      "risk_score": 7,
+      "official_name": "동래읍성축제",
+      "candidate_name": null,
+      "region": null,
+      "period_raw": null,
+      "budget_million_krw": null,
+      "visitors_previous_total": null,
+      "join_status": "not_matched_in_2026_master_by_name",
+      "procurement_depth": "evidence_seeded",
+      "search_terms": [
+        "동래읍성축제 행사대행 용역",
+        "동래읍성축제 입찰 공고",
+        "동래읍성축제 제안요청서",
+        "동래읍성축제 주관대행용역",
+        "동래읍성축제 계약 결과",
+        " 동래읍성축제 용역",
+        "동래읍성축제 제안서 평가결과"
+      ],
+      "evidence_leads": [
+        {
+          "source_type": "official_festival",
+          "title": "동래읍성역사축제 공식 홈페이지",
+          "url": "https://www.dongnae.go.kr/festival/index.dongnae",
+          "evidence": "동래읍성역사축제 운영명, 제32회 2026 공지 흐름, 프로그램/참여신청 단서",
+          "reliability": "official_local_page"
+        },
+        {
+          "source_type": "standard_data_mirror",
+          "title": "부산광역시 문화 축제 목록",
+          "url": "https://dokdokinfo.kr/culturalfestival/busan/",
+          "evidence": "동래읍성역사축제/동래읍성축제 명칭 병기, 기간 2026.10.16~10.18, 주관기관 동래문화원+추진위원회 단서",
+          "reliability": "derived_from_standard_data_needs_primary_confirmation"
+        }
+      ],
+      "next_actions": [
+        "confirm original public notice or official page",
+        "extract RFP/task scope/evaluation criteria",
+        "find awardee/contract amount/change or settlement result",
+        "join with visitor/satisfaction/crowding evidence",
+        "avoid attributing failure to contractor without contract and result evidence"
+      ]
+    }
+  ]
+}

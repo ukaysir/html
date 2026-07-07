@@ -73,3 +73,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/benchmark-risk-priority-queue.json: investigation priority queue for the 2026-2027 cultural-tourism benchmark cohort.
 - enchmark-risk-priority-queue.html: human-readable page showing which benchmark festivals should be traced first for budget/procurement/crowding/satisfaction causes.
+
+## Benchmark procurement queue
+
+- data/benchmark-procurement-search-queue.json: procurement/agency search queue for P2 benchmark festivals.
+- enchmark-procurement-search-queue.html: human-readable query plan and evidence-seed page for contractor/procurement tracing.

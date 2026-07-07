@@ -69,3 +69,9 @@ Updated: 2026-07-07.
 
 - Built a priority queue for the 27 cultural-tourism benchmark festivals using join ambiguity, budget, previous visitor, and outsourcing signals.
 - Added data/benchmark-risk-priority-queue.json, .csv, and enchmark-risk-priority-queue.html.
+
+## Checkpoint: benchmark procurement search queue (2026-07-08T01:33:24+09:00)
+
+- Built a P2 procurement/agency search queue for 7 benchmark festivals.
+- Added evidence seeds for Bucheon, Incheon Pentaport, Cheorwon, Suwon, Bupyeong, Dongnae, and Eumseong where public search found initial leads.
+- Added guardrail that bid notices are not fault findings until contracts/results/outcomes are joined.
