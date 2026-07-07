@@ -103,3 +103,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/pentaport-2025-success-dossier.json: success-side dossier connecting visitor count, satisfaction, heat/safety operations, programming, and local linkage.
 - pentaport-2025-success-dossier.html: human-readable "why did this work?" contrast case while preserving contractor-attribution gaps.
+
+## Bucheon Comics 2025 governance dossier
+
+- data/bucheon-comics-2025-governance-dossier.json: official tender/evaluation chain plus outcome and cultural-tourism-selection signals.
+- bucheon-comics-2025-governance-dossier.html: human-readable bridge from procurement evidence to success hypotheses without contractor overclaiming.

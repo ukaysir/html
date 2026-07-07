@@ -103,3 +103,9 @@ Updated: 2026-07-07.
 - Built a success-side dossier for Incheon Pentaport 2025 using official Incheon visitor/economic/satisfaction data and public operating-detail reports.
 - Separated success result, safety/heat response, programming, legacy content, local linkage, and unresolved contractor-attribution gaps.
 - Added data/pentaport-2025-success-dossier.json, .csv, pentaport-2025-success-dossier.html, and evidence note.
+
+## Checkpoint: Bucheon Comics 2025 governance dossier (2026-07-08T02:29:00+09:00)
+
+- Built a Level B+ governance/outcome bridge dossier for Bucheon International Comics Festival 2025.
+- Connected official KOMACON tender/evaluation pages, public 2025 participation scale, program structure, and 2027 cultural tourism festival selection while preserving contractor-attribution gaps.
+- Added data/bucheon-comics-2025-governance-dossier.json, .csv, bucheon-comics-2025-governance-dossier.html, and evidence note.

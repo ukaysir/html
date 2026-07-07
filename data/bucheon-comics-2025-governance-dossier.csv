@@ -1,0 +1,9 @@
+section,finding,evidence_strength,source_url,analysis_role,open_gap
+official_tender,"2025년 부천국제만화축제 및 경기국제코스프레페스티벌 기획·운영 용역 공식 공고와 공고문/제안요청서 첨부",high,https://www.komacon.kr/b_sys/index.asp?b_code=1&b_mode=view&b_sq=29271&nowPage=210&s_cate=&s_fld=&s_txt=,"기획·운영 대행 구조와 요구사항 추적 시작점",HWP 첨부 텍스트 추출
+official_evaluation,"2025 기획 운영 용역 제안서 평가 결과 공식 페이지와 PDF 첨부",high,https://www.komacon.kr/b_sys/index.asp?b_code=4&b_mode=view&b_sq=29393&nowPage=3&s_cate=2&s_fld=&s_txt=,"업체선정·평가항목·점수 추적 가능",PDF 텍스트 추출과 업체명 확인
+budget_mirror,"비드프로 미러에 배정예산 5억 원, 제한경쟁, 협상에 의한 계약, 방문접수 등 공고 세부조건 노출",medium,https://www.bidpro.co.kr/n0_ipchal/konggo/svc/konggo_view.asp?num=2902771,"예산/계약조건 단서",공식 G2B/부천시 원문으로 승격
+event_scale_2025,"2025 제28회 축제 3일간 10만여 명 관람객과 2만여 명 코스튬 플레이어 참여",medium_high,https://www.2025bicom.kr/front/index.php?bb_code=70pl3c&bvLib=1&g_page=notice&g_page=notice&m_page=notice01&m_page=notice01&sc=TOL&view=read,"수요 규모와 현장 운영 난이도 지표",공식 집계 방법·시간대별 밀집도·만족도
+programming_2025,"전시, 작가 사인회/대담, 13개국 경기국제코스프레페스티벌, 가족 애니메이션 상영, 야외 만화카페, OST 버스킹 등 구성",medium_high,https://www.yna.co.kr/view/AKR20250926143400005,"프로그램 경쟁력 후보",프로그램별 방문/만족도/체류시간
+cultural_tourism_selection,"2027 문화관광축제 신규 선정, 운영 안정성·프로그램 경쟁력·지역사회 호흡 평가",medium_high,https://www.komacon.kr/komacon_m/news/view.asp?b_code=18&b_sq=29856&nowPage=1&s_cate=&s_fld=&s_txt=,"외부/정책 평가 기반 성공 신호",문체부 평가 세부점수와 선정자료
+long_term_scale,"1998년 시작, 매년 10만 명 이상 방문하는 글로벌 소통 허브로 성장했다는 보도",medium,https://v.daum.net/v/9e1WgbRflm?f=p,"장기 브랜드/수요 기반",연도별 실제 관람객과 예산 변화
+classification,"Level B+ governance/outcome bridge: 공식 조달체인과 성과 신호는 있으나 계약상 책임 귀속 전",high,local_research_synthesis,"왜 성공/실패했는지 추론 전 과잉주장 방지",계약상대자·정산·만족도·민원 데이터
