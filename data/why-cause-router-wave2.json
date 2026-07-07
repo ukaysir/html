@@ -101,6 +101,24 @@
       ]
     },
     {
+      "id": "budget-waste",
+      "question": "예산 낭비 리스크인가?",
+      "answer_rule": "Do not treat high budget as waste. Join net public cost, revenue, visitor/satisfaction evidence, local-spend capture, external inconvenience and contract accountability.",
+      "confidence_rule": "High-confidence waste requires official cost, outcome, contract responsibility and counter-evidence review.",
+      "cases": [
+        {
+          "festival": "대전 0시축제 2024",
+          "page": "budget-waste-causality-model-wave1.html",
+          "status": "headline economic-effect verification route"
+        },
+        {
+          "festival": "펜타포트 2019",
+          "page": "budget-waste-causality-model-wave1.html",
+          "status": "value-for-money and governance route"
+        }
+      ]
+    },
+    {
       "id": "mixed-success",
       "question": "성공 지표와 실패 체감이 동시에 있는가?",
       "answer_rule": "Keep official metrics and counter-evidence side by side; do not collapse into a single success/failure label.",

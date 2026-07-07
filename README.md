@@ -163,3 +163,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 
 - data/jinhae-gunhangje-price-safety-prevention-dossier.json: prevention benchmark for large-festival price control, booth-transfer control, crowd capacity, traffic and emergency response.
 - jinhae-gunhangje-price-safety-prevention-dossier.html: human-readable model for how a 300만+ visitor festival attempts to prevent price and crowd-risk failures.
+
+## Budget waste causality model
+
+- data/budget-waste-causality-model-wave1.json: evidence model for deciding when a festival has budget-waste risk without equating high budget with waste.
+- budget-waste-causality-model-wave1.html: human-readable scoring flow using net cost, revenue, visitor/satisfaction evidence, local spend, external costs and contract accountability.

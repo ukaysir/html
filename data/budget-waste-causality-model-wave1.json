@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-07-08T04:45:00+09:00",
+  "title": "Budget waste causality model wave 1",
+  "purpose": "Create a defensible model for deciding when a festival has budget-waste risk, without equating high budget with waste.",
+  "core_rule": "Budget waste requires a mismatch between public cost, public value, local economic capture, satisfaction, safety/traffic externalities and contract accountability. Total budget alone is not enough.",
+  "official_data_sources": [
+    {
+      "source": "Local Finance 365 event/festival cost accounting",
+      "fields": [
+        "event/festival name",
+        "business content",
+        "total cost",
+        "revenue",
+        "net cost",
+        "start date",
+        "end date"
+      ],
+      "source_url": "https://www.data.go.kr/data/15056968/openapi.do",
+      "use": "baseline cost, revenue and net-cost evidence"
+    },
+    {
+      "source": "Local Finance 365 event/festival budget-line details",
+      "fields": [
+        "event operation expense",
+        "event participant compensation",
+        "private event subsidy",
+        "event-related facility cost"
+      ],
+      "source_url": "https://www.data.go.kr/data/15138721/openapi.do",
+      "use": "separate direct operation, subsidy and facility-heavy spending"
+    },
+    {
+      "source": "Local contracts/procurement and NaraJangteo notices",
+      "fields": [
+        "contract amount",
+        "method",
+        "supplier",
+        "scope",
+        "bid changes",
+        "award result"
+      ],
+      "source_url": "https://www.data.go.kr/data/15129394/openapi.do",
+      "use": "connect spending to operating responsibility"
+    }
+  ],
+  "risk_flags": [
+    {
+      "flag": "high_net_cost_low_evidence",
+      "description": "High net public cost but weak visitor, satisfaction or local-spend evidence.",
+      "evidence_needed": "Local Finance cost, visitor methodology, satisfaction/evaluation report."
+    },
+    {
+      "flag": "headline_economic_effect_unverified",
+      "description": "Large economic-effect claim without transparent assumptions, duplicate-visitor control or merchant-level validation.",
+      "evidence_needed": "Economic-effect model, card-sales by zone/industry, merchant survey."
+    },
+    {
+      "flag": "contract_scope_mismatch",
+      "description": "Large outsourced package but no clear scope for safety, price, booth, traffic or satisfaction outcomes.",
+      "evidence_needed": "RFP, task order, contract, evaluation result, settlement."
+    },
+    {
+      "flag": "externalized_inconvenience",
+      "description": "Festival shifts traffic, noise, safety, cleanup or resident inconvenience costs outside the official budget result.",
+      "evidence_needed": "Traffic plan, civil complaints, cleanup cost, police/fire deployment, resident survey."
+    },
+    {
+      "flag": "booth_or_price_leakage",
+      "description": "Public budget draws visitors, but outside vendors/night markets capture sales or cause reputation damage without being controlled.",
+      "evidence_needed": "Booth lists, seller rules, price table, complaint log, local merchant participation."
+    }
+  ],
+  "case_links": [
+    {
+      "case": "대전 0시축제",
+      "page": "daejeon-zero-clock-mixed-verdict-dossier.html",
+      "budget_question": "Do headline visitor/economic-effect claims match merchant-level and traffic-inconvenience evidence?"
+    },
+    {
+      "case": "펜타포트 2019",
+      "page": "pentaport-2019-cause-dossier.html",
+      "budget_question": "Did governance/operator transition and programming criticism create value-for-money risk?"
+    },
+    {
+      "case": "영양·홍천 가격 사례",
+      "page": "festival-failure-risk-leads-wave1.html",
+      "budget_question": "Did public festival spending generate visitor trust while uncontrolled sellers damaged satisfaction?"
+    }
+  ],
+  "scoring_proposal": {
+    "inputs": [
+      "net_public_cost",
+      "visitor_count_quality",
+      "direct_local_spend_quality",
+      "satisfaction_quality",
+      "contract_scope_clarity",
+      "resident_inconvenience_signal",
+      "counter_evidence"
+    ],
+    "bands": {
+      "0": "no budget-waste claim",
+      "25": "watchlist",
+      "50": "risk lead",
+      "75": "strong risk candidate",
+      "100": "high-confidence waste finding only with official cost, outcome and accountability evidence"
+    }
+  }
+}

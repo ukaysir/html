@@ -1,0 +1,8 @@
+item,value
+title,Budget waste causality model wave 1
+core_rule,Budget waste requires mismatch between public cost public value local economic capture satisfaction safety/traffic externalities and contract accountability
+source_1,Local Finance 365 event/festival cost accounting: total cost revenue net cost dates
+source_2,Local Finance 365 event/festival budget-line details: operation compensation subsidy facility cost
+source_3,Contracts/procurement: amount method supplier scope bid changes award result
+risk_flags,high net cost low evidence; unverified economic effect; contract scope mismatch; externalized inconvenience; booth/price leakage
+case_links,Daejeon Zero Clock; Pentaport 2019; Yeongyang/Hongcheon price cases

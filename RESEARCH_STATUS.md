@@ -174,3 +174,9 @@ Updated: 2026-07-07.
 - Built a prevention benchmark dossier for Jinhae Gunhangje, combining 2023 scale/outcome, 2025 price/booth controls, and 2026 one-strike price plus safety inspection controls.
 - Separated price, booth-transfer, crowd-capacity, traffic and emergency-response controls into a reusable large-festival model.
 - Added data/jinhae-gunhangje-price-safety-prevention-dossier.json, .csv, jinhae-gunhangje-price-safety-prevention-dossier.html, evidence note, and why-cause router links.
+
+## Checkpoint: budget waste causality model (2026-07-08T04:45:00+09:00)
+
+- Added a budget-waste evidence model so high budget is not automatically treated as waste.
+- Defined risk flags for high net cost with weak outcomes, unverified headline economic effects, contract scope mismatch, externalized inconvenience and booth/price leakage.
+- Added data/budget-waste-causality-model-wave1.json, .csv, budget-waste-causality-model-wave1.html, and evidence note.

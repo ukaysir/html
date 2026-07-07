@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>축제 예산 낭비 원인 모델 Wave 1</title>
+  <style>
+    :root{--bg:#14110c;--panel:#241b12;--ink:#fff6e5;--muted:#cdbda2;--line:#60482d;--lime:#d8f56e;--blue:#8cbcff;--amber:#ffc46f;--red:#ff735f}
+    *{box-sizing:border-box}body{margin:0;font-family:Pretendard,"Noto Sans KR","Segoe UI",sans-serif;background:radial-gradient(circle at 10% 0,rgba(255,196,111,.16),transparent 30%),linear-gradient(180deg,var(--bg),#090704);color:var(--ink);line-height:1.66}.wrap{width:min(1160px,calc(100% - 32px));margin:auto}header{padding:54px 0 28px}.kicker{font-size:12px;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:var(--lime)}h1{font-size:clamp(34px,6vw,64px);line-height:1.05;margin:12px 0;letter-spacing:-.05em}h2{font-size:clamp(24px,3vw,38px);margin:0 0 12px;letter-spacing:-.03em}h3{margin:0 0 8px}.lead{font-size:18px;color:var(--muted);max-width:920px}.panel,.card{background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:22px;box-shadow:0 20px 60px rgba(0,0,0,.25)}.panel{padding:24px;margin:18px 0}.grid{display:grid;gap:16px}.two{grid-template-columns:repeat(2,1fr)}.three{grid-template-columns:repeat(3,1fr)}.card{padding:18px}.muted{color:var(--muted)}.badge{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:5px 10px;margin:3px;background:rgba(255,255,255,.045);font-size:12px;color:var(--muted)}a{color:var(--lime)}.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.flow div{border:1px solid var(--line);border-radius:16px;padding:14px;background:rgba(255,255,255,.05)}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}.table{width:100%;border-collapse:collapse;min-width:920px}.table th,.table td{padding:12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.table th{color:var(--lime);background:rgba(255,255,255,.055);font-size:13px}footer{padding:34px 0;color:#9d927c;font-size:13px}@media(max-width:900px){.two,.three,.flow{grid-template-columns:1fr}.table{font-size:14px}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="kicker">Budget waste causality model</div>
+    <h1>예산이 크다고 낭비는 아니다. 어떻게 판정할 것인가?</h1>
+    <p class="lead">축제 예산 낭비는 총액만으로 판단하면 안 됩니다. 순원가, 수익, 방문객 산정 품질, 지역소비, 만족도, 교통·안전 외부비용, 계약 책임 범위를 함께 봐야 합니다.</p>
+    <p><a class="badge" href="index.html">메인으로</a><a class="badge" href="why-cause-router-wave2.html">원인 라우터</a><a class="badge" href="data/budget-waste-causality-model-wave1.json">JSON</a><a class="badge" href="data/budget-waste-causality-model-wave1.csv">CSV</a></p>
+  </header>
+
+  <main class="wrap">
+    <section class="panel">
+      <h2>예산 낭비 판정 흐름</h2>
+      <div class="flow">
+        <div><b>1. 비용</b><br><span class="muted">총비용·순원가</span></div>
+        <div><b>2. 수익</b><br><span class="muted">사업수익·민간부담</span></div>
+        <div><b>3. 성과</b><br><span class="muted">방문객·만족도</span></div>
+        <div><b>4. 지역효과</b><br><span class="muted">카드매출·상인 체감</span></div>
+        <div><b>5. 외부비용</b><br><span class="muted">교통·안전·민원</span></div>
+        <div><b>6. 책임</b><br><span class="muted">계약·대행·과업</span></div>
+      </div>
+    </section>
+
+    <section class="grid three">
+      <article class="card">
+        <h3>공식 원가</h3>
+        <p class="muted">행사축제원가회계정보는 총비용, 사업수익, 순원가, 기간을 확인하는 첫 출처입니다.</p>
+      </article>
+      <article class="card">
+        <h3>예산 구조</h3>
+        <p class="muted">행사운영비, 행사실비보상금, 민간행사사업보조, 행사관련시설비를 분리해야 합니다.</p>
+      </article>
+      <article class="card">
+        <h3>계약 책임</h3>
+        <p class="muted">나라장터·계약정보에서 대행사 과업이 가격·부스·안전·교통까지 포함했는지 확인해야 합니다.</p>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>낭비 리스크 플래그</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead><tr><th>플래그</th><th>뜻</th><th>필요 증거</th><th>연결 사례</th></tr></thead>
+          <tbody>
+            <tr><td>순원가 높고 성과 약함</td><td>공공 순비용은 큰데 방문객·만족도·지역소비 증거가 약함</td><td>원가회계, 평가보고서, 방문객 산정 방식</td><td>향후 전수조인 대상</td></tr>
+            <tr><td>경제효과 검증 불명확</td><td>수천억 효과를 주장하지만 산식·중복·간접효과 가정이 불명확</td><td>경제효과 모델, 카드매출, 상인 설문</td><td><a href="daejeon-zero-clock-mixed-verdict-dossier.html">대전 0시축제</a></td></tr>
+            <tr><td>계약 범위 불일치</td><td>대행사는 있는데 가격·부스·안전·교통 책임 범위가 불명확</td><td>RFP, 과업지시서, 계약서, 평가결과</td><td><a href="pentaport-2019-cause-dossier.html">펜타포트 2019</a></td></tr>
+            <tr><td>외부비용 전가</td><td>교통정체, 안전동원, 소음, 청소, 주민 불편이 성과표 밖에 있음</td><td>교통계획, 민원, 경찰·소방 배치, 정체시간</td><td><a href="incheon-crowd-forecast-threshold-dossier.html">인천 인파</a></td></tr>
+            <tr><td>가격·부스 누수</td><td>공공예산으로 모은 방문객을 통제 밖 판매자가 활용하고 평판을 훼손</td><td>부스명단, 가격표, 야시장 계약, 민원</td><td><a href="yeongyang-sannamul-price-governance-dossier.html">영양</a> · <a href="hongcheon-ice-nightmarket-price-dossier.html">홍천</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>점수화 제안</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead><tr><th>점수</th><th>판정</th><th>조건</th></tr></thead>
+          <tbody>
+            <tr><td>0</td><td>낭비 주장 금지</td><td>비용만 있고 성과·반대증거 없음</td></tr>
+            <tr><td>25</td><td>관찰 대상</td><td>총비용/순원가가 높거나 민원 신호가 있으나 인과 약함</td></tr>
+            <tr><td>50</td><td>리스크 리드</td><td>비용, 불만, 성과 공백 중 2개 이상 연결</td></tr>
+            <tr><td>75</td><td>강한 후보</td><td>공식 비용, 낮은 성과/만족도, 계약 또는 운영 책임이 함께 보임</td></tr>
+            <tr><td>100</td><td>고신뢰 낭비 판정</td><td>공식 원가, 결과, 계약책임, 반대증거 검토까지 충족</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>출처</h2>
+      <p><a href="https://www.data.go.kr/data/15056968/openapi.do">공공데이터포털: 지방재정365 행사축제원가회계정보</a></p>
+      <p><a href="https://www.data.go.kr/data/15138721/openapi.do">공공데이터포털: 행사·축제경비편성내역</a></p>
+      <p><a href="https://www.data.go.kr/data/15129394/openapi.do">공공데이터포털: 조달청 나라장터 입찰공고정보</a></p>
+    </section>
+  </main>
+  <footer class="wrap">Budget-waste model wave 1. This is a scoring and evidence model, not a final finding.</footer>
+</body>
+</html>
