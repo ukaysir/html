@@ -64,3 +64,8 @@ Updated: 2026-07-07.
 
 - Added data/mcst-cultural-tourism-benchmark-name-resolution.json and .csv to explain the four non-exact benchmark joins.
 - Updated mcst-cultural-tourism-benchmark-2026-2027.html with a name-resolution table so human reviewers can understand why a selected festival may fail exact matching.
+
+## Checkpoint: benchmark risk priority queue (2026-07-08T01:28:56+09:00)
+
+- Built a priority queue for the 27 cultural-tourism benchmark festivals using join ambiguity, budget, previous visitor, and outsourcing signals.
+- Added data/benchmark-risk-priority-queue.json, .csv, and enchmark-risk-priority-queue.html.

@@ -1,0 +1,643 @@
+{
+  "metadata": {
+    "generated_at": "2026-07-08T01:28:56+09:00",
+    "purpose": "Prioritize MCST cultural-tourism benchmark festivals for deeper why-analysis using joined master fields.",
+    "scoring": "Heuristic: name ambiguity, 2027-only status, budget, previous visitors, and outsourcing/operation evidence availability.",
+    "counts": [
+      {
+        "priority": "P2",
+        "count": 7
+      },
+      {
+        "priority": "P3",
+        "count": 20
+      }
+    ]
+  },
+  "queue": [
+    {
+      "priority": "P2",
+      "risk_score": 9,
+      "official_name": "부천국제만화제",
+      "year_scope": "2027",
+      "join_status": "not_matched_in_2026_master_by_name",
+      "candidate_name": null,
+      "region": null,
+      "period_raw": null,
+      "budget_million_krw": null,
+      "visitors_previous_total": null,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "name_resolution_needed",
+        "2027_watchlist_no_2026_master_anchor",
+        "no_master_candidate"
+      ],
+      "next_research_actions": [
+        "alias-normalized finance/procurement search",
+        "2027 source and budget watchlist",
+        "manual source triangulation before scoring"
+      ],
+      "resolution_hint": "Do not force-match to 2026 master; add 2027 watchlist and search aliases 부천국제만화제/부천국제만화축제/BICOF."
+    },
+    {
+      "priority": "P2",
+      "risk_score": 8,
+      "official_name": "부평풍물대축제",
+      "year_scope": "2026-2027",
+      "join_status": "fuzzy_2026_master_match",
+      "candidate_name": "2026년 제30회 부평풍물대축제",
+      "region": "인천 부평구",
+      "period_raw": "2026-10-02~2026-10-04",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 230282.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "name_resolution_needed",
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "alias-normalized finance/procurement search",
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": "Strip year and ordinal prefixes such as 2026년 제30회 before exact matching."
+    },
+    {
+      "priority": "P2",
+      "risk_score": 8,
+      "official_name": "수원화성문화제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제63회 수원화성문화제",
+      "region": "경기 수원시",
+      "period_raw": "2026-10-04~2026-10-11",
+      "budget_million_krw": 698.0,
+      "visitors_previous_total": 709154.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "medium_high_budget_300m_plus",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P2",
+      "risk_score": 8,
+      "official_name": "음성품바축제",
+      "year_scope": "2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제27회 음성품바축제",
+      "region": "충북 음성군",
+      "period_raw": "2026-06-10~2026-06-14",
+      "budget_million_krw": 0.0,
+      "visitors_previous_total": 328190.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "2027_watchlist_no_2026_master_anchor",
+        "zero_or_missing_budget_in_master",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "2027 source and budget watchlist",
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P2",
+      "risk_score": 8,
+      "official_name": "인천펜타포트음악축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제21회 인천 펜타포트 음악축제",
+      "region": "인천 -",
+      "period_raw": "2026-07-31~2026-08-02",
+      "budget_million_krw": 800.0,
+      "visitors_previous_total": 150000.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "medium_high_budget_300m_plus",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P2",
+      "risk_score": 8,
+      "official_name": "철원한탄강얼음트레킹",
+      "year_scope": "2026-2027",
+      "join_status": "fuzzy_2026_master_match",
+      "candidate_name": "철원한탄강얼음트레킹 축제",
+      "region": "강원 철원군",
+      "period_raw": "2026-01-17~2026-01-25",
+      "budget_million_krw": 0.0,
+      "visitors_previous_total": 150000.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "name_resolution_needed",
+        "zero_or_missing_budget_in_master",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "alias-normalized finance/procurement search",
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": "Normalize spaces and allow 축제 suffix for exact matching."
+    },
+    {
+      "priority": "P2",
+      "risk_score": 7,
+      "official_name": "동래읍성축제",
+      "year_scope": "2026-2027",
+      "join_status": "not_matched_in_2026_master_by_name",
+      "candidate_name": null,
+      "region": null,
+      "period_raw": null,
+      "budget_million_krw": null,
+      "visitors_previous_total": null,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "name_resolution_needed",
+        "no_master_candidate"
+      ],
+      "next_research_actions": [
+        "alias-normalized finance/procurement search",
+        "manual source triangulation before scoring"
+      ],
+      "resolution_hint": "Allow alias: 동래읍성축제 -> 동래읍성역사축제; search local finance/procurement under both names."
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "강릉커피축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제18회 강릉커피축제",
+      "region": "강원 강릉시",
+      "period_raw": "2026-10-21~2026-10-25",
+      "budget_million_krw": 0.0,
+      "visitors_previous_total": 520000.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "zero_or_missing_budget_in_master",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "광안리어방축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제24회 광안리어방축제",
+      "region": "부산 수영구",
+      "period_raw": "2026-06-12~2026-06-14",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 174253.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "광주김치축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제33회 광주김치축제",
+      "region": "광주 -",
+      "period_raw": null,
+      "budget_million_krw": 0.0,
+      "visitors_previous_total": 57000.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "zero_or_missing_budget_in_master",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "논산딸기축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제28회 논산딸기축제",
+      "region": "충남 논산시",
+      "period_raw": "2026-03-26~2026-03-29",
+      "budget_million_krw": 0.0,
+      "visitors_previous_total": 350000.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "zero_or_missing_budget_in_master",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "대구치맥페스티벌",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "2026 대구치맥페스티벌",
+      "region": "대구 -",
+      "period_raw": "2026-07-01~2026-07-05",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 745000.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "밀양아리랑대축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제68회 밀양아리랑대축제",
+      "region": "경남 밀양시",
+      "period_raw": "2026-05-07~2026-05-10",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 416065.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "보성다향대축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제49회 보성다향대축제",
+      "region": "전남 보성군",
+      "period_raw": "2026-05-01~2026-05-05",
+      "budget_million_krw": 32.0,
+      "visitors_previous_total": 610000.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "부산국제록페스티벌",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "2026 부산국제록페스티벌",
+      "region": "부산 -",
+      "period_raw": "2026-10-02~2026-10-04",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 70000.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "세종한글축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "2026 세종한글축제",
+      "region": "세종 -",
+      "period_raw": "2026-10-09~2026-10-11",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 315299.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "순창장류축제",
+      "year_scope": "2026",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제21회 순창장류축제",
+      "region": "전북 순창군",
+      "period_raw": "2026-10-16~2026-10-18",
+      "budget_million_krw": 32.0,
+      "visitors_previous_total": 53459.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "시흥갯골축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제21회 시흥갯골축제",
+      "region": "경기 시흥시",
+      "period_raw": "2026-09-18~2026-09-20",
+      "budget_million_krw": 0.0,
+      "visitors_previous_total": 30778.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "zero_or_missing_budget_in_master",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "안성맞춤남사당바우덕이축제",
+      "year_scope": "2026",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "안성맞춤 남사당 바우덕이축제",
+      "region": "경기 안성시",
+      "period_raw": "2026-10-02~2026-10-05",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 603622.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "연천구석기축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제33회 연천 구석기 축제",
+      "region": "경기 연천군",
+      "period_raw": "2026-05-02~2026-05-05",
+      "budget_million_krw": 0.0,
+      "visitors_previous_total": 66562.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "zero_or_missing_budget_in_master",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "영암왕인문화축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "2026 영암왕인문화축제",
+      "region": "전남 영암군",
+      "period_raw": "2026-04-04~2026-04-12",
+      "budget_million_krw": 0.0,
+      "visitors_previous_total": 163706.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "zero_or_missing_budget_in_master",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "울산옹기축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제26회 울산옹기축제",
+      "region": "울산 울주군",
+      "period_raw": "2026-05-01~2026-05-03",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 160000.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "정선아리랑제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제51회 정선아리랑제",
+      "region": "강원 정선군",
+      "period_raw": "2026-10-01~2026-10-04",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 145364.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "청송사과축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제20회 청송사과축제",
+      "region": "경북 청송군",
+      "period_raw": "2026-10-28~2026-11-01",
+      "budget_million_krw": 55.0,
+      "visitors_previous_total": 310317.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "평창송어축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "평창송어축제",
+      "region": "강원 평창군",
+      "period_raw": "2026-01-09~2026-02-09",
+      "budget_million_krw": 18.0,
+      "visitors_previous_total": 227725.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 6,
+      "official_name": "화성뱃놀이축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "제16회 화성 뱃놀이 축제",
+      "region": "경기 화성시",
+      "period_raw": "2026-05-22~2026-05-25",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": 271520.0,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "very_high_previous_visitors",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": [
+        "operator structure search",
+        "crowding and satisfaction evidence"
+      ],
+      "resolution_hint": null
+    },
+    {
+      "priority": "P3",
+      "risk_score": 4,
+      "official_name": "고령대가야축제",
+      "year_scope": "2026-2027",
+      "join_status": "exact_2026_master_match",
+      "candidate_name": "고령 대가야축제",
+      "region": "경북 고령군",
+      "period_raw": "2026-03-27~2026-03-29",
+      "budget_million_krw": 40.0,
+      "visitors_previous_total": null,
+      "outsourcing_raw": null,
+      "risk_drivers": [
+        "budget_present",
+        "visitor_count_missing_or_zero",
+        "outsourcing_field_missing"
+      ],
+      "next_research_actions": "operator structure search",
+      "resolution_hint": null
+    }
+  ]
+}

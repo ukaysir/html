@@ -68,3 +68,8 @@ Pages was checked as not enabled during the research run. To publish, use:
 - data/mcst-cultural-tourism-benchmark-2026-2027.json: official 2026-2027 cultural-tourism festival cohort extracted from the MCST HWPX press attachment and joined to the 2026 MCST master.
 - data/mcst-cultural-tourism-benchmark-2026-2027.csv: spreadsheet-friendly benchmark join table.
 - mcst-cultural-tourism-benchmark-2026-2027.html: human-readable benchmark cohort page.
+
+## Benchmark priority queue
+
+- data/benchmark-risk-priority-queue.json: investigation priority queue for the 2026-2027 cultural-tourism benchmark cohort.
+- enchmark-risk-priority-queue.html: human-readable page showing which benchmark festivals should be traced first for budget/procurement/crowding/satisfaction causes.
