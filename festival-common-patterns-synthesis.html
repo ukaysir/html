@@ -4,125 +4,1661 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>대한민국 축제 성공·실패 공통 패턴 종합</title>
+  <meta name="description" content="2016~2026년 대한민국 지역축제 조사 파일을 통합한 성공·실패 공통 패턴 종합 보고서">
+  <style>
+    * { box-sizing: border-box; }
+    nav.synthesis-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+    nav.synthesis-nav a { min-height: 40px; padding: 8px 12px; border: 1px solid #e5e8eb; border-radius: 999px; background: #fff; }
+    .section-kicker { color: #3182f6; font-weight: 850; margin-bottom: 8px; }
+    .source-note { color: #6b7684; font-size: .95rem; }
+    body header h1,
+    .lead,
+    .verdict,
+    h2,
+    h3 {
+      word-break: keep-all !important;
+      overflow-wrap: normal !important;
+      line-break: strict;
+    }
+    .lead {
+      text-wrap: pretty;
+    }
+    table { table-layout: fixed; }
+    th, td { overflow-wrap: anywhere; word-break: keep-all; }
+    code { white-space: normal; overflow-wrap: anywhere; word-break: break-word; }
+    .source-manifest-table td:first-child { font-size: .93rem; }
+    .mini-list { margin: 0; padding-left: 1.1rem; }
+    .inline-claims { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .inline-claims code { display: inline-flex; padding: 5px 8px; border: 1px solid #e5e8eb; border-radius: 999px; background: #f8fafc; color: #3182f6; font-weight: 800; }
+    @media (max-width: 640px) {
+      table, thead, tbody, tr, th, td { display: block; width: 100%; }
+      thead, thead tr, thead th { display: none !important; }
+      tr { border-bottom: 1px solid #e5e8eb; }
+      td::before { content: attr(data-label); display: block; color: #191f28; font-weight: 850; margin-bottom: 4px; }
+      td { min-width: 0; }
+      body header h1 { font-size: clamp(2.1rem, 7.2vw, 3.25rem) !important; line-height: 1.22 !important; }
+    }
+  </style>
   <link rel="stylesheet" href="assets/toss-report-theme.css">
 </head>
 <body>
   <header>
-    <div class="eyebrow">Final synthesis · common patterns</div>
-    <h1>성공한 축제와 실패한 축제는 무엇이 다른가</h1>
-    <p class="lead">2016~2026년 축제 조사 케이스를 하나로 묶으면 결론은 단순하다. 성공은 방문객 숫자가 아니라 수요를 감당하는 운영 설계이고, 실패는 예측·가격·동선·기후·조달·사회적 수용성 중 하나가 끊기는 순간 발생한다.</p>
+    <div class="eyebrow">Final synthesis · full local corpus</div>
+    <h1 style="font-size:clamp(2.1rem, 7.2vw, 4.6rem) !important; line-height:1.2 !important; letter-spacing:-0.045em !important; word-break:keep-all !important; overflow-wrap:normal !important; line-break:strict;">성공한 축제와 실패한 축제는 무엇이 다른가</h1>
+    <p class="lead">2016~2026년 대한민국 축제 조사 파일을 종합하면 결론은 단순하다. 성공은 많이 오게 만드는 홍보가 아니라, 많이 와도 망가지지 않는 운영·조달·지역환류 시스템이다. 실패는 수요, 가격, 동선, 기후, 조달, 사회적 수용성, 성과지표 중 하나가 공개 근거 없이 끊기는 순간 반복된다.</p>
+    <nav class="synthesis-nav" aria-label="보고서 섹션">
+      <a href="#executive-summary">요약</a>
+      <a href="#corpus-coverage">코퍼스</a>
+      <a href="#pattern-taxonomy">패턴</a>
+      <a href="#case-matrix">케이스</a>
+      <a href="#contradictions-gaps">공백</a>
+      <a href="#action-playbook">실행</a>
+      <a href="#source-manifest">출처</a>
+      <a href="#methodology">방법</a>
+    </nav>
     <div class="hero">
       <section class="panel">
-        <div class="verdict">종합 판정: 좋은 축제는 “많이 오게 하는 행사”가 아니라 “많이 와도 망가지지 않는 시스템”이다.</div>
-        <p>방문객 수는 결과 지표일 뿐이다. 성공 축제는 유료/무료 경계, 지역상권 환류, 안전·보험·경호, 교통/셔틀, 날씨 대체안, 먹거리 가격, 대행사 책임범위를 사전에 설계한다. 실패 축제는 이 중 하나를 현장 경험에 맡긴다.</p>
+        <div class="verdict">종합 판정: 좋은 축제는 “방문객 수”가 아니라 “운영 흡수력”으로 설명된다.</div>
+        <p>성공 축제는 유료/무료 경계, 지역상권 환류, 안전·보험·경호, 교통/셔틀, 날씨 대체안, 먹거리 가격, 대행사 책임범위를 한 번에 관리한다. 실패 축제는 이 중 하나를 현장 임기응변에 맡긴다.</p>
       </section>
       <aside class="panel">
-        <div class="kpis">          <div class="kpi"><strong>32</strong>매트릭스 축제 케이스</div>
-          <div class="kpi"><strong>6</strong>반복 원인축</div>
-          <div class="kpi"><strong>2</strong>성공/실패 핵심 비교축</div>
-          <div class="kpi"><strong>1</strong>운영·조달 책임지도 필요</div>        </div>
+        <div class="kpis">
+          <div class="kpi"><strong>37</strong>축제/운영 케이스</div>
+          <div class="kpi"><strong>7</strong>반복 원인축</div>
+          <div class="kpi"><strong>189</strong>분류된 로컬 파일</div>
+          <div class="kpi"><strong>5</strong>검증 claim</div>
+        </div>
       </aside>
     </div>
   </header>
 
   <main>
-    <section>
-      <h2>성공한 축제의 공통점</h2>
+    <section id="executive-summary">
+      <div class="section-kicker">Executive summary</div>
+      <h2>핵심 결론</h2>
       <div class="cards">
-        <article class="card"><h3>1. 수요를 숫자가 아니라 흐름으로 본다</h3><p>부산불꽃, 보령머드, 광양매화, 세종낙화처럼 성공/회복 사례는 시간대별 유입, 귀가 병목, 주차·셔틀, 유료존 대기, 폭염 체류시간을 관리한다.</p></article>
-        <article class="card"><h3>2. 지역상권으로 돈이 돌아가는 장치를 둔다</h3><p>보령머드의 상품권, 광양·함평·문경의 쿠폰/패스, 화천의 농산물 판매처럼 지역환류 루프가 있어야 “방문객 수”가 지역성과로 전환된다.</p></article>
-        <article class="card"><h3>3. 가격과 먹거리 신뢰를 선제 통제한다</h3><p>영덕대게, 남원춘향제, 진해군항제, 무안연꽃은 가격표시·원산지·신고센터·상인교육·입점 경계가 만족도 방어 장치로 작동한다.</p></article>
-        <article class="card"><h3>4. 기후·계절 변수를 운영기술로 바꾼다</h3><p>화천산천어는 결빙과 수위를 관리하고, 보령머드는 폭염 대응을 설계하며, 무안연꽃은 개화와 방문 피로에 맞춰 일정과 야간 콘텐츠를 조정한다.</p></article>
-        <article class="card"><h3>5. 대행/하청을 숨기지 않고 책임 경계로 본다</h3><p>성공 축제는 경호, 보험, 음향, 조명, 발권, 푸드존, 무대, 셔틀을 한 장의 조달 맵으로 봐야 한다. 특정 업체 탓보다 인터페이스 관리가 핵심이다.</p></article>
-        <article class="card"><h3>6. 사회적 수용성을 콘텐츠 일부로 다룬다</h3><p>진주 유등의 가림막, 제주 들불의 환경 논란, 화천 산천어의 동물권 이슈처럼 법적 가능성과 시민 수용성은 다르다. 오래 가는 축제는 이 간극을 관리한다.</p></article>
+        <article class="card" data-claim-id="C-EXEC-01">
+          <h3>흥행은 결과이고, 설계는 원인이다</h3>
+          <p>방문객이 많다는 사실만으로 성공을 판단할 수 없다. 같은 인파라도 서울·부산 불꽃축제처럼 공공 안전비용과 주민 외부비용이 커질 수 있고, 대전빵축제처럼 도시 브랜드 성과와 대기·품절 실패가 동시에 나타날 수 있다.</p>
+        </article>
+        <article class="card" data-claim-id="C-EXEC-02">
+          <h3>가격·먹거리 리스크는 경계관리다</h3>
+          <p>영양, 홍천, 남원, 영덕 사례는 바가지 논란을 판매자 개인 문제가 아니라 공식 부스, 야시장, 외부상인, 상인교육, 가격표시, 신고센터의 경계 문제로 보게 만든다.</p>
+        </article>
+        <article class="card" data-claim-id="C-EXEC-03">
+          <h3>조달은 책임지도여야 한다</h3>
+          <p>행사대행, 경호, 보험, 무대, 음향, 조명, 발권, 화장실, 셔틀, 푸드존은 별도 계약이어도 방문객에게는 하나의 경험이다. 계약 문서가 있어도 결과·민원·시점과 연결되지 않으면 귀책 단정은 보류해야 한다.</p>
+        </article>
+        <article class="card" data-claim-id="C-EXEC-04">
+          <h3>자료공백은 실패가 아니라 보류다</h3>
+          <p>2016 전국 단일 패널, 일부 조달자료, 일부 경제효과 산식은 공개자료만으로 완결되지 않는다. 이 보고서는 공백을 실패로 바꾸지 않고 근거 수준과 추가판정 필요 영역으로 분리한다.</p>
+        </article>
       </div>
     </section>
 
-    <section>
+    <section id="corpus-coverage">
+      <div class="section-kicker">Corpus coverage</div>
+      <h2>전체 파일을 어떻게 반영했는가</h2>
+      <p class="lead">최종 페이지는 32개 기존 직접 인용 dossier에 누락된 5개 wave2 선행 케이스를 보강하고, 2개 모델/라우터 페이지를 방법론 근거로 둔다. 나머지 JSON·CSV·HTML·문서 파일은 source manifest에서 companion data, support artifact, scaffold, navigation/process로 분류했다.</p>
+      <div class="kpis"><div class="kpi"><strong>18</strong>additional_data</div>
+<div class="kpi"><strong>3</strong>additional_html_evidence</div>
+<div class="kpi"><strong>39</strong>case_matrix_page</div>
+<div class="kpi"><strong>78</strong>companion_data</div>
+<div class="kpi"><strong>4</strong>navigation_or_process</div>
+<div class="kpi"><strong>4</strong>scaffold</div>
+<div class="kpi"><strong>43</strong>support_artifact</div></div>
+      <div class="note">근거 처리 원칙: primary case page는 케이스 행에 직접 연결하고, JSON/CSV는 동명 companion data로 추적한다. coverage matrix, source map, evidence manifest, procurement probe는 방법론과 보수적 claim language를 지지하는 support artifact로 쓴다.</div>
+    </section>
+
+    <section id="pattern-taxonomy">
+      <div class="section-kicker">Pattern taxonomy</div>
+      <h2>성공과 실패를 가르는 7개 공통 패턴</h2>
+      <div class="cards">
+        <article class="card" data-theme="demand-crowd-access" data-claim-id="C-THEME-01">
+          <h3>수요·인파·접근성</h3>
+          <p><strong>방문객 수가 아니라 시간대별 유입, 귀가 병목, 주차, 동선, 종료 후 분산이 성패를 가른다.</strong></p>
+          <p>근거: 서울세계불꽃, 부산불꽃, 대전빵축제, 광양매화, 세종낙화가 같은 임계값 문제를 보여준다.</p>
+          <p>예상 인원, 실제 유입, 입구/출구 폭, 교통통제, 응급/화장실/폐기물 용량을 같은 표에 둔다.</p>
+        </article>
+<article class="card" data-theme="price-booth-food" data-claim-id="C-THEME-02">
+          <h3>가격·부스·먹거리</h3>
+          <p><strong>바가지 논란은 개별 판매자만이 아니라 공식 부스, 외부상인, 야시장 경계, 가격표시, 신고·제재 체계의 문제다.</strong></p>
+          <p>근거: 영양 산나물, 홍천강 꽁꽁, 남원 춘향, 영덕대게, 진해군항제가 가격 통제의 반복성을 보인다.</p>
+          <p>공식 판매자와 경계 밖 판매자를 분리하고, 가격/중량 공개와 현장 신고 로그를 남긴다.</p>
+        </article>
+<article class="card" data-theme="climate-season-site" data-claim-id="C-THEME-03">
+          <h3>기후·계절·자연조건</h3>
+          <p><strong>결빙, 수위, 폭염, 개화 피크, 산불/강풍은 배경 변수가 아니라 핵심 콘텐츠를 직접 흔드는 운영 변수다.</strong></p>
+          <p>근거: 화천산천어, 인제빙어, 철원얼음트레킹, 무안연꽃, 보령머드가 같은 자연조건 의존성을 갖는다.</p>
+          <p>일별 기상/수위/얼음두께와 개최·축소·환불·대체 프로그램 결정을 연결한다.</p>
+        </article>
+<article class="card" data-theme="budget-procurement-responsibility" data-claim-id="C-THEME-04">
+          <h3>조달·예산·책임경계</h3>
+          <p><strong>고예산 자체보다 예산, 계약, 과업, 검수, 사고·민원 로그가 결과와 연결되는지가 핵심이다.</strong></p>
+          <p>근거: 부산불꽃, 서울세계불꽃, 화천산천어, 무안연꽃, 춘천마임, 대전빵축제가 다중 대행/조달 구조를 공유한다.</p>
+          <p>대행사 귀책은 계약 범위, 행위자, 결과, 시점이 공개자료로 연결될 때만 강하게 말한다.</p>
+        </article>
+<article class="card" data-theme="local-economic-capture" data-claim-id="C-THEME-05">
+          <h3>지역경제 환류·체류형 소비</h3>
+          <p><strong>성공 축제는 방문객 숫자를 지역 매출로 되돌리는 장치를 갖는다.</strong></p>
+          <p>근거: 보령 상품권, 광양/함평/문경 쿠폰·패스, 화천 농산물·상인 매출, 강릉 지역업체 부스가 근거다.</p>
+          <p>상품권 지급/사용률, 지역상권 카드매출, 체류시간, 지역업체 참여율을 함께 추적한다.</p>
+        </article>
+<article class="card" data-theme="social-license-identity" data-claim-id="C-THEME-06">
+          <h3>사회적 수용성·콘텐츠 정체성</h3>
+          <p><strong>핵심 콘텐츠가 환경, 안전, 주민 수용성과 충돌하면 단순 운영개선이 아니라 정체성 전환 문제다.</strong></p>
+          <p>근거: 제주들불, 진주유등, 화천산천어, 안동탈춤은 법적 가능성과 사회적 수용성의 간극을 보여준다.</p>
+          <p>접근권, 환경성, 주민 불편, 동물권, 정체성 논쟁을 콘텐츠 평가의 일부로 둔다.</p>
+        </article>
+<article class="card" data-theme="metric-transparency" data-claim-id="C-THEME-07">
+          <h3>지표 투명성·성과 해석</h3>
+          <p><strong>방문객, 온라인 방문, 직접매출, 경제효과, 만족도는 서로 다른 claim이며 하나로 합치면 왜곡된다.</strong></p>
+          <p>근거: 청송사과, 대전0시, 안동탈춤, 봉화은어, 상주모자가 지표 산식과 자료공백 문제를 드러낸다.</p>
+          <p>정확한 현장 인원과 모바일/카드/SNS 추세 지표를 분리하고 산식이 없으면 보수적으로 표기한다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="success-patterns">
+      <div class="section-kicker">Success patterns</div>
+      <h2>성공한 축제의 공통점</h2>
+      <div class="cards">
+        <article class="card"><h3>1. 수요를 흐름으로 본다</h3><p>방문객 수보다 시간대별 유입, 귀가 병목, 주차, 셔틀, 유료존 대기, 폭염 체류시간을 운영 단위로 본다.</p></article>
+        <article class="card"><h3>2. 지역상권 환류 장치를 둔다</h3><p>상품권, 할인쿠폰, 패스, 지역업체 부스, 농산물 판매, 카페·상권 스탬프처럼 돈이 지역으로 돌아가는 루프를 둔다.</p></article>
+        <article class="card"><h3>3. 가격 신뢰를 선제 통제한다</h3><p>가격표시, 원산지/중량 공개, 신고센터, 상인교육, 공식 부스와 외부 판매자 경계를 관리한다.</p></article>
+        <article class="card"><h3>4. 기후를 운영기술로 바꾼다</h3><p>결빙·수위·폭염·개화·강풍을 일정, 안전, 환불, 대체 콘텐츠, 야간 프로그램으로 흡수한다.</p></article>
+        <article class="card"><h3>5. 대행/하청을 책임경계로 본다</h3><p>특정 업체 탓보다 경호, 보험, 음향, 조명, 발권, 푸드존, 무대, 셔틀의 인터페이스 관리를 먼저 본다.</p></article>
+        <article class="card"><h3>6. 사회적 수용성을 콘텐츠 일부로 둔다</h3><p>가림막, 환경 논란, 동물권, 접근권, 주민 불편은 법적 가능성과 별도의 지속가능성 조건이다.</p></article>
+      </div>
+    </section>
+
+    <section id="failure-patterns">
+      <div class="section-kicker">Failure patterns</div>
       <h2>실패하거나 위험해진 축제의 공통점</h2>
       <table>
         <thead><tr><th>반복 실패 패턴</th><th>왜 문제가 되는가</th><th>대표 케이스</th></tr></thead>
         <tbody>
-          <tr><td><span class="pattern-risk">수요예측을 단일 방문객 수로 처리</span></td><td>시간대·출입구·주차·귀가·응급 병목을 놓치면 현장 만족도가 급락한다.</td><td>인천 인파, 세종낙화 초기, 진해군항제, 부산불꽃 위험축</td></tr>
-          <tr><td><span class="pattern-risk">가격/먹거리 통제 실패</span></td><td>한 번의 바가지 논란이 전체 축제 브랜드를 훼손한다.</td><td>영양 산나물, 홍천강 꽁꽁, 남원 춘향제 2023, 영덕대게</td></tr>
-          <tr><td><span class="pattern-risk">기후 의존성을 대체안 없이 방치</span></td><td>결빙·수위·폭우·개화·폭염이 흔들리면 콘텐츠 자체가 사라진다.</td><td>인제빙어, 화천 2020, 무안연꽃 2023, 보령머드 폭염축</td></tr>
-          <tr><td><span class="pattern-risk">유료화가 공공성과 충돌</span></td><td>입장료보다 접근권·상권·경관 차단이 더 큰 반발을 만든다.</td><td>진주남강유등 2015~2016, 유료좌석/유료존 설계 케이스</td></tr>
-          <tr><td><span class="pattern-risk">조달/대행 책임 경계가 흐림</span></td><td>사고나 민원이 생겨도 경호·보험·시설·무대·먹거리 중 어디의 문제인지 분리되지 않는다.</td><td>부산불꽃, 보령머드, 화천산천어, 진주유등, 무안연꽃</td></tr>
-          <tr><td><span class="pattern-risk">성과지표가 홍보 숫자에 머묾</span></td><td>방문객 수만 있으면 예산 낭비 여부, 지역환류, 만족도, 재방문을 판단할 수 없다.</td><td>청송사과, 대전0시, 안동탈춤, 상주모자, 부평/동래 자료공백</td></tr>
-        <tr><td>춘천마임축제</td><td>성공+리스크</td><td>고유 콘텐츠·도시 전체 무대화·성과 측정</td><td>감염병 취소·고정 공간 부재·예산 삭감·교통 피크</td><td>chuncheon-mime-2020-2026</td></tr>
-<tr><td>대전빵축제</td><td>성공+혼잡실패</td><td>도시 브랜드·대표 업체·전국 업체 참여·상권 연계</td><td>입장 대기·품절·공급량 예측·주차·대행 KPI 불명확</td><td>daejeon-bread-2023-2026</td></tr>
-<tr><td>자라섬재즈페스티벌</td><td>성공+거버넌스 리스크</td><td>장르 정체성·유료 티켓·국제 라인업·지역 체류소비</td><td>보조금·협약·수익금 투명성·감염병/날씨 외부충격</td><td>jarasum-jazz-2018-2026</td></tr>
-<tr><td>강릉커피축제</td><td>성공+주차 리스크</td><td>도시 대표상품·지역업체 환류·체류형 프로그램·환경친화 운영</td><td>주차난·공간 집중·권역별 상권 불균형·감염병 취소/연기</td><td>gangneung-coffee-2020-2026</td></tr>
-<tr><td>원주댄싱카니발</td><td>성공+날씨/교통/측정 리스크</td><td>도심 퍼레이드·시민참여·군악/마칭 정체성·K-댄스 전환·지역문화자산 결합</td><td>태풍·감염병·주차/동선·방문객 산식 불일치·무대/운영 용역 KPI 미연결</td><td>wonju-dancing-2016-2026</td></tr>
-</tbody>
+          <tr>
+            <td data-label="반복 실패 패턴"><span class="pattern-risk">수요예측을 단일 방문객 수로 처리</span></td>
+            <td data-label="왜 문제가 되는가">시간대·출입구·주차·귀가·응급 병목을 놓치면 현장 만족도가 급락한다.</td>
+            <td data-label="대표 케이스">서울/부산 불꽃, 대전빵, 세종낙화</td>
+          </tr>
+<tr>
+            <td data-label="반복 실패 패턴"><span class="pattern-risk">가격/먹거리 통제 실패</span></td>
+            <td data-label="왜 문제가 되는가">한 번의 바가지 논란이 축제 전체 브랜드와 지자체 대응 신뢰를 훼손한다.</td>
+            <td data-label="대표 케이스">영양 산나물, 홍천강 꽁꽁, 남원 춘향, 영덕대게</td>
+          </tr>
+<tr>
+            <td data-label="반복 실패 패턴"><span class="pattern-risk">기후 의존성을 대체안 없이 방치</span></td>
+            <td data-label="왜 문제가 되는가">결빙·수위·폭우·개화·폭염이 흔들리면 콘텐츠 자체가 사라진다.</td>
+            <td data-label="대표 케이스">인제빙어, 화천 2020, 무안연꽃, 철원얼음트레킹</td>
+          </tr>
+<tr>
+            <td data-label="반복 실패 패턴"><span class="pattern-risk">유료화가 공공성과 충돌</span></td>
+            <td data-label="왜 문제가 되는가">입장료보다 접근권·상권·경관 차단이 더 큰 반발을 만든다.</td>
+            <td data-label="대표 케이스">진주남강유등, 유료좌석/유료존 설계 케이스</td>
+          </tr>
+<tr>
+            <td data-label="반복 실패 패턴"><span class="pattern-risk">조달/대행 책임 경계가 흐림</span></td>
+            <td data-label="왜 문제가 되는가">사고나 민원이 생겨도 경호·보험·시설·무대·먹거리 중 어디의 문제인지 분리되지 않는다.</td>
+            <td data-label="대표 케이스">부산불꽃, 보령머드, 화천산천어, 무안연꽃</td>
+          </tr>
+<tr>
+            <td data-label="반복 실패 패턴"><span class="pattern-risk">성과지표가 홍보 숫자에 머묾</span></td>
+            <td data-label="왜 문제가 되는가">방문객 수만 있으면 예산 낭비, 지역환류, 만족도, 재방문을 판단할 수 없다.</td>
+            <td data-label="대표 케이스">청송사과, 대전0시, 안동탈춤, 봉화은어</td>
+          </tr>
+<tr>
+            <td data-label="반복 실패 패턴"><span class="pattern-risk">자료공백을 실패로 오독</span></td>
+            <td data-label="왜 문제가 되는가">공개자료가 약한 축제는 실패 판정보다 보류/추가판정으로 둬야 한다.</td>
+            <td data-label="대표 케이스">부평풍물, 동래읍성, 일부 조달 공백 케이스</td>
+          </tr>
+        </tbody>
       </table>
     </section>
 
-    <section>
-      <h2>성공/실패를 가르는 최종 체크리스트</h2>
+    <section id="case-matrix">
+      <div class="section-kicker">Case matrix</div>
+      <h2>축제별 공통 패턴 맵</h2>
+      <p class="source-note">wave2 JSON의 39개 레코드를 기준으로, 기존 32개 행에 빠져 있던 원주댄싱카니발·강릉커피축제·자라섬재즈페스티벌·대전빵축제·춘천마임축제를 추가했다. 중복 축제명은 기간/slug로 분리한다.</p>
+      <table>
+        <thead><tr><th>축제</th><th>판정 방향</th><th>공통 패턴</th><th>케이스 성격</th><th>대표 리스크/레버</th><th>주요 원인 키워드</th></tr></thead>
+        <tbody>
+          <tr data-claim-id="wonju-dancing-2016-2026">
+        <td data-label="축제"><a href="wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html">원주댄싱카니발 2016-2026</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통, 기후·계절·자연조건, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">도심 참여형 성공+날씨·교통·측정·대행 리스크</td>
+        <td data-label="대표 리스크/레버">도심 노출형 퍼레이드와 시민참여 · 군악·군부대·마칭밴드 기반 원주 고유성 · 태풍·우천·가을 날씨로 방문객과 경제효과 급감 · 2020 취소와 2021 반복 연기/하이브리드 축소</td>
+        <td data-label="주요 원인 키워드"><code>downtown_parade, citizen_participation, kdance_repositioning, traffic_parking, weather_pandemic, procurement_governance, metric_opacity</code></td>
+      </tr>
+<tr data-claim-id="gangneung-coffee-2020-2026">
+        <td data-label="축제"><a href="gangneung-coffee-urban-brand-mobility-dossier.html">강릉커피축제 2020-2026</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통, 조달·예산·책임경계, 유료화·지역환류</td>
+        <td data-label="케이스 성격">도시브랜드 성공+주차·공간 리스크</td>
+        <td data-label="대표 리스크/레버">커피 도시 정체성 · 해변·도심 체험 결합 · 주차난 · 600m 교통체증</td>
+        <td data-label="주요 원인 키워드"><code>urban_brand, local_commerce, parking_mobility, outsourcing, pandemic_contingency</code></td>
+      </tr>
+<tr data-claim-id="jarasum-jazz-2018-2026">
+        <td data-label="축제"><a href="jarasum-jazz-paid-governance-local-brand-dossier.html">자라섬재즈페스티벌 2018-2026</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">조달·예산·책임경계, 유료화·지역환류</td>
+        <td data-label="케이스 성격">유료문화축제 성공+거버넌스 리스크</td>
+        <td data-label="대표 리스크/레버">명확한 재즈 장르 정체성 · 자연환경과 체류형 경험 · 감염병 온라인 전환 · 보조금 집행 리스크</td>
+        <td data-label="주요 원인 키워드"><code>paid_culture, international_lineup, local_brand, subsidy_governance, ticket_revenue</code></td>
+      </tr>
+<tr data-claim-id="daejeon-bread-2023-2026">
+        <td data-label="축제"><a href="daejeon-bread-festival-demand-queue-outsourcing-dossier.html">대전빵축제 2023-2026</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통, 가격·상인·먹거리, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">성공+혼잡실패+대행관계</td>
+        <td data-label="대표 리스크/레버">성심당·지역 빵 브랜드 파워 · 전국 빵집 참여 · 입장 2-4시간 대기 · 품절·물량 예측 실패</td>
+        <td data-label="주요 원인 키워드"><code>brand_demand, queue_failure, food_supply_forecast, outsourcing, traffic_parking</code></td>
+      </tr>
+<tr data-claim-id="chuncheon-mime-2020-2026">
+        <td data-label="축제"><a href="chuncheon-mime-arts-space-governance-dossier.html">춘천마임축제 2020-2026</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통, 조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td>
+        <td data-label="케이스 성격">성공+리스크</td>
+        <td data-label="대표 리스크/레버">희소 예술 장르 · 물·불·몸짓의 난장형 콘텐츠 · 감염병 취소 · 고정 메인 공간 부재</td>
+        <td data-label="주요 원인 키워드"><code>arts_identity, space_governance, budget_risk, traffic_parking, post_covid_recovery</code></td>
+      </tr>
+<tr data-claim-id="seoul-fireworks-2024-2025">
+        <td data-label="축제"><a href="seoul-fireworks-crowd-public-private-governance-dossier.html">서울세계불꽃축제 2024-2025</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통</td>
+        <td data-label="케이스 성격">민간 축제라도 공공 안전·교통·청소·응급·주민 민원 비용이 발생한다. 성공 판단은 불꽃 품질보다 귀가 병목과 공공/민간 책임분담까지 포함해야 한다.</td>
+        <td data-label="대표 리스크/레버">민간 축제라도 공공 안전·교통·청소·응급·주민 민원 비용이 발생한다. 성공 판단은 불꽃 품질보다 귀가 병목과 공공/민간 책임분담까지 포함해야 한다.</td>
+        <td data-label="주요 원인 키워드"><code>mega_crowd_bottleneck, public_private_responsibility, resident_externality, real_time_monitoring, waste_toilet_medical_capacity</code></td>
+      </tr>
+<tr data-claim-id="boryeong-mud-2020-2026">
+        <td data-label="축제"><a href="boryeong-mud-global-paid-experience-governance-dossier.html">보령머드축제 2020-2026</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">기후·계절·자연조건, 조달·예산·책임경계, 유료화·지역환류</td>
+        <td data-label="케이스 성격">유료체험존은 수익화뿐 아니라 혼잡·안전·지역상품권 환류를 조절한다. 실패 리스크는 폭염, 접촉형 콘텐츠, 보험/응급 대응, 국비 글로벌화 집행에서 생긴다.</td>
+        <td data-label="대표 리스크/레버">유료체험존은 수익화뿐 아니라 혼잡·안전·지역상품권 환류를 조절한다. 실패 리스크는 폭염, 접촉형 콘텐츠, 보험/응급 대응, 국비 글로벌화 집행에서 생긴다.</td>
+        <td data-label="주요 원인 키워드"><code>paid_experience_revenue_control, heat_contact_safety, pandemic_substitution, global_growth_pressure, insurance_procurement_governance</code></td>
+      </tr>
+<tr data-claim-id="jinju-yudeung-2015-2026">
+        <td data-label="축제"><a href="jinju-yudeung-paid-access-governance-dossier.html">진주남강유등축제 2015-2026</a></td>
+        <td data-label="판정 방향"><span class="pattern-positive">성공/회복 패턴</span></td>
+        <td data-label="공통 패턴">기후·계절·자연조건, 조달·예산·책임경계, 유료화·지역환류</td>
+        <td data-label="케이스 성격">수익화는 가능하지만 가림막 방식은 공공성·상권·시민 정체성과 충돌한다. 이후 무료입장+체험유료+글로벌 지원 구조로 회복된 사회적 수용성 사례다.</td>
+        <td data-label="대표 리스크/레버">수익화는 가능하지만 가림막 방식은 공공성·상권·시민 정체성과 충돌한다. 이후 무료입장+체험유료+글로벌 지원 구조로 회복된 사회적 수용성 사례다.</td>
+        <td data-label="주요 원인 키워드"><code>paid_access_social_license, revenue_model_repair, local_economy_recovery, outsourcing_fragmentation, global_growth_target</code></td>
+      </tr>
+<tr data-claim-id="hwacheon-sancheoneo-2020-2027">
+        <td data-label="축제"><a href="hwacheon-sancheoneo-climate-economy-governance-dossier.html">화천산천어축제 2020-2027</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">기후·계절·자연조건, 조달·예산·책임경계, 유료화·지역환류</td>
+        <td data-label="케이스 성격">성공 원인은 자연 결빙이 아니라 수위·유속·얼음두께·입장제한·콘텐츠·지역경제 연결·반복 운영조직이다. 실패 리스크는 기후, 환불, 재고, 동물권, 조달 투명성에서 발생한다.</td>
+        <td data-label="대표 리스크/레버">성공 원인은 자연 결빙이 아니라 수위·유속·얼음두께·입장제한·콘텐츠·지역경제 연결·반복 운영조직이다. 실패 리스크는 기후, 환불, 재고, 동물권, 조달 투명성에서 발생한다.</td>
+        <td data-label="주요 원인 키워드"><code>ice_climate_dependency, engineered_safety, local_economy_linkage, social_license_animal_welfare, procurement_governance</code></td>
+      </tr>
+<tr data-claim-id="busan-fireworks-2022-2026">
+        <td data-label="축제"><a href="busan-fireworks-crowd-ticket-procurement-dossier.html">부산불꽃축제 2022-2026</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통, 조달·예산·책임경계, 유료화·지역환류</td>
+        <td data-label="케이스 성격">대형축제 만족도는 방문객 수보다 종료 후 귀가 병목, 안전요원/시설 배치, 유료좌석 수익 재투입, 용역 간 책임 경계가 좌우한다.</td>
+        <td data-label="대표 리스크/레버">대형축제 만족도는 방문객 수보다 종료 후 귀가 병목, 안전요원/시설 배치, 유료좌석 수익 재투입, 용역 간 책임 경계가 좌우한다.</td>
+        <td data-label="주요 원인 키워드"><code>mega_crowd_forecast, phased_exit_safety, paid_seat_revenue, outsourcing_interface, budget_governance</code></td>
+      </tr>
+<tr data-claim-id="pentaport-2019">
+        <td data-label="축제"><a href="pentaport-2019-cause-dossier.html">인천펜타포트</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">강한 causal-candidate. 운영주체 전환, 선정분쟁, 공개된 집행 구조, 라인업·소통·가격가치 비판이 한 사건 흐름 안에 있다.</td>
+        <td data-label="대표 리스크/레버">강한 causal-candidate. 운영주체 전환, 선정분쟁, 공개된 집행 구조, 라인업·소통·가격가치 비판이 한 사건 흐름 안에 있다.</td>
+        <td data-label="주요 원인 키워드"><code>operator_transition, procurement_dispute, programming, communication, price_value</code></td>
+      </tr>
+<tr data-claim-id="yeongyang-2023">
+        <td data-label="축제"><a href="yeongyang-sannamul-price-governance-dossier.html">영양 산나물축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-risk">실패/위험 패턴</span></td>
+        <td data-label="공통 패턴">가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">공공 책임·사후정책 체인은 B+지만 브로커/자릿세/하청 경로는 C다. 즉 가격관리 실패는 말할 수 있으나 하청 단정은 금물.</td>
+        <td data-label="대표 리스크/레버">공공 책임·사후정책 체인은 B+지만 브로커/자릿세/하청 경로는 C다. 즉 가격관리 실패는 말할 수 있으나 하청 단정은 금물.</td>
+        <td data-label="주요 원인 키워드"><code>price_governance, booth_control, public_response, broker_lead</code></td>
+      </tr>
+<tr data-claim-id="hongcheon-2024">
+        <td data-label="축제"><a href="hongcheon-ice-nightmarket-price-dossier.html">홍천강 꽁꽁축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">추가판정 필요</span></td>
+        <td data-label="공통 패턴">가격·상인·먹거리, 기후·계절·자연조건</td>
+        <td data-label="케이스 성격">핵심은 boundary-control. 공식 입점업체와 인근/야시장 판매자를 분리해야 하며, 위탁·운영업체 책임은 계약 증거 전까지 보류다.</td>
+        <td data-label="대표 리스크/레버">핵심은 boundary-control. 공식 입점업체와 인근/야시장 판매자를 분리해야 하며, 위탁·운영업체 책임은 계약 증거 전까지 보류다.</td>
+        <td data-label="주요 원인 키워드"><code>night_market_boundary, price_monitoring, vendor_scope, public_apology</code></td>
+      </tr>
+<tr data-claim-id="namwon-chunhyang-2023-2026">
+        <td data-label="축제"><a href="namwon-chunhyang-price-recovery-dossier.html">남원 춘향제</a></td>
+        <td data-label="판정 방향"><span class="pattern-positive">성공/회복 패턴</span></td>
+        <td data-label="공통 패턴">가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">2023년 고가·소량 음식 논란 뒤 직접 부스 임대, 가격/중량 표시, 1만원 이하 메뉴, 퇴거·고발, 외부상인 단속, 더본 협업으로 가격거버넌스를 재설계한 recovery case다.</td>
+        <td data-label="대표 리스크/레버">2023년 고가·소량 음식 논란 뒤 직접 부스 임대, 가격/중량 표시, 1만원 이하 메뉴, 퇴거·고발, 외부상인 단속, 더본 협업으로 가격거버넌스를 재설계한 recovery case다.</td>
+        <td data-label="주요 원인 키워드"><code>price_governance, booth_control, outside_merchant_boundary, enforcement, marketing_procurement_scope_gap</code></td>
+      </tr>
+<tr data-claim-id="jinju-lantern-2016-2026">
+        <td data-label="축제"><a href="jinju-lantern-price-social-license-dossier.html">진주남강유등축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-risk">실패/위험 패턴</span></td>
+        <td data-label="공통 패턴">가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">그렇다. 유료화·가림막 논란, 무료입장+유료체험 전환, 글로벌축제 성장, 바가지 푸드트럭 퇴출이 공존하는 price/social-license case다.</td>
+        <td data-label="대표 리스크/레버">그렇다. 유료화·가림막 논란, 무료입장+유료체험 전환, 글로벌축제 성장, 바가지 푸드트럭 퇴출이 공존하는 price/social-license case다.</td>
+        <td data-label="주요 원인 키워드"><code>price_governance, paid_entry, social_license, booth_control, stay_type_gap</code></td>
+      </tr>
+<tr data-claim-id="incheon-crowd-2024-2025">
+        <td data-label="축제"><a href="incheon-crowd-forecast-threshold-dossier.html">약사사 산사음악회 / 영종 불꽃페스타</a></td>
+        <td data-label="판정 방향"><span class="pattern-positive">성공/회복 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통</td>
+        <td data-label="케이스 성격">그렇다. 예상 인원, 1천명 안전관리계획 기준, 병목 동선, 늦은 배치·교통안내 신호를 분리해 보는 crowd-threshold 사례다.</td>
+        <td data-label="대표 리스크/레버">그렇다. 예상 인원, 1천명 안전관리계획 기준, 병목 동선, 늦은 배치·교통안내 신호를 분리해 보는 crowd-threshold 사례다.</td>
+        <td data-label="주요 원인 키워드"><code>demand_forecast, safety_threshold, traffic_bottleneck, late_deployment</code></td>
+      </tr>
+<tr data-claim-id="sejong-nakhwa-2023-2026">
+        <td data-label="축제"><a href="sejong-nakhwa-crowd-traffic-stabilization-dossier.html">세종낙화축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-positive">성공/회복 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통, 가격·상인·먹거리, 콘텐츠 정체성·사회적 수용성</td>
+        <td data-label="케이스 성격">2023년 초기 교통·주차 대란 이후 7개 주차장 관리, 불법주정차 단속, 대중교통 홍보, 안전/화재관리, 연출 장소 조정으로 8만~10만명 규모를 안정화한 night-spectacle capacity case다.</td>
+        <td data-label="대표 리스크/레버">2023년 초기 교통·주차 대란 이후 7개 주차장 관리, 불법주정차 단속, 대중교통 홍보, 안전/화재관리, 연출 장소 조정으로 8만~10만명 규모를 안정화한 night-spectacle capacity case다.</td>
+        <td data-label="주요 원인 키워드"><code>crowd_peak, traffic_capacity, parking_control, fire_safety, content_food_gap</code></td>
+      </tr>
+<tr data-claim-id="gwangyang-maehwa-2018-2026">
+        <td data-label="축제"><a href="gwangyang-maehwa-traffic-demand-redesign-dossier.html">광양매화축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-positive">성공/회복 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통</td>
+        <td data-label="케이스 성격">고질적 교통·주차 한계를 적산온도 기반 개화예측, 차 없는 거리, 주차면 확대, 무료/도심권 셔틀, 실시간 교통정보, 입장료 상품권 환급으로 재설계한 demand/capacity case다.</td>
+        <td data-label="대표 리스크/레버">고질적 교통·주차 한계를 적산온도 기반 개화예측, 차 없는 거리, 주차면 확대, 무료/도심권 셔틀, 실시간 교통정보, 입장료 상품권 환급으로 재설계한 demand/capacity case다.</td>
+        <td data-label="주요 원인 키워드"><code>demand_forecast, traffic_capacity, parking_shuttle, bloom_timing, voucher_loop</code></td>
+      </tr>
+<tr data-claim-id="daejeon-zero-clock-2024">
+        <td data-label="축제"><a href="daejeon-zero-clock-mixed-verdict-dossier.html">대전 0시축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통, 가격·상인·먹거리, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">혼합 verdict. 공식 방문객·경제효과·3무 축제 신호와 교통통제·예산·상인 체감효과 반대증거가 동시에 있다.</td>
+        <td data-label="대표 리스크/레버">혼합 verdict. 공식 방문객·경제효과·3무 축제 신호와 교통통제·예산·상인 체감효과 반대증거가 동시에 있다.</td>
+        <td data-label="주요 원인 키워드"><code>mixed_success, traffic_externality, budget_question, merchant_impact</code></td>
+      </tr>
+<tr data-claim-id="andong-maskdance-2024-2026">
+        <td data-label="축제"><a href="andong-maskdance-mixed-budget-identity-dossier.html">안동국제탈춤페스티벌</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td>
+        <td data-label="케이스 성격">혼합 사례다. 2024 방문객·해외공연단 신호는 강하지만, 직접 회수율과 경제효과 산식은 지방재정365·평가보고서 조인이 필요하다.</td>
+        <td data-label="대표 리스크/레버">혼합 사례다. 2024 방문객·해외공연단 신호는 강하지만, 직접 회수율과 경제효과 산식은 지방재정365·평가보고서 조인이 필요하다.</td>
+        <td data-label="주요 원인 키워드"><code>mixed_success, budget_recovery, identity, visitor_counting, city_capacity</code></td>
+      </tr>
+<tr data-claim-id="jinhae-gunhangje-2023-2026">
+        <td data-label="축제"><a href="jinhae-gunhangje-price-safety-prevention-dossier.html">진해군항제</a></td>
+        <td data-label="판정 방향"><span class="pattern-risk">실패/위험 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통, 가격·상인·먹거리, 기후·계절·자연조건</td>
+        <td data-label="케이스 성격">실패 사례라기보다 prevention benchmark다. 가격 원스트라이크, 부스전매 방지, 교통·응급·안전점검을 대형 방문객 대응 모델로 쓴다.</td>
+        <td data-label="대표 리스크/레버">실패 사례라기보다 prevention benchmark다. 가격 원스트라이크, 부스전매 방지, 교통·응급·안전점검을 대형 방문객 대응 모델로 쓴다.</td>
+        <td data-label="주요 원인 키워드"><code>price_control, booth_transfer_control, crowd_capacity, traffic, emergency_response</code></td>
+      </tr>
+<tr data-claim-id="pentaport-2025">
+        <td data-label="축제"><a href="pentaport-2025-success-dossier.html">인천펜타포트</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">추가판정 필요</span></td>
+        <td data-label="공통 패턴">기후·계절·자연조건, 유료화·지역환류</td>
+        <td data-label="케이스 성격">성공 contrast. 방문객, 만족도, 경제효과, 폭염·안전 대응, 글로벌 라인업과 지역상생이 확인되지만 대행사 귀속은 보류다.</td>
+        <td data-label="대표 리스크/레버">성공 contrast. 방문객, 만족도, 경제효과, 폭염·안전 대응, 글로벌 라인업과 지역상생이 확인되지만 대행사 귀속은 보류다.</td>
+        <td data-label="주요 원인 키워드"><code>programming, heat_safety, satisfaction, local_linkage</code></td>
+      </tr>
+<tr data-claim-id="boryeong-mud-2024-2026">
+        <td data-label="축제"><a href="boryeong-mud-success-local-capture-dossier.html">보령머드축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-positive">성공/회복 패턴</span></td>
+        <td data-label="공통 패턴">유료화·지역환류, 콘텐츠 정체성·사회적 수용성</td>
+        <td data-label="케이스 성격">유료 머드체험, 보령사랑상품권 환급, 외국인 유입, 야간·공연 콘텐츠가 결합된 paid-content/local-capture 성공 통제사례다. 단, 홍보비 기여도와 계약 귀속은 별도 검증이 필요하다.</td>
+        <td data-label="대표 리스크/레버">유료 머드체험, 보령사랑상품권 환급, 외국인 유입, 야간·공연 콘텐츠가 결합된 paid-content/local-capture 성공 통제사례다. 단, 홍보비 기여도와 계약 귀속은 별도 검증이 필요하다.</td>
+        <td data-label="주요 원인 키워드"><code>paid_content, voucher_loop, foreign_visitor, program_mix, marketing_attribution</code></td>
+      </tr>
+<tr data-claim-id="bucheon-comics-2025">
+        <td data-label="축제"><a href="bucheon-comics-2025-governance-dossier.html">부천국제만화축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-positive">성공/회복 패턴</span></td>
+        <td data-label="공통 패턴">조달·예산·책임경계</td>
+        <td data-label="케이스 성격">B+ bridge. 공식 공고·평가결과와 참여규모·프로그램·문화관광축제 선정 신호가 있지만 계약상 성공귀속은 아직 비어 있다.</td>
+        <td data-label="대표 리스크/레버">B+ bridge. 공식 공고·평가결과와 참여규모·프로그램·문화관광축제 선정 신호가 있지만 계약상 성공귀속은 아직 비어 있다.</td>
+        <td data-label="주요 원인 키워드"><code>procurement_evaluation, program_mix, cosplay, cultural_tourism_selection</code></td>
+      </tr>
+<tr data-claim-id="suwon-hwaseong-2026">
+        <td data-label="축제"><a href="suwon-hwaseong-2026-pre-event-dossier.html">수원화성문화제</a></td>
+        <td data-label="판정 방향"><span class="pattern-positive">성공/회복 패턴</span></td>
+        <td data-label="공통 패턴">수요·인파·교통, 가격·상인·먹거리, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">pre-event monitoring case. 평가결과·RFP 단서, 긴 일정, 외국인 수용, 피크 동선, 먹거리 부스 정책을 사전 체크리스트로 둔다.</td>
+        <td data-label="대표 리스크/레버">pre-event monitoring case. 평가결과·RFP 단서, 긴 일정, 외국인 수용, 피크 동선, 먹거리 부스 정책을 사전 체크리스트로 둔다.</td>
+        <td data-label="주요 원인 키워드"><code>crowding, food_policy, foreign_visitor_reception, parade_peak, procurement_evaluation</code></td>
+      </tr>
+<tr data-claim-id="jeju-fire-2022-2026">
+        <td data-label="축제"><a href="jeju-fire-content-social-license-transition-dossier.html">제주들불축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">기후·계절·자연조건, 조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td>
+        <td data-label="케이스 성격">그렇다. 새별오름 불놓기는 차별화 요소였지만 기후위기·산불·생태훼손·공론화 리스크와 충돌하면서 사회수용성 전환 대상이 됐다. 대행사 문제가 아니라 content/social-license case다.</td>
+        <td data-label="대표 리스크/레버">그렇다. 새별오름 불놓기는 차별화 요소였지만 기후위기·산불·생태훼손·공론화 리스크와 충돌하면서 사회수용성 전환 대상이 됐다. 대행사 문제가 아니라 content/social-license case다.</td>
+        <td data-label="주요 원인 키워드"><code>content_identity, social_license, environment_risk, weather_shock, governance_transition</code></td>
+      </tr>
+<tr data-claim-id="cheorwon-ice-2026">
+        <td data-label="축제"><a href="cheorwon-ice-2026-safety-outcome-dossier.html">철원한탄강얼음트레킹</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">기후·계절·자연조건, 유료화·지역환류</td>
+        <td data-label="케이스 성격">weather/safety outcome case. 방문 성과와 문화관광축제 선정이 있으나 결빙·코스·기상·안전점검이 핵심 리스크 축이다.</td>
+        <td data-label="대표 리스크/레버">weather/safety outcome case. 방문 성과와 문화관광축제 선정이 있으나 결빙·코스·기상·안전점검이 핵심 리스크 축이다.</td>
+        <td data-label="주요 원인 키워드"><code>weather, ice_condition, course_safety, fee_service, local_linkage</code></td>
+      </tr>
+<tr data-claim-id="muan-lotus-2023-2026">
+        <td data-label="축제"><a href="muan-lotus-heat-shuttle-procurement-dossier.html">무안연꽃축제 2023-2026</a></td>
+        <td data-label="판정 방향"><span class="pattern-risk">실패/위험 패턴</span></td>
+        <td data-label="공통 패턴">가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">여름 자연축제의 실패 원인은 대형 인파 자체보다 폭염, 개화, 체류 피로, 가격 신뢰, 대행사 실행범위가 동시에 흔들릴 때 발생한다. 무안은 사전 통제 장치가 공개자료에 비교적 잘 남은 사례다.</td>
+        <td data-label="대표 리스크/레버">여름 자연축제의 실패 원인은 대형 인파 자체보다 폭염, 개화, 체류 피로, 가격 신뢰, 대행사 실행범위가 동시에 흔들릴 때 발생한다. 무안은 사전 통제 장치가 공개자료에 비교적 잘 남은 사례다.</td>
+        <td data-label="주요 원인 키워드"><code>summer_heat, bloom_timing, visitor_fatigue, price_trust, disaster_scale_down, outsourcing_procurement</code></td>
+      </tr>
+<tr data-claim-id="inje-icefish-2019-2026">
+        <td data-label="축제"><a href="inje-icefish-climate-waterlevel-cancellation-dossier.html">인제빙어축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-risk">실패/위험 패턴</span></td>
+        <td data-label="공통 패턴">기후·계절·자연조건</td>
+        <td data-label="케이스 성격">소양강댐 수위와 결빙조건이 맞지 않아 행사장을 안전하게 만들 수 없는 site failure다. 2023년 20만명/144억 효과 lead가 있어 수요실패나 하청실패로 보면 안 된다.</td>
+        <td data-label="대표 리스크/레버">소양강댐 수위와 결빙조건이 맞지 않아 행사장을 안전하게 만들 수 없는 site failure다. 2023년 20만명/144억 효과 lead가 있어 수요실패나 하청실패로 보면 안 된다.</td>
+        <td data-label="주요 원인 키워드"><code>climate_risk, water_level, ice_condition, site_failure, safety_threshold</code></td>
+      </tr>
+<tr data-claim-id="hwacheon-sancheoneo-2020-2026">
+        <td data-label="축제"><a href="hwacheon-sancheoneo-weather-recovery-dossier.html">화천산천어축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">기후·계절·자연조건, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">대행사 실패보다 자연조건 의존형 조건부 수요예측 사례다. 2020년은 고온·결빙·코로나·ASF가 겹쳤고, 회복은 안전한 얼음수용량, 유료 체험, 지역환급, 가격공시, 해외마케팅이 설명한다.</td>
+        <td data-label="대표 리스크/레버">대행사 실패보다 자연조건 의존형 조건부 수요예측 사례다. 2020년은 고온·결빙·코로나·ASF가 겹쳤고, 회복은 안전한 얼음수용량, 유료 체험, 지역환급, 가격공시, 해외마케팅이 설명한다.</td>
+        <td data-label="주요 원인 키워드"><code>weather, ice_capacity, safety_inspection, voucher_loop, budget_recovery</code></td>
+      </tr>
+<tr data-claim-id="yeongdeok-snowcrab-2024-2026">
+        <td data-label="축제"><a href="yeongdeok-snowcrab-price-brand-control-dossier.html">영덕대게축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">생물 대게의 가격변동 리스크를 시판가 표시, 가격표 사전부착, 시민 모니터, 신고시스템, 체험·시식 물량 확대, 스마트 줄서기로 제어한 price-governance prevention case다.</td>
+        <td data-label="대표 리스크/레버">생물 대게의 가격변동 리스크를 시판가 표시, 가격표 사전부착, 시민 모니터, 신고시스템, 체험·시식 물량 확대, 스마트 줄서기로 제어한 price-governance prevention case다.</td>
+        <td data-label="주요 원인 키워드"><code>price_governance, commodity_supply, brand_protection, citizen_monitor, smart_queue</code></td>
+      </tr>
+<tr data-claim-id="cheongsong-apple-2025-2026">
+        <td data-label="축제"><a href="cheongsong-apple-metric-opacity-success-dossier.html">청송사과축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">혼합/전환 패턴</span></td>
+        <td data-label="공통 패턴">가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">성공 사례이지만 metric-opacity case다. 현장 방문객, 온라인 방문, 사과판매액, 직접/간접 경제효과, 만족도를 분리해야 하며 4.1억 원 대행용역은 조달 context이지 귀속 증거가 아니다.</td>
+        <td data-label="대표 리스크/레버">성공 사례이지만 metric-opacity case다. 현장 방문객, 온라인 방문, 사과판매액, 직접/간접 경제효과, 만족도를 분리해야 하며 4.1억 원 대행용역은 조달 context이지 귀속 증거가 아니다.</td>
+        <td data-label="주요 원인 키워드"><code>metric_opacity, success_control, hybrid_online, price_fixed_sales, procurement_context</code></td>
+      </tr>
+<tr data-claim-id="bupyeong-dongnae-gap">
+        <td data-label="축제"><a href="bupyeong-dongnae-gap-dossier.html">부평풍물대축제 / 동래읍성역사축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">추가판정 필요</span></td>
+        <td data-label="공통 패턴">조달·예산·책임경계, 지표 투명성·성과 해석</td>
+        <td data-label="케이스 성격">procurement gap. 공식 행사·문화관광축제 근거는 있으나 대행·계약 근거가 부족해 contractor causality를 만들면 과잉해석이다.</td>
+        <td data-label="대표 리스크/레버">procurement gap. 공식 행사·문화관광축제 근거는 있으나 대행·계약 근거가 부족해 contractor causality를 만들면 과잉해석이다.</td>
+        <td data-label="주요 원인 키워드"><code>data_gap, procurement_gap, coverage_guardrail</code></td>
+      </tr>
+<tr data-claim-id="hampyeong-butterfly-2023-2026">
+        <td data-label="축제"><a href="hampyeong-butterfly-success-price-boundary-dossier.html">함평나비대축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">추가판정 필요</span></td>
+        <td data-label="공통 패턴">가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td>
+        <td data-label="케이스 성격">유료 생태체험, 쿠폰 환류, 입장수익, 지역 판매 성과가 있는 success benchmark다. 다만 2023년 인근 야시장 가격 논란은 축제장 안팎 가격경계 실패로 분리해야 하며 하청 귀속은 보류다.</td>
+        <td data-label="대표 리스크/레버">유료 생태체험, 쿠폰 환류, 입장수익, 지역 판매 성과가 있는 success benchmark다. 다만 2023년 인근 야시장 가격 논란은 축제장 안팎 가격경계 실패로 분리해야 하며 하청 귀속은 보류다.</td>
+        <td data-label="주요 원인 키워드"><code>paid_content, coupon_loop, resident_participation, price_boundary, stage_procurement_gap</code></td>
+      </tr>
+<tr data-claim-id="bonghwa-sweetfish-2016-2026">
+        <td data-label="축제"><a href="bonghwa-sweetfish-budget-accounting-gap-dossier.html">봉화은어축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-risk">실패/위험 패턴</span></td>
+        <td data-label="공통 패턴">조달·예산·책임경계, 유료화·지역환류, 콘텐츠 정체성·사회적 수용성</td>
+        <td data-label="케이스 성격">유료 은어잡이와 상품권 환급, 2025 수익금 기부가 있어 실패로 단정하기 어렵다. 그러나 2024 고집행·수익 0원 lead와 효과지표 불투명성 때문에 회계귀속/공시입력/수익환류 조인이 필요하다.</td>
+        <td data-label="대표 리스크/레버">유료 은어잡이와 상품권 환급, 2025 수익금 기부가 있어 실패로 단정하기 어렵다. 그러나 2024 고집행·수익 0원 lead와 효과지표 불투명성 때문에 회계귀속/공시입력/수익환류 조인이 필요하다.</td>
+        <td data-label="주요 원인 키워드"><code>budget_accounting_gap, paid_content, voucher_loop, flood_cancellation, multi_layer_procurement</code></td>
+      </tr>
+<tr data-claim-id="sangju-hat-2023-2025">
+        <td data-label="축제"><a href="sangju-hat-free-access-budget-risk-dossier.html">상주세계모자페스티벌</a></td>
+        <td data-label="판정 방향"><span class="pattern-risk">실패/위험 패턴</span></td>
+        <td data-label="공통 패턴">조달·예산·책임경계, 유료화·지역환류, 콘텐츠 정체성·사회적 수용성</td>
+        <td data-label="케이스 성격">2024년 전액 시비·무료입장·수익 0원 lead의 직접 설명은 유료화 가능한 독창 체험콘텐츠 부족이다. 2025년 성과 lead가 있어 실패 단정은 금물이나 직접수익·공공가치 조인이 필요하다.</td>
+        <td data-label="대표 리스크/레버">2024년 전액 시비·무료입장·수익 0원 lead의 직접 설명은 유료화 가능한 독창 체험콘텐츠 부족이다. 2025년 성과 lead가 있어 실패 단정은 금물이나 직접수익·공공가치 조인이 필요하다.</td>
+        <td data-label="주요 원인 키워드"><code>free_access, paid_content_gap, budget_recovery, identity_governance, public_value</code></td>
+      </tr>
+<tr data-claim-id="mungyeong-teabowl-2024-2026">
+        <td data-label="축제"><a href="mungyeong-teabowl-cultural-value-budget-recovery-dossier.html">문경찻사발축제</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">추가판정 필요</span></td>
+        <td data-label="공통 패턴">조달·예산·책임경계</td>
+        <td data-label="케이스 성격">전통도자 공공가치와 방문 성과는 강하지만 2024 회수율 6.6% lead는 직접수익 gap이다. 2025 패스권·상품권·관광지 할인 개편이 실제 지역환류를 만들었는지 조인이 필요하다.</td>
+        <td data-label="대표 리스크/레버">전통도자 공공가치와 방문 성과는 강하지만 2024 회수율 6.6% lead는 직접수익 gap이다. 2025 패스권·상품권·관광지 할인 개편이 실제 지역환류를 만들었는지 조인이 필요하다.</td>
+        <td data-label="주요 원인 키워드"><code>cultural_public_value, budget_recovery, free_entry, voucher_pass, procurement_context</code></td>
+      </tr>
+<tr data-claim-id="budget-waste-model">
+        <td data-label="축제"><a href="budget-waste-causality-model-wave1.html">예산낭비 판정 모델</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">추가판정 필요</span></td>
+        <td data-label="공통 패턴">유료화·지역환류</td>
+        <td data-label="케이스 성격">아니다. 순원가, 수익, 방문객, 만족도, 지역소비, 교통·안전 외부비용, 계약책임 불일치가 함께 있어야 낭비 리스크다.</td>
+        <td data-label="대표 리스크/레버">아니다. 순원가, 수익, 방문객, 만족도, 지역소비, 교통·안전 외부비용, 계약책임 불일치가 함께 있어야 낭비 리스크다.</td>
+        <td data-label="주요 원인 키워드"><code>net_cost, public_value, local_capture, external_cost, contract_accountability</code></td>
+      </tr>
+<tr data-claim-id="why-cause-router">
+        <td data-label="축제"><a href="why-cause-router-wave2.html">원인 라우터</a></td>
+        <td data-label="판정 방향"><span class="pattern-mixed">추가판정 필요</span></td>
+        <td data-label="공통 패턴">원인 라우팅·추가 확인</td>
+        <td data-label="케이스 성격">하청/대행, 가격/부스, 수요예측/인파, 날씨/안전, 예산낭비, 혼합 verdict 질문을 각 dossier로 연결한다.</td>
+        <td data-label="대표 리스크/레버">하청/대행, 가격/부스, 수요예측/인파, 날씨/안전, 예산낭비, 혼합 verdict 질문을 각 dossier로 연결한다.</td>
+        <td data-label="주요 원인 키워드"><code>router, human_readability, cause_first_navigation</code></td>
+      </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contradictions-gaps">
+      <div class="section-kicker">Contradictions and gaps</div>
+      <h2>과장하면 안 되는 부분</h2>
       <div class="cards">
-        <article class="card"><h3>성공 쪽 질문</h3><p>방문객이 몰리는 시간과 빠지는 시간을 알고 있는가? 지역상권 매출로 연결되는가? 가격 민원 방어선이 있는가? 날씨 실패 시 대체 콘텐츠가 있는가? 대행사 과업과 보험 범위가 보이는가?</p></article>
-        <article class="card"><h3>실패 쪽 질문</h3><p>방문객 수만 발표하는가? 무료/유료 경계가 시민 접근권과 충돌하는가? 교통·화장실·응급·식품위생 로그가 없는가? 하청/대행을 계약금액만 보고 성과로 보지 않는가?</p></article>
+        <article class="card" data-claim-id="C1"><h3>2016~2026 전국 패널</h3><p>단일 공개자료만으로 완전한 전국 패널이라고 말할 수 없다. MCST 연도별 지역축제 페이지는 2017~2026을 강하게 지지하고, 2016은 문화관광축제 평가보고서 등 좁은 보강 근거가 필요하다.</p></article>
+        <article class="card" data-claim-id="C2"><h3>방문객과 추세지표</h3><p>KTO DataLab, 카드, SNS, 모바일 지표는 수요 추세와 소비 신호로 유용하지만, 현장 게이트 카운트나 정확한 총방문객과 동일시하면 안 된다.</p></article>
+        <article class="card" data-claim-id="C4"><h3>조달·대행 귀책</h3><p>입찰공고, 과업지시서, 낙찰자, 계약 체인, 사후성과가 연결될 때만 대행/하청 원인을 강하게 말한다. 이름·기간·기관이 어긋나는 경우는 confidence tier를 낮춘다.</p></article>
+        <article class="card" data-claim-id="C-GAP-01"><h3>자료공백 케이스</h3><p>부평풍물대축제, 동래읍성역사축제처럼 공개자료가 약한 경우 실패 판정이 아니라 추가판정 필요로 남겨야 한다.</p></article>
       </div>
     </section>
 
-    <section>
-      <h2>축제별 공통 패턴 맵</h2>
-      <table>
-        <thead><tr><th>축제</th><th>판정 방향</th><th>공통 패턴</th><th>케이스 성격</th><th>주요 원인 키워드</th></tr></thead>
-        <tbody>                    <tr><td><a href="seoul-fireworks-crowd-public-private-governance-dossier.html">서울세계불꽃축제 2024-2025</a></td><td>혼합/전환 패턴</td><td>수요·인파·교통, 조달·예산·책임경계</td><td>100만 명급 공공/민간 초대형 인파·주민 외부비용 혼합 사례</td><td><code>mega_crowd_bottleneck, public_private_responsibility, resident_externality, real_time_monitoring, waste_toilet_medical_capacity</code></td></tr>
-<tr><td><a href="boryeong-mud-global-paid-experience-governance-dossier.html">보령머드축제 2020-2026</a></td><td>성공/회복 패턴</td><td>기후·계절·자연조건, 유료화·지역환류, 조달·예산·책임경계</td><td>글로벌 체험형 유료존&#183;폭염안전&#183;보험조달 혼합 성공 사례</td><td><code>paid_experience_revenue_control, heat_contact_safety, pandemic_substitution, global_growth_pressure, insurance_procurement_governance</code></td></tr>
-          <tr><td><a href="jinju-yudeung-paid-access-governance-dossier.html">진주남강유등축제 2015-2026</a></td><td>성공/회복 패턴</td><td>기후·계절·자연조건, 유료화·지역환류, 조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td><td>유료화&#183;가림막&#183;지역상권&#183;조달 거버넌스 회복 사례</td><td><code>paid_access_social_license, revenue_model_repair, local_economy_recovery, outsourcing_fragmentation, global_growth_target</code></td></tr>
-          <tr><td><a href="hwacheon-sancheoneo-climate-economy-governance-dossier.html">화천산천어축제 2020-2027</a></td><td>성공/회복 패턴</td><td>기후·계절·자연조건, 조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td><td>겨울 결빙&#183;지역경제&#183;동물권&#183;조달 거버넌스 혼합 성공 사례</td><td><code>ice_climate_dependency, engineered_safety, local_economy_linkage, social_license_animal_welfare, procurement_governance</code></td></tr>
-          <tr><td><a href="busan-fireworks-crowd-ticket-procurement-dossier.html">부산불꽃축제 2022-2026</a></td><td>혼합/전환 패턴</td><td>수요·인파·교통, 유료화·지역환류, 조달·예산·책임경계</td><td>100만 명급 인파&#183;유료좌석&#183;안전&#183;예산/대행 혼합 사례</td><td><code>mega_crowd_forecast, phased_exit_safety, paid_seat_revenue, outsourcing_interface, budget_governance</code></td></tr>
-          <tr><td><a href="pentaport-2019-cause-dossier.html">인천펜타포트</a></td><td>혼합/전환 패턴</td><td>가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>operator_transition, procurement_dispute, programming, communication, price_value</code></td></tr>
-          <tr><td><a href="yeongyang-sannamul-price-governance-dossier.html">영양 산나물축제</a></td><td>실패/위험 패턴</td><td>가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>price_governance, booth_control, public_response, broker_lead</code></td></tr>
-          <tr><td><a href="hongcheon-ice-nightmarket-price-dossier.html">홍천강 꽁꽁축제</a></td><td>추가판정 필요</td><td>가격·상인·먹거리, 기후·계절·자연조건</td><td>기존 조사 케이스</td><td><code>night_market_boundary, price_monitoring, vendor_scope, public_apology</code></td></tr>
-          <tr><td><a href="namwon-chunhyang-price-recovery-dossier.html">남원 춘향제</a></td><td>실패/위험 패턴</td><td>가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>price_governance, booth_control, outside_merchant_boundary, enforcement, marketing_procurement_scope_gap</code></td></tr>
-          <tr><td><a href="jinju-lantern-price-social-license-dossier.html">진주남강유등축제</a></td><td>실패/위험 패턴</td><td>가격·상인·먹거리, 기후·계절·자연조건, 유료화·지역환류, 조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td><td>기존 조사 케이스</td><td><code>price_governance, paid_entry, social_license, booth_control, stay_type_gap</code></td></tr>
-          <tr><td><a href="incheon-crowd-forecast-threshold-dossier.html">약사사 산사음악회 / 영종 불꽃페스타</a></td><td>실패/위험 패턴</td><td>수요·인파·교통</td><td>기존 조사 케이스</td><td><code>demand_forecast, safety_threshold, traffic_bottleneck, late_deployment</code></td></tr>
-          <tr><td><a href="sejong-nakhwa-crowd-traffic-stabilization-dossier.html">세종낙화축제</a></td><td>실패/위험 패턴</td><td>수요·인파·교통, 가격·상인·먹거리, 콘텐츠 정체성·사회적 수용성</td><td>기존 조사 케이스</td><td><code>crowd_peak, traffic_capacity, parking_control, fire_safety, content_food_gap</code></td></tr>
-          <tr><td><a href="gwangyang-maehwa-traffic-demand-redesign-dossier.html">광양매화축제</a></td><td>성공/회복 패턴</td><td>수요·인파·교통, 기후·계절·자연조건, 유료화·지역환류</td><td>기존 조사 케이스</td><td><code>demand_forecast, traffic_capacity, parking_shuttle, bloom_timing, voucher_loop</code></td></tr>
-          <tr><td><a href="daejeon-zero-clock-mixed-verdict-dossier.html">대전 0시축제</a></td><td>혼합/전환 패턴</td><td>수요·인파·교통, 조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>mixed_success, traffic_externality, budget_question, merchant_impact</code></td></tr>
-          <tr><td><a href="andong-maskdance-mixed-budget-identity-dossier.html">안동국제탈춤페스티벌</a></td><td>성공/회복 패턴</td><td>수요·인파·교통, 유료화·지역환류, 조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td><td>기존 조사 케이스</td><td><code>mixed_success, budget_recovery, identity, visitor_counting, city_capacity</code></td></tr>
-          <tr><td><a href="jinhae-gunhangje-price-safety-prevention-dossier.html">진해군항제</a></td><td>혼합/전환 패턴</td><td>수요·인파·교통, 가격·상인·먹거리, 기후·계절·자연조건</td><td>기존 조사 케이스</td><td><code>price_control, booth_transfer_control, crowd_capacity, traffic, emergency_response</code></td></tr>
-          <tr><td><a href="pentaport-2025-success-dossier.html">인천펜타포트</a></td><td>성공/회복 패턴</td><td>기후·계절·자연조건, 유료화·지역환류</td><td>기존 조사 케이스</td><td><code>programming, heat_safety, satisfaction, local_linkage</code></td></tr>
-          <tr><td><a href="boryeong-mud-success-local-capture-dossier.html">보령머드축제</a></td><td>성공/회복 패턴</td><td>유료화·지역환류, 콘텐츠 정체성·사회적 수용성</td><td>기존 조사 케이스</td><td><code>paid_content, voucher_loop, foreign_visitor, program_mix, marketing_attribution</code></td></tr>
-          <tr><td><a href="bucheon-comics-2025-governance-dossier.html">부천국제만화축제</a></td><td>추가판정 필요</td><td>조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>procurement_evaluation, program_mix, cosplay, cultural_tourism_selection</code></td></tr>
-          <tr><td><a href="suwon-hwaseong-2026-pre-event-dossier.html">수원화성문화제</a></td><td>추가판정 필요</td><td>수요·인파·교통, 가격·상인·먹거리, 조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>crowding, food_policy, foreign_visitor_reception, parade_peak, procurement_evaluation</code></td></tr>
-          <tr><td><a href="jeju-fire-content-social-license-transition-dossier.html">제주들불축제</a></td><td>실패/위험 패턴</td><td>기후·계절·자연조건, 조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td><td>기존 조사 케이스</td><td><code>content_identity, social_license, environment_risk, weather_shock, governance_transition</code></td></tr>
-          <tr><td><a href="cheorwon-ice-2026-safety-outcome-dossier.html">철원한탄강얼음트레킹</a></td><td>성공/회복 패턴</td><td>기후·계절·자연조건, 유료화·지역환류</td><td>기존 조사 케이스</td><td><code>weather, ice_condition, course_safety, fee_service, local_linkage</code></td></tr>
-          <tr><td><a href="muan-lotus-heat-shuttle-procurement-dossier.html">무안연꽃축제 2023-2026</a></td><td>혼합/전환 패턴</td><td>가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td><td>여름 자연축제 편의&#183;가격&#183;조달구조 통제 사례</td><td><code>summer_heat, bloom_timing, visitor_fatigue, price_trust, disaster_scale_down</code></td></tr>
-          <tr><td><a href="inje-icefish-climate-waterlevel-cancellation-dossier.html">인제빙어축제</a></td><td>실패/위험 패턴</td><td>기후·계절·자연조건</td><td>기존 조사 케이스</td><td><code>climate_risk, water_level, ice_condition, site_failure, safety_threshold</code></td></tr>
-          <tr><td><a href="hwacheon-sancheoneo-weather-recovery-dossier.html">화천산천어축제</a></td><td>성공/회복 패턴</td><td>수요·인파·교통, 기후·계절·자연조건, 유료화·지역환류, 조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>weather, ice_capacity, safety_inspection, voucher_loop, budget_recovery</code></td></tr>
-          <tr><td><a href="yeongdeok-snowcrab-price-brand-control-dossier.html">영덕대게축제</a></td><td>실패/위험 패턴</td><td>가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>price_governance, commodity_supply, brand_protection, citizen_monitor, smart_queue</code></td></tr>
-          <tr><td><a href="cheongsong-apple-metric-opacity-success-dossier.html">청송사과축제</a></td><td>성공/회복 패턴</td><td>가격·상인·먹거리, 기후·계절·자연조건, 조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>metric_opacity, success_control, hybrid_online, price_fixed_sales, procurement_context</code></td></tr>
-          <tr><td><a href="bupyeong-dongnae-gap-dossier.html">부평풍물대축제 / 동래읍성역사축제</a></td><td>실패/위험 패턴</td><td>조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>data_gap, procurement_gap, coverage_guardrail</code></td></tr>
-          <tr><td><a href="hampyeong-butterfly-success-price-boundary-dossier.html">함평나비대축제</a></td><td>성공/회복 패턴</td><td>가격·상인·먹거리, 기후·계절·자연조건, 유료화·지역환류, 조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td><td>기존 조사 케이스</td><td><code>paid_content, coupon_loop, resident_participation, price_boundary, stage_procurement_gap</code></td></tr>
-          <tr><td><a href="bonghwa-sweetfish-budget-accounting-gap-dossier.html">봉화은어축제</a></td><td>성공/회복 패턴</td><td>기후·계절·자연조건, 유료화·지역환류, 조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td><td>기존 조사 케이스</td><td><code>budget_accounting_gap, paid_content, voucher_loop, flood_cancellation, multi_layer_procurement</code></td></tr>
-          <tr><td><a href="sangju-hat-free-access-budget-risk-dossier.html">상주세계모자페스티벌</a></td><td>성공/회복 패턴</td><td>유료화·지역환류, 조달·예산·책임경계, 콘텐츠 정체성·사회적 수용성</td><td>기존 조사 케이스</td><td><code>free_access, paid_content_gap, budget_recovery, identity_governance, public_value</code></td></tr>
-          <tr><td><a href="mungyeong-teabowl-cultural-value-budget-recovery-dossier.html">문경찻사발축제</a></td><td>성공/회복 패턴</td><td>유료화·지역환류, 조달·예산·책임경계</td><td>기존 조사 케이스</td><td><code>cultural_public_value, budget_recovery, free_entry, voucher_pass, procurement_context</code></td></tr>
-        <tr><td>춘천마임축제</td><td>성공+리스크</td><td>고유 콘텐츠·도시 전체 무대화·성과 측정</td><td>감염병 취소·고정 공간 부재·예산 삭감·교통 피크</td><td>chuncheon-mime-2020-2026</td></tr>
-<tr><td>대전빵축제</td><td>성공+혼잡실패</td><td>도시 브랜드·대표 업체·전국 업체 참여·상권 연계</td><td>입장 대기·품절·공급량 예측·주차·대행 KPI 불명확</td><td>daejeon-bread-2023-2026</td></tr>
-<tr><td>자라섬재즈페스티벌</td><td>성공+거버넌스 리스크</td><td>장르 정체성·유료 티켓·국제 라인업·지역 체류소비</td><td>보조금·협약·수익금 투명성·감염병/날씨 외부충격</td><td>jarasum-jazz-2018-2026</td></tr>
-<tr><td>강릉커피축제</td><td>성공+주차 리스크</td><td>도시 대표상품·지역업체 환류·체류형 프로그램·환경친화 운영</td><td>주차난·공간 집중·권역별 상권 불균형·감염병 취소/연기</td><td>gangneung-coffee-2020-2026</td></tr>
-<tr><td>원주댄싱카니발</td><td>성공+날씨/교통/측정 리스크</td><td>도심 퍼레이드·시민참여·군악/마칭 정체성·K-댄스 전환·지역문화자산 결합</td><td>태풍·감염병·주차/동선·방문객 산식 불일치·무대/운영 용역 KPI 미연결</td><td>wonju-dancing-2016-2026</td></tr>
-</tbody>
+    <section id="action-playbook">
+      <div class="section-kicker">Action playbook</div>
+      <h2>다음 축제 평가 체크리스트</h2>
+      <div class="timeline">
+        <div class="timeline-row"><div class="date">01</div><div><strong>수요를 시간표로 쪼갠다.</strong><br>예상/실제 유입, 귀가 시점, 주차 회전, 셔틀, 출입구, 응급동선을 별도 행으로 둔다.</div></div>
+        <div class="timeline-row"><div class="date">02</div><div><strong>가격 경계를 설계한다.</strong><br>공식 부스, 외부상인, 야시장, 지역상인회, 푸드트럭을 분리하고 가격표시·신고센터·제재권한을 명시한다.</div></div>
+        <div class="timeline-row"><div class="date">03</div><div><strong>기후 실패 시나리오를 만든다.</strong><br>결빙·수위·폭염·개화·강풍 기준값과 취소/축소/대체/환불 기준을 사전 공표한다.</div></div>
+        <div class="timeline-row"><div class="date">04</div><div><strong>조달 책임지도를 만든다.</strong><br>대행사별 과업, 보험, 경호, 무대, 음향, 전기, 화장실, 셔틀, 먹거리의 인터페이스와 검수 KPI를 연결한다.</div></div>
+        <div class="timeline-row"><div class="date">05</div><div><strong>성과지표를 분리한다.</strong><br>방문객, 매출, 경제효과, 만족도, 재방문, 민원, 안전사고, 지역환류를 별도 claim으로 저장한다.</div></div>
+      </div>
+    </section>
+
+    <section id="source-manifest">
+      <div class="section-kicker">Source manifest</div>
+      <h2>전체 로컬 파일 처리 내역</h2>
+      <p class="source-note">아래 표는 QA 기준에 맞춰 모든 관련 로컬 파일을 분류한다. 파일명이 보이는 것은 해당 파일이 최종 종합의 직접 인용, companion data, support artifact, navigation/process, scaffold 중 하나로 처리됐다는 뜻이다.</p>
+      <table class="source-manifest-table">
+        <thead><tr><th>파일</th><th>분류</th><th>처리</th></tr></thead>
+        <tbody>
+          <tr data-source-file="NEXT_WORK.md">
+        <td data-label="파일">NEXT_WORK.md</td>
+        <td data-label="분류"><code>navigation_or_process</code></td>
+        <td data-label="처리">navigation/status/process, not a primary claim source</td>
+      </tr>
+<tr data-source-file="README.md">
+        <td data-label="파일">README.md</td>
+        <td data-label="분류"><code>navigation_or_process</code></td>
+        <td data-label="처리">navigation/status/process, not a primary claim source</td>
+      </tr>
+<tr data-source-file="RESEARCH_STATUS.md">
+        <td data-label="파일">RESEARCH_STATUS.md</td>
+        <td data-label="분류"><code>navigation_or_process</code></td>
+        <td data-label="처리">navigation/status/process, not a primary claim source</td>
+      </tr>
+<tr data-source-file="SYNTHESIS.md">
+        <td data-label="파일">SYNTHESIS.md</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">represented for completeness</td>
+      </tr>
+<tr data-source-file="andong-maskdance-mixed-budget-identity-dossier.html">
+        <td data-label="파일"><a href="andong-maskdance-mixed-budget-identity-dossier.html">andong-maskdance-mixed-budget-identity-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="benchmark-procurement-search-queue.html">
+        <td data-label="파일"><a href="benchmark-procurement-search-queue.html">benchmark-procurement-search-queue.html</a></td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="benchmark-risk-priority-queue.html">
+        <td data-label="파일"><a href="benchmark-risk-priority-queue.html">benchmark-risk-priority-queue.html</a></td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="bonghwa-sweetfish-budget-accounting-gap-dossier.html">
+        <td data-label="파일"><a href="bonghwa-sweetfish-budget-accounting-gap-dossier.html">bonghwa-sweetfish-budget-accounting-gap-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="boryeong-mud-global-paid-experience-governance-dossier.html">
+        <td data-label="파일"><a href="boryeong-mud-global-paid-experience-governance-dossier.html">boryeong-mud-global-paid-experience-governance-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="boryeong-mud-success-local-capture-dossier.html">
+        <td data-label="파일"><a href="boryeong-mud-success-local-capture-dossier.html">boryeong-mud-success-local-capture-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="bucheon-comics-2025-governance-dossier.html">
+        <td data-label="파일"><a href="bucheon-comics-2025-governance-dossier.html">bucheon-comics-2025-governance-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="budget-recovery-comparator-wave1.html">
+        <td data-label="파일"><a href="budget-recovery-comparator-wave1.html">budget-recovery-comparator-wave1.html</a></td>
+        <td data-label="분류"><code>additional_html_evidence</code></td>
+        <td data-label="처리">local HTML evidence page outside the primary case matrix</td>
+      </tr>
+<tr data-source-file="budget-waste-causality-model-wave1.html">
+        <td data-label="파일"><a href="budget-waste-causality-model-wave1.html">budget-waste-causality-model-wave1.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="bupyeong-dongnae-gap-dossier.html">
+        <td data-label="파일"><a href="bupyeong-dongnae-gap-dossier.html">bupyeong-dongnae-gap-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="busan-fireworks-crowd-ticket-procurement-dossier.html">
+        <td data-label="파일"><a href="busan-fireworks-crowd-ticket-procurement-dossier.html">busan-fireworks-crowd-ticket-procurement-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="case-evidence-matrix-wave1.html">
+        <td data-label="파일"><a href="case-evidence-matrix-wave1.html">case-evidence-matrix-wave1.html</a></td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="case-evidence-matrix-wave2.html">
+        <td data-label="파일"><a href="case-evidence-matrix-wave2.html">case-evidence-matrix-wave2.html</a></td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="cheongsong-apple-metric-opacity-success-dossier.html">
+        <td data-label="파일"><a href="cheongsong-apple-metric-opacity-success-dossier.html">cheongsong-apple-metric-opacity-success-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="cheorwon-ice-2026-safety-outcome-dossier.html">
+        <td data-label="파일"><a href="cheorwon-ice-2026-safety-outcome-dossier.html">cheorwon-ice-2026-safety-outcome-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="chuncheon-mime-arts-space-governance-dossier.html">
+        <td data-label="파일"><a href="chuncheon-mime-arts-space-governance-dossier.html">chuncheon-mime-arts-space-governance-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="daejeon-bread-festival-demand-queue-outsourcing-dossier.html">
+        <td data-label="파일"><a href="daejeon-bread-festival-demand-queue-outsourcing-dossier.html">daejeon-bread-festival-demand-queue-outsourcing-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="daejeon-zero-clock-mixed-verdict-dossier.html">
+        <td data-label="파일"><a href="daejeon-zero-clock-mixed-verdict-dossier.html">daejeon-zero-clock-mixed-verdict-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="access-feasibility.json">
+        <td data-label="파일">data/access-feasibility.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="andong-maskdance-mixed-budget-identity-dossier.csv">
+        <td data-label="파일">data/andong-maskdance-mixed-budget-identity-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="andong-maskdance-mixed-budget-identity-dossier.json">
+        <td data-label="파일">data/andong-maskdance-mixed-budget-identity-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="benchmark-procurement-search-queue.csv">
+        <td data-label="파일">data/benchmark-procurement-search-queue.csv</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="benchmark-procurement-search-queue.json">
+        <td data-label="파일">data/benchmark-procurement-search-queue.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="benchmark-risk-priority-queue.csv">
+        <td data-label="파일">data/benchmark-risk-priority-queue.csv</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="benchmark-risk-priority-queue.json">
+        <td data-label="파일">data/benchmark-risk-priority-queue.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="bonghwa-sweetfish-budget-accounting-gap-dossier.csv">
+        <td data-label="파일">data/bonghwa-sweetfish-budget-accounting-gap-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="bonghwa-sweetfish-budget-accounting-gap-dossier.json">
+        <td data-label="파일">data/bonghwa-sweetfish-budget-accounting-gap-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="boryeong-mud-global-paid-experience-governance-dossier.csv">
+        <td data-label="파일">data/boryeong-mud-global-paid-experience-governance-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="boryeong-mud-global-paid-experience-governance-dossier.json">
+        <td data-label="파일">data/boryeong-mud-global-paid-experience-governance-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="boryeong-mud-success-local-capture-dossier.csv">
+        <td data-label="파일">data/boryeong-mud-success-local-capture-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="boryeong-mud-success-local-capture-dossier.json">
+        <td data-label="파일">data/boryeong-mud-success-local-capture-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="bucheon-comics-2025-governance-dossier.csv">
+        <td data-label="파일">data/bucheon-comics-2025-governance-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="bucheon-comics-2025-governance-dossier.json">
+        <td data-label="파일">data/bucheon-comics-2025-governance-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="budget-recovery-comparator-wave1.csv">
+        <td data-label="파일">data/budget-recovery-comparator-wave1.csv</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="budget-recovery-comparator-wave1.json">
+        <td data-label="파일">data/budget-recovery-comparator-wave1.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="budget-waste-causality-model-wave1.csv">
+        <td data-label="파일">data/budget-waste-causality-model-wave1.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="budget-waste-causality-model-wave1.json">
+        <td data-label="파일">data/budget-waste-causality-model-wave1.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="bupyeong-dongnae-gap-dossier.csv">
+        <td data-label="파일">data/bupyeong-dongnae-gap-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="bupyeong-dongnae-gap-dossier.json">
+        <td data-label="파일">data/bupyeong-dongnae-gap-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="busan-fireworks-crowd-ticket-procurement-dossier.csv">
+        <td data-label="파일">data/busan-fireworks-crowd-ticket-procurement-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="busan-fireworks-crowd-ticket-procurement-dossier.json">
+        <td data-label="파일">data/busan-fireworks-crowd-ticket-procurement-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="case-evidence-matrix-wave1.csv">
+        <td data-label="파일">data/case-evidence-matrix-wave1.csv</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="case-evidence-matrix-wave1.json">
+        <td data-label="파일">data/case-evidence-matrix-wave1.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="case-evidence-matrix-wave2.csv">
+        <td data-label="파일">data/case-evidence-matrix-wave2.csv</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="case-evidence-matrix-wave2.json">
+        <td data-label="파일">data/case-evidence-matrix-wave2.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="cause-index.json">
+        <td data-label="파일">data/cause-index.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="cheongsong-apple-metric-opacity-success-dossier.csv">
+        <td data-label="파일">data/cheongsong-apple-metric-opacity-success-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="cheongsong-apple-metric-opacity-success-dossier.json">
+        <td data-label="파일">data/cheongsong-apple-metric-opacity-success-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="cheorwon-ice-2026-safety-outcome-dossier.csv">
+        <td data-label="파일">data/cheorwon-ice-2026-safety-outcome-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="cheorwon-ice-2026-safety-outcome-dossier.json">
+        <td data-label="파일">data/cheorwon-ice-2026-safety-outcome-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="chuncheon-mime-arts-space-governance-dossier.csv">
+        <td data-label="파일">data/chuncheon-mime-arts-space-governance-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="chuncheon-mime-arts-space-governance-dossier.json">
+        <td data-label="파일">data/chuncheon-mime-arts-space-governance-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="claim-graph.json">
+        <td data-label="파일">data/claim-graph.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="collection-backlog.json">
+        <td data-label="파일">data/collection-backlog.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="daejeon-bread-festival-demand-queue-outsourcing-dossier.csv">
+        <td data-label="파일">data/daejeon-bread-festival-demand-queue-outsourcing-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="daejeon-bread-festival-demand-queue-outsourcing-dossier.json">
+        <td data-label="파일">data/daejeon-bread-festival-demand-queue-outsourcing-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="daejeon-zero-clock-mixed-verdict-dossier.csv">
+        <td data-label="파일">data/daejeon-zero-clock-mixed-verdict-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="daejeon-zero-clock-mixed-verdict-dossier.json">
+        <td data-label="파일">data/daejeon-zero-clock-mixed-verdict-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="evidence-manifest.json">
+        <td data-label="파일">data/evidence-manifest.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="festival-case-evidence-wave3.json">
+        <td data-label="파일">data/festival-case-evidence-wave3.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="festival-cases.json">
+        <td data-label="파일">data/festival-cases.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="festival-cause-dossiers-wave4.json">
+        <td data-label="파일">data/festival-cause-dossiers-wave4.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="festival-failure-risk-leads-wave1.csv">
+        <td data-label="파일">data/festival-failure-risk-leads-wave1.csv</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="festival-failure-risk-leads-wave1.json">
+        <td data-label="파일">data/festival-failure-risk-leads-wave1.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="festival-governance-causal-chain-wave1.csv">
+        <td data-label="파일">data/festival-governance-causal-chain-wave1.csv</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="festival-governance-causal-chain-wave1.json">
+        <td data-label="파일">data/festival-governance-causal-chain-wave1.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="festival-source-map.json">
+        <td data-label="파일">data/festival-source-map.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="gangneung-coffee-urban-brand-mobility-dossier.csv">
+        <td data-label="파일">data/gangneung-coffee-urban-brand-mobility-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="gangneung-coffee-urban-brand-mobility-dossier.json">
+        <td data-label="파일">data/gangneung-coffee-urban-brand-mobility-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="gwangyang-maehwa-traffic-demand-redesign-dossier.csv">
+        <td data-label="파일">data/gwangyang-maehwa-traffic-demand-redesign-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="gwangyang-maehwa-traffic-demand-redesign-dossier.json">
+        <td data-label="파일">data/gwangyang-maehwa-traffic-demand-redesign-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="hampyeong-butterfly-success-price-boundary-dossier.csv">
+        <td data-label="파일">data/hampyeong-butterfly-success-price-boundary-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="hampyeong-butterfly-success-price-boundary-dossier.json">
+        <td data-label="파일">data/hampyeong-butterfly-success-price-boundary-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="hongcheon-ice-nightmarket-price-dossier.csv">
+        <td data-label="파일">data/hongcheon-ice-nightmarket-price-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="hongcheon-ice-nightmarket-price-dossier.json">
+        <td data-label="파일">data/hongcheon-ice-nightmarket-price-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="hwacheon-sancheoneo-climate-economy-governance-dossier.csv">
+        <td data-label="파일">data/hwacheon-sancheoneo-climate-economy-governance-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="hwacheon-sancheoneo-climate-economy-governance-dossier.json">
+        <td data-label="파일">data/hwacheon-sancheoneo-climate-economy-governance-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="hwacheon-sancheoneo-weather-recovery-dossier.csv">
+        <td data-label="파일">data/hwacheon-sancheoneo-weather-recovery-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="hwacheon-sancheoneo-weather-recovery-dossier.json">
+        <td data-label="파일">data/hwacheon-sancheoneo-weather-recovery-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="incheon-crowd-forecast-threshold-dossier.csv">
+        <td data-label="파일">data/incheon-crowd-forecast-threshold-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="incheon-crowd-forecast-threshold-dossier.json">
+        <td data-label="파일">data/incheon-crowd-forecast-threshold-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="inje-icefish-climate-waterlevel-cancellation-dossier.csv">
+        <td data-label="파일">data/inje-icefish-climate-waterlevel-cancellation-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="inje-icefish-climate-waterlevel-cancellation-dossier.json">
+        <td data-label="파일">data/inje-icefish-climate-waterlevel-cancellation-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="jarasum-jazz-paid-governance-local-brand-dossier.csv">
+        <td data-label="파일">data/jarasum-jazz-paid-governance-local-brand-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="jarasum-jazz-paid-governance-local-brand-dossier.json">
+        <td data-label="파일">data/jarasum-jazz-paid-governance-local-brand-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="jeju-fire-content-social-license-transition-dossier.csv">
+        <td data-label="파일">data/jeju-fire-content-social-license-transition-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="jeju-fire-content-social-license-transition-dossier.json">
+        <td data-label="파일">data/jeju-fire-content-social-license-transition-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="jinhae-gunhangje-price-safety-prevention-dossier.csv">
+        <td data-label="파일">data/jinhae-gunhangje-price-safety-prevention-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="jinhae-gunhangje-price-safety-prevention-dossier.json">
+        <td data-label="파일">data/jinhae-gunhangje-price-safety-prevention-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="jinju-lantern-price-social-license-dossier.csv">
+        <td data-label="파일">data/jinju-lantern-price-social-license-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="jinju-lantern-price-social-license-dossier.json">
+        <td data-label="파일">data/jinju-lantern-price-social-license-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="jinju-yudeung-paid-access-governance-dossier.csv">
+        <td data-label="파일">data/jinju-yudeung-paid-access-governance-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="jinju-yudeung-paid-access-governance-dossier.json">
+        <td data-label="파일">data/jinju-yudeung-paid-access-governance-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="master-source-inventory.json">
+        <td data-label="파일">data/master-source-inventory.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="mcst-finance-procurement-match-keys.csv">
+        <td data-label="파일">data/master/mcst-finance-procurement-match-keys.csv</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="mcst-finance-procurement-match-keys.json">
+        <td data-label="파일">data/master/mcst-finance-procurement-match-keys.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="mcst-finance-procurement-match-keys.summary.json">
+        <td data-label="파일">data/master/mcst-finance-procurement-match-keys.summary.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="mcst-legacy-period-overlays-2017-2021.csv">
+        <td data-label="파일">data/master/mcst-legacy-period-overlays-2017-2021.csv</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="mcst-legacy-period-overlays-2017-2021.json">
+        <td data-label="파일">data/master/mcst-legacy-period-overlays-2017-2021.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="mcst-legacy-period-overlays-2017-2021.summary.json">
+        <td data-label="파일">data/master/mcst-legacy-period-overlays-2017-2021.summary.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="mcst-region-festivals-2017-2026.lite-index.json">
+        <td data-label="파일">data/master/mcst-region-festivals-2017-2026.lite-index.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="mcst-region-festivals-2017-2026.master-draft.csv">
+        <td data-label="파일">data/master/mcst-region-festivals-2017-2026.master-draft.csv</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="mcst-region-festivals-2017-2026.master-draft.json">
+        <td data-label="파일">data/master/mcst-region-festivals-2017-2026.master-draft.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="mcst-region-festivals-2017-2026.summary-expanded.json">
+        <td data-label="파일">data/master/mcst-region-festivals-2017-2026.summary-expanded.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="mcst-region-festivals-2017-2026.summary.json">
+        <td data-label="파일">data/master/mcst-region-festivals-2017-2026.summary.json</td>
+        <td data-label="분류"><code>additional_data</code></td>
+        <td data-label="처리">local data artifact represented in corpus manifest</td>
+      </tr>
+<tr data-source-file="mcst-archive-schema-probe.json">
+        <td data-label="파일">data/mcst-archive-schema-probe.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="mcst-cultural-tourism-benchmark-2026-2027.csv">
+        <td data-label="파일">data/mcst-cultural-tourism-benchmark-2026-2027.csv</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="mcst-cultural-tourism-benchmark-2026-2027.json">
+        <td data-label="파일">data/mcst-cultural-tourism-benchmark-2026-2027.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="mcst-cultural-tourism-benchmark-name-resolution.csv">
+        <td data-label="파일">data/mcst-cultural-tourism-benchmark-name-resolution.csv</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="mcst-cultural-tourism-benchmark-name-resolution.json">
+        <td data-label="파일">data/mcst-cultural-tourism-benchmark-name-resolution.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="mcst-download-manifest.json">
+        <td data-label="파일">data/mcst-download-manifest.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="mcst-download-probe.json">
+        <td data-label="파일">data/mcst-download-probe.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="muan-lotus-heat-shuttle-procurement-dossier.csv">
+        <td data-label="파일">data/muan-lotus-heat-shuttle-procurement-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="muan-lotus-heat-shuttle-procurement-dossier.json">
+        <td data-label="파일">data/muan-lotus-heat-shuttle-procurement-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="mungyeong-teabowl-cultural-value-budget-recovery-dossier.csv">
+        <td data-label="파일">data/mungyeong-teabowl-cultural-value-budget-recovery-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="mungyeong-teabowl-cultural-value-budget-recovery-dossier.json">
+        <td data-label="파일">data/mungyeong-teabowl-cultural-value-budget-recovery-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="namwon-chunhyang-price-recovery-dossier.csv">
+        <td data-label="파일">data/namwon-chunhyang-price-recovery-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="namwon-chunhyang-price-recovery-dossier.json">
+        <td data-label="파일">data/namwon-chunhyang-price-recovery-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="normalized-key-spec.json">
+        <td data-label="파일">data/normalized-key-spec.json</td>
+        <td data-label="분류"><code>scaffold</code></td>
+        <td data-label="처리">schema/scoring support, not direct evidence</td>
+      </tr>
+<tr data-source-file="pentaport-2019-cause-dossier.csv">
+        <td data-label="파일">data/pentaport-2019-cause-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="pentaport-2019-cause-dossier.json">
+        <td data-label="파일">data/pentaport-2019-cause-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="pentaport-2025-success-dossier.csv">
+        <td data-label="파일">data/pentaport-2025-success-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="pentaport-2025-success-dossier.json">
+        <td data-label="파일">data/pentaport-2025-success-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="procurement-evidence-queue-wave1.json">
+        <td data-label="파일">data/procurement-evidence-queue-wave1.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="procurement-evidence-wave3.json">
+        <td data-label="파일">data/procurement-evidence-wave3.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="procurement-original-download-probe-wave1.csv">
+        <td data-label="파일">data/procurement-original-download-probe-wave1.csv</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="procurement-original-download-probe-wave1.json">
+        <td data-label="파일">data/procurement-original-download-probe-wave1.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="procurement-source-strength-wave1.csv">
+        <td data-label="파일">data/procurement-source-strength-wave1.csv</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="procurement-source-strength-wave1.json">
+        <td data-label="파일">data/procurement-source-strength-wave1.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="public-source-access-probe-20260708.json">
+        <td data-label="파일">data/public-source-access-probe-20260708.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="relation-graph-schema.json">
+        <td data-label="파일">data/relation-graph-schema.json</td>
+        <td data-label="분류"><code>scaffold</code></td>
+        <td data-label="처리">schema/scoring support, not direct evidence</td>
+      </tr>
+<tr data-source-file="sangju-hat-free-access-budget-risk-dossier.csv">
+        <td data-label="파일">data/sangju-hat-free-access-budget-risk-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="sangju-hat-free-access-budget-risk-dossier.json">
+        <td data-label="파일">data/sangju-hat-free-access-budget-risk-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="schema.json">
+        <td data-label="파일">data/schema.json</td>
+        <td data-label="분류"><code>scaffold</code></td>
+        <td data-label="처리">schema/scoring support, not direct evidence</td>
+      </tr>
+<tr data-source-file="scoring-rubric.json">
+        <td data-label="파일">data/scoring-rubric.json</td>
+        <td data-label="분류"><code>scaffold</code></td>
+        <td data-label="처리">schema/scoring support, not direct evidence</td>
+      </tr>
+<tr data-source-file="sejong-nakhwa-crowd-traffic-stabilization-dossier.csv">
+        <td data-label="파일">data/sejong-nakhwa-crowd-traffic-stabilization-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="sejong-nakhwa-crowd-traffic-stabilization-dossier.json">
+        <td data-label="파일">data/sejong-nakhwa-crowd-traffic-stabilization-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="seoul-fireworks-crowd-public-private-governance-dossier.csv">
+        <td data-label="파일">data/seoul-fireworks-crowd-public-private-governance-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="seoul-fireworks-crowd-public-private-governance-dossier.json">
+        <td data-label="파일">data/seoul-fireworks-crowd-public-private-governance-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="source-coverage-matrix.json">
+        <td data-label="파일">data/source-coverage-matrix.json</td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="suwon-hwaseong-2026-pre-event-dossier.csv">
+        <td data-label="파일">data/suwon-hwaseong-2026-pre-event-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="suwon-hwaseong-2026-pre-event-dossier.json">
+        <td data-label="파일">data/suwon-hwaseong-2026-pre-event-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="why-cause-router-wave2.csv">
+        <td data-label="파일">data/why-cause-router-wave2.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="why-cause-router-wave2.json">
+        <td data-label="파일">data/why-cause-router-wave2.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.csv">
+        <td data-label="파일">data/wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.json">
+        <td data-label="파일">data/wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="yeongdeok-snowcrab-price-brand-control-dossier.csv">
+        <td data-label="파일">data/yeongdeok-snowcrab-price-brand-control-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="yeongdeok-snowcrab-price-brand-control-dossier.json">
+        <td data-label="파일">data/yeongdeok-snowcrab-price-brand-control-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="yeongyang-sannamul-price-governance-dossier.csv">
+        <td data-label="파일">data/yeongyang-sannamul-price-governance-dossier.csv</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="yeongyang-sannamul-price-governance-dossier.json">
+        <td data-label="파일">data/yeongyang-sannamul-price-governance-dossier.json</td>
+        <td data-label="분류"><code>companion_data</code></td>
+        <td data-label="처리">paired JSON/CSV for a case page</td>
+      </tr>
+<tr data-source-file="festival-cause-dossiers-wave4.html">
+        <td data-label="파일"><a href="festival-cause-dossiers-wave4.html">festival-cause-dossiers-wave4.html</a></td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="festival-failure-risk-leads-wave1.html">
+        <td data-label="파일"><a href="festival-failure-risk-leads-wave1.html">festival-failure-risk-leads-wave1.html</a></td>
+        <td data-label="분류"><code>additional_html_evidence</code></td>
+        <td data-label="처리">local HTML evidence page outside the primary case matrix</td>
+      </tr>
+<tr data-source-file="festival-governance-causal-chain-wave1.html">
+        <td data-label="파일"><a href="festival-governance-causal-chain-wave1.html">festival-governance-causal-chain-wave1.html</a></td>
+        <td data-label="분류"><code>additional_html_evidence</code></td>
+        <td data-label="처리">local HTML evidence page outside the primary case matrix</td>
+      </tr>
+<tr data-source-file="gangneung-coffee-urban-brand-mobility-dossier.html">
+        <td data-label="파일"><a href="gangneung-coffee-urban-brand-mobility-dossier.html">gangneung-coffee-urban-brand-mobility-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="gwangyang-maehwa-traffic-demand-redesign-dossier.html">
+        <td data-label="파일"><a href="gwangyang-maehwa-traffic-demand-redesign-dossier.html">gwangyang-maehwa-traffic-demand-redesign-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="hampyeong-butterfly-success-price-boundary-dossier.html">
+        <td data-label="파일"><a href="hampyeong-butterfly-success-price-boundary-dossier.html">hampyeong-butterfly-success-price-boundary-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="hongcheon-ice-nightmarket-price-dossier.html">
+        <td data-label="파일"><a href="hongcheon-ice-nightmarket-price-dossier.html">hongcheon-ice-nightmarket-price-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="hwacheon-sancheoneo-climate-economy-governance-dossier.html">
+        <td data-label="파일"><a href="hwacheon-sancheoneo-climate-economy-governance-dossier.html">hwacheon-sancheoneo-climate-economy-governance-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="hwacheon-sancheoneo-weather-recovery-dossier.html">
+        <td data-label="파일"><a href="hwacheon-sancheoneo-weather-recovery-dossier.html">hwacheon-sancheoneo-weather-recovery-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="incheon-crowd-forecast-threshold-dossier.html">
+        <td data-label="파일"><a href="incheon-crowd-forecast-threshold-dossier.html">incheon-crowd-forecast-threshold-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="index.html">
+        <td data-label="파일"><a href="index.html">index.html</a></td>
+        <td data-label="분류"><code>navigation_or_process</code></td>
+        <td data-label="처리">navigation/status/process, not a primary claim source</td>
+      </tr>
+<tr data-source-file="inje-icefish-climate-waterlevel-cancellation-dossier.html">
+        <td data-label="파일"><a href="inje-icefish-climate-waterlevel-cancellation-dossier.html">inje-icefish-climate-waterlevel-cancellation-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="jarasum-jazz-paid-governance-local-brand-dossier.html">
+        <td data-label="파일"><a href="jarasum-jazz-paid-governance-local-brand-dossier.html">jarasum-jazz-paid-governance-local-brand-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="jeju-fire-content-social-license-transition-dossier.html">
+        <td data-label="파일"><a href="jeju-fire-content-social-license-transition-dossier.html">jeju-fire-content-social-license-transition-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="jinhae-gunhangje-price-safety-prevention-dossier.html">
+        <td data-label="파일"><a href="jinhae-gunhangje-price-safety-prevention-dossier.html">jinhae-gunhangje-price-safety-prevention-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="jinju-lantern-price-social-license-dossier.html">
+        <td data-label="파일"><a href="jinju-lantern-price-social-license-dossier.html">jinju-lantern-price-social-license-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="jinju-yudeung-paid-access-governance-dossier.html">
+        <td data-label="파일"><a href="jinju-yudeung-paid-access-governance-dossier.html">jinju-yudeung-paid-access-governance-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="mcst-cultural-tourism-benchmark-2026-2027.html">
+        <td data-label="파일"><a href="mcst-cultural-tourism-benchmark-2026-2027.html">mcst-cultural-tourism-benchmark-2026-2027.html</a></td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="muan-lotus-heat-shuttle-procurement-dossier.html">
+        <td data-label="파일"><a href="muan-lotus-heat-shuttle-procurement-dossier.html">muan-lotus-heat-shuttle-procurement-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="mungyeong-teabowl-cultural-value-budget-recovery-dossier.html">
+        <td data-label="파일"><a href="mungyeong-teabowl-cultural-value-budget-recovery-dossier.html">mungyeong-teabowl-cultural-value-budget-recovery-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="namwon-chunhyang-price-recovery-dossier.html">
+        <td data-label="파일"><a href="namwon-chunhyang-price-recovery-dossier.html">namwon-chunhyang-price-recovery-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="pentaport-2019-cause-dossier.html">
+        <td data-label="파일"><a href="pentaport-2019-cause-dossier.html">pentaport-2019-cause-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="pentaport-2025-success-dossier.html">
+        <td data-label="파일"><a href="pentaport-2025-success-dossier.html">pentaport-2025-success-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="procurement-evidence-queue-wave1.html">
+        <td data-label="파일"><a href="procurement-evidence-queue-wave1.html">procurement-evidence-queue-wave1.html</a></td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="procurement-original-download-probe-wave1.html">
+        <td data-label="파일"><a href="procurement-original-download-probe-wave1.html">procurement-original-download-probe-wave1.html</a></td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="procurement-source-strength-wave1.html">
+        <td data-label="파일"><a href="procurement-source-strength-wave1.html">procurement-source-strength-wave1.html</a></td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="sangju-hat-free-access-budget-risk-dossier.html">
+        <td data-label="파일"><a href="sangju-hat-free-access-budget-risk-dossier.html">sangju-hat-free-access-budget-risk-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="sejong-nakhwa-crowd-traffic-stabilization-dossier.html">
+        <td data-label="파일"><a href="sejong-nakhwa-crowd-traffic-stabilization-dossier.html">sejong-nakhwa-crowd-traffic-stabilization-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="seoul-fireworks-crowd-public-private-governance-dossier.html">
+        <td data-label="파일"><a href="seoul-fireworks-crowd-public-private-governance-dossier.html">seoul-fireworks-crowd-public-private-governance-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="source-access-map.html">
+        <td data-label="파일"><a href="source-access-map.html">source-access-map.html</a></td>
+        <td data-label="분류"><code>support_artifact</code></td>
+        <td data-label="처리">synthesis/provenance support artifact</td>
+      </tr>
+<tr data-source-file="suwon-hwaseong-2026-pre-event-dossier.html">
+        <td data-label="파일"><a href="suwon-hwaseong-2026-pre-event-dossier.html">suwon-hwaseong-2026-pre-event-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="why-cause-router-wave2.html">
+        <td data-label="파일"><a href="why-cause-router-wave2.html">why-cause-router-wave2.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html">
+        <td data-label="파일"><a href="wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html">wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="yeongdeok-snowcrab-price-brand-control-dossier.html">
+        <td data-label="파일"><a href="yeongdeok-snowcrab-price-brand-control-dossier.html">yeongdeok-snowcrab-price-brand-control-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+<tr data-source-file="yeongyang-sannamul-price-governance-dossier.html">
+        <td data-label="파일"><a href="yeongyang-sannamul-price-governance-dossier.html">yeongyang-sannamul-price-governance-dossier.html</a></td>
+        <td data-label="분류"><code>case_matrix_page</code></td>
+        <td data-label="처리">case matrix or model row source</td>
+      </tr>
+        </tbody>
       </table>
     </section>
 
-    <section>
-      <h2>정책 결론</h2>
-      <p class="note">다음 단계의 데이터 수집은 모든 축제에 같은 질문지를 적용해야 한다. 방문객 수, 시간대별 혼잡, 교통/주차, 가격 민원, 안전/응급, 유료 수입, 지역상품권 사용률, 업체별 계약/정산, 만족도/재방문을 표준 스키마로 묶어야 축제별 성공·실패의 “왜”가 비교 가능해진다.</p>
+    <section id="methodology">
+      <div class="section-kicker">Methodology</div>
+      <h2>근거와 보수적 표현 원칙</h2>
+      <div class="note">Method: official structured sources first, narrative reports and public probes second. Coverage claims are limited to what the source inventory and coverage matrix support. Festival performance metrics are trend indicators unless a source explicitly states exact attendance. Procurement matches are confidence-tiered by notice title, attachment text, agency, date window, and contract-chain evidence. When the public record is incomplete or join keys are ambiguous, this page flags the gap instead of overstating completeness.</div>
+      <h3>Claim graph</h3>
+      <table>
+        <thead><tr><th>claim</th><th>상태</th><th>문장</th><th>근거</th></tr></thead>
+        <tbody><tr data-claim-id="C1">
+      <td data-label="claim"><code>C1</code></td>
+      <td data-label="상태">supported · high</td>
+      <td data-label="문장">2016-2026 national festival coverage cannot be honestly claimed complete from a single public source.</td>
+      <td data-label="근거">E1, E2, E3</td>
+    </tr>
+<tr data-claim-id="C2">
+      <td data-label="claim"><code>C2</code></td>
+      <td data-label="상태">supported · high</td>
+      <td data-label="문장">Performance metrics should separate official visitor trends from exact attendance totals.</td>
+      <td data-label="근거">E4, E5</td>
+    </tr>
+<tr data-claim-id="C3">
+      <td data-label="claim"><code>C3</code></td>
+      <td data-label="상태">supported · normal</td>
+      <td data-label="문장">Finance and contract analysis should join cost accounting, budget allocation and contract status datasets.</td>
+      <td data-label="근거">E6, E7, E8</td>
+    </tr>
+<tr data-claim-id="C4">
+      <td data-label="claim"><code>C4</code></td>
+      <td data-label="상태">supported · normal</td>
+      <td data-label="문장">Festival procurement matching requires confidence tiers because notice titles, attachments and festival names can differ.</td>
+      <td data-label="근거">E9, E10</td>
+    </tr>
+<tr data-claim-id="C5">
+      <td data-label="claim"><code>C5</code></td>
+      <td data-label="상태">supported · normal</td>
+      <td data-label="문장">Human-readable dashboard flow should show answer first, evidence second and raw sources last.</td>
+      <td data-label="근거">E11, E12</td>
+    </tr></tbody>
+      </table>
+      <h3>Evidence manifest</h3>
+      <table>
+        <thead><tr><th>근거 ID</th><th>출처</th><th>등급/유형</th><th>쓰임</th></tr></thead>
+        <tbody><tr data-claim-id="E1">
+      <td data-label="근거 ID"><code>E1</code></td>
+      <td data-label="출처"><a href="https://www.mcst.go.kr/site/s_culture/festival/festivalList.jsp">MCST regional festival annual index</a></td>
+      <td data-label="등급/유형">A · official_index</td>
+      <td data-label="쓰임">MCST annual regional festival index is strongest for 2017-2026; 2016 is not in that annual index.</td>
+    </tr>
+<tr data-claim-id="E2">
+      <td data-label="근거 ID"><code>E2</code></td>
+      <td data-label="출처"><a href="https://www.mcst.go.kr/site/s_policy/dept/deptView.jsp?pDataCD=0406000000&amp;pSeq=1664&amp;pType=">MCST 2016 culture tourism festival evaluation report</a></td>
+      <td data-label="등급/유형">B · official_report</td>
+      <td data-label="쓰임">2016 backfill exists for culture-tourism festivals but does not prove all regional festivals.</td>
+    </tr>
+<tr data-claim-id="E3">
+      <td data-label="근거 ID"><code>E3</code></td>
+      <td data-label="출처"><a href="https://www.data.go.kr/data/15013104/standard.do">National culture festival standard data</a></td>
+      <td data-label="등급/유형">A · official_dataset</td>
+      <td data-label="쓰임">Structured national festival fields are available, but historical completeness must be verified by pull.</td>
+    </tr>
+<tr data-claim-id="E4">
+      <td data-label="근거 ID"><code>E4</code></td>
+      <td data-label="출처"><a href="https://datalab.visitkorea.or.kr/datalab/portal/fes/getFesDataForm.do">Korea Tourism Data Lab festival analysis</a></td>
+      <td data-label="등급/유형">A · official_dashboard</td>
+      <td data-label="쓰임">Festival visitor, daily average, spending and related trend signals can be collected where available.</td>
+    </tr>
+<tr data-claim-id="E5">
+      <td data-label="근거 ID"><code>E5</code></td>
+      <td data-label="출처"><a href="https://datalab.visitkorea.or.kr/datalab/portal/loc/getAreaDataForm.do">Korea Tourism Data Lab regional caveats</a></td>
+      <td data-label="등급/유형">A · official_caveat</td>
+      <td data-label="쓰임">Big-data visitor and spending values should be used as trend indicators and can have aggregation caveats.</td>
+    </tr>
+<tr data-claim-id="E6">
+      <td data-label="근거 ID"><code>E6</code></td>
+      <td data-label="출처"><a href="https://www.data.go.kr/data/15056968/openapi.do">Local Finance 365 event festival cost accounting</a></td>
+      <td data-label="등급/유형">A · official_finance</td>
+      <td data-label="쓰임">Event-level total cost, revenue, net cost and dates are available above disclosure thresholds.</td>
+    </tr>
+<tr data-claim-id="E7">
+      <td data-label="근거 ID"><code>E7</code></td>
+      <td data-label="출처"><a href="https://www.data.go.kr/data/15138721/openapi.do">Local Finance 365 event festival budget allocation</a></td>
+      <td data-label="등급/유형">A · official_finance</td>
+      <td data-label="쓰임">Festival-related budget categories and ratios are available from 2015 onward.</td>
+    </tr>
+<tr data-claim-id="E8">
+      <td data-label="근거 ID"><code>E8</code></td>
+      <td data-label="출처"><a href="https://www.data.go.kr/data/15118650/openapi.do">Local Finance 365 contract status</a></td>
+      <td data-label="등급/유형">A · official_contract</td>
+      <td data-label="쓰임">Contract method, name, date, amount and vendor are available from 2016 onward where accessible.</td>
+    </tr>
+<tr data-claim-id="E9">
+      <td data-label="근거 ID"><code>E9</code></td>
+      <td data-label="출처"><a href="https://www.data.go.kr/data/15129394/openapi.do">Nara bid notice API</a></td>
+      <td data-label="등급/유형">A · official_procurement</td>
+      <td data-label="쓰임">Bid notices and change history are available, with business-type operation routing required.</td>
+    </tr>
+<tr data-claim-id="E10">
+      <td data-label="근거 ID"><code>E10</code></td>
+      <td data-label="출처"><a href="https://www.data.go.kr/data/15129459/openapi.do">Nara contract and process APIs</a></td>
+      <td data-label="등급/유형">A · official_procurement</td>
+      <td data-label="쓰임">Pre-spec, notice, award and contract chains can be followed when identifiers are available.</td>
+    </tr>
+<tr data-claim-id="E11">
+      <td data-label="근거 ID"><code>E11</code></td>
+      <td data-label="출처"><a href="https://www.w3.org/WAI/WCAG21/Understanding/visual-presentation.html">W3C visual presentation</a></td>
+      <td data-label="등급/유형">B · accessibility_guidance</td>
+      <td data-label="쓰임">Dense text must keep readable line length and spacing.</td>
+    </tr>
+<tr data-claim-id="E12">
+      <td data-label="근거 ID"><code>E12</code></td>
+      <td data-label="출처"><a href="https://www.w3.org/WAI/tutorials/tables/">W3C table tutorial</a></td>
+      <td data-label="등급/유형">B · accessibility_guidance</td>
+      <td data-label="쓰임">Complex evidence tables need captions, summaries and clear headers.</td>
+    </tr></tbody>
+      </table>
+      <h3>Source families</h3>
+      <div class="cards">
+        <article class="card"><h3>공식 축제 master</h3><p>문체부 지역축제 연도별 자료, 전국문화축제표준데이터, 문화체육관광부_지역축제 정보_20250106</p></article>
+        <article class="card"><h3>coverage guardrail</h3><p>Current MCST nationwide annual regional-festival page exposes 2017-2026 only. The official 2016 MCST item found is a culture-tourism-festival evaluation report covering 43 selected festivals, not all nationwide festivals. KTO DataLab visible festival-year choices start at 2018 and skip 2016.</p></article>
+        <article class="card"><h3>cause domains</h3><p>기후·입지·안전, 가격·부스·상행위, 교통·접근성·혼잡, 콘텐츠·정체성·차별성, 예산·계약·대행구조, 사회적 수용성·거버넌스, 데이터 공백</p></article>
+        <article class="card"><h3>question routers</h3><p>민간 주최인데 공공 안전·교통·청소 비용이 크게 발생하는가? · 유료 체험존·상품권·지역상권 환류가 핵심인가? · 입장료·가림막·유료좌석 같은 수익화 방식이 사회적 반발을 만들었나? · 겨울 결빙·수위·기후변화가 핵심인가? · 예산·협찬·유료좌석·대행/하청 구조가 핵심인가? · 하청업체나 대행사 때문인가? · 먹거리 바가지나 부스 운영 문제인가? · 수요예측 실패나 관광객 쏠림 때문인가?</p></article>
+      </div>
+      <div class="inline-claims">
+        <code data-claim-id="C-THEME-01">C-THEME-01</code>
+<code data-claim-id="C-THEME-02">C-THEME-02</code>
+<code data-claim-id="C-THEME-03">C-THEME-03</code>
+<code data-claim-id="C-THEME-04">C-THEME-04</code>
+<code data-claim-id="C-THEME-05">C-THEME-05</code>
+<code data-claim-id="C-THEME-06">C-THEME-06</code>
+<code data-claim-id="C-THEME-07">C-THEME-07</code>
+        <code data-claim-id="C1">C1</code>
+<code data-claim-id="C2">C2</code>
+<code data-claim-id="C3">C3</code>
+<code data-claim-id="C4">C4</code>
+<code data-claim-id="C5">C5</code>
+      </div>
     </section>
   </main>
 
-  <footer>Generated for Korea festival demand-risk research. Access date: 2026-07-08.</footer>
+  <footer>
+    Completed from local corpus: 2026-07-08T03:05:48.899Z. Primary case matrix: 39 records. Source manifest rows: 189. Research journal: .omo/ulw-research/20260708-112921.
+  </footer>
 </body>
 </html>
-
-
-
-
-
-
