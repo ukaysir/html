@@ -68,7 +68,7 @@ Updated: 2026-07-07.
 ## Checkpoint: benchmark risk priority queue (2026-07-08T01:28:56+09:00)
 
 - Built a priority queue for the 27 cultural-tourism benchmark festivals using join ambiguity, budget, previous visitor, and outsourcing signals.
-- Added data/benchmark-risk-priority-queue.json, .csv, and enchmark-risk-priority-queue.html.
+- Added data/benchmark-risk-priority-queue.json, .csv, and benchmark-risk-priority-queue.html.
 
 ## Checkpoint: benchmark procurement search queue (2026-07-08T01:33:24+09:00)
 
@@ -285,48 +285,48 @@ Updated: 2026-07-07.
 
 ## Checkpoint: 2026-07-08T09:15:00+09:00
 - Added 무안연꽃축제 heat/shuttle/procurement dossier.
-- New files: .omo/evidence/muan-lotus-heat-shuttle-procurement-dossier.md, data/muan-lotus-heat-shuttle-procurement-dossier.json, data/muan-lotus-heat-shuttle-procurement-dossier.csv, $slug.html.
+- New files: .omo/evidence/muan-lotus-heat-shuttle-procurement-dossier.md, data/muan-lotus-heat-shuttle-procurement-dossier.json, data/muan-lotus-heat-shuttle-procurement-dossier.csv, <case-slug>.html.
 - Updated case evidence matrix to 27 festival records and added season_heat_comfort_records.
 - Added why-router path for season/heat/bloom/comfort failures and corrected the demand/crowd row links to point to 광양매화축제 and 세종낙화축제 instead of price-row cases.
 - Evidence status: B+. Public sources support the seasonal redesign, price-control measures, disaster scale-down, and procurement structure. They do not yet prove contractor fault or final budget efficiency.
 
 ## Checkpoint: 2026-07-08T09:45:00+09:00
 - Added 부산불꽃축제 crowd/ticket/procurement dossier.
-- New files: .omo/evidence/busan-fireworks-crowd-ticket-procurement-dossier.md, data/busan-fireworks-crowd-ticket-procurement-dossier.json, data/busan-fireworks-crowd-ticket-procurement-dossier.csv, $slug.html.
+- New files: .omo/evidence/busan-fireworks-crowd-ticket-procurement-dossier.md, data/busan-fireworks-crowd-ticket-procurement-dossier.json, data/busan-fireworks-crowd-ticket-procurement-dossier.csv, <case-slug>.html.
 - Updated case evidence matrix to 28 festival records and added mega_crowd_firework_records.
 - Added why-router coverage for budget/outsourcing governance and linked 부산불꽃축제 into the demand/crowd route.
 - Evidence status: A-. Strong public-source support for attendance variation, safety controls, paid-seat prices, and fragmented procurement notices. Budget figures from KNN are treated as media claims requiring official budget/settlement confirmation.
 
 ## Checkpoint: 2026-07-08T10:15:00+09:00
 - Added 화천산천어축제 climate/economy/governance dossier.
-- New files: .omo/evidence/hwacheon-sancheoneo-climate-economy-governance-dossier.md, data/hwacheon-sancheoneo-climate-economy-governance-dossier.json, data/hwacheon-sancheoneo-climate-economy-governance-dossier.csv, $slug.html.
+- New files: .omo/evidence/hwacheon-sancheoneo-climate-economy-governance-dossier.md, data/hwacheon-sancheoneo-climate-economy-governance-dossier.json, data/hwacheon-sancheoneo-climate-economy-governance-dossier.csv, <case-slug>.html.
 - Updated case evidence matrix to 29 festival records and added winter_climate_success_records.
 - Added why-router coverage for winter ice/climate failure mode and linked 화천산천어축제 into budget/outsourcing governance.
 - Evidence status: A-. Strong public-source support for attendance, economic-effect report, climate disruption history, animal-welfare controversy, and recurring procurement signals. Full budget efficiency still needs official settlement and contract data.
 
 ## Checkpoint: 2026-07-08T10:45:00+09:00
 - Added 진주남강유등축제 paid-access governance dossier.
-- New files: .omo/evidence/jinju-yudeung-paid-access-governance-dossier.md, data/jinju-yudeung-paid-access-governance-dossier.json, data/jinju-yudeung-paid-access-governance-dossier.csv, $slug.html.
+- New files: .omo/evidence/jinju-yudeung-paid-access-governance-dossier.md, data/jinju-yudeung-paid-access-governance-dossier.json, data/jinju-yudeung-paid-access-governance-dossier.csv, <case-slug>.html.
 - Updated case evidence matrix to 30 festival records and added paid_access_social_license_records.
 - Added why-router coverage for paid-access/social-license failures and linked 진주남강유등축제 into budget/outsourcing governance.
 - Evidence status: A-. Strong public-source support for the 2016 paid-entry/screening-wall controversy, 2025 attendance/economic-effect claims, 2026 global-festival funding, and 2024-2025 procurement signals. Full fiscal efficiency requires settlement and contract award data.
 
 ## Checkpoint: 2026-07-08T11:15:00+09:00
 - Added 보령머드축제 global/paid-experience governance dossier.
-- New files: .omo/evidence/boryeong-mud-global-paid-experience-governance-dossier.md, data/boryeong-mud-global-paid-experience-governance-dossier.json, data/boryeong-mud-global-paid-experience-governance-dossier.csv, $slug.html.
+- New files: .omo/evidence/boryeong-mud-global-paid-experience-governance-dossier.md, data/boryeong-mud-global-paid-experience-governance-dossier.json, data/boryeong-mud-global-paid-experience-governance-dossier.csv, <case-slug>.html.
 - Updated case evidence matrix to 31 festival records and added paid_experience_global_records.
 - Added why-router coverage for paid-experience/local-capture and linked 보령머드축제 into budget/outsourcing governance and season/heat comfort routes.
 - Evidence status: A-. Strong public-source support for official schedule/pricing, 2024 attendance and paid-experience figures, 2020 pandemic substitution, 2026 global-festival funding, and 2026 liability-insurance procurement. Full budget efficiency still needs settlement, paid-zone sales, voucher usage, and insurance/incident logs.
 
 ## Checkpoint: 
 - Added goal expansion requested by the user: final common-pattern synthesis across all festival cases.
-- Added DESIGN.md before redesign work and introduced one shared Toss-like minimal style in ssets/toss-report-theme.css.
+- Added DESIGN.md before redesign work and introduced one shared Toss-like minimal style in assets/toss-report-theme.css.
 - Linked the shared Pretendard-based theme into every top-level HTML file for consistent typography and page structure.
-- Added estival-common-patterns-synthesis.html summarizing success patterns, failure/risk patterns, and a festival-by-festival pattern map.
+- Added festival-common-patterns-synthesis.html summarizing success patterns, failure/risk patterns, and a festival-by-festival pattern map.
 
 ## Checkpoint: 2026-07-08T11:45:00+09:00
 - Added 서울세계불꽃축제 crowd/public-private governance dossier.
-- New files: .omo/evidence/seoul-fireworks-crowd-public-private-governance-dossier.md, data/seoul-fireworks-crowd-public-private-governance-dossier.json, data/seoul-fireworks-crowd-public-private-governance-dossier.csv, $slug.html.
+- New files: .omo/evidence/seoul-fireworks-crowd-public-private-governance-dossier.md, data/seoul-fireworks-crowd-public-private-governance-dossier.json, data/seoul-fireworks-crowd-public-private-governance-dossier.csv, <case-slug>.html.
 - Updated case evidence matrix to 32 festival records and added public_private_megacity_records.
 - Added why-router coverage for public/private mega-event responsibility and linked 서울세계불꽃축제 into demand/crowd and budget/outsourcing governance routes.
 - Updated common-pattern synthesis count and festival pattern map.
@@ -361,4 +361,12 @@ Updated: 2026-07-07.
 - Added case id: wonju-dancing-2016-2026.
 - Evidence: official archive, 2017/2018/2019 evaluation coverage, 2020 cancellation, 2021 hybrid operation, 2024 K-댄스 repositioning, 2025 opening/completion/final evaluation, 2025 stage-system procurement.
 - Planning implication: collect visitor-count definition, parking/shuttle/traffic logs, food booth price and hygiene records, stage/operation procurement KPIs, and weather-triggered program changes before blaming any contractor.
-
+## Checkpoint: 2026-07-08 continuity handoff
+- Git baseline before this handoff: `main` was clean and synced with `origin/main`; latest research commit was `e2a316e data: add wonju dancing carnival dossier`.
+- Current research matrix state from the last completed batch: 39 festival-case records, with 원주댄싱카니발 as the latest completed dossier.
+- User-added final deliverable remains active: synthesize common patterns across all cases, especially `성공한 축제의 공통점` and `실패/리스크 축제의 공통점`, in `festival-common-patterns-synthesis.html`.
+- Design requirement remains active: all top-level HTML pages must use the same Toss-like minimal design through `DESIGN.md`, `assets/toss-report-theme.css`, and Pretendard.
+- Next recommended case target: `영등포 여의도 봄꽃축제 2016-2026`, because it directly tests bloom timing, narrow-corridor crowding, traffic control, COVID closure/reopening, safety operations, resident externality and public/vendor/procurement governance.
+- Continue with public web/official sources only. Do not add phone calls, email requests, interviews, 정보공개청구, paid/login-only sources or bypass methods.
+- Commit/push cadence: every 30 minutes during continued research, and immediately before token/context exhaustion.
+- Known review debt: `festival-common-patterns-synthesis.html` may contain a duplicate 원주 row from the prior automated insertion; fix only in a targeted cleanup commit if the next worker touches that file.

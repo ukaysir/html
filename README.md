@@ -6,6 +6,12 @@ Open `index.html` to view the dashboard.
 
 See `RESEARCH_STATUS.md` for checkpoint status, completed evidence layers and remaining gaps.
 
+## Continuity / next work
+- Continue from `NEXT_WORK.md` before adding the next case batch.
+- Keep the agent-only public-source workflow: no phone calls, emails, interviews, information disclosure requests, paid/login-only sources, or access-control bypass.
+- Keep all report pages on the shared Toss-like design contract in `DESIGN.md` and `assets/toss-report-theme.css`; Pretendard is the required Korean font.
+- Commit and push every 30 minutes during long research, and always before token/context exhaustion.
+
 ## Scope
 - 2016-2026 Korean festivals.
 - Demand forecast, visitor performance, budget, contracts, agencies, public subcontract/booth traces and operational risk evidence.
@@ -72,12 +78,12 @@ Pages was checked as not enabled during the research run. To publish, use:
 ## Benchmark priority queue
 
 - data/benchmark-risk-priority-queue.json: investigation priority queue for the 2026-2027 cultural-tourism benchmark cohort.
-- enchmark-risk-priority-queue.html: human-readable page showing which benchmark festivals should be traced first for budget/procurement/crowding/satisfaction causes.
+- benchmark-risk-priority-queue.html: human-readable page showing which benchmark festivals should be traced first for budget/procurement/crowding/satisfaction causes.
 
 ## Benchmark procurement queue
 
 - data/benchmark-procurement-search-queue.json: procurement/agency search queue for P2 benchmark festivals.
-- enchmark-procurement-search-queue.html: human-readable query plan and evidence-seed page for contractor/procurement tracing.
+- benchmark-procurement-search-queue.html: human-readable query plan and evidence-seed page for contractor/procurement tracing.
 
 ## Procurement source strength
 
@@ -257,7 +263,7 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Captures the 2026 schedule reduction and cooling/night-program redesign, 2024 price-control measures, 2023 heavy-rain scale-down, and 2026 event-agency RFP mirror.
 
 ### Busan Fireworks crowd/ticket/procurement dossier
-- Added usan-fireworks-crowd-ticket-procurement-dossier.html and structured JSON/CSV data for 부산불꽃축제 2022-2026.
+- Added busan-fireworks-crowd-ticket-procurement-dossier.html and structured JSON/CSV data for 부산불꽃축제 2022-2026.
 - Classifies the case as a mixed A- case: strong mega-crowd safety operations plus unresolved budget/procurement transparency risk.
 - Captures 2022 post-Itaewon safety controls, 2023 rain-driven attendance drop, 2024 paid-seat and 103만 attendance signals, 2025 117만 outcome and emergency/complaint load, and 2025 fragmented service procurement notices.
 
@@ -272,14 +278,14 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Captures 2016 paid-access controversy, 2025 172만 attendance and 2,400억 regional effect, 2026 global-festival selection, and fragmented lighting/sound/security/food/vendor procurement.
 
 ### Boryeong Mud global/paid-experience governance dossier
-- Added oryeong-mud-global-paid-experience-governance-dossier.html and structured JSON/CSV data for 보령머드축제 2020-2026.
+- Added boryeong-mud-global-paid-experience-governance-dossier.html and structured JSON/CSV data for 보령머드축제 2020-2026.
 - Classifies the case as a global experiential festival with paid-zone demand control, local voucher recirculation, heat/contact safety, pandemic substitution history, and insurance/procurement governance.
 - Captures 2024 165만 attendance and 3.99만 paid-experience users, 2026 global-festival funding, official paid-zone prices, and the 2026 liability-insurance procurement structure.
 
 ### Unified Toss-style design and common-pattern synthesis
 - Added DESIGN.md as the shared design-system contract.
-- Added ssets/toss-report-theme.css and linked it from every top-level HTML file to force Pretendard and one Toss-like minimal dashboard style across the report.
-- Added estival-common-patterns-synthesis.html as the final synthesis page comparing success and failure patterns across all festival cases.
+- Added assets/toss-report-theme.css and linked it from every top-level HTML file to force Pretendard and one Toss-like minimal dashboard style across the report.
+- Added festival-common-patterns-synthesis.html as the final synthesis page comparing success and failure patterns across all festival cases.
 
 ### Seoul Fireworks crowd/public-private governance dossier
 - Added seoul-fireworks-crowd-public-private-governance-dossier.html and structured JSON/CSV data for 서울세계불꽃축제 2024-2025.
@@ -311,4 +317,3 @@ Pages was checked as not enabled during the research run. To publish, use:
 - Added wonju-dynamic-dancing-carnival-downtown-kdance-outsourcing-dossier.html plus structured JSON/CSV and evidence dossier for 원주댄싱카니발 2016-2026.
 - Case id: wonju-dancing-2016-2026.
 - Key cause: 도심 퍼레이드와 시민참여, 군악·K-댄스 전환은 성공 요인이나 날씨·감염병·주차/동선·방문객 산식·무대시스템 용역 KPI가 예산/만족도 리스크다.
-
